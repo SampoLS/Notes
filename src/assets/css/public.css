@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  width: 100%;
+}
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.subtext li {
+  margin-left: 4rem;
+}
+.subtext .title {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.subtext .text p {
+  text-indent: initial;
+}
+.title a,
+.subtext a,
+.subtitle a {
+  text-decoration: underline;
+}
+
+.title h1 {
+  padding-bottom: 1rem;
+}
+.list li {
+  margin-left: 2rem;
+}
+
+.pop-page {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  overflow-y: scroll;
+}
+.pop-page .container {
+  width: 90%;
+  margin: 20px auto;
+}
+.pop-page .close-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.pop-page ol li {
+  box-shadow: none;
+  border: none;
+}
+.pop-page .close {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.pop-page .term a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline;
+}
+.pop-page h3 {
+  padding-top: 1rem;
+}
+.pop-page p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.pop-page .text-box a {
+  font-size: 1.2rem;
+}
+
+main {
+  padding-top: 50px;
+}

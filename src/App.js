@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { memo } from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import HttpDetailsPage from "./pages/details/http_details/HttpPage";
+import ReactPage from "./pages/details/react/ReactPage";
+import ReactRouterPage from "./pages/details/react_router/ReactRouterPage";
+import TypeScriptPage from "./pages/details/typescript/TypeScriptPage";
+import JavaScriptPage from "./pages/details/javascript/JavaScriptPage";
+import CsPage from "./pages/details/cs/CsPage";
+import NotFound from "./pages/details/not_found/NotFound";
+import NotePage from "./pages/details/notes/NotePage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/http" element={<HttpDetailsPage />} />
+      <Route path="/react-router" element={<ReactRouterPage />} />
+      <Route path="/react" element={<ReactPage />} />
+      <Route path="/typescript" element={<TypeScriptPage />} />
+      <Route path="/javascript" element={<JavaScriptPage />} />
+      <Route path="/cs" element={<CsPage />} />
+      <Route path="/note" element={<NotePage />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
-}
+};
 
-export default App;
+export default memo(App);
