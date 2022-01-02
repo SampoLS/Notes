@@ -21,4 +21,35 @@ export const gitContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Git Push to GitHub",
+    isLargerTitle: false,
+    path: "/git",
+    url: ``,
+    anchor: "git-push-to-github",
+    text: {
+      p1: (
+        <ol className="list">
+          <li>
+            Push Local Repository to GitHub: git remote add origin
+            https://github.com/w3schools-test/hello-world.git. "git remote add
+            origin URL" specifies that you are adding a remote repository, with
+            the specified URL, as an origin to your local Git repo.
+          </li>
+          <li>
+            Now we are going to push our master branch to the origin url, and
+            set it as the default remote branch: git push --set-upstream origin
+            master
+          </li>
+          <li>
+            Commit the changes: git commit -a -m "Updated index.html. Resized
+            image"
+          </li>
+          <li>And check the status: git status</li>
+          <li>Push our changes to our remote origin: git push origin</li>
+        </ol>
+      ),
+    },
+  },
 ];
