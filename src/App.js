@@ -7,8 +7,9 @@ import ReactRouterPage from "./pages/details/react_router/ReactRouterPage";
 import TypeScriptPage from "./pages/details/typescript/TypeScriptPage";
 import JavaScriptPage from "./pages/details/javascript/JavaScriptPage";
 import CsPage from "./pages/details/cs/CsPage";
-import NotFound from "./pages/details/not_found/NotFound";
 import NotePage from "./pages/details/notes/NotePage";
+import GitPage from "./pages/details/git/GitPage";
+import NotFound from "./pages/details/not_found/NotFound";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="/javascript" element={<JavaScriptPage />} />
       <Route path="/cs" element={<CsPage />} />
       <Route path="/note" element={<NotePage />} />
+      <Route path="/git" element={<GitPage />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
