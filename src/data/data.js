@@ -4,6 +4,7 @@ import { reactRouterContents } from "../pages/details/react_router/reactRouterCo
 import { typeScriptContents } from "../pages/details/typescript/typeScriptContents";
 import { javaScriptContents } from "../pages/details/javascript/javaScriptContents";
 import { csContents } from "../pages/details/cs/csContents";
+import { noteContents } from "../pages/details/notes/noteContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -12,4 +13,5 @@ export const data = httpContents.concat(
   typeScriptContents,
   javaScriptContents,
   csContents,
+  noteContents,
 );
