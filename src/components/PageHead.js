@@ -25,9 +25,15 @@ const PageHead = () => {
   }, [setIsShowPopPage, isShowPopPage]);
 
   useEffect(() => {
+    const span = spanRef.current;
     // Close the popup page.
-    if (isShowPopPage && spanRef.current) {
-      spanRef.current.addEventListener("click", hidePopPage);
+    if (isShowPopPage && span) {
+      span.addEventListener("click", hidePopPage);
+    }
+    if (span) {
+      return () => {
+        span.removeEventListener("click", hidePopPage);
+      };
     }
   }, [terms, isShowPopPage, hidePopPage]);
 

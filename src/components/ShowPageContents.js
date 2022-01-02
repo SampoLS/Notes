@@ -5,7 +5,7 @@ const ShowPageContents = ({ isLargerTitle, title, text, url, anchor }) => {
     if (url === "") {
       return (
         <article className="title">
-          <h1>{title}</h1>
+          <h1 id={anchor}>{title}</h1>
           <div>{text.p1}</div>
         </article>
       );
@@ -13,7 +13,7 @@ const ShowPageContents = ({ isLargerTitle, title, text, url, anchor }) => {
     // Showing the text if there is h1 heading with url.
     return (
       <article className="title">
-        <h1>
+        <h1 id={anchor}>
           <a href={url} target="blank">
             {title}
           </a>
