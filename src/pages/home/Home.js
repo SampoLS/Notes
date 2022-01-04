@@ -1,5 +1,3 @@
-import React from "react";
-
 import Card from "../../components/Card";
 import PageHead from "../../components/PageHead";
 import { card } from "./card";
