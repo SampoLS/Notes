@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import PopupPage from "./PopupPage";
+import ScrollToTop from "./ScrollToTop";
 
 // The page head, include logo, search bar.
 const PageHead = () => {
@@ -14,6 +15,8 @@ const PageHead = () => {
   const spanRef = useRef(null);
   // Get the input(value) element.
   const inputRef = useRef(null);
+  // Get the header element
+  const headRef = useRef(null);
 
   // Close the popup page.
   const hidePopPage = useCallback(() => {
@@ -47,7 +50,7 @@ const PageHead = () => {
   return (
     <>
       <Bar>
-        <Header>
+        <Header ref={headRef}>
           <Link to="/">✷ 🎀 𝒯𝑒𝓇𝓂𝓈 𝐵𝒶𝓃𝓀 🎀 ✷</Link>
           <div>
             <input
@@ -60,6 +63,7 @@ const PageHead = () => {
             <button onClick={showPopPage}>search</button>
           </div>
         </Header>
+        <ScrollToTop ref={headRef} />
       </Bar>
       {isShowPopPage ? (
         <PopupPage
@@ -79,7 +83,7 @@ export default memo(PageHead);
 const Bar = styled.div`
   width: 100%;
   height: 100px;
-  padding-top: 15px;
+  padding-top: 20px;
   background-color: white;
   box-shadow: 2px 0 10px #eee;
 `;
