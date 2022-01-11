@@ -465,4 +465,27 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Scope",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Scope_(computer_science)`,
+    anchor: "Scope",
+    text: {
+      p1: (
+        <p>
+          In computer programming, the scope of a name binding—an association of
+          a name to an entity, such as a variable—is the part of a program where
+          the name binding is valid, that is where the name can be used to refer
+          to the entity. In other parts of the program the name may refer to a
+          different entity (it may have a different binding), or to nothing at
+          all (it may be unbound). The scope of a name binding is also known as
+          the visibility of an entity, particularly in older or more technical
+          literature—this is from the perspective of the referenced entity, not
+          the referencing name.
+        </p>
+      ),
+    },
+  },
 ];
