@@ -339,6 +339,34 @@ export const reactContents = [
   },
   {
     id: uuidv4(),
+    title: "Refs",
+    isLargerTitle: false,
+    path: "/react",
+    url: `${newUrl}/referencing-values-with-refs`,
+    anchor: "refs",
+    text: {
+      p1: (
+        <>
+          <p>
+            When you want a component to “remember” some information, but you
+            don't want that information to trigger new renders, you can use a
+            "ref"—it's like a secret “pocket” for storing information in your
+            component!
+          </p>
+          <p>
+            The ref points to a number, but, like state, you could point to
+            anything: a string, an object, or even a function. Unlike state, ref
+            is a plain JavaScript object with the current property that you can
+            read and modify. Like state, refs are retained by React between
+            re-renders. However, setting state re-renders a component. Changing
+            a ref does not!
+          </p>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "My Notes",
     isLargerTitle: false,
     path: "/react",

@@ -168,4 +168,21 @@ export const javaScriptContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Element.scrollIntoView()",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/Element/scrollIntoView`,
+    anchor: "scrollIntoView",
+    text: {
+      p1: (
+        <p>
+          The Element interface's scrollIntoView() method scrolls the element's
+          parent container such that the element on which scrollIntoView() is
+          called is visible to the user.
+        </p>
+      ),
+    },
+  },
 ];
