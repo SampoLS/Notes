@@ -1,7 +1,6 @@
 import { memo } from "react";
 import PageHead from "../../../components/PageHead";
 import ShowPageContents from "../../../components/ShowPageContents";
-
 import { csContents } from "./csContents";
 
 // Computer sicence terms page
