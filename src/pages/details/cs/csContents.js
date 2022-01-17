@@ -180,7 +180,7 @@ export const csContents = [
           notion of identifiers, but name-object bindings as a service and
           notation for the programmer is implemented by programming languages.
           Binding is intimately connected with scoping, as scope determines
-          which names bind to which objects – at which locations in the program
+          which names bind to which objects - at which locations in the program
           code (lexically) and in which one of the possible execution paths
           (temporally).
         </p>
@@ -488,4 +488,347 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Asynchrony",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Asynchrony_(computer_programming)`,
+    anchor: "Asynchrony",
+    text: {
+      p1: (
+        <p>
+          Asynchrony, in computer programming, refers to the occurrence of
+          events independent of the main program flow and ways to deal with such
+          events. These may be "outside" events such as the arrival of signals,
+          or actions instigated by a program that take place concurrently with
+          program execution, without the program blocking to wait for results.
+          Asynchronous input/output is an example of the latter case of
+          asynchrony, and lets programs issue commands to storage or network
+          devices that service these requests while the processor continues
+          executing the program. Doing so provides a degree of parallelism.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Futures and promises",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Futures_and_promises`,
+    anchor: "Futures_and_promises",
+    text: {
+      p1: (
+        <p>
+          In computer science, future, promise, delay, and deferred refer to
+          constructs used for synchronizing program execution in some concurrent
+          programming languages. They describe an object that acts as a proxy
+          for a result that is initially unknown, usually because the
+          computation of its value is not yet complete.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Control flow",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Control_flow`,
+    anchor: "Control_flow",
+    text: {
+      p1: (
+        <p>
+          In computer science, control flow (or flow of control) is the order in
+          which individual statements, instructions or function calls of an
+          imperative program are executed or evaluated. The emphasis on explicit
+          control flow distinguishes an imperative programming language from a
+          declarative programming language.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Block",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Block_(programming)`,
+    anchor: "Block",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a block or code block or block of code is a
+          lexical structure of source code which is grouped together. Blocks
+          consist of one or more declarations and statements. A programming
+          language that permits the creation of blocks, including blocks nested
+          within other blocks, is called a block-structured programming
+          language. Blocks are fundamental to structured programming, where
+          control structures are formed from blocks.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Declaration",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Declaration_(computer_programming)`,
+    anchor: "Declaration",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a declaration is a language construct that
+          specifies properties of an identifier: it declares what a word
+          (identifier) "means". Declarations are most commonly used for
+          functions, variables, constants, and classes, but can also be used for
+          other entities such as enumerations and type definitions.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Modular programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Modular_programming`,
+    anchor: "Modular_programming",
+    text: {
+      p1: (
+        <p>
+          Modular programming is a software design technique that emphasizes
+          separating the functionality of a program into independent,
+          interchangeable modules, such that each contains everything necessary
+          to execute only one aspect of the desired functionality.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Programming paradigm",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Programming_paradigm`,
+    anchor: "Programming_paradigm",
+    text: {
+      p1: (
+        <p>
+          Programming paradigms are a way to classify programming languages
+          based on their features. Languages can be classified into multiple
+          paradigms.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Imperative programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Imperative_programming`,
+    anchor: "Imperative_programming",
+    text: {
+      p1: (
+        <>
+          <p>
+            In computer science, imperative programming is a programming
+            paradigm that uses statements that change a program's state. In much
+            the same way that the imperative mood in natural languages expresses
+            commands, an imperative program consists of commands for the
+            computer to perform. Imperative programming focuses on describing
+            how a program operates.
+          </p>
+          <p>
+            The term is often used in contrast to declarative programming, which
+            focuses on what the program should accomplish without specifying all
+            the details of how the program should achieve the result.
+          </p>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Declarative programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Declarative_programming`,
+    anchor: "Declarative_programming",
+    text: {
+      p1: (
+        <p>
+          In computer science, declarative programming is a programming
+          paradigm—a style of building the structure and elements of computer
+          programs—that expresses the logic of a computation without describing
+          its control flow. This is in contrast with imperative programming,
+          which implements algorithms in explicit steps.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Language primitive",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Language_primitive`,
+    anchor: "Language_primitive",
+    text: {
+      p1: (
+        <p>
+          In computing, language primitives are the simplest elements available
+          in a programming language. A primitive is the smallest 'unit of
+          processing' available to a programmer of a given machine, or can be an
+          atomic element of an expression in a language.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Event-driven programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Event-driven_programming`,
+    anchor: "Event-driven_programming",
+    text: {
+      p1: (
+        <p>
+          In computer programming, event-driven programming is a programming
+          paradigm in which the flow of the program is determined by events such
+          as user actions (mouse clicks, key presses), sensor outputs, or
+          message passing from other programs or threads. Event-driven
+          programming is the dominant paradigm used in graphical user interfaces
+          and other applications (e.g., JavaScript web applications) that are
+          centered on performing certain actions in response to user input. This
+          is also true of programming for device drivers (e.g., P in USB device
+          driver stacks).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Event loop",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Event_loop`,
+    anchor: "Event_loop",
+    text: {
+      p1: (
+        <p>
+          In computer science, the event loop is a programming construct or
+          design pattern that waits for and dispatches events or messages in a
+          program. The event loop works by making a request to some internal or
+          external "event provider" (that generally blocks the request until an
+          event has arrived), then calls the relevant event handler ("dispatches
+          the event"). The event loop is also sometimes referred to as the
+          message dispatcher, message loop, message pump, or run loop.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Blocking",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Blocking_(computing)`,
+    anchor: "Blocking",
+    text: {
+      p1: (
+        <p>
+          In computing, a process is an instance of a computer program that is
+          being executed. A process always exists in exactly one process state.
+          A process that is blocked is one that is waiting for some event, such
+          as a resource becoming available or the completion of an I/O
+          operation.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Process",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Process_(computing)`,
+    anchor: "Process",
+    text: {
+      p1: (
+        <p>
+          In computing, a process is the instance of a computer program that is
+          being executed by one or many threads. It contains the program code
+          and its activity. Depending on the operating system (OS), a process
+          may be made up of multiple threads of execution that execute
+          instructions concurrently.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Instance",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Instance_(computer_science)`,
+    anchor: "Instance",
+    text: {
+      p1: (
+        <p>
+          In a computer system, any time a new context is created based on some
+          model, it is said that the model has been instantiated. In practice,
+          this instance usually has a data structure in common with other
+          instances, but the values stored in the instances are separate.
+          Changing the values in one instance will then not interfere with the
+          values of some other instance. A compute instance can be software or
+          hardware which can run code, for example a CPU, GPU or a virtual
+          machine.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Event",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Event_(computing)`,
+    anchor: "Event",
+    text: {
+      p1: (
+        <p>
+          In programming and software design, an event is an action or
+          occurrence recognized by software, often originating asynchronously
+          from the external environment, that may be handled by the software.
+          Computer events can be generated or triggered by the system, by the
+          user, or in other ways. Typically, events are handled synchronously
+          with the program flow; that is, the software may have one or more
+          dedicated places where events are handled, frequently an event loop.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Dynamic programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Dynamic_programming`,
+    anchor: "Dynamic_programming",
+    text: {
+      p1: (
+        <p>
+          Dynamic programming is both a mathematical optimization method and a
+          computer programming method.
+        </p>
+      ),
+    },
+  },
 ];
+
+export const dataLength = csContents.length;

@@ -20,6 +20,7 @@ const Box = styled.section`
     height: 80px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.1);
+    color: #666;
     position: fixed;
     bottom: 10px;
     right: 4%;
