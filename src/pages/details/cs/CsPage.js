@@ -9,11 +9,14 @@ const CsPage = () => {
   useEffect(() => {
     navigate("/cs/p1");
   }, []);
-
   return (
     <>
       <PageHead />
-      <Outlet />
+      <main>
+        <section>
+          <Outlet />
+        </section>
+      </main>
       <Breadcrumbs />
     </>
   );
