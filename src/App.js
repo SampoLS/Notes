@@ -11,8 +11,6 @@ import NotePage from "./pages/details/notes/NotePage";
 import GitPage from "./pages/details/git/GitPage";
 import NotFound from "./pages/details/not_found/NotFound";
 import SplitPageOne from "./pages/details/cs/split_page/SplitPageOne";
-import SplitPageTwo from "./pages/details/cs/split_page/SplitPageTwo";
-import SplitPageThree from "./pages/details/cs/split_page/SplitPageThree";
 
 const App = () => {
   return (
@@ -24,9 +22,7 @@ const App = () => {
       <Route path="/typescript" element={<TypeScriptPage />} />
       <Route path="/javascript" element={<JavaScriptPage />} />
       <Route path="/cs" element={<CsPage />}>
-        <Route path=":p1" element={<SplitPageOne />} />
-        <Route path="p2" element={<SplitPageTwo />} />
-        <Route path="p3" element={<SplitPageThree />} />
+        <Route path=":pId" element={<SplitPageOne />} />
       </Route>
       <Route path="/note" element={<NotePage />} />
       <Route path="/git" element={<GitPage />} />
