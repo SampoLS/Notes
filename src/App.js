@@ -24,7 +24,7 @@ const App = () => {
       <Route path="/typescript" element={<TypeScriptPage />} />
       <Route path="/javascript" element={<JavaScriptPage />} />
       <Route path="/cs" element={<CsPage />}>
-        <Route path="p1" element={<SplitPageOne />} />
+        <Route path=":p1" element={<SplitPageOne />} />
         <Route path="p2" element={<SplitPageTwo />} />
         <Route path="p3" element={<SplitPageThree />} />
       </Route>

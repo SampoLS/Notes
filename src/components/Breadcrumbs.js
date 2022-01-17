@@ -3,22 +3,15 @@ import styled from "styled-components";
 import { dataLength } from "../pages/details/cs/csContents";
 
 export default function Breadcrumbs() {
+  const handleClickTop = () => {
+    window.scroll(0, 0);
+  };
   const totalPage = dataLength / 15;
   let links = [];
   const subPath = ["p1", "p2", "p3"];
   for (let i = 0; i <= totalPage; i++) {
-    // const link =
-    //   subPath[i] === "p1" ? (
-    //     <NavLink to="/cs" key={i}>
-    //       {i + 1}
-    //     </NavLink>
-    //   ) : (
-    //     <NavLink to={`/cs/${subPath[i]}`} key={i}>
-    //       {i + 1}
-    //     </NavLink>
-    //   );
     const link = (
-      <NavLink to={`/cs/${subPath[i]}`} key={i}>
+      <NavLink to={`/cs/${subPath[i]}`} key={i} onClick={handleClickTop}>
         {i + 1}
       </NavLink>
     );
