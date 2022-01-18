@@ -1,7 +1,7 @@
 import { memo, useEffect } from "react";
+import { Outlet, useNavigate } from "react-router-dom";
 import PageHead from "../../../components/PageHead";
 import Breadcrumbs from "../../../components/Breadcrumbs";
-import { Outlet, useNavigate } from "react-router-dom";
 
 // Computer sicence terms page
 const CsPage = () => {

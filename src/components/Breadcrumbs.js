@@ -1,17 +1,26 @@
+import { useCallback } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { dataLength } from "../pages/details/cs/csContents";
 
 export default function Breadcrumbs() {
-  const handleClickTop = () => {
+  // Click the a link to the top.
+  const handleClickTop = useCallback(() => {
     window.scroll(0, 0);
-  };
-  const totalPage = dataLength / 15;
+  }, []);
+  // Calculate the number of the total pages.
+  const totalPages = dataLength / 15;
+  // For holding the a link element.
   let links = [];
-  const subPath = ["p1", "p2", "p3"];
-  for (let i = 0; i <= totalPage; i++) {
+  // For storing the calculated the paths based on the number of total pages. 
+  const subPath = [];
+  // Route path
+  const path = "cs"
+  // Do a loop
+  for (let i = 0; i <= totalPages; i++) {
+    subPath.push('p' + (i + 1));
     const link = (
-      <NavLink to={`/cs/${subPath[i]}`} key={i} onClick={handleClickTop}>
+      <NavLink to={`/${path}/${subPath[i]}`} key={i} onClick={handleClickTop}>
         {i + 1}
       </NavLink>
     );

@@ -15,7 +15,7 @@ export const csContents = [
       p1: (
         <p>
           This topic is about the common terms in computer science or computer
-          programming languages. Want to know more? Please{" "}
+          programming languages. Want to know more? Please {" "}
           <a href={`${wikiUrl}/Category:Computers`} target="blank">
             CLICK HERE.
           </a>
