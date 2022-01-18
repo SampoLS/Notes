@@ -18,21 +18,20 @@ export default function Breadcrumbs({ path }) {
   // Do a loop
   for (let i = 0; i < Math.ceil(totalPages); i++) {
     subPath.push("p" + (i + 1));
-    const link =
-      subPath[i] === "p1" ? (
-        <NavLink to={`/${path}`} key={i} onClick={handleClickTop}>
-          {i + 1}
-        </NavLink>
-      ) : (
-        <NavLink to={`/${path}/${subPath[i]}`} key={i} onClick={handleClickTop}>
-          {i + 1}
-        </NavLink>
-      );
     // const link = (
     //   <NavLink to={`/${path}/${subPath[i]}`} key={i} onClick={handleClickTop}>
     //     {i + 1}
     //   </NavLink>
     // );
+    const link = (
+      <NavLink
+        to={subPath[i] === "p1" ? `/${path}` : `/${path}/${subPath[i]}`}
+        key={i}
+        onClick={handleClickTop}
+      >
+        {i + 1}
+      </NavLink>
+    );
     links.push(link);
   }
   return (
