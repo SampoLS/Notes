@@ -1,13 +1,23 @@
-import { useCallback } from "react";
-import { NavLink } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { dataLength } from "../pages/details/cs/csContents";
 
 export default function Breadcrumbs({ path }) {
-  // Click the a link to the top.
-  const handleClickTop = useCallback(() => {
-    // reset the scroll position to the top left of the document.
-    window.scroll(0, 0);
+  const ref = useRef(null);
+  useEffect(() => {
+    const anchorLists = ref.current.childNodes;
+    let lastIndex = 0;
+    for (let i = 0; i < anchorLists.length; i++) {
+      anchorLists[i].addEventListener("click", () => {
+        // reset the scroll position to the top left of the document.
+        window.scroll(0, 0);
+        anchorLists[i].classList.add("active");
+        anchorLists[lastIndex].classList.remove("active");
+        lastIndex = i;
+      });
+    }
+    anchorLists[0].classList.add("active");
   }, []);
   // Calculate the number of the total pages.
   const totalPages = dataLength / 15;
@@ -18,25 +28,19 @@ export default function Breadcrumbs({ path }) {
   // Do a loop
   for (let i = 0; i < Math.ceil(totalPages); i++) {
     subPath.push("p" + (i + 1));
-    // const link = (
-    //   <NavLink to={`/${path}/${subPath[i]}`} key={i} onClick={handleClickTop}>
-    //     {i + 1}
-    //   </NavLink>
-    // );
     const link = (
-      <NavLink
+      <Link
         to={subPath[i] === "p1" ? `/${path}` : `/${path}/${subPath[i]}`}
         key={i}
-        onClick={handleClickTop}
       >
         {i + 1}
-      </NavLink>
+      </Link>
     );
     links.push(link);
   }
   return (
     <Footer>
-      <section>{links}</section>
+      <section ref={ref}>{links}</section>
     </Footer>
   );
 }

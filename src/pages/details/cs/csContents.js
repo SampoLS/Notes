@@ -15,7 +15,7 @@ export const csContents = [
       p1: (
         <p>
           This topic is about the common terms in computer science or computer
-          programming languages. Want to know more? Please {" "}
+          programming languages. Want to know more? Please{" "}
           <a href={`${wikiUrl}/Category:Computers`} target="blank">
             CLICK HERE.
           </a>
@@ -825,6 +825,31 @@ export const csContents = [
         <p>
           Dynamic programming is both a mathematical optimization method and a
           computer programming method.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Closure",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Closure_(computer_programming)`,
+    anchor: "Closure",
+    text: {
+      p1: (
+        <p>
+          In programming languages, a closure, also lexical closure or function
+          closure, is a technique for implementing lexically scoped name binding
+          in a language with first-class functions. Operationally, a closure is
+          a record storing a function together with an environment. The
+          environment is a mapping associating each free variable of the
+          function (variables that are used locally, but defined in an enclosing
+          scope) with the value or reference to which the name was bound when
+          the closure was created. Unlike a plain function, a closure allows the
+          function to access those captured variables through the closure's
+          copies of their values or references, even when the function is
+          invoked outside their scope.
         </p>
       ),
     },

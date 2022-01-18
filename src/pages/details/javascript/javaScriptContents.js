@@ -195,7 +195,8 @@ export const javaScriptContents = [
     text: {
       p1: (
         <p>
-          Window.scrollTo() scrolls to a particular set of coordinates in the document.
+          Window.scrollTo() scrolls to a particular set of coordinates in the
+          document.
         </p>
       ),
     },
@@ -210,7 +211,8 @@ export const javaScriptContents = [
     text: {
       p1: (
         <p>
-          The Window.scroll() method scrolls the window to a particular place in the document.
+          The Window.scroll() method scrolls the window to a particular place in
+          the document.
         </p>
       ),
     },
@@ -225,7 +227,44 @@ export const javaScriptContents = [
     text: {
       p1: (
         <p>
-          The read-only scrollY property of the Window interface returns the number of pixels that the document is currently scrolled vertically.
+          The read-only scrollY property of the Window interface returns the
+          number of pixels that the document is currently scrolled vertically.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "DOMTokenList",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/DOMTokenList`,
+    anchor: "DOMTokenList",
+    text: {
+      p1: (
+        <p>
+          The DOMTokenList interface represents a set of space-separated tokens.
+          Such a set is returned by Element.classList or
+          HTMLLinkElement.relList, and many others.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Closures",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/Closures`,
+    anchor: "Closures",
+    text: {
+      p1: (
+        <p>
+          A closure is the combination of a function bundled together (enclosed)
+          with references to its surrounding state (the lexical environment). In
+          other words, a closure gives you access to an outer function’s scope
+          from an inner function. In JavaScript, closures are created every time
+          a function is created, at function creation time.
         </p>
       ),
     },
