@@ -1,14 +1,10 @@
-import { memo, useEffect } from "react";
-import { Outlet, useNavigate } from "react-router-dom";
+import { memo } from "react";
+import { Outlet } from "react-router-dom";
 import PageHead from "../../../components/PageHead";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 
 // Computer sicence terms page
 const CsPage = () => {
-  const navigate = useNavigate();
-  useEffect(() => {
-    navigate("/cs/p1");
-  }, []);
   return (
     <>
       <PageHead />
@@ -17,7 +13,7 @@ const CsPage = () => {
           <Outlet />
         </section>
       </main>
-      <Breadcrumbs />
+      <Breadcrumbs path="cs" />
     </>
   );
 };

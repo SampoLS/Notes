@@ -185,4 +185,49 @@ export const javaScriptContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Window.scrollTo()",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/Window/scrollTo`,
+    anchor: "scrollTo",
+    text: {
+      p1: (
+        <p>
+          Window.scrollTo() scrolls to a particular set of coordinates in the document.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Window.scroll()",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/Window/scroll`,
+    anchor: "scroll",
+    text: {
+      p1: (
+        <p>
+          The Window.scroll() method scrolls the window to a particular place in the document.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Window.scrollY",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/Window/scrollY`,
+    anchor: "scrollY",
+    text: {
+      p1: (
+        <p>
+          The read-only scrollY property of the Window interface returns the number of pixels that the document is currently scrolled vertically.
+        </p>
+      ),
+    },
+  },
 ];

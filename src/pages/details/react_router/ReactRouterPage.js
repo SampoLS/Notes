@@ -1,7 +1,7 @@
 import { memo } from "react";
 import PageHead from "../../../components/PageHead";
-import ShowTermContents from "../../../components/ShowPageContents";
-import { reactRouterContents } from "./reactRouterContents";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { Outlet } from "react-router-dom";
 
 // Showing the react router page contents
 const ReactRouterPage = () => {
@@ -10,11 +10,10 @@ const ReactRouterPage = () => {
       <PageHead />
       <main>
         <section>
-          {reactRouterContents.map((item) => {
-            return <ShowTermContents key={item.id} {...item} />;
-          })}
+          <Outlet />
         </section>
       </main>
+      <Breadcrumbs path="react-router" />
     </>
   );
 };
