@@ -1,11 +1,12 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { dataLength } from "../pages/details/cs/csContents";
 
-export default function Breadcrumbs({ path }) {
+export default function Breadcrumbs({ path, length }) {
   const ref = useRef(null);
+  // To hold the last index.
   let lastIndex = 0;
+  // Add the active class to next click element and remove the active class of the last click.
   const addStyle = (anchorLists, i) => {
     anchorLists[i].classList.add("active");
     anchorLists[lastIndex].classList.remove("active");
@@ -18,7 +19,6 @@ export default function Breadcrumbs({ path }) {
       anchorLists[i].addEventListener("click", () => {
         // Reset the scroll position to the top left of the document.
         window.scroll(0, 0);
-        // Add the active class to next click element and remove the active class of the last click.
         addStyle(anchorLists, i);
       });
     }
@@ -26,7 +26,7 @@ export default function Breadcrumbs({ path }) {
     anchorLists[0].classList.add("active");
   });
   // Calculate the number of the total pages.
-  const totalPages = dataLength / 15;
+  const totalPages = length / 15;
   // For holding the a link element.
   let links = [];
   // For storing the calculated the paths based on the number of total pages.

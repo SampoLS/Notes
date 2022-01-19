@@ -391,3 +391,5 @@ export const reactContents = [
     },
   },
 ];
+
+export const contentsLength = reactContents.length;

@@ -2,6 +2,7 @@ import { memo } from "react";
 import { Outlet } from "react-router-dom";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import PageHead from "../../../components/PageHead";
+import { contentsLength } from "./reactContents";
 
 // Showing the react page
 const ReactPage = () => {
@@ -13,7 +14,7 @@ const ReactPage = () => {
           <Outlet />
         </section>
       </main>
-      <Breadcrumbs path="react" />
+      <Breadcrumbs path="react" length={contentsLength} />
     </>
   );
 };

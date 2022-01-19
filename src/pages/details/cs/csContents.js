@@ -856,4 +856,4 @@ export const csContents = [
   },
 ];
 
-export const dataLength = csContents.length;
+export const contentsLength = csContents.length;
