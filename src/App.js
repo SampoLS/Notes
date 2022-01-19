@@ -9,14 +9,15 @@ import JavaScriptPage from "./pages/details/javascript/JavaScriptPage";
 import CsPage from "./pages/details/cs/CsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import GitPage from "./pages/details/git/GitPage";
+// import DsPage from "./pages/details/data_structure/DsPage";
 import NotFound from "./pages/details/not_found/NotFound";
-import SplitPage from "./components/SplitPage";
 
 // Importing the contents in different pages
 import { csContents } from "./pages/details/cs/csContents";
 import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
 import { reactContents } from "./pages/details/react/reactContents";
 import IndexRoutePage from "./components/IndexRoutePage";
+import SplitPage from "./components/SplitPage";
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
       </Route>
       <Route path="/note" element={<NotePage />} />
       <Route path="/git" element={<GitPage />} />
+      {/* <Route path="/data_structure" element={<DsPage />} /> */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

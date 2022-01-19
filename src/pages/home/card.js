@@ -50,4 +50,16 @@ export const card = [
     path: "/git",
     text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
   },
+  {
+    id: uuidv4(),
+    title: "Data Structure",
+    path: "/data_structure",
+    text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+  },
+  {
+    id: uuidv4(),
+    title: "Algorithms",
+    path: "/algorithms",
+    text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+  },
 ];

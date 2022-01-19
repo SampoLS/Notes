@@ -5,20 +5,26 @@ import { dataLength } from "../pages/details/cs/csContents";
 
 export default function Breadcrumbs({ path }) {
   const ref = useRef(null);
+  let lastIndex = 0;
+  const removeStyle = (anchorLists,i) => {
+    anchorLists[i].classList.add("active");
+    anchorLists[lastIndex].classList.remove("active");
+    lastIndex = i;
+  }
   useEffect(() => {
+    // Get the list of a elements.
     const anchorLists = ref.current.childNodes;
-    let lastIndex = 0;
     for (let i = 0; i < anchorLists.length; i++) {
       anchorLists[i].addEventListener("click", () => {
-        // reset the scroll position to the top left of the document.
+        // Reset the scroll position to the top left of the document.
         window.scroll(0, 0);
-        anchorLists[i].classList.add("active");
-        anchorLists[lastIndex].classList.remove("active");
-        lastIndex = i;
+        // Add the active class to next click element and remove the active class of the last click.
+        removeStyle(anchorLists, i)
       });
     }
+    // Setting the style of the first a element.
     anchorLists[0].classList.add("active");
-  }, []);
+  });
   // Calculate the number of the total pages.
   const totalPages = dataLength / 15;
   // For holding the a link element.
