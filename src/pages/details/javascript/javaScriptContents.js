@@ -269,4 +269,24 @@ export const javaScriptContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Node.childNodes",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/Node/childNodes`,
+    anchor: "Node_childNodes",
+    text: {
+      p1: (
+        <p>
+          The read-only childNodes property of the Node interface returns a live
+          NodeList of child nodes of the given element where the first child
+          node is assigned index 0. Child nodes include elements, text and
+          comments.
+        </p>
+      ),
+    },
+  },
 ];
+
+export const contentsLength = javaScriptContents.length;

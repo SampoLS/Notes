@@ -1,7 +1,8 @@
 import { memo } from "react";
+import { Outlet } from "react-router-dom";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 import PageHead from "../../../components/PageHead";
-import ShowPageContents from "../../../components/ShowPageContents";
-import { javaScriptContents } from "./javaScriptContents";
+import { contentsLength } from "./javaScriptContents";
 
 // JavaScript page
 const JavaScriptPage = () => {
@@ -10,11 +11,10 @@ const JavaScriptPage = () => {
       <PageHead />
       <main>
         <section>
-          {javaScriptContents.map((item) => {
-            return <ShowPageContents key={item.id} {...item} />;
-          })}
+          <Outlet />
         </section>
       </main>
+      <Breadcrumbs path="javascript" length={contentsLength} />
     </>
   );
 };

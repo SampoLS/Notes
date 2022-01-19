@@ -12,12 +12,14 @@ import GitPage from "./pages/details/git/GitPage";
 // import DsPage from "./pages/details/data_structure/DsPage";
 import NotFound from "./pages/details/not_found/NotFound";
 
+import IndexRoutePage from "./components/IndexRoutePage";
+import SplitPage from "./components/SplitPage";
+
 // Importing the contents in different pages
 import { csContents } from "./pages/details/cs/csContents";
 import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
 import { reactContents } from "./pages/details/react/reactContents";
-import IndexRoutePage from "./components/IndexRoutePage";
-import SplitPage from "./components/SplitPage";
+import { javaScriptContents } from "./pages/details/javascript/javaScriptContents";
 
 const App = () => {
   return (
@@ -39,7 +41,16 @@ const App = () => {
         <Route path=":pId" element={<SplitPage content={reactContents} />} />
       </Route>
       <Route path="/typescript" element={<TypeScriptPage />} />
-      <Route path="/javascript" element={<JavaScriptPage />} />
+      <Route path="/javascript" element={<JavaScriptPage />}>
+        <Route
+          index
+          element={<IndexRoutePage content={javaScriptContents} />}
+        />
+        <Route
+          path=":pId"
+          element={<SplitPage content={javaScriptContents} />}
+        />
+      </Route>
       <Route path="/cs" element={<CsPage />}>
         <Route index element={<IndexRoutePage content={csContents} />} />
         <Route path=":pId" element={<SplitPage content={csContents} />} />

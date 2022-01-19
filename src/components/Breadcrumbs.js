@@ -11,7 +11,7 @@ export default function Breadcrumbs({ path, length }) {
     anchorLists[i].classList.add("active");
     anchorLists[lastIndex].classList.remove("active");
     lastIndex = i;
-  }
+  };
   useEffect(() => {
     // Get the list of a elements.
     const anchorLists = ref.current.childNodes;
