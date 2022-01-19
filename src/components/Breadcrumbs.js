@@ -6,7 +6,7 @@ import { dataLength } from "../pages/details/cs/csContents";
 export default function Breadcrumbs({ path }) {
   const ref = useRef(null);
   let lastIndex = 0;
-  const removeStyle = (anchorLists,i) => {
+  const addStyle = (anchorLists, i) => {
     anchorLists[i].classList.add("active");
     anchorLists[lastIndex].classList.remove("active");
     lastIndex = i;
@@ -19,7 +19,7 @@ export default function Breadcrumbs({ path }) {
         // Reset the scroll position to the top left of the document.
         window.scroll(0, 0);
         // Add the active class to next click element and remove the active class of the last click.
-        removeStyle(anchorLists, i)
+        addStyle(anchorLists, i);
       });
     }
     // Setting the style of the first a element.
