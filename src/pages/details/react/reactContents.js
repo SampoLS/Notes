@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // Old-school url
 const archiveUrl = "https://reactjs.org/docs";
@@ -391,5 +392,7 @@ export const reactContents = [
     },
   },
 ];
+
+sortContentsByOrder(reactContents);
 
 export const contentsLength = reactContents.length;

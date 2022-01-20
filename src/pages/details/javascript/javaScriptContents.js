@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // Web API url
 const apiUrl = "https://developer.mozilla.org/en-US/docs/Web/API";
@@ -7,7 +8,7 @@ const apiUrl = "https://developer.mozilla.org/en-US/docs/Web/API";
 const jsUrl = "https://developer.mozilla.org/en-US/docs/Web/JavaScript";
 
 // This is JavaScript page contents
-export const javaScriptContents = [
+export const jsContents = [
   {
     id: uuidv4(),
     title: "JavaScript",
@@ -287,6 +288,25 @@ export const javaScriptContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Array.prototype.sort()",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/Reference/Global_Objects/Array/sort`,
+    anchor: "Array_prototype_sort",
+    text: {
+      p1: (
+        <p>
+          The sort() method sorts the elements of an array in place and returns
+          the sorted array. The default sort order is ascending, built upon
+          converting the elements into strings, then comparing their sequences
+          of UTF-16 code units values.
+        </p>
+      ),
+    },
+  },
 ];
 
-export const contentsLength = javaScriptContents.length;
+export const contentsLength = jsContents.length;
+export const sortedJsContents = sortContentsByOrder(jsContents);

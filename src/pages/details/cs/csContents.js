@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 const wikiUrl = "https://en.wikipedia.org/wiki";
 
@@ -856,4 +857,7 @@ export const csContents = [
   },
 ];
 
+// The contents length.
 export const contentsLength = csContents.length;
+// The sorted contents by the order.
+export const sortedCsContents = sortContentsByOrder(csContents);

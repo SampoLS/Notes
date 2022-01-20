@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // This is react router page contents
 export const reactRouterContents = [
@@ -740,4 +741,6 @@ export const reactRouterContents = [
   },
 ];
 
-export const contentsLength = reactRouterContents.length; 
+sortContentsByOrder(reactRouterContents);
+
+export const contentsLength = reactRouterContents.length;

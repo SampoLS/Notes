@@ -19,7 +19,7 @@ import SplitPage from "./components/SplitPage";
 import { csContents } from "./pages/details/cs/csContents";
 import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
 import { reactContents } from "./pages/details/react/reactContents";
-import { javaScriptContents } from "./pages/details/javascript/javaScriptContents";
+import { jsContents } from "./pages/details/javascript/javaScriptContents";
 
 const App = () => {
   return (
@@ -42,14 +42,8 @@ const App = () => {
       </Route>
       <Route path="/typescript" element={<TypeScriptPage />} />
       <Route path="/javascript" element={<JavaScriptPage />}>
-        <Route
-          index
-          element={<IndexRoutePage content={javaScriptContents} />}
-        />
-        <Route
-          path=":pId"
-          element={<SplitPage content={javaScriptContents} />}
-        />
+        <Route index element={<IndexRoutePage content={jsContents} />} />
+        <Route path=":pId" element={<SplitPage content={jsContents} />} />
       </Route>
       <Route path="/cs" element={<CsPage />}>
         <Route index element={<IndexRoutePage content={csContents} />} />
