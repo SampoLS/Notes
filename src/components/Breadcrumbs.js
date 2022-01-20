@@ -1,8 +1,8 @@
-import { useEffect, useRef } from "react";
+import { memo, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export default function Breadcrumbs({ path, length }) {
+const Breadcrumbs = memo(({ path, length }) => {
   const ref = useRef(null);
   // To hold the last index.
   let lastIndex = 0;
@@ -52,7 +52,7 @@ export default function Breadcrumbs({ path, length }) {
       <section ref={ref}>{links}</section>
     </Footer>
   );
-}
+});
 
 const Footer = styled.footer`
   section {
@@ -80,3 +80,4 @@ const Footer = styled.footer`
     }
   }
 `;
+export default Breadcrumbs;

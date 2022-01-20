@@ -306,6 +306,23 @@ export const jsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "DOMTokenList.contains()",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/DOMTokenList/contains`,
+    anchor: "DOMTokenList_contains",
+    text: {
+      p1: (
+        <p>
+          The contains() method of the DOMTokenList interface returns a boolean
+          value — true if the underlying list contains the given token,
+          otherwise false.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = jsContents.length;

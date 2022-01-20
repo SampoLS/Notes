@@ -90,10 +90,10 @@ const Bar = styled.div`
 
 const Header = styled.header`
   width: 90%;
+  min-width: 720px;
   margin: 0 auto;
-  font-size: 40px;
+  font-size: calc(1rem + 2vw);
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   div {
