@@ -11,7 +11,7 @@ const Breadcrumbs = memo(({ path, length }) => {
     anchorLists[i].classList.add("active");
     anchorLists[lastIndex].classList.remove("active");
     lastIndex = i;
-    if (anchorLists[i]) {
+    if (anchorLists[i].classList) {
       anchorLists[i].classList.add("active");
     }
   };
