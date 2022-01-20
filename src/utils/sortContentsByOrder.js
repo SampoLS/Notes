@@ -6,9 +6,6 @@ export const sortContentsByOrder = (contents) => {
     if (titleA < titleB) {
       return -1;
     }
-    if (titleA > titleB) {
-      return 1;
-    }
     return 0;
   });
   // Get the index of the content of the large title .
