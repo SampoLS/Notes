@@ -8,14 +8,15 @@ import ReactRouterPage from "./pages/details/react_router/ReactRouterPage";
 import TypeScriptPage from "./pages/details/typescript/TypeScriptPage";
 import JavaScriptPage from "./pages/details/javascript/JavaScriptPage";
 import CsPage from "./pages/details/cs/CsPage";
-import NotePage from "./pages/details/notes/NotePage";
 import GitPage from "./pages/details/git/GitPage";
+import OtherTermsPage from "./pages/details/others/OtherTermsPage";
+import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
 
 import IndexRoutePage from "./components/IndexRoutePage";
 import SplitPage from "./components/SplitPage";
 
-// Importing the contents in different pages
+// Import the contents in different pages for showing the contents based on the url(routing) when clicking the breadcrumbs.
 import { csContents } from "./pages/details/cs/csContents";
 import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
 import { reactContents } from "./pages/details/react/reactContents";
@@ -54,8 +55,9 @@ const App = () => {
             <Route index element={<IndexRoutePage content={csContents} />} />
             <Route path=":pId" element={<SplitPage content={csContents} />} />
           </Route>
-          <Route path="note" element={<NotePage />} />
           <Route path="git" element={<GitPage />} />
+          <Route path="other_terms" element={<OtherTermsPage />} />
+          <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

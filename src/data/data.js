@@ -6,6 +6,7 @@ import { jsContents } from "../pages/details/javascript/javaScriptContents";
 import { csContents } from "../pages/details/cs/csContents";
 import { noteContents } from "../pages/details/notes/noteContents";
 import { gitContents } from "../pages/details/git/gitContents";
+import { termsContents } from "../pages/details/others/OtherTermsContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -16,4 +17,5 @@ export const data = httpContents.concat(
   csContents,
   noteContents,
   gitContents,
+  termsContents,
 );
