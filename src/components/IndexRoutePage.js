@@ -1,6 +1,6 @@
 import getSinglePageContents from "../utils/getSinglePageContents";
 
-const Subpage = ({ content }) => {
+const IndexRoutePage = ({ content }) => {
   return getSinglePageContents(content, 0, 15);
 };
-export default Subpage;
+export default IndexRoutePage;

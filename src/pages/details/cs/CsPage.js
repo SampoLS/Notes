@@ -1,6 +1,5 @@
 import { memo } from "react";
 import { Outlet } from "react-router-dom";
-import PageHead from "../../../components/PageHead";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { contentsLength } from "./csContents";
 
@@ -8,7 +7,6 @@ import { contentsLength } from "./csContents";
 const CsPage = () => {
   return (
     <>
-      <PageHead />
       <main>
         <section>
           <Outlet />

@@ -2,10 +2,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// third party components
-import { BrowserRouter } from "react-router-dom";
-
 // local components
+import ContentsProvider from "./context/ContentsProvider";
 import App from "./App";
 
 // css
@@ -13,9 +11,9 @@ import "./assets/css/public.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <ContentsProvider>
       <App />
-    </BrowserRouter>
+    </ContentsProvider>
   </React.StrictMode>,
   document.getElementById("root"),
 );

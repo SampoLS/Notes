@@ -1,5 +1,4 @@
 import Card from "../../components/Card";
-import PageHead from "../../components/PageHead";
 import { card } from "./card";
 
 import "./home.css";
@@ -8,7 +7,6 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <PageHead />
       <main className="container">
         <section className="term-section">
           {card.map((data) => {

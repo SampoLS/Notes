@@ -855,6 +855,28 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Callback",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Callback_(computer_programming)`,
+    anchor: "Callback",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a callback, also known as a "call-after"
+          function, is any executable code that is passed as an argument to
+          other code; that other code is expected to call back (execute) the
+          argument at a given time. This execution may be immediate as in a
+          synchronous callback, or it might happen at a later point in time as
+          in an asynchronous callback. Programming languages support callbacks
+          in different ways, often implementing them with subroutines, lambda
+          expressions, blocks, or function pointers.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

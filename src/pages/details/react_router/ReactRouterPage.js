@@ -1,5 +1,4 @@
 import { memo } from "react";
-import PageHead from "../../../components/PageHead";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { Outlet } from "react-router-dom";
 import { contentsLength } from "./reactRouterContents";
@@ -8,13 +7,12 @@ import { contentsLength } from "./reactRouterContents";
 const ReactRouterPage = () => {
   return (
     <>
-      <PageHead />
       <main>
         <section>
           <Outlet />
         </section>
       </main>
-      <Breadcrumbs path="react-router" length={contentsLength}/>
+      <Breadcrumbs path="react-router" length={contentsLength} />
     </>
   );
 };

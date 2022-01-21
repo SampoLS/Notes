@@ -1,5 +1,5 @@
 import { memo, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Breadcrumbs = memo(({ path, length }) => {
@@ -38,12 +38,12 @@ const Breadcrumbs = memo(({ path, length }) => {
   for (let i = 0; i < Math.ceil(totalPages); i++) {
     subPath.push("p" + (i + 1));
     const link = (
-      <Link
+      <NavLink
         to={subPath[i] === "p1" ? `/${path}` : `/${path}/${subPath[i]}`}
         key={i}
       >
         {i + 1}
-      </Link>
+      </NavLink>
     );
     links.push(link);
   }
