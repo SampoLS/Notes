@@ -8,13 +8,9 @@ import "./HttpPage.css";
 const HttpPage = () => {
   return (
     <>
-      <main>
-        <section>
-          {httpContents.map((item) => {
-            return <ShowPageContents key={item.id} {...item} />;
-          })}
-        </section>
-      </main>
+      {httpContents.map((item) => {
+        return <ShowPageContents key={item.id} {...item} />;
+      })}
     </>
   );
 };

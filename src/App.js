@@ -1,8 +1,8 @@
 import React, { memo } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Layout from "./pages/layout/Layout";
+import Page from "./pages/layout/Page";
 import Home from "./pages/home/Home";
-import HttpDetailsPage from "./pages/details/http_details/HttpPage";
+import HttpPage from "./pages/details/http/HttpPage";
 import ReactPage from "./pages/details/react/ReactPage";
 import ReactRouterPage from "./pages/details/react_router/ReactRouterPage";
 import TypeScriptPage from "./pages/details/typescript/TypeScriptPage";
@@ -25,9 +25,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Page />}>
           <Route index element={<Home />} />
-          <Route path="http" element={<HttpDetailsPage />} />
+          <Route path="http" element={<HttpPage />} />
           <Route path="react-router" element={<ReactRouterPage />}>
             <Route
               index

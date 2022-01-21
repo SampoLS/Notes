@@ -7,11 +7,7 @@ import { contentsLength } from "./javaScriptContents";
 const JavaScriptPage = () => {
   return (
     <>
-      <main>
-        <section>
-          <Outlet />
-        </section>
-      </main>
+      <Outlet />
       <Breadcrumbs path="javascript" length={contentsLength} />
     </>
   );

@@ -7,11 +7,7 @@ import { contentsLength } from "./reactContents";
 const ReactPage = () => {
   return (
     <>
-      <main>
-        <section>
-          <Outlet />
-        </section>
-      </main>
+      <Outlet />
       <Breadcrumbs path="react" length={contentsLength} />
     </>
   );

@@ -7,11 +7,7 @@ import { contentsLength } from "./csContents";
 const CsPage = () => {
   return (
     <>
-      <main>
-        <section>
-          <Outlet />
-        </section>
-      </main>
+      <Outlet />
       <Breadcrumbs path="cs" length={contentsLength} />
     </>
   );

@@ -7,14 +7,14 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <main className="container">
+      <div className="container">
         <section className="term-section">
           {card.map((data) => {
             const { id, title, path, text } = data;
             return <Card key={id} title={title} path={path} text={text} />;
           })}
         </section>
-      </main>
+      </div>
     </>
   );
 };

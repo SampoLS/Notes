@@ -7,11 +7,7 @@ import { contentsLength } from "./reactRouterContents";
 const ReactRouterPage = () => {
   return (
     <>
-      <main>
-        <section>
-          <Outlet />
-        </section>
-      </main>
+      <Outlet />
       <Breadcrumbs path="react-router" length={contentsLength} />
     </>
   );

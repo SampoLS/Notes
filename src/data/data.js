@@ -1,4 +1,4 @@
-import { httpContents } from "../pages/details/http_details/httpContents";
+import { httpContents } from "../pages/details/http/httpContents";
 import { reactContents } from "../pages/details/react/reactContents";
 import { reactRouterContents } from "../pages/details/react_router/reactRouterContents";
 import { typeScriptContents } from "../pages/details/typescript/typeScriptContents";

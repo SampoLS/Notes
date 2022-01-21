@@ -4,13 +4,9 @@ import { noteContents } from "./noteContents";
 const NotePage = () => {
   return (
     <>
-      <main>
-        <section>
-          {noteContents.map((item) => {
-            return <ShowPageContents key={item.id} {...item} />;
-          })}
-        </section>
-      </main>
+      {noteContents.map((item) => {
+        return <ShowPageContents key={item.id} {...item} />;
+      })}
     </>
   );
 };
