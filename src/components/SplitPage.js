@@ -3,16 +3,9 @@ import getSinglePageContents from "../utils/getSinglePageContents";
 
 const SplitPage = ({ content }) => {
   const { pId } = useParams();
-  switch (pId) {
-    case "p2": {
-      return getSinglePageContents(content, 15, 30);
-    }
-    case "p3": {
-      return getSinglePageContents(content, 30, 45);
-    }
-    default:
-      break;
-  }
+  const count = Number(pId.slice(1)) - 1;
+  if (count) return getSinglePageContents(content, count * 15, count * 15 + 15);
+
   return <h1>sorry</h1>;
 };
 export default SplitPage;
