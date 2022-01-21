@@ -877,6 +877,25 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computer architecture",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computer_architecture`,
+    anchor: "Computer_architecture",
+    text: {
+      p1: (
+        <p>
+          In computer engineering, computer architecture is a set of rules and
+          methods that describe the functionality, organization, and
+          implementation of computer systems. The architecture of a system
+          refers to its structure in terms of separately specified components of
+          that system and their interrelationships.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
