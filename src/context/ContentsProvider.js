@@ -4,9 +4,7 @@ export const ContentsContext = createContext(null);
 
 const ContentsProvider = ({ children }) => {
   return (
-    <ContentsContext.Provider value={{ name: "luoshichao" }}>
-      {children}
-    </ContentsContext.Provider>
+    <ContentsContext.Provider value={{}}>{children}</ContentsContext.Provider>
   );
 };
 
