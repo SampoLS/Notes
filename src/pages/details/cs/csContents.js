@@ -896,6 +896,126 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Language construct",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Language_construct`,
+    anchor: "Language_construct",
+    text: {
+      p1: (
+        <p>
+          A language construct is a syntactically allowable part of a program
+          that may be formed from one or more lexical tokens in accordance with
+          the rules of a programming language. The term "language construct" is
+          often used as a synonym for control structure.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Lexical analysis",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Lexical_analysis`,
+    anchor: "Lexical_analysis",
+    text: {
+      p1: (
+        <p>
+          In computer science, lexical analysis, lexing or tokenization is the
+          process of converting a sequence of characters (such as in a computer
+          program or web page) into a sequence of tokens (strings with an
+          assigned and thus identified meaning). A program that performs lexical
+          analysis may be termed a lexer, tokenizer, or scanner, although
+          scanner is also a term for the first stage of a lexer. A lexer is
+          generally combined with a parser, which together analyze the syntax of
+          programming languages, web pages, and so forth.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Data_type`,
+    anchor: "Data_type",
+    text: {
+      p1: (
+        <p>
+          In computer science and computer programming, a data type or simply
+          type is an attribute of data which tells the compiler or interpreter
+          how the programmer intends to use the data. Most programming languages
+          support basic data types of integer numbers (of varying sizes),
+          floating-point numbers (which approximate real numbers), characters
+          and Booleans. A data type constrains the values that an expression,
+          such as a variable or a function, might take. This data type defines
+          the operations that can be done on the data, the meaning of the data,
+          and the way values of that type can be stored. A data type provides a
+          set of values from which an expression (i.e. variable, function, etc.)
+          may take its values.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Type system",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Type_system`,
+    anchor: "Type_system",
+    text: {
+      p1: (
+        <p>
+          In programming languages, a type system is a logical system comprising
+          a set of rules that assigns a property called a type to the various
+          constructs of a computer program, such as variables, expressions,
+          functions or modules.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Class",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Class_(computer_programming)`,
+    anchor: "class",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming, a class is an extensible
+          program-code-template for creating objects, providing initial values
+          for state (member variables) and implementations of behavior (member
+          functions or methods).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Polymorphism",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Polymorphism_(computer_science)`,
+    anchor: "Polymorphism",
+    text: {
+      p1: (
+        <p>
+          In programming languages and type theory, polymorphism is the
+          provision of a single interface to entities of different types or
+          the use of a single symbol to represent multiple different
+          types.The concept is borrowed from a principle in biology where an
+          organism or species can have many different forms or stages.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
