@@ -2,8 +2,6 @@ import styled from "styled-components";
 import Card from "../../components/Card";
 import { card } from "./card";
 
-import "./home.css";
-
 // Showing the home page, the single card
 const Home = () => {
   return (
