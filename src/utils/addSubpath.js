@@ -1,9 +1,8 @@
-// To hold the items that added subpath(i.e cs/p1, cs/p2) to the path.
 /**
  *
- * @param {number} contentsLength the number of contents
- * @param {Array<object>} contents  the sorted contents in the array
- * @returns {Array<object>} the contents which path added the subpath
+ * @param {number} contentsLength The number of contents
+ * @param {Array<object>} contents  The sorted contents in the array
+ * @returns {Array<object>} The contents which path added the subpath
  */
 const addSubpath = (subpathContents, contentsLength, contents) => {
   for (let i = 0; i < Math.ceil(contentsLength / 15); i++) {

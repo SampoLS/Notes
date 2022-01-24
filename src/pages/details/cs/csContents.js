@@ -1083,6 +1083,7 @@ export const contentsLength = csContents.length;
 // The sorted contents by the order.
 sortContentsByOrder(csContents);
 
+// To hold the items that added subpath(i.e cs/p1, cs/p2) to the path.
 let subpathContents = [];
 // Add the url parameter to the cs contents' path to show the content based on the route when click the breadcrumbs.
 export const csContentsAddedSubpath = addSubpath(

@@ -1,4 +1,9 @@
-// Sort the contents by ascending a-z.
+/**
+ *
+ * @param {Array<object>} contents The contents gonna be sorted by ascending.
+ * @returns {Array<object>}
+ */
+
 export const sortContentsByOrder = (contents) => {
   const sortedContents = contents.sort((a, b) => {
     const titleA = a.title.toUpperCase();
