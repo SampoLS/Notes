@@ -28,19 +28,17 @@ const PopupPage = ({ spanRef, terms, isShowPopPage, setIsShowPopPage }) => {
         <section className="terms-wrapper">
           {filterdTerms.map((item) => {
             return (
-              <ol key={item.id}>
-                <li className="term">
-                  <h3>
-                    <a
-                      href={`${item.path}#${item.anchor}`}
-                      onClick={() => setIsShowPopPage(!isShowPopPage)}
-                    >
-                      {item.title}
-                    </a>
-                  </h3>
-                  <div className="text-box">{item.text.p1}</div>
-                </li>
-              </ol>
+              <article key={item.id} className="term">
+                <h3>
+                  <a
+                    href={`${item.path}#${item.anchor}`}
+                    onClick={() => setIsShowPopPage(!isShowPopPage)}
+                  >
+                    {item.title}
+                  </a>
+                </h3>
+                <div className="text-box">{item.text.p1}</div>
+              </article>
             );
           })}
         </section>
