@@ -2,7 +2,7 @@ import { httpContents } from "../pages/details/http/httpContents";
 import { reactContentsAddedSubpath } from "../pages/details/react/reactContents";
 import { reactRouterContentsAddedSubpath } from "../pages/details/react_router/reactRouterContents";
 import { typeScriptContents } from "../pages/details/typescript/typeScriptContents";
-import { jsContents } from "../pages/details/javascript/javaScriptContents";
+import { jsContentsAddedSubpath } from "../pages/details/javascript/javaScriptContents";
 import { csContentsAddedSubpath } from "../pages/details/cs/csContents";
 import { noteContents } from "../pages/details/notes/noteContents";
 import { gitContents } from "../pages/details/git/gitContents";
@@ -13,7 +13,7 @@ export const data = httpContents.concat(
   reactContentsAddedSubpath,
   reactRouterContentsAddedSubpath,
   typeScriptContents,
-  jsContents,
+  jsContentsAddedSubpath,
   csContentsAddedSubpath,
   noteContents,
   gitContents,

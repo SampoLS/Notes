@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // Web API url
@@ -325,5 +326,13 @@ export const jsContents = [
   },
 ];
 
+sortContentsByOrder(jsContents);
+
 export const contentsLength = jsContents.length;
-export const sortedJsContents = sortContentsByOrder(jsContents);
+
+let subpathContents = [];
+export const jsContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  jsContents,
+);
