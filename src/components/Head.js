@@ -28,6 +28,11 @@ const PageHead = () => {
   }, [setIsShowPopPage, isShowPopPage]);
 
   useEffect(() => {
+    const section = document.getElementById("breadcrumbs");
+    if (section) {
+      const anchor = section.firstChild;
+      anchor.classList.remove("active");
+    }
     const span = spanRef.current;
     // Close the popup page.
     if (isShowPopPage && span) {

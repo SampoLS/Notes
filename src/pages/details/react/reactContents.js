@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // Old-school url
@@ -396,3 +397,10 @@ export const reactContents = [
 sortContentsByOrder(reactContents);
 
 export const contentsLength = reactContents.length;
+
+let subpathContents = [];
+export const reactContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  reactContents,
+);

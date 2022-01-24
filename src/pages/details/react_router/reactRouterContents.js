@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // This is react router page contents
@@ -744,3 +745,10 @@ export const reactRouterContents = [
 sortContentsByOrder(reactRouterContents);
 
 export const contentsLength = reactRouterContents.length;
+
+let subpathContents = [];
+export const reactRouterContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  reactRouterContents,
+);

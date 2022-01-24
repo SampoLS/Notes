@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 const wikiUrl = "https://en.wikipedia.org/wiki";
@@ -1008,10 +1009,69 @@ export const csContents = [
       p1: (
         <p>
           In programming languages and type theory, polymorphism is the
-          provision of a single interface to entities of different types or
-          the use of a single symbol to represent multiple different
-          types.The concept is borrowed from a principle in biology where an
-          organism or species can have many different forms or stages.
+          provision of a single interface to entities of different types or the
+          use of a single symbol to represent multiple different types.The
+          concept is borrowed from a principle in biology where an organism or
+          species can have many different forms or stages.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Protocol",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Protocol_(object-oriented_programming)`,
+    anchor: "Protocol",
+    text: {
+      p1: (
+        <p>
+          Protocol is a term used by particular object-oriented programming
+          languages with a variety of specific meanings, which other languages
+          may term interface or trait.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Interface",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Interface_(computing)`,
+    anchor: "Interface",
+    text: {
+      p1: (
+        <p>
+          In computing, an interface is a shared boundary across which two or
+          more separate components of a computer system exchange information.
+          The exchange can be between software, computer hardware, peripheral
+          devices, humans, and combinations of these. Some computer hardware
+          devices, such as a touchscreen, can both send and receive data through
+          the interface, while others such as a mouse or microphone may only
+          provide an interface to send data to a given system.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "API",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/API`,
+    anchor: "API",
+    text: {
+      p1: (
+        <p>
+          An application programming interface (API) is a connection between
+          computers or between computer programs. It is a type of software
+          interface, offering a service to other pieces of software. A document
+          or standard that describes how to build or use such a connection or
+          interface is called an API specification. A computer system that meets
+          this standard is said to implement or expose an API. The term API may
+          refer either to the specification or to the implementation.
         </p>
       ),
     },
@@ -1021,4 +1081,12 @@ export const csContents = [
 // The contents length.
 export const contentsLength = csContents.length;
 // The sorted contents by the order.
-export const sortedCsContents = sortContentsByOrder(csContents);
+sortContentsByOrder(csContents);
+
+let subpathContents = [];
+// Add the url parameter to the cs contents' path to show the content based on the route when click the breadcrumbs.
+export const csContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  csContents,
+);

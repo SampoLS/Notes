@@ -25,8 +25,6 @@ const Breadcrumbs = memo(({ path, length }) => {
         addStyle(anchorLists, i);
       });
     }
-    // Setting the style of the first a element.
-    anchorLists[0].classList.add("active");
   });
   // Calculate the number of the total pages.
   const totalPages = length / 15;
@@ -49,7 +47,9 @@ const Breadcrumbs = memo(({ path, length }) => {
   }
   return (
     <Footer>
-      <section ref={ref}>{links}</section>
+      <section ref={ref} id="breadcrumbs">
+        {links}
+      </section>
     </Footer>
   );
 });
