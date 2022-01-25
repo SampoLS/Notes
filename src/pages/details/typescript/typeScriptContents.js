@@ -18,7 +18,8 @@ export const typeScriptContents = [
         <p>
           TypeScript is a programming language developed and maintained by
           Microsoft. It is a strict syntactical superset of JavaScript and adds
-          optional static typing to the language.
+          optional static typing to the language. Types are used to determine
+          both reading and writing behavior.
         </p>
       ),
     },

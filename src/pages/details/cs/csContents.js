@@ -1076,6 +1076,108 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Literal",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Literal_(computer_programming)`,
+    anchor: "Literal",
+    text: {
+      p1: (
+        <p>
+          In computer science, a literal is a notation for representing a fixed
+          value in source code. Almost all programming languages have notations
+          for atomic values such as integers, floating-point numbers, and
+          strings, and usually for booleans and characters; some also have
+          notations for elements of enumerated types and compound values such as
+          arrays, records, and objects. An anonymous function is a literal for
+          the function type.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Value",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Value_(computer_science)`,
+    anchor: "Value",
+    text: {
+      p1: (
+        <p>
+          In computer science, a value is the representation of some entity that
+          can be manipulated by a program. The members of a type are the values
+          of that type.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Syntax",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Syntax_(programming_languages)`,
+    anchor: "Syntax",
+    text: {
+      p1: (
+        <p>
+          In computer science, the syntax of a computer language is the set of
+          rules that defines the combinations of symbols that are considered to
+          be correctly structured statements or expressions in that language.
+          This applies both to programming languages, where the document
+          represents source code, and to markup languages, where the document
+          represents data.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Member variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Member_variable`,
+    anchor: "Member_variable",
+    text: {
+      p1: (
+        <>
+          <p>
+            In object-oriented programming, a member variable (sometimes called
+            a member field) is a variable that is associated with a specific
+            object, and accessible for all its methods (member functions).
+          </p>
+          <p>
+            In class-based programming languages, these are distinguished into
+            two types: class variables (also called static member variables),
+            where only one copy of the variable is shared with all instances of
+            the class; and instance variables, where each instance of the class
+            has its own independent copy of the variable.
+          </p>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data hierarchy",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Data_hierarchy`,
+    anchor: "Data_hierarchy",
+    text: {
+      p1: (
+        <p>
+          Data hierarchy refers to the systematic organization of data, often in
+          a hierarchical form. Data organization involves characters, fields,
+          records, files and so on. This concept is a starting point when trying
+          to see what makes up data and whether data has a structure.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
