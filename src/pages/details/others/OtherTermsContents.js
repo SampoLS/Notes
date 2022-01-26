@@ -40,4 +40,44 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Design pattern",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Design_pattern`,
+    anchor: "Design_pattern",
+    text: {
+      p1: (
+        <p>
+          A design pattern is the re-usable form of a solution to a design
+          problem. The idea was introduced by the architect Christopher
+          Alexander and has been adapted for various other disciplines, notably
+          software engineering.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Interaction",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Interaction`,
+    anchor: "Interaction",
+    text: {
+      p1: (
+        <p>
+          Interaction is a kind of action that occurs as two or more objects
+          have an effect upon one another. The idea of a two-way effect is
+          essential in the concept of interaction, as opposed to a one-way
+          causal effect. Closely related terms are interactivity and
+          interconnectivity, of which the latter deals with the interactions of
+          interactions within systems: combinations of many simple interactions
+          can lead to surprising emergent phenomena. Interaction has different
+          tailored meanings in various sciences.
+        </p>
+      ),
+    },
+  },
 ];

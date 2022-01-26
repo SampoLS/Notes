@@ -1178,6 +1178,51 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Software design pattern",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Software_design_pattern`,
+    anchor: "Software_design_pattern",
+    text: {
+      p1: (
+        <p>
+          In software engineering, a software design pattern is a general,
+          reusable solution to a commonly occurring problem within a given
+          context in software design. It is not a finished design that can be
+          transformed directly into source or machine code. Rather, it is a
+          description or template for how to solve a problem that can be used in
+          many different situations. Design patterns are formalized best
+          practices that the programmer can use to solve common problems when
+          designing an application or system.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Reusability",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Reusability`,
+    anchor: "Reusability",
+    text: {
+      p1: (
+        <p>
+          In computer science and software engineering, reusability is the use
+          of existing assets in some form within the software product
+          development process; these assets are products and by-products of the
+          software development life cycle and include code, software components,
+          test suites, designs and documentation. The opposite concept of
+          reusability is leverage, which modifies existing assets as needed to
+          meet specific system requirements. Because reuse implies the creation
+          of a separately maintained version of the assets[clarification
+          needed], it is preferred over leverage.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
