@@ -1180,6 +1180,28 @@ export const csContents = [
   },
   {
     id: uuidv4(),
+    title: "Software design",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Software_design`,
+    anchor: "Software_design",
+    text: {
+      p1: (
+        <p>
+          Software design is the process by which an agent creates a
+          specification of a software artifact intended to accomplish goals,
+          using a set of primitive components and subject to constraints.
+          Software design may refer to either "all the activity involved in
+          conceptualizing, framing, implementing, commissioning, and ultimately
+          modifying complex systems" or "the activity following requirements
+          specification and before programming, as ... [in] a stylized software
+          engineering process."
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Software design pattern",
     isLargerTitle: false,
     path: "/cs",
