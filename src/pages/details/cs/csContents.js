@@ -1245,6 +1245,142 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Functional programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Functional_programming`,
+    anchor: "Functional_programming",
+    text: {
+      p1: (
+        <p>
+          In computer science, functional programming is a programming paradigm
+          where programs are constructed by applying and composing functions. It
+          is a declarative programming paradigm in which function definitions
+          are trees of expressions that map values to other values, rather than
+          a sequence of imperative statements which update the running state of
+          the program.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Function composition",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Function_composition_(computer_science)`,
+    anchor: "Function_composition",
+    text: {
+      p1: (
+        <p>
+          In computer science, function composition is an act or mechanism to
+          combine simple functions to build more complicated ones. Like the
+          usual composition of functions in mathematics, the result of each
+          function is passed as the argument of the next, and the result of the
+          last one is the result of the whole.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Object composition",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Object_composition`,
+    anchor: "Object_composition",
+    text: {
+      p1: (
+        <p>
+          In computer science, object composition is a way to combine objects or
+          data types into more complex ones. Common kinds of compositions are
+          objects used in object-oriented programming, tagged unions, sets,
+          sequences, and various graph structures. Object compositions relate
+          to, but are not the same as, data structures.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Decomposition",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Decomposition_(computer_science)`,
+    anchor: "Decomposition",
+    text: {
+      p1: (
+        <p>
+          Decomposition in computer science, also known as factoring, is
+          breaking a complex problem or system into parts that are easier to
+          conceive, understand, program, and maintain.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Generic programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Generic_programming`,
+    anchor: "Generic_programming",
+    text: {
+      p1: (
+        <p>
+          Generic programming is a style of computer programming in which
+          algorithms are written in terms of types to-be-specified-later that
+          are then instantiated when needed for specific types provided as
+          parameters.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "High-level programming language",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/High-level_programming_language`,
+    anchor: "High-level_programming_language",
+    text: {
+      p1: (
+        <p>
+          In computer science, a high-level programming language is a
+          programming language with strong abstraction from the details of the
+          computer. In contrast to low-level programming languages, it may use
+          natural language elements, be easier to use, or may automate (or even
+          hide entirely) significant areas of computing systems (e.g. memory
+          management), making the process of developing a program simpler and
+          more understandable than when using a lower-level language. The amount
+          of abstraction provided defines how "high-level" a programming
+          language is.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Computer science",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computer_science`,
+    anchor: "Computer_science",
+    text: {
+      p1: (
+        <p>
+          Computer science is the study of computation, automation, and
+          information. Computer science spans theoretical disciplines, such as
+          algorithms, theory of computation, and information theory, to
+          practical disciplines including the design and implementation of
+          hardware and software. Computer science is generally considered an
+          area of academic research and distinct from computer programming.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
