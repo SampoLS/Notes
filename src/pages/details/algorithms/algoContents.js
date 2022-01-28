@@ -122,4 +122,68 @@ export const algoContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Algorithm Analysis",
+    isLargerTitle: false,
+    path: "/algorithms",
+    url: `${url}/index.htm`,
+    anchor: "Algorithm_Analysis",
+    text: {
+      p1: (
+        <>
+          <p>
+            Efficiency of an algorithm can be analyzed at two different stages,
+            before implementation and after implementation. They are the
+            following -
+          </p>
+          <ol className="list">
+            <li>
+              <strong>A Priori Analysis</strong> - This is a theoretical
+              analysis of an algorithm. Efficiency of an algorithm is measured
+              by assuming that all other factors, for example, processor speed,
+              are constant and have no effect on the implementation.
+            </li>
+            <li>
+              <strong>A Posterior Analysis</strong> - This is an empirical
+              analysis of an algorithm. The selected algorithm is implemented
+              using programming language. This is then executed on target
+              computer machine. In this analysis, actual statistics like running
+              time and space required, are collected.
+            </li>
+          </ol>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Algorithm Complexity",
+    isLargerTitle: false,
+    path: "/algorithms",
+    url: `${url}/index.htm`,
+    anchor: "Algorithm_Complexity",
+    text: {
+      p1: (
+        <>
+          <p>
+            Suppose X is an algorithm and n is the size of input data, the time
+            and space used by the algorithm X are the two main factors, which
+            decide the efficiency of X.
+          </p>
+          <ol className="list">
+            <li>
+              <strong>Time Factor</strong> - Time is measured by counting the
+              number of key operations such as comparisons in the sorting
+              algorithm.
+            </li>
+            <li>
+              <strong>Space Factor</strong> - Space is measured by counting the
+              maximum memory space required by the algorithm.
+            </li>
+          </ol>
+        </>
+      ),
+    },
+  },
 ];
