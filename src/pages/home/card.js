@@ -48,13 +48,13 @@ export const card = [
     id: uuidv4(),
     title: "Data Structure",
     path: "/data_structure",
-    text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    text: "Data Structures are the programmatic way of storing data so that data can be used efficiently.",
   },
   {
     id: uuidv4(),
     title: "Algorithms",
     path: "/algorithms",
-    text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    text: "Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.",
   },
   {
     id: uuidv4(),

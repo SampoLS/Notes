@@ -1,10 +1,10 @@
 import ShowPageContents from "../../../components/ShowPageContents";
-import { dsContents } from "./dsContents";
+import { algoContents } from "./algoContents";
 
-export default function DsPage() {
+export default function AlgoPage() {
   return (
     <>
-      {dsContents.map((item) => {
+      {algoContents.map((item) => {
         return <ShowPageContents key={item.id} {...item} />;
       })}
     </>
