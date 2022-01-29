@@ -1381,6 +1381,157 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Control flow analysis",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Control_flow_analysis`,
+    anchor: "Control_flow_analysis",
+    text: {
+      p1: (
+        <p>
+          In computer science, control-flow analysis (CFA) is a
+          static-code-analysis technique for determining the control flow of a
+          program. The control flow is expressed as a control-flow graph (CFG).
+          For both functional programming languages and object-oriented
+          programming languages, the term CFA, and elaborations such as k-CFA,
+          refer to specific algorithms that compute control flow.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Static program analysis",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Static_program_analysis`,
+    anchor: "Static_program_analysis",
+    text: {
+      p1: (
+        <p>
+          Static program analysis is the analysis of computer software performed
+          without executing any programs, in contrast with dynamic analysis,
+          which is performed on programs during their execution.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Program analysis",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Program_analysis`,
+    anchor: "Program_analysis",
+    text: {
+      p1: (
+        <p>
+          In computer science, program analysis is the process of automatically
+          analyzing the behavior of computer programs regarding a property such
+          as correctness, robustness, safety and liveness. Program analysis
+          focuses on two major areas: program optimization and program
+          correctness. The first focuses on improving the program's performance
+          while reducing the resource usage while the latter focuses on ensuring
+          that the program does what it is supposed to do.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Control-flow diagram",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Control-flow_diagram`,
+    anchor: "Control-flow_diagram",
+    text: {
+      p1: (
+        <p>
+          A control-flow diagram (CFD) is a diagram to describe the control flow
+          of a business process, process or review.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data-flow analysis",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Data-flow_analysis`,
+    anchor: "Data-flow_analysis",
+    text: {
+      p1: (
+        <p>
+          Data-flow analysis is a technique for gathering information about the
+          possible set of values calculated at various points in a computer
+          program. A program's control-flow graph (CFG) is used to determine
+          those parts of a program to which a particular value assigned to a
+          variable might propagate. The information gathered is often used by
+          compilers when optimizing a program. A canonical example of a
+          data-flow analysis is reaching definitions.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Control-flow graph",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Control-flow_graph`,
+    anchor: "Control-flow_graph",
+    text: {
+      p1: (
+        <p>
+          In computer science, a control-flow graph (CFG) is a representation,
+          using graph notation, of all paths that might be traversed through a
+          program during its execution.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Execution",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Execution_(computing)`,
+    anchor: "Execution",
+    text: {
+      p1: (
+        <p>
+          Execution in computer and software engineering is the process by which
+          a computer or virtual machine reads and acts on the instructions of a
+          computer program. Each instruction of a program is a description of a
+          particular action which must be carried out, in order for a specific
+          problem to be solved. Execution involves repeatedly following a
+          'fetch-decode-execute' cycle for each instruction. As the executing
+          machine follows the instructions, specific effects are produced in
+          accordance with the semantics of those instructions.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Batch processing",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Batch_processing`,
+    anchor: "Batch_processing",
+    text: {
+      p1: (
+        <p>
+          Computerized batch processing is the running of "jobs that can run
+          without end user interaction, or can be scheduled to run as resources
+          permit."
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
