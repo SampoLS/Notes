@@ -80,4 +80,41 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Flowchart",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Flowchart`,
+    anchor: "Flowchart",
+    text: {
+      p1: (
+        <p>
+          A flowchart is a type of diagram that represents a workflow or
+          process. A flowchart can also be defined as a diagrammatic
+          representation of an algorithm, a step-by-step approach to solving a
+          task.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data`,
+    anchor: "Data",
+    text: {
+      p1: (
+        <p>
+          Data are individual facts, statistics, or items of information, often
+          numeric. In a more technical sense, data are a set of values of
+          qualitative or quantitative variables about one or more persons or
+          objects, while a datum (singular of data) is a single value of a
+          single variable.
+        </p>
+      ),
+    },
+  },
 ];

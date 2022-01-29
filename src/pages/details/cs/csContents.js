@@ -1478,6 +1478,26 @@ export const csContents = [
   },
   {
     id: uuidv4(),
+    title: "Data-flow diagram",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Data-flow_diagram`,
+    anchor: "Data-flow_diagram",
+    text: {
+      p1: (
+        <p>
+          A data-flow diagram is a way of representing a flow of data through a
+          process or a system (usually an information system). The DFD also
+          provides information about the outputs and inputs of each entity and
+          the process itself. A data-flow diagram has no control flow - there
+          are no decision rules and no loops. Specific operations based on the
+          data can be represented by a flowchart.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Control-flow graph",
     isLargerTitle: false,
     path: "/cs",

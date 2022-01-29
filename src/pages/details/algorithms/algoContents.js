@@ -26,7 +26,7 @@ export const algoContents = [
     title: "Divide-and-conquer algorithm",
     isLargerTitle: false,
     path: "/data_structure",
-    url: `${wikiUrl}//Divide-and-conquer_algorithm`,
+    url: `${wikiUrl}/Divide-and-conquer_algorithm`,
     anchor: "Divide-and-conquer_algorithm",
     text: {
       p1: (
@@ -37,6 +37,26 @@ export const algoContents = [
           until these become simple enough to be solved directly. The solutions
           to the sub-problems are then combined to give a solution to the
           original problem.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Greedy algorithm",
+    isLargerTitle: false,
+    path: "/data_structure",
+    url: `${wikiUrl}/Greedy_algorithm`,
+    anchor: "Greedy_algorithm",
+    text: {
+      p1: (
+        <p>
+          A greedy algorithm is any algorithm that follows the problem-solving
+          heuristic of making the locally optimal choice at each stage. In many
+          problems, a greedy strategy does not produce an optimal solution, but
+          a greedy heuristic can yield locally optimal solutions that
+          approximate a globally optimal solution in a reasonable amount of
+          time.
         </p>
       ),
     },
