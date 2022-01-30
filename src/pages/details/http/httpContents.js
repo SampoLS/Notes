@@ -222,4 +222,83 @@ export const httpContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "HTTP caching",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/Caching`,
+    anchor: "HTTP_caching",
+    text: {
+      p1: (
+        <p>
+          The performance of web sites and applications can be significantly
+          improved by reusing previously fetched resources. Web caches reduce
+          latency and network traffic and thus lessen the time needed to display
+          resource representations. HTTP caching makes Web sites more
+          responsive. For a web site, web caching is a major component in
+          achieving high performance. However, the cache functionality must be
+          configured properly, as not all resources stay identical forever: it's
+          important to cache a resource only until it changes, not longer.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Types of caches",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/Caching#types_of_caches`,
+    anchor: "Types_of_caches",
+    text: {
+      p1: (
+        <p>
+          There are several types of caches. These can be grouped into two main
+          categories: shared and private caches. A shared cache is a cache that
+          stores responses for reuse by more than one user. A private cache is
+          dedicated to a single user.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Private browser caches",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/Caching`,
+    anchor: "Private_browser_caches",
+    text: {
+      p1: (
+        <p>
+          A private cache is dedicated to a single user. You may have seen
+          "caching" in your browser's settings already. A browser cache holds
+          all documents the user downloads via HTTP. This cache is used to make
+          visited documents available for back/forward navigation, saving,
+          viewing-as-source, etc. without requiring an additional trip to the
+          server. It also improves offline browsing of cached content.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Shared proxy caches",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/Caching`,
+    anchor: "Shared_proxy_caches",
+    text: {
+      p1: (
+        <p>
+          A shared cache is a cache that stores responses to be reused by more
+          than one user. For example, an Internet Service Provider (ISP) or your
+          company might have set up a web proxy as part of its local network
+          infrastructure to serve many users so that popular resources are
+          reused a number of times, reducing network traffic and latency.
+        </p>
+      ),
+    },
+  },
 ];

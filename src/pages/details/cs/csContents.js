@@ -1552,6 +1552,71 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Abstract data type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Abstract_data_type`,
+    anchor: "Abstract_data_type",
+    text: {
+      p1: (
+        <p>
+          In computer science, an abstract data type (ADT) is a mathematical
+          model for data types. An abstract data type is defined by its behavior
+          (semantics) from the point of view of a user, of the data,
+          specifically in terms of possible values, possible operations on data
+          of this type, and the behavior of these operations. This mathematical
+          model contrasts with data structures, which are concrete
+          representations of data, and are the point of view of an implementer,
+          not a user.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Queue (abstract data type)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Queue_(abstract_data_type)`,
+    anchor: "Queue",
+    text: {
+      p1: (
+        <p>
+          In computer science, a queue is a collection of entities that are
+          maintained in a sequence and can be modified by the addition of
+          entities at one end of the sequence and the removal of entities from
+          the other end of the sequence. By convention, the end of the sequence
+          at which elements are added is called the back, tail, or rear of the
+          queue, and the end at which elements are removed is called the head or
+          front of the queue, analogously to the words used when people line up
+          to wait for goods or services.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Hypertext Transfer Protocol",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Hypertext_Transfer_Protocol`,
+    anchor: "Hypertext_Transfer_Protocol",
+    text: {
+      p1: (
+        <p>
+          The Hypertext Transfer Protocol (HTTP) is an application layer
+          protocol in the Internet protocol suite model for distributed,
+          collaborative, hypermedia information systems. HTTP is the foundation
+          of data communication for the World Wide Web, where hypertext
+          documents include hyperlinks to other resources that the user can
+          easily access, for example by a mouse click or by tapping the screen
+          in a web browser.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
