@@ -301,4 +301,45 @@ export const httpContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Cache Eviction",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/Caching#freshness`,
+    anchor: "cache_eviction",
+    text: {
+      p1: (
+        <p>
+          Once a resource is stored in a cache, it could theoretically be served
+          by the cache forever. Caches have finite storage space so items are
+          periodically removed from storage. This process is called cache
+          eviction. Also, some resources may change on the server so the cache
+          should be updated when this happens.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Cross-Origin Resource Sharing (CORS)",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/CORS`,
+    anchor: "CORS",
+    text: {
+      p1: (
+        <p>
+          Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism
+          that allows a server to indicate any origins (domain, scheme, or port)
+          other than its own from which a browser should permit loading
+          resources. CORS also relies on a mechanism by which browsers make a
+          "preflight" request to the server hosting the cross-origin resource,
+          in order to check that the server will permit the actual request. In
+          that preflight, the browser sends headers that indicate the HTTP
+          method and headers that will be used in the actual request.
+        </p>
+      ),
+    },
+  },
 ];
