@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import addSubpath from "../../../utils/addSubpath";
+import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 // Web url
 const url = "https://developer.mozilla.org/en-US/docs/Web";
@@ -394,7 +395,67 @@ export const httpContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "TCP",
+    isLargerTitle: false,
+    path: "/http",
+    url: `https://developer.mozilla.org/en-US/docs/Glossary/TCP`,
+    anchor: "TCP",
+    text: {
+      p1: (
+        <p>
+          TCP (Transmission Control Protocol) is an important network protocol
+          that lets two hosts connect and exchange data streams. TCP guarantees
+          the delivery of data and packets in the same order as they were sent.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Protocol",
+    isLargerTitle: false,
+    path: "/http",
+    url: `https://developer.mozilla.org/en-US/docs/Glossary/Protocol`,
+    anchor: "Protocol",
+    text: {
+      p1: (
+        <p>
+          A protocol is a system of rules that define how data is exchanged
+          within or between computers. Communications between devices require
+          that the devices agree on the format of the data that is being
+          exchanged. The set of rules that defines a format is called a
+          protocol.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Transport Layer Security (TLS)",
+    isLargerTitle: false,
+    path: "/http",
+    url: `https://developer.mozilla.org/en-US/docs/Glossary/TLS`,
+    anchor: "TLS",
+    text: {
+      p1: (
+        <p>
+          Transport Layer Security (TLS), formerly known as Secure Sockets Layer
+          (SSL), is a protocol used by applications to communicate securely
+          across a network, preventing tampering with and eavesdropping on
+          email, web browsing, messaging, and other protocols. Both SSL and TLS
+          are client / server protocols that ensure communication privacy by
+          using cryptographic protocols to provide security over a network. When
+          a server and client communicate using TLS, it ensures that no third
+          party can eavesdrop or tamper with any message.
+        </p>
+      ),
+    },
+  },
 ];
+
+sortContentsByOrder(httpContents);
 
 export const contentsLength = httpContents.length;
 
