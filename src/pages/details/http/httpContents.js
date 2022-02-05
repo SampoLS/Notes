@@ -78,8 +78,10 @@ export const httpContents = [
     text: {
       p1: (
         <p>
-          HTTP messages are how data is changed bewteen a server and client.
-          There are two types of messages: requests and response.
+          HTTP messages are how data is exchanged between a server and a client.
+          There are two types of messages: requests sent by the client to
+          trigger an action on the server, and responses, the answer from the
+          server.
         </p>
       ),
     },
@@ -449,6 +451,23 @@ export const httpContents = [
           using cryptographic protocols to provide security over a network. When
           a server and client communicate using TLS, it ensures that no third
           party can eavesdrop or tamper with any message.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Secure Sockets Layer (SSL)",
+    isLargerTitle: false,
+    path: "/http",
+    url: `https://developer.mozilla.org/en-US/docs/Glossary/SSL`,
+    anchor: "SSL",
+    text: {
+      p1: (
+        <p>
+          Secure Sockets Layer, or SSL, was the old standard security technology
+          for creating an encrypted network link between a server and client,
+          ensuring all data passed is private and secure.
         </p>
       ),
     },

@@ -9,6 +9,7 @@ import { gitContents } from "../pages/details/git/gitContents";
 import { termsContents } from "../pages/details/others/OtherTermsContents";
 import { dsContents } from "../pages/details/data_structure/dsContents";
 import { algoContents } from "../pages/details/algorithms/algoContents";
+import { webComponentsContents } from "../pages/details/web_components/web_components_contents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -22,4 +23,5 @@ export const data = httpContents.concat(
   termsContents,
   dsContents,
   algoContents,
+  webComponentsContents,
 );

@@ -11,6 +11,7 @@ import CsPage from "./pages/details/cs/CsPage";
 import GitPage from "./pages/details/git/GitPage";
 import DsPage from "./pages/details/data_structure/DsPage";
 import AlgoPage from "./pages/details/algorithms/AlgoPage";
+import WebComponents from "./pages/details/web_components/WebComponents";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -64,6 +65,7 @@ const App = () => {
           <Route path="git" element={<GitPage />} />
           <Route path="data_structure" element={<DsPage />} />
           <Route path="algorithms" element={<AlgoPage />} />
+          <Route path="web_components" element={<WebComponents />} />
           <Route path="other_terms" element={<OtherTermsPage />} />
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

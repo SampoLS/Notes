@@ -58,6 +58,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Web Components",
+    path: "/web_components",
+    text: "Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.",
+  },
+  {
+    id: uuidv4(),
     title: "Other Terms",
     path: "/other_terms",
     text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
