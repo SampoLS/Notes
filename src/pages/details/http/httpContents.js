@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 
 // Web url
 const url = "https://developer.mozilla.org/en-US/docs/Web";
@@ -342,4 +343,64 @@ export const httpContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "4 Building Blocks Of World Wide Web",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/Basics_of_HTTP/Evolution_of_HTTP`,
+    anchor: "world_wide_web",
+    text: {
+      p1: (
+        <ol className="list">
+          <li>
+            A textual format to represent hypertext documents, the HyperText
+            Markup Language (HTML).
+          </li>
+          <li>
+            A simple protocol to exchange these documents, the HyperText
+            Transfer Protocol (HTTP).
+          </li>
+          <li>
+            A client to display (and edit) these documents, the first web
+            browser called the WorldWideWeb.
+          </li>
+          <li>
+            A server to give access to the document, an early version of httpd.
+          </li>
+        </ol>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Cross-Origin Resource Sharing (CORS)",
+    isLargerTitle: false,
+    path: "/http",
+    url: `${url}/HTTP/CORS`,
+    anchor: "CORS",
+    text: {
+      p1: (
+        <p>
+          Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism
+          that allows a server to indicate any origins (domain, scheme, or port)
+          other than its own from which a browser should permit loading
+          resources. CORS also relies on a mechanism by which browsers make a
+          "preflight" request to the server hosting the cross-origin resource,
+          in order to check that the server will permit the actual request. In
+          that preflight, the browser sends headers that indicate the HTTP
+          method and headers that will be used in the actual request.
+        </p>
+      ),
+    },
+  },
 ];
+
+export const contentsLength = httpContents.length;
+
+let subpathContents = [];
+export const httpContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  httpContents,
+);

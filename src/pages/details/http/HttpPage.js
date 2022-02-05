@@ -1,6 +1,7 @@
 import { memo } from "react";
-import ShowPageContents from "../../../components/ShowPageContents";
-import { httpContents } from "./httpContents";
+import { Outlet } from "react-router-dom";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { contentsLength } from "./httpContents";
 
 import "./HttpPage.css";
 
@@ -8,9 +9,8 @@ import "./HttpPage.css";
 const HttpPage = () => {
   return (
     <>
-      {httpContents.map((item) => {
-        return <ShowPageContents key={item.id} {...item} />;
-      })}
+      <Outlet />
+      <Breadcrumbs path="http" length={contentsLength} />
     </>
   );
 };

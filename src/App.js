@@ -23,6 +23,7 @@ import { csContents } from "./pages/details/cs/csContents";
 import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
 import { reactContents } from "./pages/details/react/reactContents";
 import { jsContents } from "./pages/details/javascript/javaScriptContents";
+import { httpContents } from "./pages/details/http/httpContents";
 
 const App = () => {
   return (
@@ -30,7 +31,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Page />}>
           <Route index element={<Home />} />
-          <Route path="http" element={<HttpPage />} />
+          <Route path="http" element={<HttpPage />}>
+            <Route index element={<IndexRoutePage content={httpContents} />} />
+            <Route path=":pId" element={<SplitPage content={httpContents} />} />
+          </Route>
           <Route path="react-router" element={<ReactRouterPage />}>
             <Route
               index
