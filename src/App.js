@@ -7,6 +7,7 @@ import ReactPage from "./pages/details/react/ReactPage";
 import ReactRouterPage from "./pages/details/react_router/ReactRouterPage";
 import TypeScriptPage from "./pages/details/typescript/TypeScriptPage";
 import JavaScriptPage from "./pages/details/javascript/JavaScriptPage";
+import AsyncJs from "./pages/details/asynchronous_js/AsyncJs";
 import CsPage from "./pages/details/cs/CsPage";
 import GitPage from "./pages/details/git/GitPage";
 import DsPage from "./pages/details/data_structure/DsPage";
@@ -58,6 +59,7 @@ const App = () => {
             <Route index element={<IndexRoutePage content={jsContents} />} />
             <Route path=":pId" element={<SplitPage content={jsContents} />} />
           </Route>
+          <Route path="asynchronous_js" element={<AsyncJs />} />
           <Route path="cs" element={<CsPage />}>
             <Route index element={<IndexRoutePage content={csContents} />} />
             <Route path=":pId" element={<SplitPage content={csContents} />} />

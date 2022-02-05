@@ -342,23 +342,6 @@ export const jsContents = [
       ),
     },
   },
-  {
-    id: uuidv4(),
-    title: "Asynchronous",
-    isLargerTitle: false,
-    path: "/javascript",
-    url: `https://developer.mozilla.org/en-US/docs/Glossary/Asynchronous`,
-    anchor: "Asynchronous",
-    text: {
-      p1: (
-        <p>
-          The term asynchronous refers to two or more objects or events not
-          existing or happening at the same time (or multiple related things
-          happening without waiting for the previous one to complete).
-        </p>
-      ),
-    },
-  },
 ];
 
 sortContentsByOrder(jsContents);

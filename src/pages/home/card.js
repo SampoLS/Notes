@@ -34,6 +34,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Asynchronous JS",
+    path: "/asynchronous_js",
+    text: "The term asynchronous refers to two or more objects or events not existing or happening at the same time (or multiple related things happening without waiting for the previous one to complete).",
+  },
+  {
+    id: uuidv4(),
     title: "CS",
     path: "/cs",
     text: "This page is about the common terms in computer science or computer programming languages.",
