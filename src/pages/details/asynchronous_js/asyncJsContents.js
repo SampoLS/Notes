@@ -170,6 +170,35 @@ export const asyncJsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Promises",
+    isLargerTitle: false,
+    path: "/asynchronous_js",
+    url: `${url}/Promises`,
+    anchor: "Promises",
+    text: {
+      p1: (
+        <>
+          <p>
+            <strong>Promises</strong> are a JavaScript feature that allow you to
+            defer further actions until after a previous action has completed,
+            or respond to its failure.
+          </p>
+          <p>
+            Essentially, a Promise is an object that represents an intermediate
+            state of an operation — in effect, a <i>promise</i> that a result of
+            some kind will be returned at some point in the future. There is no
+            guarantee of exactly when the operation will complete and the result
+            will be returned, but there is a guarantee that when the result is
+            available, or the promise fails, the code you provide will be
+            executed in order to do something else with a successful result, or
+            to gracefully handle a failure case.
+          </p>
+        </>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = asyncJsContents.length;
