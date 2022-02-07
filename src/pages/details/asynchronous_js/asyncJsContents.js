@@ -131,14 +131,41 @@ export const asyncJsContents = [
     anchor: "Async_callbacks",
     text: {
       p1: (
+        <>
+          <p>
+            Async callbacks are functions that are specified as arguments when
+            calling a function which will start executing code in the
+            background. When the background code finishes running, it calls the
+            callback function to let you know the work is done, or to let you
+            know that something of interest has happened. Using callbacks is
+            slightly old-fashioned now, but you'll still see them in use in a
+            number of older-but-still-commonly-used APIs.
+          </p>
+          <p>
+            Callbacks are versatile — not only do they allow you to control the
+            order in which functions are run and what data is passed between
+            them, they also allow you to pass data to different functions
+            depending on circumstance.
+          </p>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "The event queue",
+    isLargerTitle: false,
+    path: "/asynchronous_js",
+    url: `${url}/Introducing#the_event_queue`,
+    anchor: "The_event_queue",
+    text: {
+      p1: (
         <p>
-          Async callbacks are functions that are specified as arguments when
-          calling a function which will start executing code in the background.
-          When the background code finishes running, it calls the callback
-          function to let you know the work is done, or to let you know that
-          something of interest has happened. Using callbacks is slightly
-          old-fashioned now, but you'll still see them in use in a number of
-          older-but-still-commonly-used APIs.
+          Async operations like promises are put into an{" "}
+          <strong>event queue</strong>, which runs after the main thread has
+          finished processing so that they do not block subsequent JavaScript
+          code from running. The queued operations will complete as soon as
+          possible then return their results to the JavaScript environment.
         </p>
       ),
     },
