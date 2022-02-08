@@ -378,6 +378,87 @@ export const jsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Stack",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/EventLoop#stack`,
+    anchor: "Stack",
+    text: {
+      p1: <p>Function calls form a stack of frames.</p>,
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Heap",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/EventLoop#Heap`,
+    anchor: "Heap",
+    text: {
+      p1: (
+        <p>
+          Objects are allocated in a heap which is just a name to denote a large
+          (mostly unstructured) region of memory.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Queue",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/EventLoop#Queue`,
+    anchor: "Queue",
+    text: {
+      p1: (
+        <p>
+          A JavaScript runtime uses a message queue, which is a list of messages
+          to be processed. Each message has an associated function that gets
+          called to handle the message.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Run-to-completion",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/EventLoop#run-to-completion`,
+    anchor: "run-to-completion",
+    text: {
+      p1: (
+        <p>
+          Each message is processed completely before any other message is
+          processed. This offers some nice properties when reasoning about your
+          program, including the fact that whenever a function runs, it cannot
+          be preempted and will run entirely before any other code runs (and can
+          modify data the function manipulates).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Adding messages",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/EventLoop#adding_messages`,
+    anchor: "Adding_messages",
+    text: {
+      p1: (
+        <p>
+          In web browsers, messages are added anytime an event occurs and there
+          is an event listener attached to it. If there is no listener, the
+          event is lost. So a click on an element with a click event handler
+          will add a message—likewise with any other event.
+        </p>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(jsContents);
