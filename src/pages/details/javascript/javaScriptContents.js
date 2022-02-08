@@ -342,6 +342,42 @@ export const jsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Call stack",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `https://developer.mozilla.org/en-US/docs/Glossary/Call_stack`,
+    anchor: "Call_stack",
+    text: {
+      p1: (
+        <p>
+          A call stack is a mechanism for an interpreter (like the JavaScript
+          interpreter in a web browser) to keep track of its place in a script
+          that calls multiple functions — what function is currently being run
+          and what functions are called from within that function.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "The event loop",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/EventLoop`,
+    anchor: "The_event_loop",
+    text: {
+      p1: (
+        <p>
+          JavaScript has a runtime model based on an event loop, which is
+          responsible for executing the code, collecting and processing events,
+          and executing queued sub-tasks. This model is quite different from
+          models in other languages like C and Java.
+        </p>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(jsContents);
