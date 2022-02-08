@@ -8,6 +8,8 @@ const apiUrl = "https://developer.mozilla.org/en-US/docs/Web/API";
 // JS url
 const jsUrl = "https://developer.mozilla.org/en-US/docs/Web/JavaScript";
 
+const glossaryUrl = "https://developer.mozilla.org/en-US/docs/Glossary";
+
 // This is JavaScript page contents
 export const jsContents = [
   {
@@ -455,6 +457,81 @@ export const jsContents = [
           is an event listener attached to it. If there is no listener, the
           event is lost. So a click on an element with a click event handler
           will add a message—likewise with any other event.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Main thread",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Main_thread`,
+    anchor: "Main_thread",
+    text: {
+      p1: (
+        <p>
+          The main thread is where a browser processes user events and paints.
+          By default, the browser uses a single thread to run all the JavaScript
+          in your page, as well as to perform layout, reflows, and garbage
+          collection. This means that long-running JavaScript functions can
+          block the thread, leading to an unresponsive page and a bad user
+          experience.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Thread",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Thread`,
+    anchor: "Thread",
+    text: {
+      p1: (
+        <p>
+          Thread in computer science is the execution of running multiple tasks
+          or programs at the same time. Each unit capable of executing code is
+          called a thread.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Tasks",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/HTML_DOM_API/Microtask_guide#tasks`,
+    anchor: "Tasks",
+    text: {
+      p1: (
+        <p>
+          A task is any JavaScript code which is scheduled to be run by the
+          standard mechanisms such as initially starting to run a program, an
+          event callback being run, or an interval or timeout being fired. These
+          all get scheduled on the task queue.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Microtasks",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${apiUrl}/HTML_DOM_API/Microtask_guide#microtasks`,
+    anchor: "Microtasks",
+    text: {
+      p1: (
+        <p>
+          At first the difference between microtasks and tasks seems minor. And
+          they are similar; both are made up of JavaScript code which gets
+          placed on a queue and run at an appropriate time. However, whereas the
+          event loop runs only the tasks present on the queue when the iteration
+          began, one after another, it handles the microtask queue very
+          differently.
         </p>
       ),
     },
