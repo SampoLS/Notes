@@ -536,6 +536,34 @@ export const jsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "JSON",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/JSON`,
+    anchor: "JSON",
+    text: {
+      p1: (
+        <>
+          <p>
+            JavaScript Object Notation (JSON) is a data-interchange format.
+            Although not a strict subset, JSON closely resembles a subset of
+            JavaScript syntax. Though many programming languages support JSON,
+            it is especially useful for JavaScript-based apps, including
+            websites and browser extensions.
+          </p>
+          <p>
+            JavaScript Object Notation (JSON) is a standard text-based format
+            for representing structured data based on JavaScript object syntax.
+            It is commonly used for transmitting data in web applications (e.g.,
+            sending some data from the server to the client, so it can be
+            displayed on a web page, or vice versa).
+          </p>
+        </>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(jsContents);
