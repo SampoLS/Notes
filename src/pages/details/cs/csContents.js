@@ -1598,21 +1598,147 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Hypertext Transfer Protocol",
+    title: "Separation of concerns",
     isLargerTitle: false,
     path: "/cs",
-    url: `${wikiUrl}/Hypertext_Transfer_Protocol`,
-    anchor: "Hypertext_Transfer_Protocol",
+    url: `${wikiUrl}/Separation_of_concerns`,
+    anchor: "Separation_of_concerns",
     text: {
       p1: (
         <p>
-          The Hypertext Transfer Protocol (HTTP) is an application layer
-          protocol in the Internet protocol suite model for distributed,
-          collaborative, hypermedia information systems. HTTP is the foundation
-          of data communication for the World Wide Web, where hypertext
-          documents include hyperlinks to other resources that the user can
-          easily access, for example by a mouse click or by tapping the screen
-          in a web browser.
+          In computer science, separation of concerns (SoC) is a design
+          principle for separating a computer program into distinct sections.
+          Each section addresses a separate concern, a set of information that
+          affects the code of a computer program. A concern can be as general as
+          "the details of the hardware for an application", or as specific as
+          "the name of which class to instantiate". A program that embodies SoC
+          well is called a modular program. Modularity, and hence separation of
+          concerns, is achieved by encapsulating information inside a section of
+          code that has a well-defined interface. Encapsulation is a means of
+          information hiding. Layered designs in information systems are another
+          embodiment of separation of concerns (e.g., presentation layer,
+          business logic layer, data access layer, persistence layer).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Software engineering",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Software_engineering`,
+    anchor: "Software_engineering",
+    text: {
+      p1: (
+        <p>
+          Software engineering is an engineering approach on a software
+          development of systematics application. A software engineer is a
+          person who applies the principles of software engineering to design,
+          develop, maintain, test, and evaluate computer software. The term
+          programmer is sometimes used as a synonym, but may also lack
+          connotations of engineering education or skills.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Software",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Software`,
+    anchor: "Software",
+    text: {
+      p1: (
+        <p>
+          Software is a collection of instructions that tell a computer how to
+          work. This is in contrast to hardware, from which the system is built
+          and actually performs the work.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Business logic",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Business_logic`,
+    anchor: "Business_logic",
+    text: {
+      p1: (
+        <p>
+          In computer software, business logic or domain logic is the part of
+          the program that encodes the real-world business rules that determine
+          how data can be created, stored, and changed. It is contrasted with
+          the remainder of the software that might be concerned with lower-level
+          details of managing a database or displaying the user interface,
+          system infrastructure, or generally connecting various parts of the
+          program.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Create, read, update and delete",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Create,_read,_update_and_delete`,
+    anchor: "Create,_read,_update_and_delete",
+    text: {
+      p1: (
+        <p>
+          In computer programming, create, read, update, and delete (CRUD) are
+          the four basic operations of persistent storage. CRUD is also
+          sometimes used to describe user interface conventions that facilitate
+          viewing, searching, and changing information using computer-based
+          forms and reports.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Server (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Server_(computing)`,
+    anchor: "Server_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing, a server is a piece of computer hardware or software
+          (computer program) that provides functionality for other programs or
+          devices, called "clients". This architecture is called the
+          client-server model. Servers can provide various functionalities,
+          often called "services", such as sharing data or resources among
+          multiple clients, or performing computation for a client. A single
+          server can serve multiple clients, and a single client can use
+          multiple servers. A client process may run on the same device or may
+          connect over a network to a server on a different device. Typical
+          servers are database servers, file servers, mail servers, print
+          servers, web servers, game servers, and application servers.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Computer file",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computer_file`,
+    anchor: "Computer_file",
+    text: {
+      p1: (
+        <p>
+          A computer file is a computer resource for recording data in a
+          computer storage device, primarily identified by its file name. Just
+          as words can be written to paper, so can data be written to a computer
+          file. Files can be edited and transferred through the Internet on that
+          particular computer system.
         </p>
       ),
     },

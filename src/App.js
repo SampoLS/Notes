@@ -13,6 +13,7 @@ import GitPage from "./pages/details/git/GitPage";
 import DsPage from "./pages/details/data_structure/DsPage";
 import AlgoPage from "./pages/details/algorithms/AlgoPage";
 import WebComponents from "./pages/details/web_components/WebComponents";
+import WebTermsPage from "./pages/details/web_terms/WebTermsPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -26,6 +27,7 @@ import { reactRouterContents } from "./pages/details/react_router/reactRouterCon
 import { reactContents } from "./pages/details/react/reactContents";
 import { jsContents } from "./pages/details/javascript/javaScriptContents";
 import { httpContents } from "./pages/details/http/httpContents";
+import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
 
 const App = () => {
   return (
@@ -68,6 +70,16 @@ const App = () => {
           <Route path="data_structure" element={<DsPage />} />
           <Route path="algorithms" element={<AlgoPage />} />
           <Route path="web_components" element={<WebComponents />} />
+          <Route path="web_terms" element={<WebTermsPage />}>
+            <Route
+              index
+              element={<IndexRoutePage content={webTermsContents} />}
+            />
+            <Route
+              path=":pId"
+              element={<SplitPage content={webTermsContents} />}
+            />
+          </Route>
           <Route path="other_terms" element={<OtherTermsPage />} />
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

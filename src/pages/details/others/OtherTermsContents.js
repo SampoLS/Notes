@@ -117,4 +117,41 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Engineering",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Engineering`,
+    anchor: "Engineering",
+    text: {
+      p1: (
+        <p>
+          Engineering is the use of scientific principles to design and build
+          machines, structures, and other items, including bridges, tunnels,
+          roads, vehicles, and buildings. The discipline of engineering
+          encompasses a broad range of more specialized fields of engineering,
+          each with a more specific emphasis on particular areas of applied
+          mathematics, applied science, and types of application. See glossary
+          of engineering.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Rule of thumb",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Rule_of_thumb`,
+    anchor: "Rule_of_thumb",
+    text: {
+      p1: (
+        <p>
+          Rule of thumb is an approximate method for doing something, based on
+          practical experience rather than theory.
+        </p>
+      ),
+    },
+  },
 ];

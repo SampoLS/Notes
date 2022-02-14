@@ -70,6 +70,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Web Terms",
+    path: "/web_terms",
+    text: "The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet.",
+  },
+  {
+    id: uuidv4(),
     title: "Other Terms",
     path: "/other_terms",
     text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
