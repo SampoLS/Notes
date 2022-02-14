@@ -154,4 +154,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computing",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Computing`,
+    anchor: "Computing",
+    text: {
+      p1: (
+        <p>
+          Computing is any goal-oriented activity requiring, benefiting from, or
+          creating computing machinery. It includes the study and
+          experimentation of algorithmic processes and development of both
+          hardware and software. It has scientific, engineering, mathematical,
+          technological and social aspects. Major computing disciplines include
+          computer engineering, computer science, cybersecurity, data science,
+          information systems, information technology and software engineering.
+        </p>
+      ),
+    },
+  },
 ];
