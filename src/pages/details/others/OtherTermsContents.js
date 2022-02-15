@@ -175,4 +175,41 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Tree structure",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Tree_structure`,
+    anchor: "Tree_structure",
+    text: {
+      p1: (
+        <p>
+          A tree structure, tree diagram, or tree model is a way of representing
+          the hierarchical nature of a structure in a graphical form. It is
+          named a "tree structure" because the classic representation resembles
+          a tree, although the chart is generally upside down compared to a
+          biological tree, with the "stem" at the top and the "leaves" at the
+          bottom.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Node (computer science)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Node_(computer_science)`,
+    anchor: "Node_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          A node is a basic unit of a data structure, such as a linked list or
+          tree data structure. Nodes contain data and also may link to other
+          nodes. Links between nodes are often implemented by pointers.
+        </p>
+      ),
+    },
+  },
 ];

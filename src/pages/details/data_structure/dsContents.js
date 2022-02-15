@@ -78,4 +78,22 @@ export const dsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Tree (data structure)",
+    isLargerTitle: false,
+    path: "/data_structure",
+    url: `${wikiUrl}/Tree_(data_structure)`,
+    anchor: "Tree_(data_structure)",
+    text: {
+      p1: (
+        <p>
+          In computer science, a tree is a widely used abstract data type that
+          simulates a hierarchical tree structure, with a root value and
+          subtrees of children with a parent node, represented as a set of
+          linked nodes.
+        </p>
+      ),
+    },
+  },
 ];
