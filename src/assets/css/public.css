@@ -42,6 +42,8 @@ section {
 }
 .list li {
   margin-left: 2rem;
+  font-size: 1.5rem;
+  font-family: "Segoe UI";
 }
 
 .pop-page {
@@ -107,12 +109,12 @@ h1 {
 h3 {
   font-size: 26px;
   font-weight: 400;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI";
 }
 p {
   line-height: 1.8rem;
-  font-size: 22px;
+  font-size: 1.5rem;
+  font-family: "Segoe UI";
 }
 b {
   text-transform: uppercase;

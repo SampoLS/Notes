@@ -70,6 +70,7 @@ const Footer = styled.footer`
       align-items: center;
       justify-content: center;
       border: none;
+      font-family: "Segoe UI";
       &:hover {
         cursor: pointer;
       }
