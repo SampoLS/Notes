@@ -1768,6 +1768,245 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Higher-order function",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Higher-order_function`,
+    anchor: "Higher-order_function",
+    text: {
+      p1: (
+        <>
+          <p>
+            In mathematics and computer science, a higher-order function is a
+            function that does at least one of the following:
+          </p>
+          <ol className="list">
+            <li>
+              takes one or more functions as arguments (i.e. a procedural
+              parameter, which is a parameter of a procedure that is itself a
+              procedure),
+            </li>
+            <li>returns a function as its result.</li>
+          </ol>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Parameter (computer programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Parameter_(computer_programming)`,
+    anchor: "Parameter_(computer_programming)",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a parameter or a formal argument is a special
+          kind of variable used in a subroutine to refer to one of the pieces of
+          data provided as input to the subroutine. These pieces of data are the
+          values of the arguments (often called actual arguments or actual
+          parameters) with which the subroutine is going to be called/invoked.
+          An ordered list of parameters is usually included in the definition of
+          a subroutine, so that, each time the subroutine is called, its
+          arguments for that call are evaluated, and the resulting values can be
+          assigned to the corresponding parameters.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Programming language",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Programming_language`,
+    anchor: "Programming_language",
+    text: {
+      p1: (
+        <p>
+          A programming language is any set of rules that converts strings, or
+          graphical program elements in the case of visual programming
+          languages, to various kinds of machine code output. Programming
+          languages are one kind of computer language, and are used in computer
+          programming to implement algorithms.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Record (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Record_(computer_science)`,
+    anchor: "Record_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science, a record (also called a structure, struct, or
+          compound data) is a basic data structure. Records in a database or
+          spreadsheet are usually called "rows". A record is a collection of
+          fields, possibly of different data types, typically in a fixed number
+          and sequence. The fields of a record may also be called members,
+          particularly in object-oriented programming; fields may also be called
+          elements, though this risks confusion with the elements of a
+          collection.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Cohesion (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Cohesion_(computer_science)`,
+    anchor: "Cohesion_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer programming, cohesion refers to the degree to which the
+          elements inside a module belong together. In one sense, it is a
+          measure of the strength of relationship between the methods and data
+          of a class and some unifying purpose or concept served by that class.
+          In another sense, it is a measure of the strength of relationship
+          between the class's methods and data themselves.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Language construct",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Language_construct`,
+    anchor: "Language_construct",
+    text: {
+      p1: (
+        <p>
+          A language construct is a syntactically allowable part of a program
+          that may be formed from one or more lexical tokens in accordance with
+          the rules of a programming language. The term "language construct" is
+          often used as a synonym for control structure. Control flow statements
+          (such as conditionals, foreach loops, while loops, etc) are language
+          constructs, not functions. So while (true) is a language construct,
+          while add(10) is a function call.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "this (computer programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/This_(computer_programming)`,
+    anchor: "this_(computer_programming)",
+    text: {
+      p1: (
+        <p>
+          this, self, and Me are keywords used in some computer programming
+          languages to refer to the object, class, or other entity of which the
+          currently running code is a part. The entity referred to by these
+          keywords thus depends on the execution context (such as which object
+          is having its method called). Different programming languages use
+          these keywords in slightly different ways. In languages where a
+          keyword like "this" is mandatory, the keyword is the only way to
+          access data and methods stored in the current object. Where optional,
+          they can disambiguate variables and functions with the same name.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Value type and reference type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Value_type_and_reference_type`,
+    anchor: "Value_type_and_reference_type",
+    text: {
+      p1: (
+        <p>
+          In computer programming, data types can be divided into two
+          categories: value types and reference types. A value of value type is
+          the actual value. A value of reference type is a reference to another
+          value.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Primitive data type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Primitive_data_type`,
+    anchor: "Primitive_data_type",
+    text: {
+      p1: (
+        <p>
+          In computer science, primitive data types are a set of basic data
+          types from which all other data types are constructed. Specifically it
+          often refers to the limited set of data representations in use by a
+          particular processor, which all compiled programs must use. Most
+          processors support a similar set of primitive data types, although the
+          specific representations vary. More generally "primitive data types"
+          may refer to the standard data types built into a programming
+          language. Data types which are not primitive are referred to as
+          derived or composite data types. Primitive types are almost always
+          value types, but composite types may also be value types.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Composite data type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Composite_data_type`,
+    anchor: "Composite_data_type",
+    text: {
+      p1: (
+        <p>
+          In computer science, a composite data type or compound data type is
+          any data type which can be constructed in a program using the
+          programming language's primitive data types and other composite types.
+          It is sometimes called a structure or aggregate data type, although
+          the latter term may also refer to arrays, lists, etc. The act of
+          constructing a composite type is known as composition. Composite data
+          types are often contrasted with scalar variables.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Message passing",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Message_passing`,
+    anchor: "Message_passing",
+    text: {
+      p1: (
+        <p>
+          In computer science, message passing is a technique for invoking
+          behavior (i.e., running a program) on a computer. The invoking program
+          sends a message to a process (which may be an actor or object) and
+          relies on that process and its supporting infrastructure to then
+          select and run some appropriate code. Message passing differs from
+          conventional programming where a process, subroutine, or function is
+          directly invoked by name. Message passing is key to some models of
+          concurrency and object-oriented programming.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
