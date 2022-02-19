@@ -564,6 +564,91 @@ export const jsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Deep copy",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Deep_copy`,
+    anchor: "Deep_copy",
+    text: {
+      p1: (
+        <p>
+          A deep copy of an object is a copy whose properties do not share the
+          same references (point to the same underlying values) as those of the
+          source object from which the copy was made. As a result, when you
+          change either the source or the copy, you can be assured you're not
+          causing the other object to change too; that is, you won't
+          unintentionally be causing changes to the source or copy that you
+          don't expect. That behavior contrasts with the behavior of a shallow
+          copy, in which changes to either the source or the copy may also cause
+          the other object to change too (because the two objects share the same
+          references).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Serialization",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Serialization`,
+    anchor: "Serialization",
+    text: {
+      p1: (
+        <p>
+          The process whereby an object or data structure is translated into a
+          format suitable for transferral over a network, or storage (e.g. in an
+          array buffer or file format). In JavaScript, for example, you can
+          serialize an object to a JSON string by calling the function
+          JSON.stringify().
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Transferable objects",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Transferable_objects`,
+    anchor: "Transferable_objects",
+    text: {
+      p1: (
+        <p>
+          Transferable objects are objects that own resources that can be
+          transferred from one context to another, ensuring that the resources
+          are only available in one context at a time. Following a transfer, the
+          original object is no longer usable; it no longer points to the
+          transferred resource, and any attempt to read or write the object will
+          throw an exception.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Shallow copy",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Shallow_copy`,
+    anchor: "Shallow_copy",
+    text: {
+      p1: (
+        <p>
+          A shallow copy of an object is a copy whose properties share the same
+          references (point to the same underlying values) as those of the
+          source object from which the copy was made. As a result, when you
+          change either the source or the copy, you may also cause the other
+          object to change too — and so, you may end up unintentionally causing
+          changes to the source or copy that you don't expect. That behavior
+          contrasts with the behavior of a deep copy, in which the source and
+          copy are completely independent.
+        </p>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(jsContents);
