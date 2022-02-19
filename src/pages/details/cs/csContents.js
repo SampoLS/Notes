@@ -2036,6 +2036,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Object copying",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Object_copying`,
+    anchor: "Object_copying",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming, object copying is creating a copy of
+          an existing object, a unit of data in object-oriented programming. The
+          resulting object is called an object copy or simply copy of the
+          original object. Copying is basic but has subtleties and can have
+          significant overhead. There are several ways to copy an object, most
+          commonly by a copy constructor or cloning. Copying is done mostly so
+          the copy can be modified or moved, or the current value preserved. If
+          either of these is unneeded, a reference to the original data is
+          sufficient and more efficient, as no copying occurs.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
