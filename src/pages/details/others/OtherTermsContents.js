@@ -197,17 +197,42 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Node (computer science)",
+    title: "Sequence",
     isLargerTitle: false,
     path: "/other_terms",
-    url: `${wikiUrl}/Node_(computer_science)`,
-    anchor: "Node_(computer_science)",
+    url: `${wikiUrl}/Sequence`,
+    anchor: "Sequence",
     text: {
       p1: (
         <p>
-          A node is a basic unit of a data structure, such as a linked list or
-          tree data structure. Nodes contain data and also may link to other
-          nodes. Links between nodes are often implemented by pointers.
+          In mathematics, a sequence is an enumerated collection of objects in
+          which repetitions are allowed and order matters. In computing and
+          computer science, finite sequences are sometimes called strings, words
+          or lists, the different names commonly corresponding to different ways
+          to represent them in computer memory; infinite sequences are called
+          streams. The empty sequence ( ) is included in most notions of
+          sequence, but may be excluded depending on the context.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Context (language use)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Context_(language_use)`,
+    anchor: "Context_(language_use)",
+    text: {
+      p1: (
+        <p>
+          In semiotics, linguistics, sociology and anthropology, context refers
+          to those objects or entities which surround a focal event, in these
+          disciplines typically a communicative event, of some kind. Context is
+          "a frame that surrounds the event and provides resources for its
+          appropriate interpretation". It is thus a relative concept, only
+          definable with respect to some focal event within a frame, not
+          independently of that frame.
         </p>
       ),
     },

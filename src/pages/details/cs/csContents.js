@@ -2059,6 +2059,111 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Node (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Node_(computer_science)`,
+    anchor: "Node_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          A node is a basic unit of a data structure, such as a linked list or
+          tree data structure. Nodes contain data and also may link to other
+          nodes. Links between nodes are often implemented by pointers.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Iteration",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Iteration`,
+    anchor: "Iteration",
+    text: {
+      p1: (
+        <p>
+          Iteration is the repetition of a process in order to generate a
+          (possibly unbounded) sequence of outcomes. Each repetition of the
+          process is a single iteration, and the outcome of each iteration is
+          then the starting point of the next iteration. In mathematics and
+          computer science, iteration (along with the related technique of
+          recursion) is a standard element of algorithms.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "List (abstract data type)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/List_(abstract_data_type)`,
+    anchor: "List_(abstract_data_type)",
+    text: {
+      p1: (
+        <p>
+          In computer science, a list or sequence is an abstract data type that
+          represents a finite number of ordered values, where the same value may
+          occur more than once. An instance of a list is a computer
+          representation of the mathematical concept of a tuple or finite
+          sequence; the (potentially) infinite analog of a list is a stream.
+          Lists are a basic example of containers, as they contain other values.
+          If the same value occurs multiple times, each occurrence is considered
+          a distinct item.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Iterator",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Iterator`,
+    anchor: "Iterator",
+    text: {
+      p1: (
+        <p>
+          In computer programming, an iterator is an object that enables a
+          programmer to traverse a container, particularly lists. Various types
+          of iterators are often provided via a container's interface. Though
+          the interface and semantics of a given iterator are fixed, iterators
+          are often implemented in terms of the structures underlying a
+          container implementation and are often tightly coupled to the
+          container to enable the operational semantics of the iterator. An
+          iterator performs traversal and also gives access to data elements in
+          a container, but does not itself perform iteration (i.e., not without
+          some significant liberty taken with that concept or with trivial use
+          of the terminology)
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Context (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Context_(computing)`,
+    anchor: "Context_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer science, a task context is the minimal set of data used by
+          a task (which may be a process, thread, or fiber) that must be saved
+          to allow a task to be interrupted, and later continued from the same
+          point. The concept of context assumes significance in the case of
+          interruptible tasks, wherein, upon being interrupted, the processor
+          saves the context and proceeds to serve the interrupt service routine.
+          Thus, the smaller the context is, the smaller the latency is.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

@@ -5,7 +5,8 @@
  * @returns {Array<object>} The contents which path added the subpath
  */
 const addSubpath = (subpathContents, contentsLength, contents) => {
-  for (let i = 0; i < Math.ceil(contentsLength / 15); i++) {
+  const lengthOfTotalPages = Math.ceil(contentsLength / 15);
+  for (let i = 0; i < lengthOfTotalPages; i++) {
     if (i === 0) {
       subpathContents.push(
         ...contents.slice(0, 15).map((item) => {
