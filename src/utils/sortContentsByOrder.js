@@ -15,9 +15,9 @@ export const sortContentsByOrder = (contents) => {
   const largeTitleIndex = sortedContents.findIndex(
     (item) => item.isLargerTitle === true,
   );
-  // Delete the content of large title.
+  // Delete the content of large(h1) title.
   const [largeTitle] = sortedContents.splice(largeTitleIndex, 1);
-  // Add the content of large title to the first position.
+  // Add the content of large(h1) title to the first position.
   sortedContents.unshift(largeTitle);
   // Return the sorted contents.
   return sortedContents;
