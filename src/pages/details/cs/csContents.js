@@ -2164,6 +2164,49 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Call stack",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Call_stack`,
+    anchor: "Call_stack",
+    text: {
+      p1: (
+        <p>
+          In computer science, a call stack is a stack data structure that
+          stores information about the active subroutines of a computer program.
+          This kind of stack is also known as an execution stack, program stack,
+          control stack, run-time stack, or machine stack, and is often
+          shortened to just "the stack". Although maintenance of the call stack
+          is important for the proper functioning of most software, the details
+          are normally hidden and automatic in high-level programming languages.
+          Many computer instruction sets provide special instructions for
+          manipulating stacks.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Memory management",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Memory_management`,
+    anchor: "Memory_management",
+    text: {
+      p1: (
+        <p>
+          Memory management is a form of resource management applied to computer
+          memory. The essential requirement of memory management is to provide
+          ways to dynamically allocate portions of memory to programs at their
+          request, and free it for reuse when no longer needed. This is critical
+          to any advanced computer system where more than a single process might
+          be underway at any time.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
