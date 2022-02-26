@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import HttpPage from "./pages/details/http/HttpPage";
 import ReactPage from "./pages/details/react/ReactPage";
 import ReactRouterPage from "./pages/details/react_router/ReactRouterPage";
+import ReduxToolkit from "./pages/details/redux_toolkit/ReduxToolkitPage";
 import TypeScriptPage from "./pages/details/typescript/TypeScriptPage";
 import JavaScriptPage from "./pages/details/javascript/JavaScriptPage";
 import AsyncJs from "./pages/details/asynchronous_js/AsyncJs";
@@ -23,8 +24,9 @@ import SplitPage from "./components/SplitPage";
 
 // Import the contents in different pages for showing the contents based on the url(routing) when clicking the breadcrumbs.
 import { csContents } from "./pages/details/cs/csContents";
-import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
 import { reactContents } from "./pages/details/react/reactContents";
+import { reactRouterContents } from "./pages/details/react_router/reactRouterContents";
+import { reduxToolkitContents } from "./pages/details/redux_toolkit/reduxToolkitContents";
 import { jsContents } from "./pages/details/javascript/javaScriptContents";
 import { httpContents } from "./pages/details/http/httpContents";
 import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
@@ -54,6 +56,12 @@ const App = () => {
             <Route
               path=":pId"
               element={<SplitPage content={reactContents} />}
+            />
+          </Route>
+          <Route path="redux_toolkit" element={<ReduxToolkit />}>
+            <Route
+              index
+              element={<IndexRoutePage content={reduxToolkitContents} />}
             />
           </Route>
           <Route path="typescript" element={<TypeScriptPage />} />

@@ -10,15 +10,21 @@ export const card = [
   },
   {
     id: uuidv4(),
-    title: "React-Router",
+    title: "React",
+    path: "/react",
+    text: "A JavaScript library for building user interfaces. React stands at the intersection of design and programming. It lets you take a complex user interface, and break it down into nestable and reusable pieces called “components” that fit well together.",
+  },
+  {
+    id: uuidv4(),
+    title: "React Router",
     path: "/react-router",
     text: "React Router is a collection of React components, hooks and utilities that make it easy to build multi-page applications with React. This reference contains the function signatures and return types of the various interfaces in React Router.",
   },
   {
     id: uuidv4(),
-    title: "React",
-    path: "/react",
-    text: "A JavaScript library for building user interfaces. React stands at the intersection of design and programming. It lets you take a complex user interface, and break it down into nestable and reusable pieces called “components” that fit well together.",
+    title: "Redux Toolkit",
+    path: "/redux_toolkit",
+    text: "The official, opinionated, batteries-included toolset for efficient Redux development",
   },
   {
     id: uuidv4(),

@@ -553,11 +553,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Block",
+    title: "Block (programming)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Block_(programming)`,
-    anchor: "Block",
+    anchor: "Block_(programming)",
     text: {
       p1: (
         <p>
@@ -736,11 +736,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Blocking",
+    title: "Blocking (computing)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Blocking_(computing)`,
-    anchor: "Blocking",
+    anchor: "Blocking_(computing)",
     text: {
       p1: (
         <p>
@@ -893,24 +893,6 @@ export const csContents = [
           implementation of computer systems. The architecture of a system
           refers to its structure in terms of separately specified components of
           that system and their interrelationships.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Language construct",
-    isLargerTitle: false,
-    path: "/cs",
-    url: `${wikiUrl}/Language_construct`,
-    anchor: "Language_construct",
-    text: {
-      p1: (
-        <p>
-          A language construct is a syntactically allowable part of a program
-          that may be formed from one or more lexical tokens in accordance with
-          the rules of a programming language. The term "language construct" is
-          often used as a synonym for control structure.
         </p>
       ),
     },
@@ -2203,6 +2185,242 @@ export const csContents = [
           request, and free it for reuse when no longer needed. This is critical
           to any advanced computer system where more than a single process might
           be underway at any time.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Evaluation strategy",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Evaluation_strategy`,
+    anchor: "Evaluation_strategy",
+    text: {
+      p1: (
+        <p>
+          In a programming language, an evaluation strategy is a set of rules
+          for evaluating expressions. The term is often used to refer to the
+          more specific notion of a parameter-passing strategy that defines the
+          kind of value that is passed to the function for each parameter (the
+          binding strategy), whether to evaluate the parameters of a function
+          call, and if so in what order (the evaluation order). The notion of
+          reduction strategy is distinct, although some authors conflate the two
+          terms and the definition of each term is not widely agreed upon.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Local variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Local_variable`,
+    anchor: "Local_variable",
+    text: {
+      p1: (
+        <p>
+          In computer science, a local variable is a variable that is given
+          local scope. Local variable references in the function or block in
+          which it is declared override the same variable name in the larger
+          scope. In programming languages with only two levels of visibility,
+          local variables are contrasted with global variables. On the other
+          hand, many ALGOL-derived languages allow any number of nested levels
+          of visibility, with private variables, functions, constants and types
+          hidden within them, either by nested blocks or nested functions. Local
+          variables are fundamental to procedural programming, and more
+          generally modular programming: variables of local scope are used to
+          avoid issues with side-effects that can occur with global variables.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Global variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Global_variable`,
+    anchor: "Global_variable",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a global variable is a variable with global
+          scope, meaning that it is visible (hence accessible) throughout the
+          program, unless shadowed. The set of all global variables is known as
+          the global environment or global state. In compiled languages, global
+          variables are generally static variables, whose extent (lifetime) is
+          the entire runtime of the program, though in interpreted languages
+          (including command-line interpreters), global variables are generally
+          dynamically allocated when declared, since they are not known ahead of
+          time.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Static variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Static_variable`,
+    anchor: "Static_variable",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a static variable is a variable that has been
+          allocated "statically", meaning that its lifetime (or "extent") is the
+          entire run of the program. This is in contrast to shorter-lived
+          automatic variables, whose storage is stack allocated and deallocated
+          on the call stack; and in contrast to objects, whose storage is
+          dynamically allocated and deallocated in heap memory.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Stack-based memory allocation",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Stack-based_memory_allocation`,
+    anchor: "Stack-based_memory_allocation",
+    text: {
+      p1: (
+        <p>
+          Stacks in computing architectures are regions of memory where data is
+          added or removed in a last-in-first-out (LIFO) manner.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Method (computer programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Method_(computer_programming)`,
+    anchor: "Method_(computer_programming)",
+    text: {
+      p1: (
+        <p>
+          A method in object-oriented programming (OOP) is a procedure
+          associated with a message and an object. An object consists of data
+          and behavior; these compose an interface, which specifies how the
+          object may be utilized by any of its various consumers. Data is
+          represented as properties of the object, and behaviors are represented
+          as methods. For example, a Window object could have methods such as
+          open and close, while its state (whether it is open or closed at any
+          given point in time) would be a property.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Property (programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Property_(programming)`,
+    anchor: "Property_(programming)",
+    text: {
+      p1: (
+        <p>
+          A property, in some object-oriented programming languages, is a
+          special sort of class member, intermediate in functionality between a
+          field (or data member) and a method or a property is a member that
+          provides a flexible mechanism to read, write, or compute the value of
+          a private field. The syntax for reading and writing of properties is
+          like for fields, but property reads and writes are (usually)
+          translated to 'getter' and 'setter' method calls. The field-like
+          syntax is easier to read and write than many method calls[citation
+          needed], yet the interposition of method calls "under the hood" allows
+          for data validation, active updating (e.g., of GUI elements), or
+          implementation of what may be called "read-only fields".
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Class variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Class_variable`,
+    anchor: "Class_variable",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming with classes, a class variable is any
+          variable declared with the `static` modifier of which a single copy
+          exists, regardless of how many instances of the class exist. Note that
+          in Java, the terms "field" and "variable" are used interchangeably for
+          member variable.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Instance variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Instance_variable`,
+    anchor: "Instance_variable",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming with classes, an instance variable is a
+          variable defined in a class (i.e. a member variable), for which each
+          instantiated object of the class has a separate copy, or instance. An
+          instance variable has similarities with a class variable, but is
+          non-static. An instance variable is a variable which is declared in a
+          class but outside of constructors, methods, or blocks. Instance
+          variables are created when an object is instantiated, and are
+          accessible to all the constructors, methods, or blocks in the class.
+          Access modifiers can be given to the instance variable.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Constructor (object-oriented programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Constructor_(object-oriented_programming)`,
+    anchor: "Constructor_(object-oriented_programming)",
+    text: {
+      p1: (
+        <p>
+          In class-based object-oriented programming, a constructor is a special
+          type of subroutine called to create an object. It prepares the new
+          object for use, often accepting arguments that the constructor uses to
+          set required member variables.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Nested function",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Nested_function`,
+    anchor: "Nested_function",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a nested function (or nested procedure or
+          subroutine) is a function which is defined within another function,
+          the enclosing function. Due to simple recursive scope rules, a nested
+          function is itself invisible outside of its immediately enclosing
+          function, but can see (access) all local objects (data, functions,
+          types, etc.) of its immediately enclosing function as well as of any
+          function(s) which, in turn, encloses that function. The nesting is
+          theoretically possible to unlimited depth, although only a few levels
+          are normally used in practical programs.
         </p>
       ),
     },
