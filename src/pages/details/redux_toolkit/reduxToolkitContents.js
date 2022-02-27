@@ -170,6 +170,51 @@ export const reduxToolkitContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Dispatch",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: `${reduxUrl}/essentials/part-1-overview-concepts#dispatch`,
+    anchor: "Dispatch",
+    text: {
+      p1: (
+        <>
+          <p>
+            The Redux store has a method called "dispatch". The only way to
+            update the state is to call "store.dispatch()" and pass in an action
+            object. The store will run its reducer function and save the new
+            state value inside, and we can call "getState()" to retrieve the
+            updated value.
+          </p>
+          <p>
+            You can think of dispatching actions as "triggering an event" in the
+            application. Something happened, and we want the store to know about
+            it. Reducers act like event listeners, and when they hear an action
+            they are interested in, they update the state in response.
+          </p>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Selectors",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: `${reduxUrl}/essentials/part-1-overview-concepts#selectors`,
+    anchor: "Selectors",
+    text: {
+      p1: (
+        <p>
+          Selectors are functions that know how to extract specific pieces of
+          information from a store state value. As an application grows bigger,
+          this can help avoid repeating logic as different parts of the app need
+          to read the same data.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = reduxToolkitContents.length;
