@@ -24,7 +24,7 @@ export const card = [
     id: uuidv4(),
     title: "Redux Toolkit",
     path: "/redux_toolkit",
-    text: "The official, opinionated, batteries-included toolset for efficient Redux development",
+    text: "Redux is a pattern and library for managing and updating application state, using events called 'actions'.",
   },
   {
     id: uuidv4(),
