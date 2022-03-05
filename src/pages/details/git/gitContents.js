@@ -61,15 +61,26 @@ export const gitContents = [
     anchor: "error",
     text: {
       p1: (
-        <ol className="list">
+        <div>
+          <ol className="list">
+            <p>
+              To prevent you from losing history, non-fast-forward updates were
+              rejected Merge the remote changes (e.g. 'git pull') before pushing
+              again.
+            </p>
+            <li>git fetch origin</li>
+            <li>git merge origin master(your branch name)</li>
+          </ol>
           <p>
-            To prevent you from losing history, non-fast-forward updates were
-            rejected Merge the remote changes (e.g. 'git pull') before pushing
-            again.
+            Or, you can simply use git pull to perform both commands at once:
           </p>
-          <li>git fetch origin</li>
-          <li>git merge origin master(your branch name)</li>
-        </ol>
+          <ol className="list">
+            <li>
+              git pull origin master(YOUR_BRANCH_NAME, Grabs online updates and
+              merges them with your local work )
+            </li>
+          </ol>
+        </div>
       ),
     },
   },
