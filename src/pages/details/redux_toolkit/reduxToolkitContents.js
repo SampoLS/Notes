@@ -243,5 +243,3 @@ export const reduxToolkitContentsAddedSubpath = addSubpath(
   contentsLength,
   reduxToolkitContents,
 );
-
-console.log("hello");
