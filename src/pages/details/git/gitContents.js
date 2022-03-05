@@ -52,4 +52,25 @@ export const gitContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "! [rejected] master -> master (non-fast-forward) - Git Error",
+    isLargerTitle: false,
+    path: "/git",
+    url: ``,
+    anchor: "error",
+    text: {
+      p1: (
+        <ol className="list">
+          <p>
+            To prevent you from losing history, non-fast-forward updates were
+            rejected Merge the remote changes (e.g. 'git pull') before pushing
+            again.
+          </p>
+          <li>git fetch origin</li>
+          <li>git merge origin master(your branch name)</li>
+        </ol>
+      ),
+    },
+  },
 ];
