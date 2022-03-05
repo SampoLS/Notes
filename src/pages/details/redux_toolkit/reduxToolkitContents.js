@@ -215,6 +215,24 @@ export const reduxToolkitContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Redux Slices",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: `${reduxUrl}/essentials/part-2-app-structure#redux-slices`,
+    anchor: "Redux_Slices",
+    text: {
+      p1: (
+        <p>
+          A "slice" is a collection of Redux reducer logic and actions for a
+          single feature in your app, typically defined together in a single
+          file. The name comes from splitting up the root Redux state object
+          into multiple "slices" of state.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = reduxToolkitContents.length;
@@ -225,3 +243,5 @@ export const reduxToolkitContentsAddedSubpath = addSubpath(
   contentsLength,
   reduxToolkitContents,
 );
+
+console.log("hello");
