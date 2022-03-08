@@ -639,7 +639,24 @@ export const jsContents = [
   },
   {
     id: uuidv4(),
-    title: "Shallow copy",
+    title: "String.prototype.localeCompare()",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/Reference/Global_Objects/String/localeCompare`,
+    anchor: "localeCompare",
+    text: {
+      p1: (
+        <p>
+          The localeCompare() method returns a number indicating whether a
+          reference string comes before, or after, or is the same as the given
+          string in sort order.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "",
     isLargerTitle: false,
     path: "/javascript",
     url: `${glossaryUrl}/Shallow_copy`,
