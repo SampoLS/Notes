@@ -2425,6 +2425,32 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Model-view-viewmodel",
+    isLargerTitle: false,
+    path: "/cs",
+    url: "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+    anchor: "mvvm",
+    text: {
+      p1: (
+        <p>
+          Model-view-viewmodel (MVVM) is a software architectural pattern that
+          facilitates the separation of the development of the graphical user
+          interface (the view) - be it via a markup language or GUI code – from
+          the development of the business logic or back-end logic (the model) so
+          that the view is not dependent on any specific model platform. The
+          viewmodel of MVVM is a value converter, meaning the viewmodel is
+          responsible for exposing (converting) the data objects from the model
+          in such a way that objects are easily managed and presented. In this
+          respect, the viewmodel is more model than view, and handles most if
+          not all of the view's display logic. The viewmodel may implement a
+          mediator pattern, organizing access to the back-end logic around the
+          set of use cases supported by the view.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

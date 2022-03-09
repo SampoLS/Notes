@@ -233,6 +233,86 @@ export const reduxToolkitContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Thunk",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: `https://redux.js.org/usage/writing-logic-thunks`,
+    anchor: "thunk",
+    text: {
+      p1: (
+        <p>
+          The word "thunk" is a programming term that means "a piece of code
+          that does some delayed work". Rather than execute some logic now, we
+          can write a function body or code that can be used to perform the work
+          later. For Redux specifically,{" "}
+          <strong>
+            "thunks" are a pattern of writing functions with logic inside that
+            can interact with a Redux store's dispatch and getState methods.
+          </strong>
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Thunk Functions",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: `${reduxUrl}/essentials/part-5-async-logic#thunk-functions`,
+    anchor: "thunk_functions",
+    text: {
+      p1: (
+        <>
+          <p>
+            A thunk function is a function that accepts two arguments: the Redux
+            store "dispatch" method, and the Redux store "getState" method.
+            Thunk functions are not directly called by application code.
+            Instead, they are passed to store.dispatch(). A thunk function may
+            contain any arbitrary logic, sync or async, and can call "dispatch"
+            or "getState" at any time.
+          </p>
+          <p>
+            Lets you write plain functions that may contain async logic
+            directly. Once the thunk middleware has been added to the Redux
+            store, it allows you to pass thunk functions directly to
+            store.dispatch. A thunk function will always be called with
+            (dispatch, getState) as its arguments, and you can use them inside
+            the thunk as needed. Thunks typically dispatch plain actions using
+            action creators, like dispatch(increment()).
+          </p>
+          <p>
+            For consistency with dispatching normal action objects, we typically
+            write these as thunk action creators, which return the thunk
+            function. These action creators can take arguments that can be used
+            inside the thunk.
+          </p>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Thunk action creators",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: `https://redux.js.org/usage/writing-logic-thunks`,
+    anchor: "thunk_action_creators",
+    text: {
+      p1: (
+        <p>
+          In the same way that Redux code normally uses action creators to
+          generate action objects for dispatching instead of writing action
+          objects by hand, we normally use thunk action creators to generate the
+          thunk functions that are dispatched. A thunk action creator is a
+          function that may have some arguments, and returns a new thunk
+          function. The thunk typically closes over any arguments passed to the
+          action creator, so they can be used in the logic.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = reduxToolkitContents.length;
