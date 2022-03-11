@@ -256,4 +256,49 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Reason",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Reason`,
+    anchor: "Reason",
+    text: {
+      p1: (
+        <p>
+          Reason is the capacity of consciously applying logic by drawing
+          conclusions from new or existing information, with the aim of seeking
+          the truth. It is closely associated with such characteristically human
+          activities as philosophy, science, language, mathematics, and art, and
+          is normally considered to be a distinguishing ability possessed by
+          humans. Reason is sometimes referred to as rationality.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Property (philosophy)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Property_(philosophy)`,
+    anchor: "Property_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          In logic and philosophy (especially metaphysics), a property is a
+          characteristic of an object; a red object is said to have the property
+          of redness. The property may be considered a form of object in its own
+          right, able to possess other properties. A property, however, differs
+          from individual objects in that it may be instantiated, and often in
+          more than one thing. It differs from the logical/mathematical concept
+          of class by not having any concept of extensionality, and from the
+          philosophical concept of class in that a property is considered to be
+          distinct from the objects which possess it. Understanding how
+          different individual entities (or particulars) can in some sense have
+          some of the same properties is the basis of the problem of universals.
+        </p>
+      ),
+    },
+  },
 ];
