@@ -70,6 +70,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Webpack",
+    path: "/webpack",
+    text: "Webpack is a static module bundler for modern JavaScript applications.",
+  },
+  {
+    id: uuidv4(),
     title: "Web Components",
     path: "/web_components",
     text: "Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.",

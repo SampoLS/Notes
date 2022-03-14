@@ -10,6 +10,7 @@ import { gitContents } from "../pages/details/git/gitContents";
 import { termsContents } from "../pages/details/others/OtherTermsContents";
 import { dsContents } from "../pages/details/data_structure/dsContents";
 import { algoContents } from "../pages/details/algorithms/algoContents";
+import { webpackContents } from "../pages/details/webpack/webpackContents";
 import { webComponentsContents } from "../pages/details/web_components/web_components_contents";
 import { webTermsContents } from "../pages/details/web_terms/webTermsContents";
 
@@ -26,6 +27,7 @@ export const data = httpContents.concat(
   termsContents,
   dsContents,
   algoContents,
+  webpackContents,
   webComponentsContents,
   webTermsContents,
 );

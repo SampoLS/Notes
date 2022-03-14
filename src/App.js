@@ -13,6 +13,8 @@ import CsPage from "./pages/details/cs/CsPage";
 import GitPage from "./pages/details/git/GitPage";
 import DsPage from "./pages/details/data_structure/DsPage";
 import AlgoPage from "./pages/details/algorithms/AlgoPage";
+import { webpackContents } from "./pages/details/webpack/webpackContents";
+import WebpackPage from "./pages/details/webpack/WebpackPage";
 import WebComponents from "./pages/details/web_components/WebComponents";
 import WebTermsPage from "./pages/details/web_terms/WebTermsPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
@@ -77,6 +79,16 @@ const App = () => {
           <Route path="git" element={<GitPage />} />
           <Route path="data_structure" element={<DsPage />} />
           <Route path="algorithms" element={<AlgoPage />} />
+          <Route path="webpack" element={<WebpackPage />}>
+            <Route
+              index
+              element={<IndexRoutePage content={webpackContents} />}
+            />
+            <Route
+              path=":pId"
+              element={<SplitPage content={webpackContents} />}
+            />
+          </Route>
           <Route path="web_components" element={<WebComponents />} />
           <Route path="web_terms" element={<WebTermsPage />}>
             <Route
