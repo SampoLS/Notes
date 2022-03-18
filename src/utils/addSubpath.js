@@ -25,4 +25,5 @@ const addSubpath = (subpathContents, contentsLength, contents) => {
   }
   return subpathContents;
 };
+
 export default addSubpath;
