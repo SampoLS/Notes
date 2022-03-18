@@ -7,6 +7,7 @@ import ShowPageContents from "../components/ShowPageContents";
  * @param {number} end The end index to slice the contents.
  * @returns {JSX}
  */
+
 const getSinglePageContents = (content, start, end) => {
   return (
     <>
@@ -16,4 +17,5 @@ const getSinglePageContents = (content, start, end) => {
     </>
   );
 };
+
 export default getSinglePageContents;
