@@ -91,11 +91,11 @@ const Bar = styled.div`
   padding-top: 20px;
   background-color: white;
   box-shadow: 2px 0 10px #eee;
+  overflow: hidden;
 `;
 
 const Header = styled.header`
   width: 90%;
-  min-width: 720px;
   margin: 0 auto;
   font-size: calc(1rem + 2vw);
   display: flex;
@@ -109,7 +109,7 @@ const Header = styled.header`
       border-bottom: 1px solid #ddd;
       outline: none;
       caret-color: #888;
-      font-family: cursive;
+      font-family: roboto;
     }
     button {
       border: none;

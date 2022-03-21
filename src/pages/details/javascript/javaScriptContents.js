@@ -656,7 +656,7 @@ export const jsContents = [
   },
   {
     id: uuidv4(),
-    title: "",
+    title: "Shallow copy",
     isLargerTitle: false,
     path: "/javascript",
     url: `${glossaryUrl}/Shallow_copy`,
@@ -672,6 +672,24 @@ export const jsContents = [
           changes to the source or copy that you don't expect. That behavior
           contrasts with the behavior of a deep copy, in which the source and
           copy are completely independent.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Object.prototype.constructor",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${jsUrl}/Reference/Global_Objects/Object/constructor`,
+    anchor: "constructor",
+    text: {
+      p1: (
+        <p>
+          The constructor property returns a reference to the Object constructor
+          function that created the instance object. Note that the value of this
+          property is a reference to the function itself, not a string
+          containing the function's name.
         </p>
       ),
     },

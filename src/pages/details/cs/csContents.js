@@ -2451,6 +2451,47 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Encapsulation (computer programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Encapsulation_(computer_programming)`,
+    anchor: "Encapsulation",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming (OOP), encapsulation refers to the
+          bundling of data with the methods that operate on that data, or the
+          restricting of direct access to some of an object's components.
+          Encapsulation is used to hide the values or state of a structured data
+          object inside a class, preventing direct access to them by clients in
+          a way that could expose hidden implementation details or violate state
+          invariance maintained by the methods.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Inheritance (object-oriented programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Inheritance_(object-oriented_programming)`,
+    anchor: "Inheritance",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming, inheritance is the mechanism of basing
+          an object or class upon another object (prototype-based inheritance)
+          or class (class-based inheritance), retaining similar implementation.
+          Also defined as deriving new classes (sub classes) from existing ones
+          such as super class or base class and then forming them into a
+          hierarchy of classes.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
