@@ -13,6 +13,7 @@ import { algoContents } from "../pages/details/algorithms/algoContents";
 import { webpackContents } from "../pages/details/webpack/webpackContents";
 import { webComponentsContents } from "../pages/details/web_components/web_components_contents";
 import { webTermsContents } from "../pages/details/web_terms/webTermsContents";
+import { webglContents } from "../pages/details/webgl/webglContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -29,5 +30,6 @@ export const data = httpContents.concat(
   algoContents,
   webpackContents,
   webComponentsContents,
+  webglContents,
   webTermsContents,
 );

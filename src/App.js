@@ -13,10 +13,10 @@ import CsPage from "./pages/details/cs/CsPage";
 import GitPage from "./pages/details/git/GitPage";
 import DsPage from "./pages/details/data_structure/DsPage";
 import AlgoPage from "./pages/details/algorithms/AlgoPage";
-import { webpackContents } from "./pages/details/webpack/webpackContents";
 import WebpackPage from "./pages/details/webpack/WebpackPage";
 import WebComponents from "./pages/details/web_components/WebComponents";
 import WebTermsPage from "./pages/details/web_terms/WebTermsPage";
+import WebGLPage from "./pages/details/webgl/WebGLPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -31,7 +31,9 @@ import { reactRouterContents } from "./pages/details/react_router/reactRouterCon
 import { reduxToolkitContents } from "./pages/details/redux_toolkit/reduxToolkitContents";
 import { jsContents } from "./pages/details/javascript/javaScriptContents";
 import { httpContents } from "./pages/details/http/httpContents";
+import { webpackContents } from "./pages/details/webpack/webpackContents";
 import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
+import { webglContents } from "./pages/details/webgl/webglContents";
 
 const App = () => {
   return (
@@ -98,6 +100,13 @@ const App = () => {
             <Route
               path=":pId"
               element={<SplitPage content={webTermsContents} />}
+            />
+          </Route>
+          <Route path="webgl" element={<WebGLPage />}>
+            <Route index element={<IndexRoutePage content={webglContents} />} />
+            <Route
+              path=":pId"
+              element={<SplitPage content={webglContents} />}
             />
           </Route>
           <Route path="other_terms" element={<OtherTermsPage />} />

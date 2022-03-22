@@ -88,6 +88,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "WebGL",
+    path: "/webgl",
+    text: "WebGL (Web Graphics Library) is the new standard for 3D graphics on the Web, designed for rendering 2D graphics and interactive 3D graphics.",
+  },
+  {
+    id: uuidv4(),
     title: "Other Terms",
     path: "/other_terms",
     text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
