@@ -301,4 +301,28 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Matery learning",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Matery_learning`,
+    anchor: "Matery_learning",
+    text: {
+      p1: (
+        <p>
+          Mastery learning (or, as it was initially called, "learning for
+          mastery"; also known as "mastery-based learning") is an instructional
+          strategy and educational philosophy, first formally proposed by
+          Benjamin Bloom in 1968. Mastery learning maintains that students must
+          achieve a level of mastery (e.g., 90% on a knowledge test) in
+          prerequisite knowledge before moving forward to learn subsequent
+          information. If a student does not achieve mastery on the test, they
+          are given additional support in learning and reviewing the information
+          and then tested again. This cycle continues until the learner
+          accomplishes mastery, and they may then move on to the next stage.
+        </p>
+      ),
+    },
+  },
 ];
