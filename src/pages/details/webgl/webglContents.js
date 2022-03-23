@@ -241,7 +241,7 @@ export const webglContents = [
     isLargerTitle: false,
     path: "/webgl",
     url: `${learnwebglUrl}/the_big_picture/introduction.html`,
-    anchor: "fragment_shader",
+    anchor: "webgl_glossary",
     text: {
       p1: (
         <>
@@ -316,6 +316,50 @@ export const webglContents = [
               <b>fragment shader</b> - a computer program written in GLSL that
               assigns a color to the pixels that compose a face of a model.
             </li>
+            <li>
+              <b>GL</b> - graphics language - a proprietary software system for
+              creating 3D computer graphics that was created by Silicon Graphics
+              Inc. in the 1980's
+            </li>
+            <li>
+              <b>OpenGL</b> - a device independent software system for creating
+              3D computer graphics that was released to the public by Silicon
+              Graphics Inc. in 1992. It has gone through constant upgrades,
+              enhancements, and re-designs.
+            </li>
+            <li>
+              <b>OpenGl ES</b> - OpenGL embedded subset - a stripped down
+              version of OpenGL for cheaper, low-power hardware.
+            </li>
+            <li>
+              <b>WebGL</b> - a device independent software system for creating
+              3D computer graphics in a web browser. It is an implementation of
+              OpenGL ES 2.0 in JavaScript.
+            </li>
+            <li>
+              <b>folder hierarchy</b> - an organization of file folders, where
+              each folder has a unique parent folder and possibly contains one
+              or more sub-folders.
+            </li>
+            <li>
+              <b>current working folder</b> - the folder on the web server that
+              contains the original HTML web page file.
+            </li>
+            <li>
+              <b>relative file path</b> - a series of folder references
+              separated by forward slashes that starts from the{" "}
+              <i>current working folder</i>.
+            </li>
+            <li>
+              <b>absolute file path</b> - a series of folder references{" "}
+              <b>starting the a single forward slash</b> and separated by
+              forward slashes. The path is always from the root folder of the
+              web site on the web server.
+            </li>
+            <li>
+              "." - a reference to the <i>current working folder</i>.{" "}
+            </li>
+            <li>".." - a reference to the parent folder.</li>
           </ol>
         </>
       ),
