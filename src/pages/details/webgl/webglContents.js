@@ -3,6 +3,7 @@ import addSubpath from "../../../utils/addSubpath";
 import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 const url = "https://www.tutorialspoint.com/webgl";
+const learnwebglUrl = "http://learnwebgl.brown37.net";
 
 export const webglContents = [
   {
@@ -57,12 +58,12 @@ export const webglContents = [
           </p>
           <ol className="list">
             <li>
-              <strong>Software Rendering</strong> - All the rendering
-              calculations are done with the help of CPU.
+              <b>Software Rendering</b> - All the rendering calculations are
+              done with the help of CPU.
             </li>
             <li>
-              <strong>Hardware Rendering</strong> - All the graphics
-              computations are done by the GPU (Graphical processing unit).
+              <b>Hardware Rendering</b> - All the graphics computations are done
+              by the GPU (Graphical processing unit).
             </li>
           </ol>
         </>
@@ -137,12 +138,11 @@ export const webglContents = [
       p1: (
         <p>
           Just like any other 3D system, you will have x, y and z axes in WebGL,
-          where the z axis signifies <strong>depth</strong>. The coordinates in
-          WebGL are restricted to (1, 1, 1) and (-1, -1, - 1). It means − if you
-          consider the screen projecting WebGL graphics as a cube, then one
-          corner of the cube will be (1, 1, 1) and the opposite corner will be
-          (-1, -1, -1). WebGL won't display anything that is drawn beyond these
-          boundaries.
+          where the z axis signifies <b>depth</b>. The coordinates in WebGL are
+          restricted to (1, 1, 1) and (-1, -1, - 1). It means − if you consider
+          the screen projecting WebGL graphics as a cube, then one corner of the
+          cube will be (1, 1, 1) and the opposite corner will be (-1, -1, -1).
+          WebGL won't display anything that is drawn beyond these boundaries.
         </p>
       ),
     },
@@ -164,37 +164,35 @@ export const webglContents = [
           </p>
           <ol className="list">
             <li>
-              <strong>Vertices</strong> - Generally, to draw objects such as a
-              polygon, we mark the points on the plane and join them to form a
-              desired polygon. A <strong>vertex</strong> is a point which
-              defines the conjunction of the edges of a 3D object. It is
-              represented by three floating point values each representing x, y,
-              z axes respectively.
+              <b>Vertices</b> - Generally, to draw objects such as a polygon, we
+              mark the points on the plane and join them to form a desired
+              polygon. A <b>vertex</b> is a point which defines the conjunction
+              of the edges of a 3D object. It is represented by three floating
+              point values each representing x, y, z axes respectively.
             </li>
             <li>
-              <strong>Indices</strong> - In WebGL, numerical values are used to
-              identify the vertices. These numerical values are known as
-              indices. These indices are used to draw meshes in WebGL.
+              <b>Indices</b> - In WebGL, numerical values are used to identify
+              the vertices. These numerical values are known as indices. These
+              indices are used to draw meshes in WebGL.
             </li>
             <li>
-              <strong>Arrays</strong> - Unlike OpenGL and JoGL, there are no
-              predefined methods in WebGL to render the vertices directly. We
-              have to store them manually using JavaScript arrays.
+              <b>Arrays</b> - Unlike OpenGL and JoGL, there are no predefined
+              methods in WebGL to render the vertices directly. We have to store
+              them manually using JavaScript arrays.
             </li>
             <li>
-              <strong>Buffers</strong> - Buffers are the memory areas of WebGL
-              that hold the data. There are various buffers namely, drawing
-              buffer, frame buffer, <strong>vetex buffer</strong>, and{" "}
-              <strong>index buffer</strong>. The vertex buffer and index buffer
-              are used to describe and process the geometry of the model.
+              <b>Buffers</b> - Buffers are the memory areas of WebGL that hold
+              the data. There are various buffers namely, drawing buffer, frame
+              buffer, <b>vetex buffer</b>, and <b>index buffer</b>. The vertex
+              buffer and index buffer are used to describe and process the
+              geometry of the model.
             </li>
             <li>
-              <strong>Mesh</strong> - To draw 2D or 3D objects, the WebGL API
-              provides two methods namely, <strong>drawArrays()</strong> and{" "}
-              <strong>drawElements()</strong>. These two methods accept a
-              parameter called mode using which you can select the object you
-              want to draw. The options provided by this field are restricted to
-              points, lines, and triangles.
+              <b>Mesh</b> - To draw 2D or 3D objects, the WebGL API provides two
+              methods namely, <b>drawArrays()</b> and <b>drawElements()</b>.
+              These two methods accept a parameter called mode using which you
+              can select the object you want to draw. The options provided by
+              this field are restricted to points, lines, and triangles.
             </li>
           </ol>
         </>
@@ -234,6 +232,92 @@ export const webglContents = [
           the code that runs on all pixels of every fragment. It is written to
           calculate and fill the color on <i>individual pixels</i>.
         </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "WebGL Glossary",
+    isLargerTitle: false,
+    path: "/webgl",
+    url: `${learnwebglUrl}/the_big_picture/introduction.html`,
+    anchor: "fragment_shader",
+    text: {
+      p1: (
+        <>
+          <ol className="list">
+            <li>
+              <b>mastery learning</b> - learn a foundational topic completely
+              before moving on to harder more advanced topics.
+            </li>
+            <li>
+              <b>web server</b> - a program that runs on a server computer and
+              stores web pages and related files. When a client computer
+              requests a web page, the web server sends the requested files to
+              the client.
+            </li>
+            <li>
+              <b>CPU</b> - central processing unit - the hardware that controls
+              a computing device and performs all of its calculations.
+            </li>
+            <li>
+              <b>GPU</b> - graphic processing unit - the hardware that is
+              optimized to produce 3D computer graphics.
+            </li>
+            <li>
+              <b>RAM</b> - random access memory - where data and programs are
+              stored for CPU access and manipulation.
+            </li>
+            <li>
+              <b>GPU memory</b> - where data and programs are stored for GPU
+              access and manipulation.
+            </li>
+            <li>
+              <b>preprocessing step</b> - manipulation of data that happens
+              once.
+            </li>
+            <li>
+              <b>computer graphics</b> - pictures and movies created using
+              computers.
+            </li>
+            <li>
+              <b>raster graphics</b> - a picture defined by many small dots of
+              color.
+            </li>
+            <li>
+              <b>vector graphics</b> - a picture composed of geometric shapes
+              defined using mathematical equations.
+            </li>
+            <li>
+              <b>computer-generated imagery(CGI)</b> - using computers to create
+              or modify raster images.
+            </li>
+            <li>
+              <b>3D computer graphics</b> - the entire process of creating
+              raster images from vector graphics data.
+            </li>
+            <li>
+              <b>render</b> - create a raster image (picture) from vector
+              graphics data.
+            </li>
+            <li>
+              <b>graphics pipeline</b> - a series of steps that transforms
+              vector graphics descriptions of objects into a raster image.
+            </li>
+            <li>
+              <b>shader program</b> - a computer program written in GLSL (GL
+              Shader Language) that runs on the GPU.
+            </li>
+            <li>
+              <b>vertext shader</b> - a computer program written in GLSL that
+              positions the geometry of models in a scene.
+            </li>
+            <li>
+              <b>fragment shader</b> - a computer program written in GLSL that
+              assigns a color to the pixels that compose a face of a model.
+            </li>
+          </ol>
+        </>
       ),
     },
   },
