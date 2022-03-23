@@ -360,6 +360,27 @@ export const webglContents = [
               "." - a reference to the <i>current working folder</i>.{" "}
             </li>
             <li>".." - a reference to the parent folder.</li>
+            <li>
+              <b>object oriented programming</b> - a style of programming where
+              a class defines a collection of data and a set of
+              methods/functions that manipulates that data. Multiple instances
+              of a class can be created to implement separate objects of the
+              class.
+            </li>
+            <li>
+              <b>class</b> - a collection of data and a set of methods/functions
+              that manipulates that data.
+            </li>
+            <li>
+              <b>object</b> - an instance of a class that contains unique data.
+              The manipulation of an object does not affect other objects
+              implemented from the same class.
+            </li>
+            <li>
+              <b>global identifier</b> - a variable or function that can be used
+              anywhere in a program. Global identifiers are bad and should be
+              avoided whenever possible.
+            </li>
           </ol>
         </>
       ),
