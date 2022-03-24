@@ -386,6 +386,39 @@ export const webglContents = [
               language used in the graphics pipeline to manipulate graphics
               data.
             </li>
+            <li>
+              <b>context</b> - the environment in which something happens.
+            </li>
+            <li>
+              <b>WebGL context</b> - a JavaScript object that stores the state
+              of a WebGL program and provides an interface to all WebGL API
+              functions.
+            </li>
+            <li>-------------------------------</li>
+            <li>
+              <b>virtual</b> - Something that does not physically exist but is
+              created by software to appear real. A virtual world is a
+              simulated, artificial, imitation of the real world - or a
+              make-believe world that exists only in your mind.
+            </li>
+            <li>
+              <b>object</b> - A single entity in a virtual world that has a
+              location, takes up some volume of space, and can be moved, scaled,
+              and rotated.
+            </li>
+            <li>
+              <b>model</b> - A mathematical description of an object.
+            </li>
+            <li>
+              <b>scene</b> - A collection of objects that make up a virtual
+              world. A scene contains objects that we want to visualize.
+            </li>
+            <li>
+              <b>rendering</b> - The process of creating an image from a
+              collection of virtual objects. The image is a representation of
+              what is visible from a virtual camera. The objects are only
+              visible if there is virtual lighting in the scene.
+            </li>
           </ol>
         </>
       ),
