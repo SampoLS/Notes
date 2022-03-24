@@ -381,6 +381,11 @@ export const webglContents = [
               anywhere in a program. Global identifiers are bad and should be
               avoided whenever possible.
             </li>
+            <li>
+              <b>GLSL</b> - graphics language shader language - a programming
+              language used in the graphics pipeline to manipulate graphics
+              data.
+            </li>
           </ol>
         </>
       ),
