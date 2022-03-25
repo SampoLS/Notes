@@ -54,6 +54,7 @@ export const noteContents = [
           <li>
             如何把需要的数据保存起来，然后通过什么方式传递到各个需要用的地方使用
           </li>
+          <li>How does it work?</li>
         </ol>
       ),
     },
