@@ -266,21 +266,13 @@ export const reduxToolkitContents = [
       p1: (
         <>
           <p>
-            A thunk function is a function that accepts two arguments: the Redux
-            store "dispatch" method, and the Redux store "getState" method.
-            Thunk functions are not directly called by application code.
-            Instead, they are passed to store.dispatch(). A thunk function may
-            contain any arbitrary logic, sync or async, and can call "dispatch"
-            or "getState" at any time.
-          </p>
-          <p>
-            Lets you write plain functions that may contain async logic
-            directly. Once the thunk middleware has been added to the Redux
-            store, it allows you to pass thunk functions directly to
-            store.dispatch. A thunk function will always be called with
-            (dispatch, getState) as its arguments, and you can use them inside
-            the thunk as needed. Thunks typically dispatch plain actions using
-            action creators, like dispatch(increment()).
+            A thunk function is a function that let you write plain functions
+            that may contain async logic directly. Once the thunk middleware has
+            been added to the Redux store, it allows you to pass thunk functions
+            directly to store.dispatch. A thunk function will always be called
+            with (dispatch, getState) as its arguments, and you can use them
+            inside the thunk as needed. Thunks typically dispatch plain actions
+            using action creators, like dispatch(increment()).
           </p>
           <p>
             For consistency with dispatching normal action objects, we typically
