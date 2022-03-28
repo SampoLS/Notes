@@ -369,6 +369,25 @@ export const reactContents = [
   },
   {
     id: uuidv4(),
+    title: "useEffect",
+    isLargerTitle: false,
+    path: "/react",
+    url: `${archiveUrl}/hooks-effect.html`,
+    anchor: "useEffect",
+    text: {
+      p1: (
+        <p>
+          The <i>Effect Hook</i> lets you perform side effects(such as data
+          fetching, changing the DOM manually) in function components. There are
+          two kinds of side effects in React components. The "useEffect"
+          function accpets two arguments: the first argument is a function(side
+          effect). The second argument is a dependency array.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "My Notes",
     isLargerTitle: false,
     path: "/react",
