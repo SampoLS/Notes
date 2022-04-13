@@ -346,4 +346,44 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Philosophy",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Philosophy`,
+    anchor: "Philosophy",
+    text: {
+      p1: (
+        <p>
+          Philosophy (from Greek: φιλοσοφία, philosophia, 'love of wisdom') is
+          the study of general and fundamental questions, such as those about
+          existence, reason, knowledge, values, mind, and language. Such
+          questions are often posed as problems to be studied or resolved.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Time",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Time`,
+    anchor: "Time",
+    text: {
+      p1: (
+        <p>
+          Time is the continued sequence of existence and events that occurs in
+          an apparently irreversible succession from the past, through the
+          present, into the future. It is a component quantity of various
+          measurements used to sequence events, to compare the duration of
+          events or the intervals between them, and to quantify rates of change
+          of quantities in material reality or in the conscious experience. Time
+          is often referred to as a fourth dimension, along with three spatial
+          dimensions.
+        </p>
+      ),
+    },
+  },
 ];

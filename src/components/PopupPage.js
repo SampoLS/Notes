@@ -22,7 +22,7 @@ const PopupPage = ({ spanRef, terms, isShowPopPage, setIsShowPopPage }) => {
       <section className="container">
         <section className="close-wrapper">
           <span className="close" ref={spanRef}>
-            X
+            &times;
           </span>
         </section>
         <section className="terms-wrapper">
