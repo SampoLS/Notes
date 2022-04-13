@@ -2536,6 +2536,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Dataflow programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Dataflow_programming`,
+    anchor: "Dataflow_programming",
+    text: {
+      p1: (
+        <p>
+          In computer programming, dataflow programming is a programming
+          paradigm that models a program as a directed graph of the data flowing
+          between operations, thus implementing dataflow principles and
+          architecture. Dataflow programming languages share some features of
+          functional languages, and were generally developed in order to bring
+          some functional concepts to a language more suitable for numeric
+          processing. Some authors use the term datastream instead of dataflow
+          to avoid confusion with dataflow computing or dataflow architecture,
+          based on an indeterministic machine paradigm.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
