@@ -2513,6 +2513,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Branch (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Branch_(computer_science)`,
+    anchor: "Branch_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          A branch is an instruction in a computer program that can cause a
+          computer to begin executing a different instruction sequence and thus
+          deviate from its default behavior of executing instructions in order.
+          Branch (or branching, branched) may also refer to the act of switching
+          execution to a different instruction sequence as a result of executing
+          a branch instruction. Branch instructions are used to implement
+          control flow in program loops and conditionals (i.e., executing a
+          particular sequence of instructions only if certain conditions are
+          satisfied).
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
