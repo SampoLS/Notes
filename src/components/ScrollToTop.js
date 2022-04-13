@@ -1,4 +1,5 @@
 import { forwardRef } from "react";
+import { memo } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
 const ScrollToTop = forwardRef((props, ref) => {
@@ -32,4 +33,4 @@ const Box = styled.section`
   }
 `;
 
-export default ScrollToTop;
+export default memo(ScrollToTop);

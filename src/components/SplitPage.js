@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { memo } from "react/cjs/react.production.min";
 import getSinglePageContents from "../utils/getSinglePageContents";
 
 const SplitPage = ({ content }) => {
@@ -11,4 +12,4 @@ const SplitPage = ({ content }) => {
   if (count) return getSinglePageContents(content, start, end);
   return <h1>sorry</h1>;
 };
-export default SplitPage;
+export default memo(SplitPage);

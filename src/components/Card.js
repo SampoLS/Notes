@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { memo } from "react/cjs/react.production.min";
 
 // Showing single card contents
 const Card = ({ title, path, text }) => {
@@ -11,4 +12,4 @@ const Card = ({ title, path, text }) => {
     </article>
   );
 };
-export default Card;
+export default memo(Card);

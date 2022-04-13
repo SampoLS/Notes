@@ -1,3 +1,5 @@
+import { memo } from "react/cjs/react.production.min";
+
 const ShowPageContents = ({ isLargerTitle, title, text, url, anchor }) => {
   // Showing the text if there is h1 heading.
   if (isLargerTitle) {
@@ -70,4 +72,4 @@ const ShowPageContents = ({ isLargerTitle, title, text, url, anchor }) => {
   );
 };
 
-export default ShowPageContents;
+export default memo(ShowPageContents);

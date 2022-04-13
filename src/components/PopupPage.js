@@ -1,3 +1,4 @@
+import { memo } from "react/cjs/react.production.min";
 import { data } from "../data/data";
 
 // The popup page
@@ -46,4 +47,4 @@ const PopupPage = ({ spanRef, terms, isShowPopPage, setIsShowPopPage }) => {
     </div>
   );
 };
-export default PopupPage;
+export default memo(PopupPage);
