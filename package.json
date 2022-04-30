@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sampols.github.io/teminologies",
-  "name": "teminologies",
+  "homepage": "https://sampols.github.io/terms",
+  "name": "terms",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
