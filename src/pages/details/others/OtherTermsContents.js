@@ -386,4 +386,157 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computational thinking",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Computational_thinking`,
+    anchor: "Computational_thinking",
+    text: {
+      p1: (
+        <p>
+          In education, computational thinking (CT) is a set of problem-solving
+          methods that involve expressing problems and their solutions in ways
+          that a computer could also execute. It involves automation of
+          processes, but also using computing to explore, analyze, and
+          understand processes (natural and artificial).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Problem solving",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Problem_solving`,
+    anchor: "Problem_solving",
+    text: {
+      p1: (
+        <p>
+          Problem solving consists of using generic or ad hoc methods in an
+          orderly manner to find solutions to difficulties.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Concept",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Concept`,
+    anchor: "Concept",
+    text: {
+      p1: (
+        <p>
+          Concepts are defined as abstract ideas. They are understood to be the
+          fundamental building blocks of the concept behind principles, thoughts
+          and beliefs. They play an important role in all aspects of cognition.
+          As such, concepts are studied by several disciplines, such as
+          linguistics, psychology, and philosophy, and these disciplines are
+          interested in the logical and psychological structure of concepts, and
+          how they are put together to form thoughts and sentences. The study of
+          concepts has served as an important flagship of an emerging
+          interdisciplinary approach called cognitive science.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Abstraction",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Abstraction`,
+    anchor: "Abstraction",
+    text: {
+      p1: (
+        <p>
+          Abstraction in its main sense is a conceptual process where general
+          rules and concepts are derived from the usage and classification of
+          specific examples, literal ("real" or "concrete") signifiers, first
+          principles, or other methods.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Idea",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Idea`,
+    anchor: "Idea",
+    text: {
+      p1: (
+        <p>
+          In common usage and in philosophy, ideas are the results of thought.
+          Also in philosophy, ideas can also be mental representational images
+          of some object. Many philosophers have considered ideas to be a
+          fundamental ontological category of being. The capacity to create and
+          understand the meaning of ideas is considered to be an essential and
+          defining feature of human beings. In a popular sense, an idea arises
+          in a reflexive, spontaneous manner, even without thinking or serious
+          reflection, for example, when we talk about the idea of a person or a
+          place. A new or an original idea can often lead to innovation.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Implementation",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Implementation`,
+    anchor: "Implementation",
+    text: {
+      p1: (
+        <p>
+          Implementation is the realization of an application, or execution of a
+          plan, idea, model, design, specification, standard, algorithm, or
+          policy.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Computation",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Computation`,
+    anchor: "Computation",
+    text: {
+      p1: (
+        <p>
+          Computation is any type of calculation that includes both arithmetical
+          and non-arithmetical steps and which follows a well-defined model
+          (e.g. an algorithm).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Calculation",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Calculation`,
+    anchor: "Calculation",
+    text: {
+      p1: (
+        <p>
+          A calculation is a deliberate process that transforms one or more
+          inputs into one or more results. The term is used in a variety of
+          senses, from the very definite arithmetical calculation of using an
+          algorithm, to the vague heuristics of calculating a strategy in a
+          competition, or calculating the chance of a successful relationship
+          between two people.
+        </p>
+      ),
+    },
+  },
 ];

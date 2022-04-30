@@ -1,10 +1,10 @@
 import { httpContents } from "../pages/details/http/httpContents";
-import { reactContentsAddedSubpath } from "../pages/details/react/reactContents";
-import { reactRouterContentsAddedSubpath } from "../pages/details/react_router/reactRouterContents";
-import { reduxToolkitContentsAddedSubpath } from "../pages/details/redux_toolkit/reduxToolkitContents";
+import { reactContents } from "../pages/details/react/reactContents";
+import { reactRouterContents } from "../pages/details/react_router/reactRouterContents";
+import { reduxToolkitContents } from "../pages/details/redux_toolkit/reduxToolkitContents";
 import { typeScriptContents } from "../pages/details/typescript/typeScriptContents";
-import { jsContentsAddedSubpath } from "../pages/details/javascript/javaScriptContents";
-import { csContentsAddedSubpath } from "../pages/details/cs/csContents";
+import { jsContents } from "../pages/details/javascript/javaScriptContents";
+import { csContents } from "../pages/details/cs/csContents";
 import { noteContents } from "../pages/details/notes/noteContents";
 import { gitContents } from "../pages/details/git/gitContents";
 import { termsContents } from "../pages/details/others/OtherTermsContents";
@@ -17,12 +17,12 @@ import { webglContents } from "../pages/details/webgl/webglContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
-  reactContentsAddedSubpath,
-  reactRouterContentsAddedSubpath,
-  reduxToolkitContentsAddedSubpath,
+  reactContents,
+  reactRouterContents,
+  reduxToolkitContents,
   typeScriptContents,
-  jsContentsAddedSubpath,
-  csContentsAddedSubpath,
+  jsContents,
+  csContents,
   noteContents,
   gitContents,
   termsContents,
@@ -31,5 +31,5 @@ export const data = httpContents.concat(
   webpackContents,
   webComponentsContents,
   webglContents,
-  webTermsContents,
+  webTermsContents
 );

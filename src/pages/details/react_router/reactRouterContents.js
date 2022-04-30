@@ -740,6 +740,23 @@ export const reactRouterContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Summary",
+    isLargerTitle: false,
+    path: "/react-router",
+    anchor: "Summary",
+    text: {
+      p1: (
+        <ol className="list">
+          <li>
+            Link(a anchor) clicked -- pass parameters to url(route) -- we can
+            use that parameters from the url(actually parameters from anchors)
+          </li>
+        </ol>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(reactRouterContents);
@@ -750,5 +767,5 @@ let subpathContents = [];
 export const reactRouterContentsAddedSubpath = addSubpath(
   subpathContents,
   contentsLength,
-  reactRouterContents,
+  reactRouterContents
 );

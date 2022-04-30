@@ -2559,6 +2559,178 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computer memory",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computer_memory`,
+    anchor: "Computer_memory",
+    text: {
+      p1: (
+        <p>
+          In computing, memory is a device or system that is used to store
+          information for immediate use in a computer or related computer
+          hardware and digital electronic devices. The term memory is often
+          synonymous with the term primary storage or main memory. An archaic
+          synonym for memory is store.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Object lifetime",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Object_lifetime`,
+    anchor: "Object_lifetime",
+    text: {
+      p1: (
+        <p>
+          In object-oriented programming (OOP), the object lifetime (or life
+          cycle) of an object is the time between an object's creation and its
+          destruction. Rules for object lifetime vary significantly between
+          languages, in some cases between implementations of a given language,
+          and lifetime of a particular object may vary from one run of the
+          program to another.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Aliasing (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Aliasing_(computing)`,
+    anchor: "Aliasing_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing, aliasing describes a situation in which a data location
+          in memory can be accessed through different symbolic names in the
+          program. Thus, modifying the data through one name implicitly modifies
+          the values associated with all aliased names, which may not be
+          expected by the programmer. As a result, aliasing makes it
+          particularly difficult to understand, analyze and optimize programs.
+          Aliasing analysers intend to make and compute useful information for
+          understanding aliasing in programs.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Abstraction (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Abstraction_(computer_science)`,
+    anchor: "Abstraction_(computer_science)",
+    text: {
+      p1: (
+        <>
+          <p>In software engineering and computer science, abstraction is:</p>
+          <ol className="list">
+            <li>
+              The process of removing physical, spatial, or temporal details or
+              attributes in the study of objects or systems to focus attention
+              on details of greater importance; it is similar in nature to the
+              process of generalization;
+            </li>
+            <li>
+              the creation of abstract concept-objects by mirroring common
+              features or attributes of various non-abstract objects or systems
+              of study - the result of the process of abstraction.
+            </li>
+          </ol>
+        </>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Task (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Task_(computing)`,
+    anchor: "Task_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing, a task is a unit of execution or a unit of work. The
+          term is ambiguous; precise alternative terms include process,
+          light-weight process, thread (for execution), step, request, or query
+          (for work). In the adjacent diagram, there are queues of incoming work
+          to do and outgoing completed work, and a thread pool of threads to
+          perform this work. Either the work units themselves or the threads
+          that perform the work can be referred to as "tasks", and these can be
+          referred to respectively as requests/responses/threads, incoming
+          tasks/completed tasks/threads (as illustrated), or
+          requests/responses/tasks.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Message passing",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Message_passing`,
+    anchor: "Message_passing",
+    text: {
+      p1: (
+        <p>
+          In computer science, message passing is a technique for invoking
+          behavior (i.e., running a program) on a computer. The invoking program
+          sends a message to a process (which may be an actor or object) and
+          relies on that process and its supporting infrastructure to then
+          select and run some appropriate code. Message passing differs from
+          conventional programming where a process, subroutine, or function is
+          directly invoked by name. Message passing is key to some models of
+          concurrency and object-oriented programming.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Scheduling (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Scheduling_(computing)`,
+    anchor: "Scheduling_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing, scheduling is the action of assigning resources to
+          perform tasks. The resources may be processors, network links or
+          expansion cards. The tasks may be threads, processes or data flows.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Recursion (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Recursion_(computer_science)`,
+    anchor: "Recursion_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science, recursion is a method of solving a computational
+          problem where the solution depends on solutions to smaller instances
+          of the same problem. Recursion solves such recursive problems by using
+          functions that call themselves from within their own code. The
+          approach can be applied to many types of problems, and recursion is
+          one of the central ideas of computer science.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

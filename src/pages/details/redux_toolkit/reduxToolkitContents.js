@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import addSubpath from "../../../utils/addSubpath";
+import { sortContentsByOrder } from "../../../utils/sortContentsByOrder";
 
 const reduxUrl = "https://redux.js.org/tutorials";
 
@@ -88,7 +89,7 @@ export const reduxToolkitContents = [
   },
   {
     id: uuidv4(),
-    title: "Actions",
+    title: "Action",
     isLargerTitle: false,
     path: "/redux_toolkit",
     url: `${reduxUrl}/essentials/part-1-overview-concepts#actions`,
@@ -210,7 +211,8 @@ export const reduxToolkitContents = [
           Selectors are functions that know how to extract specific pieces of
           information from a store state value. As an application grows bigger,
           this can help avoid repeating logic as different parts of the app need
-          to read the same data.
+          to read the same data. The argument "state" represents the root state
+          and return some data.
         </p>
       ),
     },
@@ -294,14 +296,34 @@ export const reduxToolkitContents = [
     text: {
       p1: (
         <p>
-          In the same way that Redux code normally uses action creators to
-          generate action objects for dispatching instead of writing action
-          objects by hand, we normally use thunk action creators to generate the
-          thunk functions that are dispatched. A thunk action creator is a
-          function that may have some arguments, and returns a new thunk
-          function. The thunk typically closes over any arguments passed to the
-          action creator, so they can be used in the logic.
+          Redux code normally uses action creators to generate action objects
+          for dispatching instead of writing action objects by hand, we normally
+          use thunk action creators to generate the thunk functions that are
+          dispatched. A thunk action creator is a function that may have some
+          arguments, and returns a new thunk function. The thunk typically
+          closes over any arguments passed to the action creator, so they can be
+          used in the logic. These action creators can take arguments that can
+          be used inside the thunk.
         </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Summary",
+    isLargerTitle: false,
+    path: "/redux_toolkit",
+    url: ``,
+    anchor: "Summary",
+    text: {
+      p1: (
+        <ol className="list">
+          <li>
+            Using middleware(redux-thunk) to enable async logic to interact with
+            store and then dispatch a action(plain object) to the reducer to
+            change the state in the store.
+          </li>
+        </ol>
       ),
     },
   },
@@ -309,9 +331,11 @@ export const reduxToolkitContents = [
 
 export const contentsLength = reduxToolkitContents.length;
 
+sortContentsByOrder(reduxToolkitContents);
+
 let subpathContents = [];
 export const reduxToolkitContentsAddedSubpath = addSubpath(
   subpathContents,
   contentsLength,
-  reduxToolkitContents,
+  reduxToolkitContents
 );

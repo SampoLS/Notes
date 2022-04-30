@@ -45,8 +45,8 @@ export const noteContents = [
           <li>把思维、步骤、条件转换成代码。</li>
           <li>在考虑设计代码的时候，要思考如果项目变得越来越大怎么办？</li>
           <li>
-            尽量把逻辑（相似）放在一个module里面（模块化 —》
-            文件），然后在进行整合。
+            尽量把逻辑(相似)放在一个module里面(模块化 —》
+            文件)，然后在进行整合。
           </li>
           <li>把内容相似的放在一个盒子里，不要怕嵌套多个盒子。</li>
           <li>
@@ -58,7 +58,36 @@ export const noteContents = [
             如何把需要的数据保存起来，然后通过什么方式传递到各个需要用的地方使用
           </li>
           <li>How does it work?</li>
-          <li>Reacat: Better architecture will result in less re-renders.</li>
+          <li>React: Better architecture will result in less re-renders.</li>
+          <li>Algorithm: method for solving a problem.</li>
+          <li>Data Structure: method to store information.</li>
+          <li>
+            After state has been changed by statements(e.g. subroutines,
+            re-store), the system know about it because the changed state has
+            been stored in the memory, we can use it anytimes when we need it.
+          </li>
+          <li>
+            variable(state), reference(identifier to a value),
+            interface(contract), data structure and algorithm
+          </li>
+          <li>
+            Process of abstraction build on details of reality. Find the key
+            between connections.
+          </li>
+          <li>
+            How to describe things clearly? I think it is a relation about the
+            way to describe details step by step. So, how to get the details?
+          </li>
+          <li>
+            Programming languages(the code we write) are just the
+            implementation(translation) of algorithms(details), I need to find
+            out the process of details based on experience and then use code to
+            model the details.
+          </li>
+          <li>
+            What is the purpose of the chunk of code? What kind of data it
+            passed and handled?
+          </li>
         </ol>
       ),
     },
