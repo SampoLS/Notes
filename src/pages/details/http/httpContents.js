@@ -472,6 +472,22 @@ export const httpContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Three-Way Handshake",
+    isLargerTitle: false,
+    path: "/http",
+    url: `https://www.techopedia.com/definition/10339/three-way-handshake`,
+    anchor: "three_way_handshake",
+    text: {
+      p1: (
+        <p>
+          A three-way handshake is a method used in a TCP/IP network to create a
+          connection between a local host/client and server.
+        </p>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(httpContents);
@@ -482,5 +498,5 @@ let subpathContents = [];
 export const httpContentsAddedSubpath = addSubpath(
   subpathContents,
   contentsLength,
-  httpContents,
+  httpContents
 );

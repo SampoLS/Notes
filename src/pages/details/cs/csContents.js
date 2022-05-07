@@ -2731,6 +2731,24 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Theoretical computer science",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Theoretical_computer_science`,
+    anchor: "Theoretical_computer_science",
+    text: {
+      p1: (
+        <p>
+          Theoretical computer science (TCS) is a subset of general computer
+          science and mathematics that focuses on mathematical aspects of
+          computer science such as the theory of computation, lambda calculus,
+          and type theory.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
