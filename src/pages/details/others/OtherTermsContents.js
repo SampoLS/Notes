@@ -564,4 +564,24 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Memory",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Memory`,
+    anchor: "Memory",
+    text: {
+      p1: (
+        <p>
+          Memory is the faculty of the mind by which data or information is
+          encoded, stored, and retrieved when needed. It is the retention of
+          information over time for the purpose of influencing future action. If
+          past events could not be remembered, it would be impossible for
+          language, relationships, or personal identity to develop. Memory loss
+          is usually described as forgetfulness or amnesia.
+        </p>
+      ),
+    },
+  },
 ];
