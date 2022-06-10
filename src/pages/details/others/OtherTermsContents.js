@@ -584,4 +584,102 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Relations (philosophy)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Relations_(philosophy)`,
+    anchor: "Relations_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          Relations are ways in which things, the relata, stand to each other.
+          Relations are in many ways similar to properties in that both
+          characterize the things they apply to. Properties are sometimes
+          treated as a special case of relations involving only one relatum. In
+          philosophy (especially metaphysics), theories of relations are
+          typically introduced to account for repetitions of how several things
+          stand to each other.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Address",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Address`,
+    anchor: "Address",
+    text: {
+      p1: (
+        <p>
+          An address is a collection of information, presented in a mostly fixed
+          format, used to give the location of a building, apartment, or other
+          structure or a plot of land, generally using political boundaries and
+          street names as references, along with other identifiers such as house
+          or apartment numbers and organization name. Some addresses also
+          contain special codes, such as a postal code, to make identification
+          easier and aid in the routing of mail.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Pattern",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Pattern`,
+    anchor: "Pattern",
+    text: {
+      p1: (
+        <p>
+          A pattern is a regularity in the world, in human-made design, or in
+          abstract ideas. As such, the elements of a pattern repeat in a
+          predictable manner. A geometric pattern is a kind of pattern formed of
+          geometric shapes and typically repeated like a wallpaper design.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Design",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Design`,
+    anchor: "Design",
+    text: {
+      p1: (
+        <p>
+          A design is a plan or specification for the construction of an object
+          or system or for the implementation of an activity or process or the
+          result of that plan or specification in the form of a prototype,
+          product, or process.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Intelligence",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Intelligence`,
+    anchor: "Intelligence",
+    text: {
+      p1: (
+        <p>
+          Intelligence has been defined in many ways: the capacity for
+          abstraction, logic, understanding, self-awareness, learning, emotional
+          knowledge, reasoning, planning, creativity, critical thinking, and
+          problem-solving. More generally, it can be described as the ability to
+          perceive or infer information, and to retain it as knowledge to be
+          applied towards adaptive behaviors within an environment or context.
+        </p>
+      ),
+    },
+  },
 ];

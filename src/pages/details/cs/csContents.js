@@ -2777,6 +2777,27 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Memory address",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Memory_address`,
+    anchor: "Memory_address",
+    text: {
+      p1: (
+        <p>
+          In computing, a memory address is a reference to a specific memory
+          location used at various levels by software and hardware. Memory
+          addresses are fixed-length sequences of digits conventionally
+          displayed and manipulated as unsigned integers. Such numerical
+          semantic bases itself upon features of CPU (such as the instruction
+          pointer and incremental address registers), as well upon use of the
+          memory like an array endorsed by various programming languages.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

@@ -88,6 +88,15 @@ export const noteContents = [
             What is the purpose of the chunk of code? What kind of data it
             passed and handled?
           </li>
+          <li>
+            A variable is the name of a memory cell. It is "variable" because
+            the value in the cell can change. Each memory cell has an address.
+            The program puts data in contiguous memory.
+          </li>
+          <li>
+            Objects can be designed to model real-world things in software.
+            Objects group together details.
+          </li>
         </ol>
       ),
     },
