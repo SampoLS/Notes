@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Page from "./pages/layout/Page";
 import Home from "./pages/home/Home";
@@ -35,7 +35,7 @@ import { webpackContents } from "./pages/details/webpack/webpackContents";
 import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
 import { webglContents } from "./pages/details/webgl/webglContents";
 
-const App = () => {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -116,6 +116,4 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   );
-};
-
-export default memo(App);
+}
