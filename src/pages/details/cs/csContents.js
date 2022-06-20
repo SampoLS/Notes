@@ -2798,6 +2798,81 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Domain Name System",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Domain_Name_System`,
+    anchor: "Domain_Name_System",
+    text: {
+      p1: (
+        <p>
+          The Domain Name System (DNS) is the hierarchical and decentralized naming system used to identify computers reachable through the Internet or other Internet Protocol (IP) networks. The resource records contained in the DNS associate domain names with other forms of information. These are most commonly used to map human-friendly domain names to the numerical IP addresses computers need to locate services and devices using the underlying network protocols, but have been extended over time to perform many other functions as well. The Domain Name System has been an essential component of the functionality of the Internet since 1985.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "IP address",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/IP_address`,
+    anchor: "IP_address",
+    text: {
+      p1: (
+        <p>
+          An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification and location addressing. 
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Persistence (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Persistence_(computer_science)`,
+    anchor: "Persistence_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science, persistence refers to the characteristic of state of a system that outlives (persists more than) the process that created it. This is achieved in practice by storing the state as data in computer data storage. Programs have to transfer data to and from storage devices and have to provide mappings from the native programming-language data structures to the storage device data structures.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Synchronization",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Synchronization`,
+    anchor: "Synchronization",
+    text: {
+      p1: (
+        <p>
+          In computer science, synchronization refers to one of two distinct but related concepts: synchronization of processes, and synchronization of data. Process synchronization refers to the idea that multiple processes are to join up or handshake at a certain point, in order to reach an agreement or commit to a certain sequence of action. Data synchronization refers to the idea of keeping multiple copies of a dataset in coherence with one another, or to maintain data integrity. Process synchronization primitives are commonly used to implement data synchronization. 
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Ontology (information science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Ontology_(information_science)`,
+    anchor: "Ontology_(information_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science and information science, an ontology encompasses a representation, formal naming, and definition of the categories, properties, and relations between the concepts, data, and entities that substantiate one, many, or all domains of discourse. More simply, an ontology is a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

@@ -694,6 +694,51 @@ export const jsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "DNS",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/DNS`,
+    anchor: "dns",
+    text: {
+      p1: (
+        <p>
+          DNS (Domain Name System) is a hierarchical and decentralized naming system for Internet connected resources. DNS maintains a list of domain names along with the resources, such as IP addresses, that are associated with them.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Domain name",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/Domain_name`,
+    anchor: "Domain_name",
+    text: {
+      p1: (
+        <p>
+          A domain name is a website's address on the Internet. Domain names are used in URLs to identify to which server belong a specific webpage. The domain name consists of a hierarchical sequence of names (labels) separated by periods (dots) and ending with an extension.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "IP Address",
+    isLargerTitle: false,
+    path: "/javascript",
+    url: `${glossaryUrl}/IP_Address`,
+    anchor: "IP_Address",
+    text: {
+      p1: (
+        <p>
+          An IP address is a number assigned to every device connected to a network that uses the Internet protocol.
+        </p>
+      ),
+    },
+  },
 ];
 
 sortContentsByOrder(jsContents);

@@ -119,6 +119,21 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
+    title: "Information",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Information`,
+    anchor: "Information",
+    text: {
+      p1: (
+        <p>
+          Information is processed, organized and structured data. It provides context for data and enables decision making processes. For example, a single customer’s sale at a restaurant is data – this becomes information when the business is able to identify the most popular or least popular dish.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Engineering",
     isLargerTitle: false,
     path: "/other_terms",
@@ -678,6 +693,45 @@ export const termsContents = [
           problem-solving. More generally, it can be described as the ability to
           perceive or infer information, and to retain it as knowledge to be
           applied towards adaptive behaviors within an environment or context.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Critical thinking",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Critical_thinking`,
+    anchor: "Critical_thinking",
+    text: {
+      p1: (
+        <p>
+          Critical thinking is the analysis of available facts, evidence,
+          observations, and arguments to form a judgement. The subject is
+          complex; several different definitions exist, which generally include
+          the rational, skeptical, and unbiased analysis or evaluation of
+          factual evidence. Critical thinking is self-directed,
+          self-disciplined, self-monitored, and self-corrective thinking. It
+          presupposes assent to rigorous standards of excellence and mindful
+          command of their use. It entails effective communication and
+          problem-solving abilities as well as a commitment to overcome native
+          egocentrism and sociocentrism.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Ontology",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Ontology`,
+    anchor: "Ontology",
+    text: {
+      p1: (
+        <p>
+          Ontology is the branch of philosophy that studies concepts such as existence, being, becoming, and reality. It includes the questions of how entities are grouped into basic categories and which of these entities exist on the most fundamental level. Ontology is sometimes referred to as the science of being and belongs to the major branch of philosophy known as metaphysics. 
         </p>
       ),
     },
