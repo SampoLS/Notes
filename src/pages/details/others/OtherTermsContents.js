@@ -127,7 +127,11 @@ export const termsContents = [
     text: {
       p1: (
         <p>
-          Information is processed, organized and structured data. It provides context for data and enables decision making processes. For example, a single customer’s sale at a restaurant is data – this becomes information when the business is able to identify the most popular or least popular dish.
+          Information is processed, organized and structured data. It provides
+          context for data and enables decision making processes. For example, a
+          single customer’s sale at a restaurant is data – this becomes
+          information when the business is able to identify the most popular or
+          least popular dish.
         </p>
       ),
     },
@@ -731,7 +735,32 @@ export const termsContents = [
     text: {
       p1: (
         <p>
-          Ontology is the branch of philosophy that studies concepts such as existence, being, becoming, and reality. It includes the questions of how entities are grouped into basic categories and which of these entities exist on the most fundamental level. Ontology is sometimes referred to as the science of being and belongs to the major branch of philosophy known as metaphysics. 
+          Ontology is the branch of philosophy that studies concepts such as
+          existence, being, becoming, and reality. It includes the questions of
+          how entities are grouped into basic categories and which of these
+          entities exist on the most fundamental level. Ontology is sometimes
+          referred to as the science of being and belongs to the major branch of
+          philosophy known as metaphysics.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Communication protocol",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Communication_protocol`,
+    anchor: "Communication_protocol",
+    text: {
+      p1: (
+        <p>
+          A communication protocol is a system of rules that allows two or more
+          entities of a communications system to transmit information via any
+          kind of variation of a physical quantity. The protocol defines the
+          rules, syntax, semantics and synchronization of communication and
+          possible error recovery methods. Protocols may be implemented by
+          hardware, software, or a combination of both.
         </p>
       ),
     },
