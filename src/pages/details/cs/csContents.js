@@ -2883,6 +2883,26 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Message queue",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Message_queue`,
+    anchor: "Message_queue",
+    text: {
+      p1: (
+        <p>
+          In computer science, message queues and mailboxes are
+          software-engineering components typically used for inter-process
+          communication (IPC), or for inter-thread communication within the same
+          process. They use a queue for messaging - the passing of control or of
+          content. Group communication systems provide similar kinds of
+          functionality.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

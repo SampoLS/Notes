@@ -765,4 +765,27 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Schedule",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Schedule`,
+    anchor: "Schedule",
+    text: {
+      p1: (
+        <p>
+          A schedule or a timetable, as a basic time-management tool, consists
+          of a list of times at which possible tasks, events, or actions are
+          intended to take place, or of a sequence of events in the
+          chronological order in which such things are intended to take place.
+          The process of creating a schedule — deciding how to order these tasks
+          and how to commit resources between the variety of possible tasks — is
+          called scheduling, and a person responsible for making a particular
+          schedule may be called a scheduler. Making and following schedules is
+          an ancient human activity.
+        </p>
+      ),
+    },
+  },
 ];
