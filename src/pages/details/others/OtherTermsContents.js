@@ -788,4 +788,77 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Science",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Science`,
+    anchor: "Science",
+    text: {
+      p1: (
+        <p>
+          Science is a systematic enterprise that builds and organizes knowledge
+          in the form of testable explanations and predictions about the
+          universe.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Analysis",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Analysis`,
+    anchor: "Analysis",
+    text: {
+      p1: (
+        <p>
+          Analysis is the process of breaking a complex topic or substance into
+          smaller parts in order to gain a better understanding of it. The
+          technique has been applied in the study of mathematics and logic since
+          before Aristotle (384-322 B.C.), though analysis as a formal concept
+          is a relatively recent development.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Complexity",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Complexity`,
+    anchor: "Complexity",
+    text: {
+      p1: (
+        <p>
+          Complexity characterises the behaviour of a system or model whose
+          components interact in multiple ways and follow local rules, leading
+          to nonlinearity, randomness, collective dynamics, hierarchy, and
+          emergence.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Parsing",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Parsing`,
+    anchor: "Parsing",
+    text: {
+      p1: (
+        <p>
+          Parsing, syntax analysis, or syntactic analysis is the process of
+          analyzing a string of symbols, either in natural language, computer
+          languages or data structures, conforming to the rules of a formal
+          grammar. The term parsing comes from Latin pars (orationis), meaning
+          part (of speech).
+        </p>
+      ),
+    },
+  },
 ];

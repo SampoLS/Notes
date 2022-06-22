@@ -2903,6 +2903,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Execution model",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Execution_model`,
+    anchor: "Execution_model",
+    text: {
+      p1: (
+        <p>
+          A programming language consists of a grammar/syntax plus an execution
+          model. The execution model specifies the behavior of elements of the
+          language. By applying the execution model, one can derive the behavior
+          of a program that was written in terms of that programming language.
+          For example, when a programmer "reads" code, in their mind, they walk
+          through what each line of code does. In effect they simulate the
+          behavior inside their mind. What the programmer is doing is applying
+          the execution model to the code, which results in the behavior of the
+          code.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
