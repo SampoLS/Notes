@@ -2926,6 +2926,42 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Interpreter (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Interpreter_(computing)`,
+    anchor: "Interpreter_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer science, an interpreter is a computer program that
+          directly executes instructions written in a programming or scripting
+          language, without requiring them previously to have been compiled into
+          a machine language program.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Abstract syntax tree",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Abstract_syntax_tree`,
+    anchor: "Abstract_syntax_tree",
+    text: {
+      p1: (
+        <p>
+          In computer science, an abstract syntax tree (AST), or just syntax
+          tree, is a tree representation of the abstract syntactic structure of
+          text (often source code) written in a formal language. Each node of
+          the tree denotes a construct occurring in the text.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
