@@ -904,4 +904,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Complex system",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Complex_system`,
+    anchor: "Complex_system",
+    text: {
+      p1: (
+        <p>
+          A complex system is a system composed of many components which may
+          interact with each other. Examples of complex systems are Earth's
+          global climate, organisms, the human brain, infrastructure such as
+          power grid, transportation or communication systems, complex software
+          and electronic systems, social and economic organizations (like
+          cities), an ecosystem, a living cell, and ultimately the entire
+          universe.
+        </p>
+      ),
+    },
+  },
 ];

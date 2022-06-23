@@ -2962,6 +2962,31 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Thread (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Thread_(computing)`,
+    anchor: "Thread_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer science, a thread of execution is the smallest sequence of
+          programmed instructions that can be managed independently by a
+          scheduler, which is typically a part of the operating system. The
+          implementation of threads and processes differs between operating
+          systems, but in most cases a thread is a component of a process. The
+          multiple threads of a given process may be executed concurrently (via
+          multithreading capabilities), sharing resources such as memory, while
+          different processes do not share these resources. In particular, the
+          threads of a process share its executable code and the values of its
+          dynamically allocated variables and non-thread-local global variables
+          at any given time.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
