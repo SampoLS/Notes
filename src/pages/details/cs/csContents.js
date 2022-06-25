@@ -833,11 +833,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Closure",
+    title: "Closure (computer_programming)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Closure_(computer_programming)`,
-    anchor: "Closure",
+    anchor: "Closure_(computer_programming)",
     text: {
       p1: (
         <p>
@@ -2983,6 +2983,26 @@ export const csContents = [
           threads of a process share its executable code and the values of its
           dynamically allocated variables and non-thread-local global variables
           at any given time.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Memory cell (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Memory_cell_(computing)`,
+    anchor: "Memory_cell_(computing)",
+    text: {
+      p1: (
+        <p>
+          The memory cell is the fundamental building block of computer memory.
+          The memory cell is an electronic circuit that stores one bit of binary
+          information and it must be set to store a logic 1 (high voltage level)
+          and reset to store a logic 0 (low voltage level). Its value is
+          maintained/stored until it is changed by the set/reset process. The
+          value in the memory cell can be accessed by reading it.
         </p>
       ),
     },
