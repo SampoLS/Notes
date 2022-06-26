@@ -3007,6 +3007,52 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Stack-based memory allocation",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Stack-based_memory_allocation`,
+    anchor: "Stack-based_memory_allocation",
+    text: {
+      p1: (
+        <p>
+          Stacks in computing architectures are regions of memory where data is
+          added or removed in a last-in-first-out (LIFO) manner. In most modern
+          computer systems, each thread has a reserved region of memory referred
+          to as its stack. When a function executes, it may add some of its
+          local state data to the top of the stack; when the function exits it
+          is responsible for removing that data from the stack. At a minimum, a
+          thread's stack is used to store the location of a return address
+          provided by the caller in order to allow return statements to return
+          to the correct location.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Free variables and bound variables",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Free_variables_and_bound_variables`,
+    anchor: "Free_variables_and_bound_variables",
+    text: {
+      p1: (
+        <p>
+          In mathematics, and in other disciplines involving formal languages,
+          including mathematical logic and computer science, a free variable is
+          a notation (symbol) that specifies places in an expression where
+          substitution may take place and is not a parameter of this or any
+          container expression. Some older books use the terms real variable and
+          apparent variable for free variable and bound variable, respectively.
+          The idea is related to a placeholder (a symbol that will later be
+          replaced by some value), or a wildcard character that stands for an
+          unspecified symbol.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
