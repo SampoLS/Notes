@@ -346,27 +346,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Logic gate",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Logic_gate`,
-    anchor: "Logic_gate",
-    text: {
-      p1: (
-        <p>
-          A logic gate is an idealized model of computation or a physical
-          electronic device implementing a Boolean function, a logical operation
-          performed on one or more binary inputs that produces a single binary
-          output. Depending on the context, the term may refer to an ideal logic
-          gate, one that has for instance zero rise time and unlimited fan-out,
-          or it may refer to a non-ideal physical device(see Ideal and real
-          op-amps for comparison).
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Philosophy",
     isLargerTitle: false,
     path: "/other_terms",
@@ -921,6 +900,23 @@ export const termsContents = [
           and electronic systems, social and economic organizations (like
           cities), an ecosystem, a living cell, and ultimately the entire
           universe.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Logic",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Logic`,
+    anchor: "Logic",
+    text: {
+      p1: (
+        <p>
+          Logic is the study of correct reasoning or good arguments. It is often
+          defined in a more narrow sense as the science of deductively valid
+          inferences or of logical truths.
         </p>
       ),
     },
