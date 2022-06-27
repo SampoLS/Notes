@@ -921,4 +921,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Linguistics",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Linguistics`,
+    anchor: "Linguistics",
+    text: {
+      p1: (
+        <p>
+          Linguistics is the scientific study of human language. It entails a
+          comprehensive, systematic, objective, and precise analysis of all
+          aspects of language, particularly its nature and structure. As
+          linguistics is concerned with both the cognitive and social aspects of
+          language, it is considered a scientific field as well as an academic
+          discipline; it has been classified as a social science, natural
+          science, cognitive science, or part of the humanities.
+        </p>
+      ),
+    },
+  },
 ];
