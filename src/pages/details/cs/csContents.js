@@ -574,11 +574,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Declaration",
+    title: "Declaration (computer programming)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Declaration_(computer_programming)`,
-    anchor: "Declaration",
+    anchor: "Declaration_(computer_programming)",
     text: {
       p1: (
         <p>
