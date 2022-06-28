@@ -112,11 +112,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Variable",
+    title: "Variable (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Variable_(computer_science)`,
-    anchor: "variable",
+    anchor: "Variable_(computer_science)",
     text: {
       p1: (
         <p>
@@ -3099,6 +3099,112 @@ export const csContents = [
           paragraphs, sections, and the like are identified; and from binary
           files in which some portions must be interpreted as binary objects
           (encoded integers, real numbers, images, etc.).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Nesting (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Nesting_(computing)`,
+    anchor: "Nesting_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing science and informatics, nesting is where information is
+          organized in layers, or where objects contain other similar objects.
+          It almost always refers to self-similar or recursive structures in
+          some sense.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Threaded code",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Threaded_code`,
+    anchor: "Threaded_code",
+    text: {
+      p1: (
+        <p>
+          In computer science, threaded code is a programming technique where
+          the code has a form that essentially consists entirely of calls to
+          subroutines. It is often used in compilers, which may generate code in
+          that form or be implemented in that form themselves. The code may be
+          processed by an interpreter or it may simply be a sequence of machine
+          code call instructions.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Return statement",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Return_statement`,
+    anchor: "Return_statement",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a return statement causes execution to leave
+          the current subroutine and resume at the point in the code immediately
+          after the instruction which called the subroutine, known as its return
+          address. The return address is saved by the calling routine, today
+          usually on the process's call stack or in a register. Return
+          statements in many languages allow a function to specify a return
+          value to be passed back to the code that called the function.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Information hiding",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Information_hiding`,
+    anchor: "Information_hiding",
+    text: {
+      p1: (
+        <p>
+          In computer science, information hiding is the principle of
+          segregation of the design decisions in a computer program that are
+          most likely to change, thus protecting other parts of the program from
+          extensive modification if the design decision is changed. The
+          protection involves providing a stable interface which protects the
+          remainder of the program from the implementation (whose details are
+          likely to change). Written in another way, information hiding is the
+          ability to prevent certain aspects of a class or software component
+          from being accessible to its clients, using either programming
+          language features (like private variables) or an explicit exporting
+          policy.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Overhead (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Overhead_(computing)`,
+    anchor: "Overhead_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer science, overhead is any combination of excess or indirect
+          computation time, memory, bandwidth, or other resources that are
+          required to perform a specific task. It is a special case of
+          engineering overhead. Overhead can be a deciding factor in software
+          design, with regard to structure, error correction, and feature
+          inclusion. Examples of computing overhead may be found in Object
+          Oriented Programming (OOP), functional programming, data transfer, and
+          data structures.
         </p>
       ),
     },
