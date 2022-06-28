@@ -149,11 +149,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Identifier",
+    title: "Identifier (computer languages)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Identifier_(computer_languages)`,
-    anchor: "identifier",
+    anchor: "Identifier_(computer_languages)",
     text: {
       p1: (
         <p>
@@ -469,11 +469,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Scope",
+    title: "Scope (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Scope_(computer_science)`,
-    anchor: "Scope",
+    anchor: "Scope_(computer_science)",
     text: {
       p1: (
         <p>
@@ -3049,6 +3049,56 @@ export const csContents = [
           The idea is related to a placeholder (a symbol that will later be
           replaced by some value), or a wildcard character that stands for an
           unspecified symbol.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Source code",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Source_code`,
+    anchor: "Source_code",
+    text: {
+      p1: (
+        <p>
+          In computing, source code is any collection of code, with or without
+          comments, written using a human-readable programming language, usually
+          as plain text. The source code of a program is specially designed to
+          facilitate the work of computer programmers, who specify the actions
+          to be performed by a computer mostly by writing source code. The
+          source code is often transformed by an assembler or compiler into
+          binary machine code that can be executed by the computer. The machine
+          code might then be stored for execution at a later time.
+          Alternatively, source code may be interpreted and thus immediately
+          executed.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Plain text",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Plain_text`,
+    anchor: "Plain_text",
+    text: {
+      p1: (
+        <p>
+          In computing, plain text is a loose term for data (e.g. file contents)
+          that represent only characters of readable material but not its
+          graphical representation nor other objects (floating-point numbers,
+          images, etc.). It may also include a limited number of "whitespace"
+          characters that affect simple arrangement of text, such as spaces,
+          line breaks, or tabulation characters (although tab characters can
+          "mean" many different things, so are hardly "plain"). Plain text is
+          different from formatted text, where style information is included;
+          from structured text, where structural parts of the document such as
+          paragraphs, sections, and the like are identified; and from binary
+          files in which some portions must be interpreted as binary objects
+          (encoded integers, real numbers, images, etc.).
         </p>
       ),
     },

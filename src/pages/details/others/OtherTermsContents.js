@@ -942,4 +942,45 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Lexical semantics",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Lexical_semantics`,
+    anchor: "Lexical_semantics",
+    text: {
+      p1: (
+        <p>
+          Lexical semantics (also known as lexicosemantics), as a subfield of
+          linguistic semantics, is the study of word meanings. It includes the
+          study of how words structure their meaning, how they act in grammar
+          and compositionality, and the relationships between the distinct
+          senses and uses of a word.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Identifier",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Identifier`,
+    anchor: "Identifier",
+    text: {
+      p1: (
+        <p>
+          An identifier is a name that identifies (that is, labels the identity
+          of) either a unique object or a unique class of objects, where the
+          "object" or class may be an idea, physical countable object (or class
+          thereof), or physical noncountable substance (or class thereof). The
+          abbreviation ID often refers to identity, identification (the process
+          of identifying), or an identifier (that is, an instance of
+          identification). An identifier may be a word, number, letter, symbol,
+          or any combination of those.
+        </p>
+      ),
+    },
+  },
 ];
