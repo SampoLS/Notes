@@ -3209,6 +3209,28 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Lexical grammar",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Lexical_grammar`,
+    anchor: "Lexical_grammar",
+    text: {
+      p1: (
+        <p>
+          In computer science, a lexical grammar is a formal grammar defining
+          the syntax of tokens. The program is written using characters that are
+          defined by the lexical structure of the language used. The character
+          set is equivalent to the alphabet used by any written language. The
+          lexical grammar lays down the rules governing how a character sequence
+          is divided up into subsequences of characters, each part of which
+          represents an individual token. This is frequently defined in terms of
+          regular expressions.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
