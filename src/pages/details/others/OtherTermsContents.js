@@ -983,4 +983,23 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Structured program theorem",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Structured_program_theorem`,
+    anchor: "Structured_ program_theorem",
+    text: {
+      p1: (
+        <p>
+          The structured program theorem, also called the Böhm–Jacopini theorem,
+          is a result in programming language theory. It states that a class of
+          control-flow graphs (historically called flowcharts in this context)
+          can compute any computable function if it combines subprograms in only
+          three specific ways (control structures).
+        </p>
+      ),
+    },
+  },
 ];
