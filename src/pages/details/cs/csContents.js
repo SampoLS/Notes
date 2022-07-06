@@ -1249,11 +1249,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Function composition",
+    title: "Function composition (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Function_composition_(computer_science)`,
-    anchor: "Function_composition",
+    anchor: "Function_composition_(computer_science)",
     text: {
       p1: (
         <p>
