@@ -1287,11 +1287,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Decomposition",
+    title: "Decomposition (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Decomposition_(computer_science)`,
-    anchor: "Decomposition",
+    anchor: "Decomposition_(computer_science)",
     text: {
       p1: (
         <p>
@@ -3227,6 +3227,22 @@ export const csContents = [
           is divided up into subsequences of characters, each part of which
           represents an individual token. This is frequently defined in terms of
           regular expressions.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Computational problem",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computational_problem`,
+    anchor: "Computational_problem",
+    text: {
+      p1: (
+        <p>
+          In theoretical computer science, a computational problem is a problem
+          that may be solved by an algorithm.
         </p>
       ),
     },

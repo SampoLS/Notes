@@ -1002,4 +1002,73 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Recursion",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Recursion`,
+    anchor: "Recursion",
+    text: {
+      p1: (
+        <p>
+          Recursion (adjective: recursive) occurs when a thing is defined in
+          terms of itself or of its type. Recursion is used in a variety of
+          disciplines ranging from linguistics to logic. The most common
+          application of recursion is in mathematics and computer science, where
+          a function being defined is applied within its own definition. While
+          this apparently defines an infinite number of instances (function
+          values), it is often done in such a way that no infinite loop or
+          infinite chain of references ("crock recursion") can occur.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Systems theory",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Systems_theory`,
+    anchor: "Systems_theory",
+    text: {
+      p1: (
+        <p>
+          Systems theory is the interdisciplinary study of systems, i.e.
+          cohesive groups of interrelated, interdependent components that can be
+          natural or human-made. Every system has causal boundaries, is
+          influenced by its context, defined by its structure, function and
+          role, and expressed through its relations with other systems. A system
+          is "more than the sum of its parts" by expressing synergy or emergent
+          behavior.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Interdisciplinarity",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Interdisciplinarity`,
+    anchor: "Interdisciplinarity",
+    text: {
+      p1: (
+        <p>
+          Interdisciplinarity or interdisciplinary studies involves the
+          combination of two or more academic disciplines into one activity
+          (e.g., a research project). It draws knowledge from several other
+          fields like sociology, anthropology, psychology, economics etc. It is
+          about creating something by thinking across boundaries. It is related
+          to an interdiscipline or an interdisciplinary field, which is an
+          organizational unit that crosses traditional boundaries between
+          academic disciplines or schools of thought, as new needs and
+          professions emerge. Large engineering teams are usually
+          interdisciplinary, as a power station or mobile phone or other project
+          requires the melding of several specialties. However, the term
+          "interdisciplinary" is sometimes confined to academic settings.
+        </p>
+      ),
+    },
+  },
 ];
