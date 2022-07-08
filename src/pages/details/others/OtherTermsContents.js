@@ -1071,4 +1071,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computational linguistics",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Computational_linguistics`,
+    anchor: "Computational_linguistics",
+    text: {
+      p1: (
+        <p>
+          Computational linguistics is an interdisciplinary field concerned with
+          the computational modelling of natural language, as well as the study
+          of appropriate computational approaches to linguistic questions. In
+          general, computational linguistics draws upon linguistics, computer
+          science, artificial intelligence, mathematics, logic, philosophy,
+          cognitive science, cognitive psychology, psycholinguistics,
+          anthropology and neuroscience, among others.
+        </p>
+      ),
+    },
+  },
 ];
