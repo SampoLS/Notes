@@ -1092,4 +1092,40 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Distinction (philosophy)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Distinction_(philosophy)`,
+    anchor: "Distinction_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          Distinction, the fundamental philosophical abstraction, involves the
+          recognition of difference.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Granularity",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Granularity`,
+    anchor: "Granularity",
+    text: {
+      p1: (
+        <p>
+          Granularity (also called graininess), the condition of existing in
+          granules or grains, refers to the extent to which a material or system
+          is composed of distinguishable pieces. It can either refer to the
+          extent to which a larger entity is subdivided, or the extent to which
+          groups of smaller indistinguishable entities have joined together to
+          become larger distinguishable entities.
+        </p>
+      ),
+    },
+  },
 ];
