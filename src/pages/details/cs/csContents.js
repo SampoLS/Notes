@@ -796,7 +796,7 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Event",
+    title: "Event (computing)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Event_(computing)`,
@@ -3243,6 +3243,29 @@ export const csContents = [
         <p>
           In theoretical computer science, a computational problem is a problem
           that may be solved by an algorithm.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Concurrency (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Concurrency_(computer_science)`,
+    anchor: "Concurrency_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science, concurrency is the ability of different parts or
+          units of a program, algorithm, or problem to be executed out-of-order
+          or in partial order, without affecting the final outcome. This allows
+          for parallel execution of the concurrent units, which can
+          significantly improve overall speed of the execution in
+          multi-processor and multi-core systems. In more technical terms,
+          concurrency refers to the decomposability of a program, algorithm, or
+          problem into order-independent or partially-ordered components or
+          units of computation.
         </p>
       ),
     },
