@@ -3247,6 +3247,24 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Coupling (computer programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Coupling_(computer_programming)`,
+    anchor: "Coupling_(computer_programming)",
+    text: {
+      p1: (
+        <p>
+          In software engineering, coupling is the degree of interdependence
+          between software modules; a measure of how closely connected two
+          routines or modules are; the strength of the relationships between
+          modules.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
