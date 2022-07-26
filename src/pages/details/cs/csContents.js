@@ -210,7 +210,7 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Statement",
+    title: "Statement (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Statement_(computer_science)`,
@@ -3261,6 +3261,24 @@ export const csContents = [
           between software modules; a measure of how closely connected two
           routines or modules are; the strength of the relationships between
           modules.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Naming convention (programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Naming_convention_(programming)`,
+    anchor: "Naming_convention_(programming)",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a naming convention is a set of rules for
+          choosing the character sequence to be used for identifiers which
+          denote variables, types, functions, and other entities in source code
+          and documentation.
         </p>
       ),
     },

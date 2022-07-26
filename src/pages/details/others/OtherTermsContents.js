@@ -1128,4 +1128,41 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Readability",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Readability`,
+    anchor: "Readability",
+    text: {
+      p1: (
+        <p>
+          Readability is the ease with which a reader can understand a written
+          text. In natural language, the readability of text depends on its
+          content (the complexity of its vocabulary and syntax) and its
+          presentation (such as typographic aspects that affect legibility, like
+          font size, line height, character spacing, and line length).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Creativity",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Creativity`,
+    anchor: "Creativity",
+    text: {
+      p1: (
+        <p>
+          Creativity is a phenomenon whereby something new and valuable is
+          formed. The created item may be intangible (such as an idea, a
+          scientific theory, a musical composition, or a joke) or a physical
+          object (such as an invention, a printed literary work, or a painting).
+        </p>
+      ),
+    },
+  },
 ];
