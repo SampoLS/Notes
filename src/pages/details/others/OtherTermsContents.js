@@ -1165,4 +1165,115 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Boolean algebra",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Boolean_algebra`,
+    anchor: "Boolean_algebra",
+    text: {
+      p1: (
+        <p>
+          In mathematics and mathematical logic, Boolean algebra is the branch
+          of algebra in which the values of the variables are the truth values
+          true and false, usually denoted 1 and 0, respectively. Instead of
+          elementary algebra, where the values of the variables are numbers and
+          the prime operations are addition and multiplication, the main
+          operations of Boolean algebra are the conjunction (and) denoted as ∧,
+          the disjunction (or) denoted as v, and the negation (not) denoted as
+          ¬. It is thus a formalism for describing logical operations, in the
+          same way that elementary algebra describes numerical operations.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Truth value",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Truth_value`,
+    anchor: "Truth_value",
+    text: {
+      p1: (
+        <p>
+          In logic and mathematics, a truth value, sometimes called a logical
+          value, is a value indicating the relation of a proposition to truth.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Truth",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Truth`,
+    anchor: "Truth",
+    text: {
+      p1: (
+        <p>
+          Truth is the property of being in accord with fact or reality.[1] In
+          everyday language, truth is typically ascribed to things that aim to
+          represent reality or otherwise correspond to it, such as beliefs,
+          propositions, and declarative sentences.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Fact",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Fact`,
+    anchor: "Fact",
+    text: {
+      p1: (
+        <p>
+          A fact is something that is true. The usual test for a statement of
+          fact is verifiability, that is whether it can be demonstrated to
+          correspond to experience. Standard reference works are often used to
+          check facts. Scientific facts are verified by repeatable careful
+          observation or measurement by experiments or other means.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Reality",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Reality`,
+    anchor: "Reality",
+    text: {
+      p1: (
+        <p>
+          Reality is the sum or aggregate of all that is real or existent within
+          a system, as opposed to that which is only imaginary. The term is also
+          used to refer to the ontological status of things, indicating their
+          existence.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Meaning (philosophy)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Meaning_(philosophy)`,
+    anchor: "Meaning_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          In semantics, semiotics, philosophy of language, metaphysics, and
+          metasemantics, meaning "is a relationship between two sorts of things:
+          signs and the kinds of things they intend, express, or signify".
+        </p>
+      ),
+    },
+  },
 ];

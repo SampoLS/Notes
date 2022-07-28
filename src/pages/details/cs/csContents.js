@@ -3283,6 +3283,52 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Boolean data type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Boolean_data_type`,
+    anchor: "Boolean_ data_type",
+    text: {
+      p1: (
+        <p>
+          In computer science, the Boolean (sometimes shortened to Bool) is a
+          data type that has one of two possible values (usually denoted true
+          and false) which is intended to represent the two truth values of
+          logic and Boolean algebra. It is named after George Boole, who first
+          defined an algebraic system of logic in the mid 19th century. The
+          Boolean data type is primarily associated with conditional statements,
+          which allow different actions by changing control flow depending on
+          whether a programmer-specified Boolean condition evaluates to true or
+          false. It is a special case of a more general logical data type (see
+          probabilistic logic)—logic doesn't always need to be Boolean.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Conditional (computer programming)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Conditional_(computer_programming)`,
+    anchor: "Conditional_(computer_programming)",
+    text: {
+      p1: (
+        <p>
+          In computer science, conditionals (that is, conditional statements,
+          conditional expressions and conditional constructs,) are programming
+          language commands for handling decisions. Specifically, conditionals
+          perform different computations or actions depending on whether a
+          programmer-defined boolean condition evaluates to true or false. In
+          terms of control flow, the decision is always achieved by selectively
+          altering the control flow based on some condition (apart from the case
+          of branch predication).
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
