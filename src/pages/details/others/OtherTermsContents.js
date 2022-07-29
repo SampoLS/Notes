@@ -129,7 +129,7 @@ export const termsContents = [
         <p>
           Information is processed, organized and structured data. It provides
           context for data and enables decision making processes. For example, a
-          single customer’s sale at a restaurant is data – this becomes
+          single customer's sale at a restaurant is data - this becomes
           information when the business is able to identify the most popular or
           least popular dish.
         </p>
@@ -1272,6 +1272,148 @@ export const termsContents = [
           In semantics, semiotics, philosophy of language, metaphysics, and
           metasemantics, meaning "is a relationship between two sorts of things:
           signs and the kinds of things they intend, express, or signify".
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "False (logic)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/False_(logic)`,
+    anchor: "False_(logic)",
+    text: {
+      p1: (
+        <p>
+          In logic, false or untrue is the state of possessing negative truth
+          value or a nullary logical connective.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Object of the mind",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Object_of_the_mind`,
+    anchor: "Object_of_the_mind",
+    text: {
+      p1: (
+        <p>
+          An object of the mind is an object that exists in the imagination, but
+          which, in the real world, can only be represented or modeled. Some
+          such objects are abstractions, literary concepts, or fictional
+          scenarios.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Knowledge",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Knowledge`,
+    anchor: "Knowledge",
+    text: {
+      p1: (
+        <p>
+          Knowledge is a familiarity or awareness, of someone or something, such
+          as facts (descriptive knowledge), skills (procedural knowledge), or
+          objects (acquaintance knowledge), often contributing to understanding.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Understanding",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Understanding`,
+    anchor: "Understanding",
+    text: {
+      p1: (
+        <p>
+          Understanding is a psychological process related to an abstract or
+          physical object, such as a person, situation, or message whereby one
+          is able to use concepts to model that object. Understanding is a
+          relation between the knower and an object of understanding.
+          Understanding implies abilities and dispositions with respect to an
+          object of knowledge that are sufficient to support intelligent
+          behavior.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "I/O scheduling",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/I/O_scheduling`,
+    anchor: "I/O_scheduling",
+    text: {
+      p1: (
+        <p>
+          Input/output (I/O) scheduling is the method that computer operating
+          systems use to decide in which order I/O operations will be submitted
+          to storage volumes. I/O scheduling is sometimes called disk
+          scheduling.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Signal",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Signal`,
+    anchor: "Signal",
+    text: {
+      p1: (
+        <p>
+          In signal processing, a signal is a function that conveys information
+          about a phenomenon. Any quantity that can vary over space or time can
+          be used as a signal to share messages between observers.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Message",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Message`,
+    anchor: "Message",
+    text: {
+      p1: (
+        <p>
+          A message is a discrete unit of communication intended by the source
+          for consumption by some recipient or group of recipients. A message
+          may be delivered by various means, including courier, telegraphy,
+          carrier pigeon and electronic bus. A message can be the content of a
+          broadcast. An interactive exchange of messages forms a conversation.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Existence",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Existence`,
+    anchor: "Existence",
+    text: {
+      p1: (
+        <p>
+          Existence is the ability of an entity to interact with reality. In
+          philosophy, it refers to the ontological property of being.
         </p>
       ),
     },
