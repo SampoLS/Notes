@@ -492,11 +492,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Asynchrony",
+    title: "Asynchrony (computer programming)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Asynchrony_(computer_programming)`,
-    anchor: "Asynchrony",
+    anchor: "Asynchrony_(computer_programming)",
     text: {
       p1: (
         <p>
