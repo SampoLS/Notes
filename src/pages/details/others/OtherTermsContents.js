@@ -1418,4 +1418,21 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Simulation hypothesis",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Simulation_hypothesis`,
+    anchor: "Simulation_hypothesis",
+    text: {
+      p1: (
+        <p>
+          The simulation hypothesis proposes that all of our existence is a
+          simulated reality, such as a computer simulation which convinces its
+          inhabitants that the simulation is "real".
+        </p>
+      ),
+    },
+  },
 ];
