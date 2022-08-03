@@ -1491,4 +1491,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Symbol",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Symbol`,
+    anchor: "Symbol",
+    text: {
+      p1: (
+        <p>
+          A symbol is a mark, sign, or word that indicates, signifies, or is
+          understood as representing an idea, object, or relationship. Symbols
+          allow people to go beyond what is known or seen by creating linkages
+          between otherwise very different concepts and experiences. All
+          communication (and data processing) is achieved through the use of
+          symbols. Symbols take the form of words, sounds, gestures, ideas, or
+          visual images and are used to convey other ideas and beliefs.
+        </p>
+      ),
+    },
+  },
 ];
