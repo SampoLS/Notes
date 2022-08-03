@@ -3454,6 +3454,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Attribute (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Attribute_(computing)`,
+    anchor: "Attribute_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing, an attribute is a specification that defines a property
+          of an object, element, or file. It may also refer to or set the
+          specific value for a given instance of such. For clarity, attributes
+          should more correctly be considered metadata. An attribute is
+          frequently and generally a property of a property. However, in actual
+          usage, the term attribute can and is often treated as equivalent to a
+          property depending on the technology being discussed. An attribute of
+          an object usually consists of a name and a value; of an element, a
+          type or class name; of a file, a name and extension.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
