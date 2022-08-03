@@ -1512,4 +1512,22 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Meditation",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Meditation`,
+    anchor: "Meditation",
+    text: {
+      p1: (
+        <p>
+          Meditation is a practice in which an individual uses a technique -
+          such as mindfulness, or focusing the mind on a particular object,
+          thought, or activity - to train attention and awareness, and achieve a
+          mentally clear and emotionally calm and stable state.
+        </p>
+      ),
+    },
+  },
 ];
