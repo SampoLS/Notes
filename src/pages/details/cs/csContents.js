@@ -3329,6 +3329,131 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Machine code",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Machine_code`,
+    anchor: "Machine_code",
+    text: {
+      p1: (
+        <p>
+          In computer programming, machine code is any low-level programming
+          language, consisting of machine language instructions, which are used
+          to control a computer's central processing unit (CPU). Each
+          instruction causes the CPU to perform a very specific task, such as a
+          load, a store, a jump, or an arithmetic logic unit (ALU) operation on
+          one or more units of data in the CPU's registers or memory.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Low-level programming language",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Low-level_programming_language`,
+    anchor: "Low-level_programming_language",
+    text: {
+      p1: (
+        <p>
+          A low-level programming language is a programming language that
+          provides little or no abstraction from a computer's instruction set
+          architecture—commands or functions in the language map that are
+          structurally similar to processor's instructions. Generally, this
+          refers to either machine code or assembly language. Because of the low
+          (hence the word) abstraction between the language and machine
+          language, low-level languages are sometimes described as being "close
+          to the hardware". Programs written in low-level languages tend to be
+          relatively non-portable, due to being optimized for a certain type of
+          system architecture.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Assembly language",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Assembly_language`,
+    anchor: "Assembly_language",
+    text: {
+      p1: (
+        <p>
+          In computer programming, assembly language (or assembler language, or
+          symbolic machine code), often referred to simply as Assembly and
+          commonly abbreviated as ASM or asm, is any low-level programming
+          language with a very strong correspondence between the instructions in
+          the language and the architecture's machine code instructions.
+          Assembly language usually has one statement per machine instruction
+          (1:1), but constants, comments, assembler directives, symbolic labels
+          of, e.g., memory locations, registers, and macros are generally also
+          supported.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Compiler",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Compiler`,
+    anchor: "Compiler",
+    text: {
+      p1: (
+        <p>
+          In computing, a compiler is a computer program that translates
+          computer code written in one programming language (the source
+          language) into another language (the target language). The name
+          "compiler" is primarily used for programs that translate source code
+          from a high-level programming language to a lower level language (e.g.
+          assembly language, object code, or machine code) to create an
+          executable program.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Instruction set architecture",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Instruction_set_architecture`,
+    anchor: "Instruction_set_architecture",
+    text: {
+      p1: (
+        <p>
+          In computer science, an instruction set architecture (ISA), also
+          called computer architecture, is an abstract model of a computer. A
+          device that executes instructions described by that ISA, such as a
+          central processing unit (CPU), is called an implementation.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Conceptual model",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Conceptual_model`,
+    anchor: "Conceptual_model",
+    text: {
+      p1: (
+        <p>
+          A conceptual model is a representation of a system. It consists of
+          concepts used to help people know, understand, or simulate a subject
+          the model represents. It is also a set of concepts. In contrast,
+          physical models are physical objects, such as a toy model that may be
+          assembled and made to work like the object it represents.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

@@ -1453,4 +1453,42 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Decision-making",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Decision-making`,
+    anchor: "Decision-making",
+    text: {
+      p1: (
+        <p>
+          In psychology, decision-making (also spelled decision making and
+          decisionmaking) is regarded as the cognitive process resulting in the
+          selection of a belief or a course of action among several possible
+          alternative options. It could be either rational or irrational. The
+          decision-making process is a reasoning process based on assumptions of
+          values, preferences and beliefs of the decision-maker. Every
+          decision-making process produces a final choice, which may or may not
+          prompt action.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Choice",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Choice`,
+    anchor: "Choice",
+    text: {
+      p1: (
+        <p>
+          A choice is the range of different things from which a being can
+          choose.
+        </p>
+      ),
+    },
+  },
 ];
