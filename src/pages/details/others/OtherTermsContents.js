@@ -1530,4 +1530,47 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Construction",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Construction`,
+    anchor: "Construction",
+    text: {
+      p1: (
+        <p>
+          Construction is a general term meaning the art and science to form
+          objects, systems, or organizations, and comes from Latin constructio
+          (from com- "together" and struere "to pile up") and Old French
+          construction. To construct is the verb: the act of building, and the
+          noun is construction: how something is built, the nature of its
+          structure.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Building material",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Building_material`,
+    anchor: "Building_material",
+    text: {
+      p1: (
+        <p>
+          Building material is material used for construction. Many naturally
+          occurring substances, such as clay, rocks, sand, wood, and even twigs
+          and leaves, have been used to construct buildings. Apart from
+          naturally occurring materials, many man-made products are in use, some
+          more and some less synthetic. The manufacturing of building materials
+          is an established industry in many countries and the use of these
+          materials is typically segmented into specific specialty trades, such
+          as carpentry, insulation, plumbing, and roofing work. They provide the
+          make-up of habitats and structures including homes.
+        </p>
+      ),
+    },
+  },
 ];
