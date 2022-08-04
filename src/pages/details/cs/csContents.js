@@ -3477,6 +3477,45 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Data (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Data_(computing)`,
+    anchor: "Data_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computing, data (treated as singular, plural, or as a mass noun) is
+          any sequence of one or more symbols; datum is a single symbol of data.
+          Data requires interpretation to become information. Digital data is
+          data that is represented using the binary number system of ones (1)
+          and zeros (0), instead of analog representation. In modern (post-1960)
+          computer systems, all data is digital.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Structured programming",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Structured_programming`,
+    anchor: "Structured_programming",
+    text: {
+      p1: (
+        <p>
+          Structured programming is a programming paradigm aimed at improving
+          the clarity, quality, and development time of a computer program by
+          making extensive use of the structured control flow constructs of
+          selection (if/then/else) and repetition (while and for), block
+          structures, and subroutines.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
