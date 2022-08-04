@@ -3516,6 +3516,36 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Predication (computer architecture)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Predication_(computer_architecture)`,
+    anchor: "Predication_(computer_architecture)",
+    text: {
+      p1: (
+        <p>
+          In computer science, predication is an architectural feature that
+          provides an alternative to conditional transfer of control, as
+          implemented by conditional branch machine instructions. Predication
+          works by having conditional (predicated) non-branch instructions
+          associated with a predicate, a Boolean value used by the instruction
+          to control whether the instruction is allowed to modify the
+          architectural state or not. If the predicate specified in the
+          instruction is true, the instruction modifies the architectural state;
+          otherwise, the architectural state is unchanged. For example, a
+          predicated move instruction (a conditional move) will only modify the
+          destination if the predicate is true. Thus, instead of using a
+          conditional branch to select an instruction or a sequence of
+          instructions to execute based on the predicate that controls whether
+          the branch occurs, the instructions to be executed are associated with
+          that predicate, so that they will be executed, or not executed, based
+          on whether that predicate is true or false.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
