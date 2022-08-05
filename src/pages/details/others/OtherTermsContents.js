@@ -1486,7 +1486,29 @@ export const termsContents = [
       p1: (
         <p>
           A choice is the range of different things from which a being can
-          choose.
+          choose.The arrival at a choice may incorporate motivators and models.
+          For example, a traveler might choose a route for a journey based on
+          the preference of arriving at a given destination at a specified time.
+          The preferred (and therefore chosen) route can then account for
+          information such as the length of each of the possible routes, the
+          amount of fuel in the vehicle, traffic conditions, etc.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Choice architecture",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Choice_architecture`,
+    anchor: "Choice_architecture",
+    text: {
+      p1: (
+        <p>
+          Choice architecture is the design of different ways in which choices
+          can be presented to decision makers, and the impact of that
+          presentation on decision-making.
         </p>
       ),
     },
@@ -1569,6 +1591,34 @@ export const termsContents = [
           materials is typically segmented into specific specialty trades, such
           as carpentry, insulation, plumbing, and roofing work. They provide the
           make-up of habitats and structures including homes.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Motivation",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Motivation`,
+    anchor: "Motivation",
+    text: {
+      p1: (
+        <p>
+          Motivation is the reason for which humans and other animals initiate,
+          continue, or terminate a behavior at a given time. Motivational states
+          are commonly understood as forces acting within the agent that create
+          a disposition to engage in goal-directed behavior. It is often held
+          that different mental states compete with each other and that only the
+          strongest state determines behavior. This means that we can be
+          motivated to do something without actually doing it. The paradigmatic
+          mental state providing motivation is desire. But various other states,
+          such as beliefs about what one ought to do or intentions, may also
+          provide motivation. Motivation is derived from the word 'motive,'
+          which denotes a person's needs, desires, wants, or urges. It is the
+          process of motivating individuals to take action in order to achieve a
+          goal. The psychological elements fueling people's behavior in the
+          context of job goals might include a desire for money.{" "}
         </p>
       ),
     },
