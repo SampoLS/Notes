@@ -1623,4 +1623,31 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Analysis paralysis",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Analysis_paralysis`,
+    anchor: "Analysis_paralysis",
+    text: {
+      p1: (
+        <p>
+          Analysis paralysis (or paralysis by analysis) describes an individual
+          or group process where overanalyzing or overthinking a situation can
+          cause forward motion or decision-making to become "paralyzed", meaning
+          that no solution or course of action is decided upon within a natural
+          time frame. A situation may be deemed too complicated and a decision
+          is never made, or made much too late, due to anxiety that a
+          potentially larger problem may arise. A person may desire a perfect
+          solution, but may fear making a decision that could result in error,
+          while on the way to a better solution. Equally, a person may hold that
+          a superior solution is a short step away, and stall in its endless
+          pursuit, with no concept of diminishing returns. On the opposite end
+          of the time spectrum is the phrase extinct by instinct, which is
+          making a fatal decision based on hasty judgment or a gut reaction.{" "}
+        </p>
+      ),
+    },
+  },
 ];
