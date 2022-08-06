@@ -1214,7 +1214,7 @@ export const termsContents = [
     text: {
       p1: (
         <p>
-          Truth is the property of being in accord with fact or reality.[1] In
+          Truth is the property of being in accord with fact or reality. In
           everyday language, truth is typically ascribed to things that aim to
           represent reality or otherwise correspond to it, such as beliefs,
           propositions, and declarative sentences.
@@ -1784,6 +1784,47 @@ export const termsContents = [
           valid argument which the reader agrees with. Therefore, if the reader
           disagrees with any one of the argument's premises, they have a logical
           basis to reject the conclusion of the argument.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Informal logic",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Informal_logic`,
+    anchor: "Informal_logic",
+    text: {
+      p1: (
+        <p>
+          Informal logic encompasses the principles of logic and logical thought
+          outside of a formal setting (characterized by the usage of particular
+          statements).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Cognition",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Cognition`,
+    anchor: "Cognition",
+    text: {
+      p1: (
+        <p>
+          Cognition refers to "the mental action or process of acquiring
+          knowledge and understanding through thought, experience, and the
+          senses". It encompasses all aspects of intellectual functions and
+          processes such as: perception, attention, thought, intelligence, the
+          formation of knowledge, memory and working memory, judgment and
+          evaluation, reasoning and computation, problem solving and decision
+          making, comprehension and production of language. Imagination is also
+          a cognitive process, it is considered as such because it involves
+          thinking about possibilities. Cognitive processes use existing
+          knowledge and discover new knowledge.
         </p>
       ),
     },
