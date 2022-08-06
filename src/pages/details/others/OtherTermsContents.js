@@ -1744,4 +1744,48 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Argument",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Argument`,
+    anchor: "Argument",
+    text: {
+      p1: (
+        <p>
+          An argument is a statement or group of statements called premises
+          intended to determine the degree of truth or acceptability of another
+          statement called conclusion. Arguments can be studied from three main
+          perspectives: the logical, the dialectical and the rhetorical
+          perspective.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Premise",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Premise`,
+    anchor: "Premise",
+    text: {
+      p1: (
+        <p>
+          A premise or premiss is a true or false statement that helps form the
+          body of an argument, which logically leads to a true or false
+          conclusion. A premise makes a declarative statement about its subject
+          matter which enables a reader to either agree or disagree with the
+          premise in question, and in doing so understand the logical
+          assumptions of the argument. If a premise is logically false, then the
+          conclusion, which follows from all of the premises of the argument,
+          must also be false—unless the conclusion is supported by a logically
+          valid argument which the reader agrees with. Therefore, if the reader
+          disagrees with any one of the argument's premises, they have a logical
+          basis to reject the conclusion of the argument.
+        </p>
+      ),
+    },
+  },
 ];
