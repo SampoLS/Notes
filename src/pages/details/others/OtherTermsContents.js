@@ -1650,4 +1650,98 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Logical consequence",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Logical_consequence`,
+    anchor: "Logical_consequence",
+    text: {
+      p1: (
+        <p>
+          Logical consequence (also entailment) is a fundamental concept in
+          logic, which describes the relationship between statements that hold
+          true when one statement logically follows from one or more statements.
+          A valid logical argument is one in which the conclusion is entailed by
+          the premises, because the conclusion is the consequence of the
+          premises. The philosophical analysis of logical consequence involves
+          the questions: In what sense does a conclusion follow from its
+          premises? and What does it mean for a conclusion to be a consequence
+          of premises? All of philosophical logic is meant to provide accounts
+          of the nature of logical consequence and the nature of logical truth.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Statement (logic)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Statement_(logic)`,
+    anchor: "Statement_(logic)",
+    text: {
+      p1: (
+        <p>
+          In logic, the term statement is variously understood to mean either
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Formalism (philosophy of mathematics)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Formalism_(philosophy_of_mathematics)`,
+    anchor: "Formalism_(philosophy_of_mathematics)",
+    text: {
+      p1: (
+        <p>
+          In the philosophy of mathematics, formalism is the view that holds
+          that statements of mathematics and logic can be considered to be
+          statements about the consequences of the manipulation of strings
+          (alphanumeric sequences of symbols, usually as equations) using
+          established manipulation rules. A central idea of formalism "is that
+          mathematics is not a body of propositions representing an abstract
+          sector of reality, but is much more akin to a game, bringing with it
+          no more commitment to an ontology of objects or properties than ludo
+          or chess." According to formalism, the truths expressed in logic and
+          mathematics are not about numbers, sets, or triangles or any other
+          coextensive subject matter — in fact, they aren't "about" anything at
+          all. Rather, mathematical statements are syntactic forms whose shapes
+          and locations have no meaning unless they are given an interpretation
+          (or semantics). In contrast to mathematical realism, logicism, or
+          intuitionism, formalism's contours are less defined due to broad
+          approaches that can be categorized as formalist.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Logical truth",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Logical_truth`,
+    anchor: "Logical_truth",
+    text: {
+      p1: (
+        <p>
+          Logical truth is one of the most fundamental concepts in logic.
+          Broadly speaking, a logical truth is a statement which is true
+          regardless of the truth or falsity of its constituent propositions. In
+          other words, a logical truth is a statement which is not only true,
+          but one which is true under all interpretations of its logical
+          components (other than its logical constants). Thus, logical truths
+          such as "if p, then p" can be considered tautologies. Logical truths
+          are thought to be the simplest case of statements which are
+          analytically true (or in other words, true by definition). All of
+          philosophical logic can be thought of as providing accounts of the
+          nature of logical truth, as well as logical consequence.
+        </p>
+      ),
+    },
+  },
 ];
