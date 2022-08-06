@@ -1829,4 +1829,50 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Rule of inference",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Rule_of_inference`,
+    anchor: "Rule_of_inference",
+    text: {
+      p1: (
+        <p>
+          In the philosophy of logic, a rule of inference, inference rule or
+          transformation rule is a logical form consisting of a function which
+          takes premises, analyzes their syntax, and returns a conclusion (or
+          conclusions). For example, the rule of inference called modus ponens
+          takes two premises, one in the form "If p then q" and another in the
+          form "p", and returns the conclusion "q". The rule is valid with
+          respect to the semantics of classical logic (as well as the semantics
+          of many other non-classical logics), in the sense that if the premises
+          are true (under an interpretation), then so is the conclusion.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Analytical skill",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Analytical_skill`,
+    anchor: "Analytical_skill",
+    text: {
+      p1: (
+        <p>
+          Analytical skill is the ability to deconstruct information into
+          smaller categories in order to draw conclusions. Analytical skill
+          consists of categories that include logical reasoning, critical
+          thinking, communication, research, data analysis and creativity.
+          Analytical skill is taught in contemporary education with the
+          intention of fostering the appropriate practises for future
+          professions. The professions that adopt analytical skill include
+          educational institutions, public institutions, community organisations
+          and industry
+        </p>
+      ),
+    },
+  },
 ];
