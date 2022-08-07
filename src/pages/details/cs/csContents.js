@@ -3546,6 +3546,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Automatic variable",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Automatic_variable`,
+    anchor: "Automatic_variable",
+    text: {
+      p1: (
+        <p>
+          In computer programming, an automatic variable is a local variable
+          which is allocated and deallocated automatically when program flow
+          enters and leaves the variable's scope. The scope is the lexical
+          context, particularly the function or block in which a variable is
+          defined. Local data is typically (in most languages) invisible outside
+          the function or lexical context where it is defined. Local data is
+          also invisible and inaccessible to a called function, but is not
+          deallocated, coming back in scope as the execution thread returns to
+          the caller.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

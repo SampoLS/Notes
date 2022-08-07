@@ -2023,8 +2023,8 @@ export const termsContents = [
     title: "Data model",
     islargertitle: false,
     path: "/other_terms",
-    url: `${wikiUrl}/Data model`,
-    anchor: "Data model",
+    url: `${wikiUrl}/Data_model`,
+    anchor: "Data_model",
     text: {
       p1: (
         <p>
@@ -2034,6 +2034,106 @@ export const termsContents = [
           data element representing a car be composed of a number of other
           elements which, in turn, represent the color and size of the car and
           define its owner.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Information system",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Information_system`,
+    anchor: "Information_system",
+    text: {
+      p1: (
+        <p>
+          An information system (IS) is a formal, sociotechnical, organizational
+          system designed to collect, process, store, and distribute
+          information. From a sociotechnical perspective, information systems
+          are composed by four components: task, people, structure (or roles),
+          and technology. Information systems can be defined as an integration
+          of components for collection, storage and processing of data of which
+          the data is used to provide information, contribute to knowledge as
+          well as digital products that facilitate decision making.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data processing",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data_processing`,
+    anchor: "Data_processing",
+    text: {
+      p1: (
+        <p>
+          Data processing is the collection and manipulation of data to produce
+          meaningful information. Data processing is a form of information
+          processing, which is the modification (processing) of information in
+          any manner detectable by an observer.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Information processing",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Information_processing`,
+    anchor: "Information_processing",
+    text: {
+      p1: (
+        <p>
+          Information processing is the change (processing) of information in
+          any manner detectable by an observer. As such, it is a process that
+          describes everything that happens (changes) in the universe, from the
+          falling of a rock (a change in position) to the printing of a text
+          file from a digital computer system. In the latter case, an
+          information processor (the printer) is changing the form of
+          presentation of that text file (from bytes to glyphs). The computers
+          up to this period function on the basis of programs saved in the
+          memory, having no intelligence of their own.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data processing system",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data_processing_system`,
+    anchor: "Data_processing_system",
+    text: {
+      p1: (
+        <p>
+          A data processing system is a combination of machines, people, and
+          processes that for a set of inputs produces a defined set of outputs.
+          The inputs and outputs are interpreted as data, facts, information
+          etc. depending on the interpreter's relation to the system.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Information processor",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Information_processor`,
+    anchor: "Information_processor",
+    text: {
+      p1: (
+        <p>
+          An information processor or information processing system, as its name
+          suggests, is a private content (be it electrical, mechanical or
+          biological) which takes information (a sequence of enumerated symbols
+          or states) in one form and processes (transforms) it into another
+          form, e.g. to statistics, by an algorithmic process.
         </p>
       ),
     },
