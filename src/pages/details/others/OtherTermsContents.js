@@ -1854,23 +1854,166 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Analytical skill",
-    isLargerTitle: false,
+    title: "analytical skill",
+    islargertitle: false,
     path: "/other_terms",
-    url: `${wikiUrl}/Analytical_skill`,
-    anchor: "Analytical_skill",
+    url: `${wikiUrl}/analytical_skill`,
+    anchor: "analytical_skill",
     text: {
       p1: (
         <p>
-          Analytical skill is the ability to deconstruct information into
-          smaller categories in order to draw conclusions. Analytical skill
+          analytical skill is the ability to deconstruct information into
+          smaller categories in order to draw conclusions. analytical skill
           consists of categories that include logical reasoning, critical
           thinking, communication, research, data analysis and creativity.
-          Analytical skill is taught in contemporary education with the
+          analytical skill is taught in contemporary education with the
           intention of fostering the appropriate practises for future
-          professions. The professions that adopt analytical skill include
+          professions. the professions that adopt analytical skill include
           educational institutions, public institutions, community organisations
           and industry
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Abstract and concrete",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Abstract_and_concrete`,
+    anchor: "Abstract_and_concrete",
+    text: {
+      p1: (
+        <p>
+          In metaphysics, the distinction between abstract and concrete refers
+          to a divide between two types of entities. Many philosophers hold that
+          this difference has fundamental metaphysical significance. Examples of
+          concrete objects include plants, human beings and planets while things
+          like numbers, sets and propositions are abstract objects.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Abstract structure",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Abstract_structure`,
+    anchor: "Abstract_structure",
+    text: {
+      p1: (
+        <p>
+          An abstract structure is a hypostatic abstraction that is defined by a
+          set of laws, properties and relationships in a way that is logically
+          if not always historically independent of the structure of contingent
+          experiences, for example, those involving physical objects. Abstract
+          structures are studied not only in logic and mathematics but in the
+          fields that apply them, as computer science, and in the studies that
+          reflect on them, such as philosophy (especially the philosophy of
+          mathematics). Indeed, modern mathematics has been defined in a very
+          general sense as the study of abstract structures (by the Bourbaki
+          group: see discussion there, at algebraic structure and also
+          structure).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Hypostatic abstraction",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Hypostatic_abstraction`,
+    anchor: "Hypostatic_abstraction",
+    text: {
+      p1: (
+        <p>
+          Hypostatic abstraction in mathematical logic, also known as hypostasis
+          or subjectal abstraction, is a formal operation that transforms a
+          predicate into a relation; for example "Honey is sweet" is transformed
+          into "Honey has sweetness". The relation is created between the
+          original subject and a new term that represents the property expressed
+          by the original predicate.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Philosophy of mathematics",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Philosophy_of_mathematics`,
+    anchor: "Philosophy_of_mathematics",
+    text: {
+      p1: (
+        <p>
+          The philosophy of mathematics is the branch of philosophy that studies
+          the assumptions, foundations, and implications of mathematics. It aims
+          to understand the nature and methods of mathematics, and find out the
+          place of mathematics in people's lives. The logical and structural
+          nature of mathematics itself makes this study both broad and unique
+          among its philosophical counterparts.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Methodology",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Methodology`,
+    anchor: "Methodology",
+    text: {
+      p1: (
+        <p>
+          In its most common sense, methodology is the study of research
+          methods. However, the term can also refer to the methods themselves or
+          to the philosophical discussion of associated background assumptions.
+          A method is a structured procedure for bringing about a certain goal.
+          In the context of research, this goal is usually to discover new
+          knowledge or to verify pre-existing knowledge claims. This normally
+          involves various steps, like choosing a sample, collecting data from
+          this sample, and interpreting this data. The study of methods involves
+          a detailed description and analysis of these processes. It includes
+          evaluative aspects by comparing different methods to assess their
+          advantages and disadvantages relative to different research goals and
+          situations. This way, a methodology can help make the research process
+          efficient and reliable by guiding researchers on which method to
+          employ at each step. These descriptions and evaluations of methods
+          often depend on philosophical background assumptions. The assumptions
+          are about issues like how the studied phenomena are to be
+          conceptualized, what constitutes evidence for or against them, and
+          what the general goal of research is. When understood in the widest
+          sense, methodology also includes the discussion of these more abstract
+          issues.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data collection",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data_collection`,
+    anchor: "Data_collection",
+    text: {
+      p1: (
+        <p>
+          Data collection is the process of gathering and measuring information
+          on targeted variables in an established system, which then enables one
+          to answer relevant questions and evaluate outcomes. Data collection is
+          a research component in all study fields, including physical and
+          social sciences, humanities, and business. While methods vary by
+          discipline, the emphasis on ensuring accurate and honest collection
+          remains the same. The goal for all data collection is to capture
+          quality evidence that allows analysis to lead to the formulation of
+          convincing and credible answers to the questions that have been posed.
+          Data collection and validation consists of four steps when it involves
+          taking a census and seven steps when it involves sampling.
         </p>
       ),
     },
