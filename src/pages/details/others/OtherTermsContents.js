@@ -2018,4 +2018,24 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Data model",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data model`,
+    anchor: "Data model",
+    text: {
+      p1: (
+        <p>
+          A data model is an abstract model that organizes elements of data and
+          standardizes how they relate to one another and to the properties of
+          real-world entities. For instance, a data model may specify that the
+          data element representing a car be composed of a number of other
+          elements which, in turn, represent the color and size of the car and
+          define its owner.
+        </p>
+      ),
+    },
+  },
 ];
