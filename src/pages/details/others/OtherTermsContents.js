@@ -2138,4 +2138,47 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Communication",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Communication`,
+    anchor: "Communication",
+    text: {
+      p1: (
+        <p>
+          Communication (from Latin: communicare, meaning "to share" or "to be
+          in relation with") is "an apparent answer to the painful divisions
+          between self and other, private and public, and inner thought and
+          outer world." As this definition indicates, communication is difficult
+          to define in a consistent manner, because in common use it refers to a
+          very wide range of different behaviours involved in the propagation of
+          information. John Peters argues the difficulty of defining
+          communication emerges from the fact that communication is both a
+          universal phenomenon (because everyone communicates) and a specific
+          discipline of institutional academic study.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Units of information",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Units_of_information`,
+    anchor: "Units_of_information",
+    text: {
+      p1: (
+        <p>
+          In computing and telecommunications, a unit of information is the
+          capacity of some standard data storage system or communication
+          channel, used to measure the capacities of other systems and channels.
+          In information theory, units of information are also used to measure
+          information contained in messages and the entropy of random variables.{" "}
+        </p>
+      ),
+    },
+  },
 ];

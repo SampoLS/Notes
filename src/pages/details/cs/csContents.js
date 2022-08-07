@@ -3569,6 +3569,67 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Bit",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Bit`,
+    anchor: "Bit",
+    text: {
+      p1: (
+        <p>
+          The bit is the most basic unit of information in computing and digital
+          communications. The name is a portmanteau of binary digit. The bit
+          represents a logical state with one of two possible values. These
+          values are most commonly represented as either "1" or "0", but other
+          representations such as true/false, yes/no, on/off, or +/- are also
+          commonly used.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Byte",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Byte`,
+    anchor: "Byte",
+    text: {
+      p1: (
+        <p>
+          The byte is a unit of digital information that most commonly consists
+          of eight bits. Historically, the byte was the number of bits used to
+          encode a single character of text in a computer and for this reason it
+          is the smallest addressable unit of memory in many computer
+          architectures. To disambiguate arbitrarily sized bytes from the common
+          8-bit definition, network protocol documents such as The Internet
+          Protocol (RFC 791) refer to an 8-bit byte as an octet. Those bits in
+          an octet are usually counted with numbering from 0 to 7 or 7 to 0
+          depending on the bit endianness. The first bit is number 0, making the
+          eighth bit number 7.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Value (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Value_(computer_science)`,
+    anchor: "Value_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science and software programming, a value is the
+          representation of some entity that can be manipulated by a program.
+          The members of a type are the values of that type.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
