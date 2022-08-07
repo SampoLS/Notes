@@ -2181,4 +2181,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Portmanteau",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Portmanteau`,
+    anchor: "Portmanteau",
+    text: {
+      p1: (
+        <p>
+          A portmanteau or portmanteau word is a blend of words in which parts
+          of multiple words are combined into a new word, as in smog, coined by
+          blending smoke and fog, or motel, from motor and hotel. In
+          linguistics, a portmanteau is a single morph that is analyzed as
+          representing two (or more) underlying morphemes. When portmanteaus
+          shorten established compounds, they can be considered clipped
+          compounds.
+        </p>
+      ),
+    },
+  },
 ];
