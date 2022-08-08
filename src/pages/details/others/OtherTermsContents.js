@@ -2202,4 +2202,21 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Logical connective",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Logical_connective`,
+    anchor: "Logical_connective",
+    text: {
+      p1: (
+        <p>
+          In logic, a logical connective (also called a logical operator,
+          sentential connective, or sentential operator) is a logical constant.
+          They can be used to connect logical formulas.
+        </p>
+      ),
+    },
+  },
 ];
