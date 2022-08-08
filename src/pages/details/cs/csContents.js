@@ -191,11 +191,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Reference",
+    title: "Reference (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Reference_(computer_science)`,
-    anchor: "reference",
+    anchor: "Reference_(computer_science)",
     text: {
       p1: (
         <p>

@@ -2219,4 +2219,123 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Semantics",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Semantics`,
+    anchor: "Semantics",
+    text: {
+      p1: (
+        <p>
+          Semantics is the study of reference, meaning, or truth. The term can
+          be used to refer to subfields of several distinct disciplines,
+          including philosophy, linguistics and computer science.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Principle of compositionality",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Principle_of_compositionality`,
+    anchor: "Principle_of_compositionality",
+    text: {
+      p1: (
+        <p>
+          Semantics is the study of reference, meaning, or truth. The term can
+          be used to refer to subfields of several distinct disciplines,
+          including philosophy, linguistics and computer science.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Reference",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Reference`,
+    anchor: "Reference",
+    text: {
+      p1: (
+        <p>
+          Reference is a relationship between objects in which one object
+          designates, or acts as a means by which to connect to or link to,
+          another object. The first object in this relation is said to refer to
+          the second object. It is called a name for the second object. The
+          second object, the one to which the first object refers, is called the
+          referent of the first object. A name is usually a phrase or
+          expression, or some other symbolic representation. Its referent may be
+          anything - a material object, a person, an event, an activity, or an
+          abstract concept.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Name",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Name`,
+    anchor: "Name",
+    text: {
+      p1: (
+        <p>
+          A name is a term used for identification by an external observer. They
+          can identify a class or category of things, or a single thing, either
+          uniquely, or within a given context. The entity identified by a name
+          is called its referent. A personal name identifies, not necessarily
+          uniquely, a specific individual human. The name of a specific entity
+          is sometimes called a proper name (although that term has a
+          philosophical meaning as well) and is, when consisting of only one
+          word, a proper noun. Other nouns are sometimes called "common names"
+          or (obsolete) "general names". A name can be given to a person, place,
+          or thing; for example, parents can give their child a name or a
+          scientist can give an element a name.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Referent",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Referent`,
+    anchor: "Referent",
+    text: {
+      p1: (
+        <p>
+          A referent is a person or thing to which a name - a linguistic
+          expression or other symbol - refers. For example, in the sentence Mary
+          saw me, the referent of the word Mary is the particular person called
+          Mary who is being spoken of, while the referent of the word me is the
+          person uttering the sentence.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Semantics of logic",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Semantics_of_logic`,
+    anchor: "Semantics_of_logic",
+    text: {
+      p1: (
+        <p>
+          In logic, the semantics of logic or formal semantics is the study of
+          the semantics, or interpretations, of formal and (idealizations of)
+          natural languages usually trying to capture the pre-theoretic notion
+          of entailment.
+        </p>
+      ),
+    },
+  },
 ];
