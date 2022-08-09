@@ -3630,6 +3630,88 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computational resource",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computational_resource`,
+    anchor: "Computational_resource",
+    text: {
+      p1: (
+        <p>
+          In computational complexity theory, a computational resource is a
+          resource used by some computational models in the solution of
+          computational problems.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Algorithmic efficiency",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Algorithmic_efficiency`,
+    anchor: "Algorithmic_efficiency",
+    text: {
+      p1: (
+        <p>
+          In computer science, algorithmic efficiency is a property of an
+          algorithm which relates to the amount of computational resources used
+          by the algorithm. An algorithm must be analyzed to determine its
+          resource usage, and the efficiency of an algorithm can be measured
+          based on the usage of different resources. Algorithmic efficiency can
+          be thought of as analogous to engineering productivity for a repeating
+          or continuous process.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Divide-and-conquer algorithm",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Divide-and-conquer_algorithm`,
+    anchor: "Divide-and-conquer_algorithm",
+    text: {
+      p1: (
+        <p>
+          In computer science, divide and conquer is an algorithm design
+          paradigm. A divide-and-conquer algorithm recursively breaks down a
+          problem into two or more sub-problems of the same or related type,
+          until these become simple enough to be solved directly. The solutions
+          to the sub-problems are then combined to give a solution to the
+          original problem.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Philosophy of computer science",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Philosophy_of_computer_science`,
+    anchor: "Philosophy_of_computer_science",
+    text: {
+      p1: (
+        <p>
+          The philosophy of computer science is concerned with the philosophical
+          questions that arise within the study of computer science. There is
+          still no common understanding of the content, aim, focus, or topic of
+          the philosophy of computer science, despite some attempts to develop a
+          philosophy of computer science like the philosophy of physics or the
+          philosophy of mathematics. Due to the abstract nature of computer
+          programs and the technological ambitions of computer science, many of
+          the conceptual questions of the philosophy of computer science are
+          also comparable to the philosophy of science, philosophy of
+          mathematics, and the philosophy of technology.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
