@@ -2338,4 +2338,97 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Collation",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Collation`,
+    anchor: "Collation",
+    text: {
+      p1: (
+        <p>
+          Collation is the assembly of written information into a standard
+          order. Many systems of collation are based on numerical order or
+          alphabetical order, or extensions and combinations thereof. Collation
+          is a fundamental element of most office filing systems, library
+          catalogs, and reference books.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Categorization",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Categorization`,
+    anchor: "Categorization",
+    text: {
+      p1: (
+        <p>
+          Categorization is the ability and activity of recognizing shared
+          features or similarities between the elements of the experience of the
+          world (such as objects, events, or ideas), organizing and classifying
+          experience by associating them to a more abstract group (that is, a
+          category, class, or type), on the basis of their traits, features,
+          similarities or other criteria that are universal to the group.
+          Categorization is considered one of the most fundamental cognitive
+          abilities, and as such it is studied particularly by psychology and
+          cognitive linguistics.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Experience`,
+    anchor: "Experience",
+    text: {
+      p1: (
+        <p>
+          Experience refers to conscious events in general, more specifically to
+          perceptions, or to the practical knowledge and familiarity that is
+          produced by these conscious processes. Understood as a conscious event
+          in the widest sense, experience involves a subject to which various
+          items are presented. In this sense, seeing a yellow bird on a branch
+          presents the subject with the objects "bird" and "branch", the
+          relation between them and the property "yellow". Unreal items may be
+          included as well, which happens when experiencing hallucinations or
+          dreams. When understood in a more restricted sense, only sensory
+          consciousness counts as experience. In this sense, experience is
+          usually identified with perception and contrasted with other types of
+          conscious events, like thinking or imagining. In a slightly different
+          sense, experience refers not to the conscious events themselves but to
+          the practical knowledge and familiarity they produce. In this sense,
+          it is important that direct perceptual contact with the external world
+          is the source of knowledge. So an experienced hiker is someone who
+          actually lived through many hikes, not someone who merely read many
+          books about hiking. This is associated both with recurrent past
+          acquaintance and the abilities learned through them.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Sorting",
+    isLargerTitle: false,
+    path: "/data_structure",
+    url: `${wikiUrl}/Sorting`,
+    anchor: "Sorting",
+    text: {
+      p1: (
+        <p>
+          Sorting is any process of arranging items systematically, and has two
+          common, yet distinct meanings: 1. ordering: arranging items in a
+          sequence ordered by some criterion; 2. categorizing: grouping items
+          with similar properties.
+        </p>
+      ),
+    },
+  },
 ];
