@@ -3712,6 +3712,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Array data type",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Array_data_type`,
+    anchor: "Array_data_type",
+    text: {
+      p1: (
+        <p>
+          In computer science, an array type is a data type that represents a
+          collection of elements (values or variables), each selected by one or
+          more indices (identifying keys) that can be computed at run time
+          during program execution. Such a collection is usually called an array
+          variable, array value, or simply array. By analogy with the
+          mathematical concepts vector and matrix, array types with one and two
+          indices are often called vector type and matrix type, respectively.
+          More generally, a multidimensional array type can be called a tensor
+          type.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
