@@ -2431,4 +2431,76 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Inference",
+    isLargerTitle: false,
+    path: "/data_structure",
+    url: `${wikiUrl}/Inference`,
+    anchor: "Inference",
+    text: {
+      p1: (
+        <p>
+          Inferences are steps in reasoning, moving from premises to logical
+          consequences; etymologically, the word infer means to "carry forward".
+          Inference is theoretically traditionally divided into deduction and
+          induction, a distinction that in Europe dates at least to Aristotle
+          (300s BCE). Deduction is inference deriving logical conclusions from
+          premises known or assumed to be true, with the laws of valid inference
+          being studied in logic. Induction is inference from particular
+          evidence to a universal conclusion. A third type of inference is
+          sometimes distinguished, notably by Charles Sanders Peirce,
+          contradistinguishing abduction from induction.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Deductive reasoning",
+    isLargerTitle: false,
+    path: "/data_structure",
+    url: `${wikiUrl}/Deductive_reasoning`,
+    anchor: "Deductive_reasoning",
+    text: {
+      p1: (
+        <p>
+          Deductive reasoning is the mental process of drawing deductive
+          inferences. An inference is deductively valid if its conclusion
+          follows logically from its premises, i.e. if it is impossible for the
+          premises to be true and the conclusion to be false. For example, the
+          inference from the premises "all men are mortal" and "Socrates is a
+          man" to the conclusion "Socrates is mortal" is deductively valid. An
+          argument is sound if it is valid and all its premises are true. Some
+          theorists define deduction in terms of the intentions of the author:
+          they have to intend for the premises to offer deductive support to the
+          conclusion. With the help of this modification, it is possible to
+          distinguish valid from invalid deductive reasoning: it is invalid if
+          the author's belief about the deductive support is false, but even
+          invalid deductive reasoning is a form of deductive reasoning.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Inductive reasoning",
+    isLargerTitle: false,
+    path: "/data_structure",
+    url: `${wikiUrl}/Inductive_reasoning`,
+    anchor: "Inductive_reasoning",
+    text: {
+      p1: (
+        <p>
+          Inductive reasoning is a method of reasoning in which a body of
+          observations is considered to derive a general principle. It consists
+          of making broad generalizations based on specific observations.
+          Inductive reasoning is distinct from deductive reasoning. If the
+          premises are correct, the conclusion of a deductive argument is
+          certain; in contrast, the truth of the conclusion of an inductive
+          argument is probable, based upon the evidence given.
+        </p>
+      ),
+    },
+  },
 ];
