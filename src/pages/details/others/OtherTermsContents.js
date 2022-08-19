@@ -2600,4 +2600,34 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Data integration",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data_integration`,
+    anchor: "Data_integration",
+    text: {
+      p1: (
+        <p>
+          Data integration involves combining data residing in different sources
+          and providing users with a unified view of them. This process becomes
+          significant in a variety of situations, which include both commercial
+          (such as when two similar companies need to merge their databases) and
+          scientific (combining research results from different bioinformatics
+          repositories, for example) domains. Data integration appears with
+          increasing frequency as the volume (that is, big data) and the need to
+          share existing data explodes. It has become the focus of extensive
+          theoretical work, and numerous open problems remain unsolved. Data
+          integration encourages collaboration between internal as well as
+          external users. The data being integrated must be received from a
+          heterogeneous database system and transformed to a single coherent
+          data store that provides synchronous data across a network of files
+          for clients. A common use of data integration is in data mining when
+          analyzing and extracting information from existing databases that can
+          be useful for Business information.
+        </p>
+      ),
+    },
+  },
 ];
