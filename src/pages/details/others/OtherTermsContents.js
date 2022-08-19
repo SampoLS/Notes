@@ -2417,7 +2417,7 @@ export const termsContents = [
     id: uuidv4(),
     title: "Sorting",
     isLargerTitle: false,
-    path: "/data_structure",
+    path: "/other_terms",
     url: `${wikiUrl}/Sorting`,
     anchor: "Sorting",
     text: {
@@ -2435,7 +2435,7 @@ export const termsContents = [
     id: uuidv4(),
     title: "Inference",
     isLargerTitle: false,
-    path: "/data_structure",
+    path: "/other_terms",
     url: `${wikiUrl}/Inference`,
     anchor: "Inference",
     text: {
@@ -2459,7 +2459,7 @@ export const termsContents = [
     id: uuidv4(),
     title: "Deductive reasoning",
     isLargerTitle: false,
-    path: "/data_structure",
+    path: "/other_terms",
     url: `${wikiUrl}/Deductive_reasoning`,
     anchor: "Deductive_reasoning",
     text: {
@@ -2486,7 +2486,7 @@ export const termsContents = [
     id: uuidv4(),
     title: "Inductive reasoning",
     isLargerTitle: false,
-    path: "/data_structure",
+    path: "/other_terms",
     url: `${wikiUrl}/Inductive_reasoning`,
     anchor: "Inductive_reasoning",
     text: {
@@ -2507,7 +2507,7 @@ export const termsContents = [
     id: uuidv4(),
     title: "Sentence (linguistics)",
     isLargerTitle: false,
-    path: "/data_structure",
+    path: "/other_terms",
     url: `${wikiUrl}/Sentence_(linguistics)`,
     anchor: "Sentence_(linguistics)",
     text: {
@@ -2534,7 +2534,7 @@ export const termsContents = [
     id: uuidv4(),
     title: "Probability",
     isLargerTitle: false,
-    path: "/data_structure",
+    path: "/other_terms",
     url: `${wikiUrl}/Probability`,
     anchor: "Probability",
     text: {
@@ -2552,6 +2552,50 @@ export const termsContents = [
           "tails"; and since no other outcomes are possible, the probability of
           either "heads" or "tails" is 1/2 (which could also be written as 0.5
           or 50%).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Ontology alignment",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Ontology_alignment`,
+    anchor: "Ontology_alignment",
+    text: {
+      p1: (
+        <p>
+          Ontology alignment, or ontology matching, is the process of
+          determining correspondences between concepts in ontologies. A set of
+          correspondences is also called an alignment. The phrase takes on a
+          slightly different meaning, in computer science, cognitive science or
+          philosophy.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Knowledge representation and reasoning",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Knowledge_representation_and_reasoning`,
+    anchor: "Knowledge_representation_and_reasoning",
+    text: {
+      p1: (
+        <p>
+          Knowledge representation and reasoning is the field of artificial
+          intelligence (AI) dedicated to representing information about the
+          world in a form that a computer system can use to solve complex tasks
+          such as diagnosing a medical condition or having a dialog in a natural
+          language. Knowledge representation incorporates findings from
+          psychology about how humans solve problems and represent knowledge in
+          order to design formalisms that will make complex systems easier to
+          design and build. Knowledge representation and reasoning also
+          incorporates findings from logic to automate various kinds of
+          reasoning, such as the application of rules or the relations of sets
+          and subsets.
         </p>
       ),
     },
