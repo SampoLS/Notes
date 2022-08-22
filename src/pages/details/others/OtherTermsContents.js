@@ -2723,4 +2723,78 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Progress",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Progress`,
+    anchor: "Progress",
+    text: {
+      p1: (
+        <p>
+          Progress is the movement towards a refined, improved, or otherwise
+          desired state. In the context of progressivism, it refers to the
+          proposition that advancements in technology, science, and social
+          organization have resulted, and by extension will continue to result,
+          in an improved human condition; the latter may happen as a result of
+          direct human action, as in social enterprise or through activism, or
+          as a natural part of sociocultural evolution.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Action (philosophy)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Action_(philosophy)`,
+    anchor: "Action_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          An action is an event that an agent performs for a purpose, that is
+          guided by the person's intention. The first question in the philosophy
+          of action is to determine how actions differ from other forms of
+          behavior, like involuntary reflexes. According to Ludwig Wittgenstein,
+          it involves discovering "[w]hat is left over if I subtract the fact
+          that my arm goes up from the fact that I raise my arm". There is broad
+          agreement that the answer to this question has to do with the agent's
+          intentions. So driving a car is an action since the agent intends to
+          do so, but sneezing is a mere behavior since it happens independent of
+          the agent's intention. The dominant theory of the relation between the
+          intention and the behavior is causalism: driving the car is an action
+          because it is caused by the agent's intention to do so. On this view,
+          actions are distinguished from other events by their causal history.
+          Causalist theories include Donald Davidson's account, who defines
+          actions as bodily movements caused by intentions in the right way, and
+          volitionalist theories, according to which volitions or tryings form a
+          core aspect of actions. Non-causalist theories, on the other hand,
+          often see intentions not as the action's cause but as a constituent of
+          it.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Atom",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Atom`,
+    anchor: "Atom",
+    text: {
+      p1: (
+        <p>
+          An atom is the smallest unit of ordinary matter that forms a chemical
+          element. Every solid, liquid, gas, and plasma is composed of neutral
+          or ionized atoms. Atoms are extremely small, typically around 100
+          picometers across. They are so small that accurately predicting their
+          behavior using classical physics, as if they were tennis balls for
+          example, is not possible due to quantum effects.
+        </p>
+      ),
+    },
+  },
 ];
