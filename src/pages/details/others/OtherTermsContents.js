@@ -2843,4 +2843,22 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Chronology",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Chronology`,
+    anchor: "Chronology",
+    text: {
+      p1: (
+        <p>
+          Chronology is the science of arranging events in their order of
+          occurrence in time. Consider, for example, the use of a timeline or
+          sequence of events. It is also "the determination of the actual
+          temporal sequence of past events".
+        </p>
+      ),
+    },
+  },
 ];
