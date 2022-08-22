@@ -216,27 +216,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Sequence",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Sequence`,
-    anchor: "Sequence",
-    text: {
-      p1: (
-        <p>
-          In mathematics, a sequence is an enumerated collection of objects in
-          which repetitions are allowed and order matters. In computing and
-          computer science, finite sequences are sometimes called strings, words
-          or lists, the different names commonly corresponding to different ways
-          to represent them in computer memory; infinite sequences are called
-          streams. The empty sequence ( ) is included in most notions of
-          sequence, but may be excluded depending on the context.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Context (language use)",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2626,6 +2605,96 @@ export const termsContents = [
           for clients. A common use of data integration is in data mining when
           analyzing and extracting information from existing databases that can
           be useful for Business information.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Sequence",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Sequence`,
+    anchor: "Sequence",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a sequence is an enumerated collection of objects in
+          which repetitions are allowed and order matters. Like a set, it
+          contains members (also called elements, or terms). The number of
+          elements (possibly infinite) is called the length of the sequence.
+          Unlike a set, the same elements can appear multiple times at different
+          positions in a sequence, and unlike a set, the order does matter.
+          Formally, a sequence can be defined as a function from natural numbers
+          (the positions of elements in the sequence) to the elements at each
+          position. The notion of a sequence can be generalized to an indexed
+          family, defined as a function from an index set that may not be
+          numbers to another set of elements.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Event (philosophy)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Event_(philosophy)`,
+    anchor: "Event_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          In philosophy, events are objects in time or instantiations of
+          properties in objects. On some views, only changes in the form of
+          acquiring or losing a property can constitute events, like the lawn's
+          becoming dry. According to others, there are also events that involve
+          nothing but the retaining of a property, e.g. the lawn's staying wet.
+          Events are usually defined as particulars that, unlike universals,
+          cannot repeat at different times. Processes are complex events
+          constituted by a sequence of events. But even simple events can be
+          conceived as complex entities involving an object, a time and the
+          property exemplified by the object at this time. Traditionally,
+          metaphysicians tended to emphasize static being over dynamic events.
+          This tendency has been opposed by so-called process philosophy or
+          process ontology, which ascribes ontological primacy to events and
+          processes.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Irreversible process",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Irreversible_process`,
+    anchor: "Irreversible_process",
+    text: {
+      p1: (
+        <p>
+          In science, a process that is not reversible is called irreversible.
+          This concept arises frequently in thermodynamics. All complex natural
+          processes are irreversible, although a phase transition at the
+          coexistence temperature (e.g. melting of ice cubes in water) is well
+          approximated as reversible.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Reversible process (thermodynamics)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Reversible_process_(thermodynamics)`,
+    anchor: "Reversible_process_(thermodynamics)",
+    text: {
+      p1: (
+        <p>
+          In thermodynamics, a reversible process is a process, involving a
+          system and its surroundings, whose direction can be reversed by
+          infinitesimal changes in some properties of the surroundings, such as
+          pressure or temperature.
         </p>
       ),
     },
