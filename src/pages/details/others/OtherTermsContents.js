@@ -2797,4 +2797,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Result",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Result`,
+    anchor: "Result",
+    text: {
+      p1: (
+        <p>
+          A result (also called upshot) is the final consequence of a sequence
+          of actions or events expressed qualitatively or quantitatively.
+          Possible results include advantage, disadvantage, gain, injury, loss,
+          value and victory. There may be a range of possible outcomes
+          associated with an event depending on the point of view, historical
+          distance or relevance. Reaching no result can mean that actions are
+          inefficient, ineffective, meaningless or flawed.
+        </p>
+      ),
+    },
+  },
 ];
