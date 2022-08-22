@@ -2699,4 +2699,28 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Causality",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Causality`,
+    anchor: "Causality",
+    text: {
+      p1: (
+        <p>
+          Causality (also referred to as causation, or cause and effect) is
+          influence by which one event, process, state, or object (a cause)
+          contributes to the production of another event, process, state, or
+          object (an effect) where the cause is partly responsible for the
+          effect, and the effect is partly dependent on the cause. In general, a
+          process has many causes, which are also said to be causal factors for
+          it, and all lie in its past. An effect can in turn be a cause of, or
+          causal factor for, many other effects, which all lie in its future.
+          Some writers have held that causality is metaphysically prior to
+          notions of time and space.
+        </p>
+      ),
+    },
+  },
 ];
