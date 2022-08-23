@@ -2845,6 +2845,29 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
+    title: "Process philosophy",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Process_philosophy`,
+    anchor: "Process_philosophy",
+    text: {
+      p1: (
+        <p>
+          Process philosophy, also ontology of becoming, or processism, is an
+          approach to philosophy that identifies processes, changes, or shifting
+          relationships as the only true elements of the ordinary, everyday real
+          world. It treats other real elements (examples: enduring physical
+          objects, thoughts) as abstractions from, or ontological dependents on,
+          processes. In opposition to the classical view of change as illusory
+          (as argued by Parmenides) or accidental (as argued by Aristotle),
+          process philosophy posits transient occasions of change or becoming as
+          the only fundamental things of the ordinary everyday real world.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Chronology",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2857,6 +2880,33 @@ export const termsContents = [
           occurrence in time. Consider, for example, the use of a timeline or
           sequence of events. It is also "the determination of the actual
           temporal sequence of past events".
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Process ontology",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Process_ontology`,
+    anchor: "Process_ontology",
+    text: {
+      p1: (
+        <p>
+          In philosophy, a process ontology refers to a universal model of the
+          structure of the world as an ordered wholeness. Such ontologies are
+          fundamental ontologies, in contrast to the so-called applied
+          ontologies. Fundamental ontologies do not claim to be accessible to
+          any empirical proof in itself, but to be a structural design pattern,
+          out of which empirical phenomena can be explained and put together
+          consistently. Throughout Western history, the dominating fundamental
+          ontology is the so-called substance theory. However, fundamental
+          process ontologies are becoming more important in recent times,
+          because the progress in the discovery of the foundations of physics
+          spurred the development of a basic concept able to integrate such
+          boundary notions as "energy," "object", and those of the physical
+          dimensions of space and time.
         </p>
       ),
     },
