@@ -14,6 +14,7 @@ import { webpackContents } from "../pages/details/webpack/webpackContents";
 import { webComponentsContents } from "../pages/details/web_components/web_components_contents";
 import { webTermsContents } from "../pages/details/web_terms/webTermsContents";
 import { webglContents } from "../pages/details/webgl/webglContents";
+import { mathContents } from "../pages/details/mathematics/mathContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -31,5 +32,6 @@ export const data = httpContents.concat(
   webpackContents,
   webComponentsContents,
   webglContents,
+  mathContents,
   webTermsContents
 );

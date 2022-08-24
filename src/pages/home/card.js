@@ -100,6 +100,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Mathematics",
+    path: "/math",
+    text: "Mathematics is an area of knowledge that includes such topics as numbers (arithmetic and number theory), formulas and related structures (algebra), shapes and the spaces in which they are contained (geometry), and quantities and their changes (calculus and analysis).",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",

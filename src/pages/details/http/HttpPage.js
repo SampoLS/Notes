@@ -1,4 +1,3 @@
-import { memo } from "react";
 import { Outlet } from "react-router-dom";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { contentsLength } from "./httpContents";
@@ -12,4 +11,4 @@ const HttpPage = () => {
     </>
   );
 };
-export default memo(HttpPage);
+export default HttpPage;

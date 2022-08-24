@@ -17,6 +17,7 @@ import WebpackPage from "./pages/details/webpack/WebpackPage";
 import WebComponents from "./pages/details/web_components/WebComponents";
 import WebTermsPage from "./pages/details/web_terms/WebTermsPage";
 import WebGLPage from "./pages/details/webgl/WebGLPage";
+import MathPage from "./pages/details/mathematics/MathPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -109,6 +110,7 @@ export default function App() {
               element={<SplitPage content={webglContents} />}
             />
           </Route>
+          <Route path="math" element={<MathPage />} />
           <Route path="other_terms" element={<OtherTermsPage />} />
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

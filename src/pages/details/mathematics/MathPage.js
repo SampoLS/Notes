@@ -1,13 +1,14 @@
-import { typeScriptContents } from "./typeScriptContents";
 import ShowPageContents from "../../../components/ShowPageContents";
+import { mathContents } from "./mathContents";
 
-const TypeScriptPage = () => {
+const MathPage = () => {
   return (
     <>
-      {typeScriptContents.map((item) => {
+      {mathContents.map((item) => {
         return <ShowPageContents key={item.id} {...item} />;
       })}
     </>
   );
 };
-export default TypeScriptPage;
+
+export default MathPage;
