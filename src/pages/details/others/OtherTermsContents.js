@@ -2911,4 +2911,41 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Element (mathematics)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Element_(mathematics)`,
+    anchor: "Element_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an element (or member) of a set is any one of the
+          distinct objects that belong to that set.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Set (mathematics)",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Set_(mathematics)`,
+    anchor: "Set_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          A set is the mathematical model for a collection of different things;
+          a set contains elements or members, which can be mathematical objects
+          of any kind: numbers, symbols, points in space, lines, other
+          geometrical shapes, variables, or even other sets. The set with no
+          element is the empty set; a set with a single element is a singleton.
+          A set may have a finite number of elements or be an infinite set. Two
+          sets are equal if they have precisely the same elements.
+        </p>
+      ),
+    },
+  },
 ];
