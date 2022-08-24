@@ -1146,45 +1146,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Boolean algebra",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Boolean_algebra`,
-    anchor: "Boolean_algebra",
-    text: {
-      p1: (
-        <p>
-          In mathematics and mathematical logic, Boolean algebra is the branch
-          of algebra in which the values of the variables are the truth values
-          true and false, usually denoted 1 and 0, respectively. Instead of
-          elementary algebra, where the values of the variables are numbers and
-          the prime operations are addition and multiplication, the main
-          operations of Boolean algebra are the conjunction (and) denoted as ∧,
-          the disjunction (or) denoted as v, and the negation (not) denoted as
-          ¬. It is thus a formalism for describing logical operations, in the
-          same way that elementary algebra describes numerical operations.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Truth value",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Truth_value`,
-    anchor: "Truth_value",
-    text: {
-      p1: (
-        <p>
-          In logic and mathematics, a truth value, sometimes called a logical
-          value, is a value indicating the relation of a proposition to truth.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Truth",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2361,7 +2322,7 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "",
+    title: "Experience",
     islargertitle: false,
     path: "/other_terms",
     url: `${wikiUrl}/Experience`,
