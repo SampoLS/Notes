@@ -2821,4 +2821,25 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "State-space representation",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/State-space_representation`,
+    anchor: "State-space_representation",
+    text: {
+      p1: (
+        <p>
+          In control engineering, a state-space representation is a mathematical
+          model of a physical system as a set of input, output and state
+          variables related by first-order differential equations or difference
+          equations. State variables are variables whose values evolve over time
+          in a way that depends on the values they have at any given time and on
+          the externally imposed values of input variables. Output variables'
+          values depend on the values of the state variables.
+        </p>
+      ),
+    },
+  },
 ];
