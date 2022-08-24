@@ -2842,4 +2842,24 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Black box",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Black_box`,
+    anchor: "Black_box",
+    text: {
+      p1: (
+        <p>
+          In science, computing, and engineering, a black box is a system which
+          can be viewed in terms of its inputs and outputs (or transfer
+          characteristics), without any knowledge of its internal workings. Its
+          implementation is "opaque" (black). The term can be used to refer to
+          many inner workings, such as the ones of a transistor, an engine, an
+          algorithm, the human brain, or an institution or government.
+        </p>
+      ),
+    },
+  },
 ];
