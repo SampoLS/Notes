@@ -1794,11 +1794,11 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "analytical skill",
+    title: "Analytical skill",
     islargertitle: false,
     path: "/other_terms",
-    url: `${wikiUrl}/analytical_skill`,
-    anchor: "analytical_skill",
+    url: `${wikiUrl}/Analytical_skill`,
+    anchor: "Analytical_skill",
     text: {
       p1: (
         <p>
