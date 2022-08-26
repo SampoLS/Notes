@@ -18,6 +18,7 @@ import WebComponents from "./pages/details/web_components/WebComponents";
 import WebTermsPage from "./pages/details/web_terms/WebTermsPage";
 import WebGLPage from "./pages/details/webgl/WebGLPage";
 import MathPage from "./pages/details/mathematics/MathPage";
+import PhysicsPage from "./pages/details/physics/PhysicsPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -35,6 +36,7 @@ import { httpContents } from "./pages/details/http/httpContents";
 import { webpackContents } from "./pages/details/webpack/webpackContents";
 import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
 import { webglContents } from "./pages/details/webgl/webglContents";
+import { physicsContents } from "./pages/details/physics/physicsContents";
 
 export default function App() {
   return (
@@ -111,6 +113,16 @@ export default function App() {
             />
           </Route>
           <Route path="math" element={<MathPage />} />
+          <Route path="physics" element={<PhysicsPage />}>
+            <Route
+              index
+              element={<IndexRoutePage content={physicsContents} />}
+            />
+            <Route
+              path="p:id"
+              element={<SplitPage content={physicsContents} />}
+            />
+          </Route>
           <Route path="other_terms" element={<OtherTermsPage />} />
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

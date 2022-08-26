@@ -106,6 +106,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Physics",
+    path: "/physics",
+    text: "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",
