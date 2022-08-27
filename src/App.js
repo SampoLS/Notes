@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+
 import Page from "./pages/layout/Page";
 import Home from "./pages/home/Home";
 import HttpPage from "./pages/details/http/HttpPage";
@@ -19,6 +20,7 @@ import WebTermsPage from "./pages/details/web_terms/WebTermsPage";
 import WebGLPage from "./pages/details/webgl/WebGLPage";
 import MathPage from "./pages/details/mathematics/MathPage";
 import PhysicsPage from "./pages/details/physics/PhysicsPage";
+import LogicPage from "./pages/details/logic/LogicPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -37,6 +39,7 @@ import { webpackContents } from "./pages/details/webpack/webpackContents";
 import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
 import { webglContents } from "./pages/details/webgl/webglContents";
 import { physicsContents } from "./pages/details/physics/physicsContents";
+import { logicContents } from "./pages/details/logic/logicContents";
 
 export default function App() {
   return (
@@ -121,6 +124,13 @@ export default function App() {
             <Route
               path="p:id"
               element={<SplitPage content={physicsContents} />}
+            />
+          </Route>
+          <Route path="logic" element={<LogicPage />}>
+            <Route index element={<IndexRoutePage content={logicContents} />} />
+            <Route
+              path="p:id"
+              element={<SplitPage content={logicContents} />}
             />
           </Route>
           <Route path="other_terms" element={<OtherTermsPage />} />

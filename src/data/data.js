@@ -16,6 +16,7 @@ import { webTermsContents } from "../pages/details/web_terms/webTermsContents";
 import { webglContents } from "../pages/details/webgl/webglContents";
 import { mathContents } from "../pages/details/mathematics/mathContents";
 import { physicsContents } from "../pages/details/physics/physicsContents";
+import { logicContents } from "../pages/details/logic/logicContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -35,5 +36,6 @@ export const data = httpContents.concat(
   webglContents,
   mathContents,
   physicsContents,
+  logicContents,
   webTermsContents
 );

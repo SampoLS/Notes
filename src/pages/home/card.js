@@ -112,6 +112,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Logic",
+    path: "/logic",
+    text: "Logic is the study of correct reasoning or good arguments. It is often defined in a more narrow sense as the science of deductively valid inferences or of logical truths.",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",
