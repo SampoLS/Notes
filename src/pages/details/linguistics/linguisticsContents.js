@@ -184,6 +184,26 @@ export const linguisticsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Proposition",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Proposition`,
+    anchor: "Proposition",
+    text: {
+      p1: (
+        <p>
+          In logic and linguistics, a proposition is the meaning of a
+          declarative sentence. In philosophy, "meaning" is understood to be a
+          non-linguistic entity which is shared by all sentences with the same
+          meaning. Equivalently, a proposition is the non-linguistic bearer of
+          truth or falsity which makes any sentence that expresses it either
+          true or false.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = linguisticsContents.length;
