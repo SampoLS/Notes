@@ -118,6 +118,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Linguisitics",
+    path: "/linguistics",
+    text: "Linguistics is the scientific study of human language. It entails a comprehensive, systematic, objective, and precise analysis of all aspects of language, particularly its nature and structure.",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",

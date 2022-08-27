@@ -216,27 +216,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Context (language use)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Context_(language_use)`,
-    anchor: "Context_(language_use)",
-    text: {
-      p1: (
-        <p>
-          In semiotics, linguistics, sociology and anthropology, context refers
-          to those objects or entities which surround a focal event, in these
-          disciplines typically a communicative event, of some kind. Context is
-          "a frame that surrounds the event and provides resources for its
-          appropriate interpretation". It is thus a relative concept, only
-          definable with respect to some focal event within a frame, not
-          independently of that frame.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Race condition",
     isLargerTitle: false,
     path: "/other_terms",
@@ -834,27 +813,6 @@ export const termsContents = [
           and electronic systems, social and economic organizations (like
           cities), an ecosystem, a living cell, and ultimately the entire
           universe.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Linguistics",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Linguistics`,
-    anchor: "Linguistics",
-    text: {
-      p1: (
-        <p>
-          Linguistics is the scientific study of human language. It entails a
-          comprehensive, systematic, objective, and precise analysis of all
-          aspects of language, particularly its nature and structure. As
-          linguistics is concerned with both the cognitive and social aspects of
-          language, it is considered a scientific field as well as an academic
-          discipline; it has been classified as a social science, natural
-          science, cognitive science, or part of the humanities.
         </p>
       ),
     },
@@ -1897,61 +1855,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Portmanteau",
-    islargertitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Portmanteau`,
-    anchor: "Portmanteau",
-    text: {
-      p1: (
-        <p>
-          A portmanteau or portmanteau word is a blend of words in which parts
-          of multiple words are combined into a new word, as in smog, coined by
-          blending smoke and fog, or motel, from motor and hotel. In
-          linguistics, a portmanteau is a single morph that is analyzed as
-          representing two (or more) underlying morphemes. When portmanteaus
-          shorten established compounds, they can be considered clipped
-          compounds.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Semantics",
-    islargertitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Semantics`,
-    anchor: "Semantics",
-    text: {
-      p1: (
-        <p>
-          Semantics is the study of reference, meaning, or truth. The term can
-          be used to refer to subfields of several distinct disciplines,
-          including philosophy, linguistics and computer science.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Principle of compositionality",
-    islargertitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Principle_of_compositionality`,
-    anchor: "Principle_of_compositionality",
-    text: {
-      p1: (
-        <p>
-          Semantics is the study of reference, meaning, or truth. The term can
-          be used to refer to subfields of several distinct disciplines,
-          including philosophy, linguistics and computer science.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Reference",
     islargertitle: false,
     path: "/other_terms",
@@ -2106,33 +2009,6 @@ export const termsContents = [
           common, yet distinct meanings: 1. ordering: arranging items in a
           sequence ordered by some criterion; 2. categorizing: grouping items
           with similar properties.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Sentence (linguistics)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Sentence_(linguistics)`,
-    anchor: "Sentence_(linguistics)",
-    text: {
-      p1: (
-        <p>
-          In linguistics and grammar, a sentence is a linguistic expression,
-          such as the English example "The quick brown fox jumps over the lazy
-          dog." In traditional grammar, it is typically defined as a string of
-          words that expresses a complete thought, or as a unit consisting of a
-          subject and predicate. In non-functional linguistics it is typically
-          defined as a maximal unit of syntactic structure such as a
-          constituent. In functional linguistics, it is defined as a unit of
-          written texts delimited by graphological features such as upper-case
-          letters and markers such as periods, question marks, and exclamation
-          marks. This notion contrasts with a curve, which is delimited by
-          phonologic features such as pitch and loudness and markers such as
-          pauses; and with a clause, which is a sequence of words that
-          represents some process going on throughout time.
         </p>
       ),
     },
@@ -2525,6 +2401,28 @@ export const termsContents = [
           implementation is "opaque" (black). The term can be used to refer to
           many inner workings, such as the ones of a transistor, an engine, an
           algorithm, the human brain, or an institution or government.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Principle of compositionality",
+    islargertitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Principle_of_compositionality`,
+    anchor: "Principle_of_compositionality",
+    text: {
+      p1: (
+        <p>
+          In semantics, mathematical logic and related disciplines, the
+          principle of compositionality is the principle that the meaning of a
+          complex expression is determined by the meanings of its constituent
+          expressions and the rules used to combine them. This principle is also
+          called Frege's principle, because Gottlob Frege is widely credited for
+          the first modern formulation of it. The principle was never explicitly
+          stated by Frege, and it was arguably already assumed by George Boole
+          decades before Frege's work.
         </p>
       ),
     },

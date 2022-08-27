@@ -21,6 +21,7 @@ import WebGLPage from "./pages/details/webgl/WebGLPage";
 import MathPage from "./pages/details/mathematics/MathPage";
 import PhysicsPage from "./pages/details/physics/PhysicsPage";
 import LogicPage from "./pages/details/logic/LogicPage";
+import LinguisticsPage from "./pages/details/linguistics/LinguisitcsPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -40,6 +41,7 @@ import { webTermsContents } from "./pages/details/web_terms/webTermsContents";
 import { webglContents } from "./pages/details/webgl/webglContents";
 import { physicsContents } from "./pages/details/physics/physicsContents";
 import { logicContents } from "./pages/details/logic/logicContents";
+import { linguisticsContents } from "./pages/details/linguistics/linguisticsContents";
 
 export default function App() {
   return (
@@ -131,6 +133,16 @@ export default function App() {
             <Route
               path=":pId"
               element={<SplitPage content={logicContents} />}
+            />
+          </Route>
+          <Route path="linguistics" element={<LinguisticsPage />}>
+            <Route
+              index
+              element={<IndexRoutePage content={linguisticsContents} />}
+            />
+            <Route
+              path=":pId"
+              element={<SplitPage content={linguisticsContents} />}
             />
           </Route>
           <Route path="other_terms" element={<OtherTermsPage />} />
