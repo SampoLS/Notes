@@ -122,14 +122,14 @@ export default function App() {
               element={<IndexRoutePage content={physicsContents} />}
             />
             <Route
-              path="p:id"
+              path=":pId"
               element={<SplitPage content={physicsContents} />}
             />
           </Route>
           <Route path="logic" element={<LogicPage />}>
             <Route index element={<IndexRoutePage content={logicContents} />} />
             <Route
-              path="p:id"
+              path=":pId"
               element={<SplitPage content={logicContents} />}
             />
           </Route>

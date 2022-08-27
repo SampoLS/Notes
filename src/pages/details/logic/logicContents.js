@@ -350,6 +350,25 @@ export const logicContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Imperative logic",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Imperative_logic`,
+    anchor: "Imperative_logic",
+    text: {
+      p1: (
+        <p>
+          Imperative logic is the field of logic concerned with imperatives. In
+          contrast to declaratives, it is not clear whether imperatives denote
+          propositions or more generally what role truth and falsity play in
+          their semantics. Thus, there is almost no consensus on any aspect of
+          imperative logic.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = logicContents.length;

@@ -421,5 +421,5 @@ let subpathContents = [];
 export const reactContentsAddedSubpath = addSubpath(
   subpathContents,
   contentsLength,
-  reactContents,
+  reactContents
 );

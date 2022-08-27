@@ -1,4 +1,4 @@
-import { memo } from "react/cjs/react.production.min";
+import { memo } from "react";
 
 const ShowPageContents = ({ isLargerTitle, title, text, url, anchor }) => {
   // Showing the text if there is h1 heading.
