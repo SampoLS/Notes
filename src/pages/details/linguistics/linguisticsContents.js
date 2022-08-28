@@ -186,6 +186,24 @@ export const linguisticsContents = [
   },
   {
     id: uuidv4(),
+    title: "Irrealis mood",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Irrealis_mood`,
+    anchor: "Irrealis_mood",
+    text: {
+      p1: (
+        <p>
+          In linguistics, irrealis moods (abbreviated IRR) are the main set of
+          grammatical moods that indicate that a certain situation or action is
+          not known to have happened at the moment the speaker is talking. This
+          contrasts with the realis moods.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Proposition",
     isLargerTitle: false,
     path: "/linguistics",
