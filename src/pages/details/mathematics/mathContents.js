@@ -156,4 +156,21 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Natural number",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Natural_number`,
+    anchor: "Natural_number",
+    text: {
+      p1: (
+        <p>
+          In mathematics, the natural numbers are those numbers used for
+          counting (as in "there are six coins on the table") and ordering (as
+          in "this is the third largest city in the country").
+        </p>
+      ),
+    },
+  },
 ];
