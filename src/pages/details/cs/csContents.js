@@ -250,7 +250,7 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Assignment",
+    title: "Assignment (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Assignment_(computer_science)`,
