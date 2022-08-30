@@ -2409,9 +2409,31 @@ export const termsContents = [
     id: uuidv4(),
     title: "Principle of compositionality",
     islargertitle: false,
-    path: "/linguistics",
+    path: "/other_terms",
     url: `${wikiUrl}/Principle_of_compositionality`,
     anchor: "Principle_of_compositionality",
+    text: {
+      p1: (
+        <p>
+          In semantics, mathematical logic and related disciplines, the
+          principle of compositionality is the principle that the meaning of a
+          complex expression is determined by the meanings of its constituent
+          expressions and the rules used to combine them. This principle is also
+          called Frege's principle, because Gottlob Frege is widely credited for
+          the first modern formulation of it. The principle was never explicitly
+          stated by Frege, and it was arguably already assumed by George Boole
+          decades before Frege's work.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Trade-off",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Trade-off`,
+    anchor: "Trade-off",
     text: {
       p1: (
         <p>

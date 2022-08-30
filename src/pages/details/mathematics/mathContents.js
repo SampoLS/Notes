@@ -173,4 +173,54 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Arithmetic",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Arithmetic`,
+    anchor: "Arithmetic",
+    text: {
+      p1: (
+        <p>
+          Arithmetic (from Ancient Greek ἀριθμός (arithmós) 'number', and τική
+          [τέχνη] (tikḗ [tékhnē]) 'art, craft') is an elementary part of
+          mathematics that consists of the study of the properties of the
+          traditional operations on numbers—addition, subtraction,
+          multiplication, division, exponentiation, and extraction of roots. In
+          the 19th century, Italian mathematician Giuseppe Peano formalized
+          arithmetic with his Peano axioms, which are highly important to the
+          field of mathematical logic today.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Real number",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Real_number`,
+    anchor: "Real_number",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a real number is a value of a continuous quantity that
+          can represent a distance along a line (or alternatively, a quantity
+          that can be represented as an infinite decimal expansion). The
+          adjective real in this context was introduced in the 17th century by
+          René Descartes, who distinguished between real and imaginary roots of
+          polynomials. The real numbers include all the rational numbers, such
+          as the integer -5 and the fraction 4/3, and all the irrational
+          numbers, such as 2 (1.41421356..., the square root of 2, an irrational
+          algebraic number). Included within the irrationals are the real
+          transcendental numbers, such as π (3.14159265...). Real numbers can be
+          used to measure (approximately) physical observables such as time,
+          mass, energy; and in one dimension, distance, velocity, acceleration,
+          force, momentum, etc. The set of real numbers is denoted using the
+          symbol R or R \mathbb and is sometimes called "the reals".
+        </p>
+      ),
+    },
+  },
 ];

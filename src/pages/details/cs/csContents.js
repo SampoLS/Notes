@@ -3735,6 +3735,29 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Floating-point arithmetic",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Floating-point_arithmetic`,
+    anchor: "Floating-point_arithmetic",
+    text: {
+      p1: (
+        <p>
+          In computing, floating-point arithmetic (FP) is arithmetic using
+          formulaic representation of real numbers as an approximation to
+          support a trade-off between range and precision. For this reason,
+          floating-point computation is often used in systems with very small
+          and very large real numbers that require fast processing times. In
+          general, a floating-point number is represented approximately with a
+          fixed number of significant digits (the significand) and scaled using
+          an exponent in some fixed base; the base for the scaling is normally
+          two, ten, or sixteen.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
