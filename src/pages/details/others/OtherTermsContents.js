@@ -2486,4 +2486,40 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Numeral system",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Numeral_system`,
+    anchor: "Numeral_system",
+    text: {
+      p1: (
+        <p>
+          A numeral system (or system of numeration) is a writing system for
+          expressing numbers; that is, a mathematical notation for representing
+          numbers of a given set, using digits or other symbols in a consistent
+          manner.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Formula",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Formula`,
+    anchor: "Formula",
+    text: {
+      p1: (
+        <p>
+          In science, a formula is a concise way of expressing information
+          symbolically, as in a mathematical formula or a chemical formula. The
+          informal use of the term formula in science refers to the general
+          construct of a relationship between given quantities.
+        </p>
+      ),
+    },
+  },
 ];

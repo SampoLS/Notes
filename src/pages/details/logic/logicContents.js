@@ -369,6 +369,44 @@ export const logicContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "If and only if",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/If_and_only_if`,
+    anchor: "If_and_only_if",
+    text: {
+      p1: (
+        <p>
+          In logic and related fields such as mathematics and philosophy, "if
+          and only if" (shortened as "iff") is a biconditional logical
+          connective between statements, where either both statements are true
+          or both are false.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Expression (mathematics)",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Expression_(mathematics)`,
+    anchor: "Expression_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an expression or mathematical expression is a finite
+          combination of symbols that is well-formed according to rules that
+          depend on the context. Mathematical symbols can designate numbers
+          (constants), variables, operations, functions, brackets, punctuation,
+          and grouping to help determine order of operations and other aspects
+          of logical syntax.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = logicContents.length;

@@ -3863,6 +3863,24 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Character (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Character_(computing)`,
+    anchor: "Character_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer and machine-based telecommunications terminology, a
+          character is a unit of information that roughly corresponds to a
+          grapheme, grapheme-like unit, or symbol, such as in an alphabet or
+          syllabary in the written form of a natural language.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

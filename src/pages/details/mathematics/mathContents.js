@@ -241,4 +241,165 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Mathematical notation",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Mathematical_notation`,
+    anchor: "Mathematical_notation",
+    text: {
+      p1: (
+        <p>
+          Mathematical notation consists of using symbols for representing
+          operations, unspecified numbers, relations and any other mathematical
+          objects, and assembling them into expressions and formulas.
+          Mathematical notation is widely used in mathematics, science, and
+          engineering for representing complex concepts and properties in a
+          concise, unambiguous and accurate way.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Number",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Number`,
+    anchor: "Number",
+    text: {
+      p1: (
+        <p>
+          A number is a mathematical object used to count, measure, and label.
+          The original examples are the natural numbers 1, 2, 3, 4, and so
+          forth. Numbers can be represented in language with number words. More
+          universally, individual numbers can be represented by symbols, called
+          numerals; for example, "5" is a numeral that represents the number
+          five. As only a relatively small number of symbols can be memorized,
+          basic numerals are commonly organized in a numeral system, which is an
+          organized way to represent any number. The most common numeral system
+          is the Hindu-Arabic numeral system, which allows for the
+          representation of any number using a combination of ten fundamental
+          numeric symbols, called digits. In addition to their use in counting
+          and measuring, numerals are often used for labels (as with telephone
+          numbers), for ordering (as with serial numbers), and for codes (as
+          with ISBNs). In common usage, a numeral is not clearly distinguished
+          from the number that it represents.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Operation (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Operation_(mathematics)`,
+    anchor: "Operation_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an operation is a function which takes zero or more
+          input values (called operands) to a well-defined output value. The
+          number of operands (also known as arguments) is the arity of the
+          operation.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Arity",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Arity`,
+    anchor: "Arity",
+    text: {
+      p1: (
+        <p>
+          Arity is the number of arguments or operands taken by a function,
+          operation or relation in logic, mathematics, and computer science. In
+          mathematics, arity may also be named rank, but this word can have many
+          other meanings in mathematics. In logic and philosophy, it is also
+          called adicity and degree. In linguistics, it is usually named
+          valency.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Argument of a function",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Argument_of_a_function`,
+    anchor: "Argument_of_a_function",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an argument of a function is a value provided to
+          obtain the function's result. It is also called an independent
+          variable.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Operand",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Operand`,
+    anchor: "Operand",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an operand is the object of a mathematical operation,
+          i.e., it is the object or quantity that is operated on.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Binary operation",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Binary_operation`,
+    anchor: "Binary_operation",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a binary operation or dyadic operation is a rule for
+          combining two elements (called operands) to produce another element.
+          More formally, a binary operation is an operation of arity two.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Relation (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Relation_(mathematics)`,
+    anchor: "Relation_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a binary relation is a general concept that defines
+          some relation between the elements of two sets. It is a generalization
+          of the more commonly understood idea of a mathematical function, but
+          with fewer restrictions. A binary relation over sets X and Y is a set
+          of ordered pairs (x, y) consisting of elements x in X and y in Y. It
+          encodes the common concept of relation: an element x is related to an
+          element y, if and only if the pair (x, y) belongs to the set of
+          ordered pairs that defines the binary relation. A binary relation is
+          the most studied special case n = 2 of an n-ary relation over sets X1,
+          ..., Xn, which is a subset of the Cartesian product X1 × ... × Xn.
+        </p>
+      ),
+    },
+  },
 ];
