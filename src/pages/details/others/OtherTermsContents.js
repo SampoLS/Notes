@@ -2449,4 +2449,21 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Binary number",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Binary_number`,
+    anchor: "Binary_number",
+    text: {
+      p1: (
+        <p>
+          A binary number is a number expressed in the base-2 numeral system or
+          binary numeral system, a method of mathematical expression which uses
+          only two symbols: typically "0" (zero) and "1" (one).
+        </p>
+      ),
+    },
+  },
 ];

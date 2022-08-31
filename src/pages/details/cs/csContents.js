@@ -3758,6 +3758,88 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Decimal floating point",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Decimal_floating_point`,
+    anchor: "Decimal_floating_point",
+    text: {
+      p1: (
+        <p>
+          Decimal floating-point (DFP) arithmetic refers to both a
+          representation and operations on decimal floating-point numbers.
+          Working directly with decimal (base-10) fractions can avoid the
+          rounding errors that otherwise typically occur when converting between
+          decimal fractions (common in human-entered data, such as measurements
+          or financial information) and binary (base-2) fractions.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Integer (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Integer_(computer_science)`,
+    anchor: "Integer_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer science, an integer is a datum of integral data type, a
+          data type that represents some range of mathematical integers.
+          Integral data types may be of different sizes and may or may not be
+          allowed to contain negative values. Integers are commonly represented
+          in a computer as a group of binary digits (bits). The size of the
+          grouping varies so the set of integer sizes available varies between
+          different types of computers. Computer hardware nearly always provides
+          a way to represent a processor register or memory address as an
+          integer.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Computer program",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Computer_program`,
+    anchor: "Computer_program",
+    text: {
+      p1: (
+        <p>
+          A computer program is a sequence or set of instructions in a
+          programming language for a computer to execute. Computer programs are
+          one component of software, which also includes documentation and other
+          intangible components.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Binary code",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Binary_code`,
+    anchor: "Binary_code",
+    text: {
+      p1: (
+        <p>
+          A binary code represents text, computer processor instructions, or any
+          other data using a two-symbol system. The two-symbol system used is
+          often "0" and "1" from the binary number system. The binary code
+          assigns a pattern of binary digits, also known as bits, to each
+          character, instruction, etc. For example, a binary string of eight
+          bits can represent any of 256 possible values and can, therefore,
+          represent a wide variety of different items.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
