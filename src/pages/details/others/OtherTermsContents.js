@@ -2466,4 +2466,24 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Data storage",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data_storage`,
+    anchor: "Data_storage",
+    text: {
+      p1: (
+        <p>
+          Data storage is the recording (storing) of information (data) in a
+          storage medium. Handwriting, phonographic recording, magnetic tape,
+          and optical discs are all examples of storage media. Some authors even
+          propose that DNA is a natural data storage mechanism. Recording may be
+          accomplished with virtually any form of energy. Electronic data
+          storage requires electrical power to store and retrieve data.
+        </p>
+      ),
+    },
+  },
 ];
