@@ -2522,4 +2522,21 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computer data storage",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Computer_data_storage`,
+    anchor: "Computer_data_storage",
+    text: {
+      p1: (
+        <p>
+          Computer data storage is a technology consisting of computer
+          components and recording media that are used to retain digital data.
+          It is a core function and fundamental component of computers.
+        </p>
+      ),
+    },
+  },
 ];
