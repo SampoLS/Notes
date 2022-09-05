@@ -273,6 +273,7 @@ export const philosophyContents = [
     },
   },
 ];
+
 export const contentsLength = philosophyContents.length;
 
 let subpathContents = [];

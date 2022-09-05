@@ -453,6 +453,26 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Expression (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Expression_(mathematics)`,
+    anchor: "Expression_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an expression or mathematical expression is a finite
+          combination of symbols that is well-formed according to rules that
+          depend on the context. Mathematical symbols can designate numbers
+          (constants), variables, operations, functions, brackets, punctuation,
+          and grouping to help determine order of operations and other aspects
+          of logical syntax.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;
