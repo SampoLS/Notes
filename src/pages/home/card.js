@@ -124,6 +124,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Philosophy",
+    path: "/philosophy",
+    text: "Philosophy (from Greek: φιλοσοφία, philosophia, 'love of wisdom') is the study of general and fundamental questions, such as those about existence, reason, knowledge, values, mind, and language. Such questions are often posed as problems to be studied or resolved.",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",

@@ -259,24 +259,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Philosophy",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Philosophy`,
-    anchor: "Philosophy",
-    text: {
-      p1: (
-        <p>
-          Philosophy (from Greek: φιλοσοφία, philosophia, 'love of wisdom') is
-          the study of general and fundamental questions, such as those about
-          existence, reason, knowledge, values, mind, and language. Such
-          questions are often posed as problems to be studied or resolved.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Time",
     isLargerTitle: false,
     path: "/other_terms",
@@ -497,27 +479,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Relations (philosophy)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Relations_(philosophy)`,
-    anchor: "Relations_(philosophy)",
-    text: {
-      p1: (
-        <p>
-          Relations are ways in which things, the relata, stand to each other.
-          Relations are in many ways similar to properties in that both
-          characterize the things they apply to. Properties are sometimes
-          treated as a special case of relations involving only one relatum. In
-          philosophy (especially metaphysics), theories of relations are
-          typically introduced to account for repetitions of how several things
-          stand to each other.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Address",
     isLargerTitle: false,
     path: "/other_terms",
@@ -613,26 +574,6 @@ export const termsContents = [
           command of their use. It entails effective communication and
           problem-solving abilities as well as a commitment to overcome native
           egocentrism and sociocentrism.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Ontology",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Ontology`,
-    anchor: "Ontology",
-    text: {
-      p1: (
-        <p>
-          Ontology is the branch of philosophy that studies concepts such as
-          existence, being, becoming, and reality. It includes the questions of
-          how entities are grouped into basic categories and which of these
-          entities exist on the most fundamental level. Ontology is sometimes
-          referred to as the science of being and belongs to the major branch of
-          philosophy known as metaphysics.
         </p>
       ),
     },
@@ -969,22 +910,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Distinction (philosophy)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Distinction_(philosophy)`,
-    anchor: "Distinction_(philosophy)",
-    text: {
-      p1: (
-        <p>
-          Distinction, the fundamental philosophical abstraction, involves the
-          recognition of difference.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Granularity",
     isLargerTitle: false,
     path: "/other_terms",
@@ -1097,23 +1022,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Meaning (philosophy)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Meaning_(philosophy)`,
-    anchor: "Meaning_(philosophy)",
-    text: {
-      p1: (
-        <p>
-          In semantics, semiotics, philosophy of language, metaphysics, and
-          metasemantics, meaning "is a relationship between two sorts of things:
-          signs and the kinds of things they intend, express, or signify".
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Object of the mind",
     isLargerTitle: false,
     path: "/other_terms",
@@ -1218,22 +1126,6 @@ export const termsContents = [
           may be delivered by various means, including courier, telegraphy,
           carrier pigeon and electronic bus. A message can be the content of a
           broadcast. An interactive exchange of messages forms a conversation.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Existence",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Existence`,
-    anchor: "Existence",
-    text: {
-      p1: (
-        <p>
-          Existence is the ability of an entity to interact with reality. In
-          philosophy, it refers to the ontological property of being.
         </p>
       ),
     },
@@ -1472,36 +1364,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Formalism (philosophy of mathematics)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Formalism_(philosophy_of_mathematics)`,
-    anchor: "Formalism_(philosophy_of_mathematics)",
-    text: {
-      p1: (
-        <p>
-          In the philosophy of mathematics, formalism is the view that holds
-          that statements of mathematics and logic can be considered to be
-          statements about the consequences of the manipulation of strings
-          (alphanumeric sequences of symbols, usually as equations) using
-          established manipulation rules. A central idea of formalism "is that
-          mathematics is not a body of propositions representing an abstract
-          sector of reality, but is much more akin to a game, bringing with it
-          no more commitment to an ontology of objects or properties than ludo
-          or chess." According to formalism, the truths expressed in logic and
-          mathematics are not about numbers, sets, or triangles or any other
-          coextensive subject matter — in fact, they aren't "about" anything at
-          all. Rather, mathematical statements are syntactic forms whose shapes
-          and locations have no meaning unless they are given an interpretation
-          (or semantics). In contrast to mathematical realism, logicism, or
-          intuitionism, formalism's contours are less defined due to broad
-          approaches that can be categorized as formalist.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Cognition",
     isLargerTitle: false,
     path: "/other_terms",
@@ -1607,26 +1469,6 @@ export const termsContents = [
           into "Honey has sweetness". The relation is created between the
           original subject and a new term that represents the property expressed
           by the original predicate.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Philosophy of mathematics",
-    islargertitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Philosophy_of_mathematics`,
-    anchor: "Philosophy_of_mathematics",
-    text: {
-      p1: (
-        <p>
-          The philosophy of mathematics is the branch of philosophy that studies
-          the assumptions, foundations, and implications of mathematics. It aims
-          to understand the nature and methods of mathematics, and find out the
-          place of mathematics in people's lives. The logical and structural
-          nature of mathematics itself makes this study both broad and unique
-          among its philosophical counterparts.
         </p>
       ),
     },
@@ -2015,25 +1857,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Ontology alignment",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Ontology_alignment`,
-    anchor: "Ontology_alignment",
-    text: {
-      p1: (
-        <p>
-          Ontology alignment, or ontology matching, is the process of
-          determining correspondences between concepts in ontologies. A set of
-          correspondences is also called an alignment. The phrase takes on a
-          slightly different meaning, in computer science, cognitive science or
-          philosophy.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Knowledge representation and reasoning",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2083,34 +1906,6 @@ export const termsContents = [
           for clients. A common use of data integration is in data mining when
           analyzing and extracting information from existing databases that can
           be useful for Business information.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Event (philosophy)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Event_(philosophy)`,
-    anchor: "Event_(philosophy)",
-    text: {
-      p1: (
-        <p>
-          In philosophy, events are objects in time or instantiations of
-          properties in objects. On some views, only changes in the form of
-          acquiring or losing a property can constitute events, like the lawn's
-          becoming dry. According to others, there are also events that involve
-          nothing but the retaining of a property, e.g. the lawn's staying wet.
-          Events are usually defined as particulars that, unlike universals,
-          cannot repeat at different times. Processes are complex events
-          constituted by a sequence of events. But even simple events can be
-          conceived as complex entities involving an object, a time and the
-          property exemplified by the object at this time. Traditionally,
-          metaphysicians tended to emphasize static being over dynamic events.
-          This tendency has been opposed by so-called process philosophy or
-          process ontology, which ascribes ontological primacy to events and
-          processes.
         </p>
       ),
     },
@@ -2199,39 +1994,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Action (philosophy)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Action_(philosophy)`,
-    anchor: "Action_(philosophy)",
-    text: {
-      p1: (
-        <p>
-          An action is an event that an agent performs for a purpose, that is
-          guided by the person's intention. The first question in the philosophy
-          of action is to determine how actions differ from other forms of
-          behavior, like involuntary reflexes. According to Ludwig Wittgenstein,
-          it involves discovering "[w]hat is left over if I subtract the fact
-          that my arm goes up from the fact that I raise my arm". There is broad
-          agreement that the answer to this question has to do with the agent's
-          intentions. So driving a car is an action since the agent intends to
-          do so, but sneezing is a mere behavior since it happens independent of
-          the agent's intention. The dominant theory of the relation between the
-          intention and the behavior is causalism: driving the car is an action
-          because it is caused by the agent's intention to do so. On this view,
-          actions are distinguished from other events by their causal history.
-          Causalist theories include Donald Davidson's account, who defines
-          actions as bodily movements caused by intentions in the right way, and
-          volitionalist theories, according to which volitions or tryings form a
-          core aspect of actions. Non-causalist theories, on the other hand,
-          often see intentions not as the action's cause but as a constituent of
-          it.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Atom",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2298,29 +2060,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Process philosophy",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Process_philosophy`,
-    anchor: "Process_philosophy",
-    text: {
-      p1: (
-        <p>
-          Process philosophy, also ontology of becoming, or processism, is an
-          approach to philosophy that identifies processes, changes, or shifting
-          relationships as the only true elements of the ordinary, everyday real
-          world. It treats other real elements (examples: enduring physical
-          objects, thoughts) as abstractions from, or ontological dependents on,
-          processes. In opposition to the classical view of change as illusory
-          (as argued by Parmenides) or accidental (as argued by Aristotle),
-          process philosophy posits transient occasions of change or becoming as
-          the only fundamental things of the ordinary everyday real world.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Chronology",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2333,33 +2072,6 @@ export const termsContents = [
           occurrence in time. Consider, for example, the use of a timeline or
           sequence of events. It is also "the determination of the actual
           temporal sequence of past events".
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Process ontology",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Process_ontology`,
-    anchor: "Process_ontology",
-    text: {
-      p1: (
-        <p>
-          In philosophy, a process ontology refers to a universal model of the
-          structure of the world as an ordered wholeness. Such ontologies are
-          fundamental ontologies, in contrast to the so-called applied
-          ontologies. Fundamental ontologies do not claim to be accessible to
-          any empirical proof in itself, but to be a structural design pattern,
-          out of which empirical phenomena can be explained and put together
-          consistently. Throughout Western history, the dominating fundamental
-          ontology is the so-called substance theory. However, fundamental
-          process ontologies are becoming more important in recent times,
-          because the progress in the discovery of the foundations of physics
-          spurred the development of a basic concept able to integrate such
-          boundary notions as "energy," "object", and those of the physical
-          dimensions of space and time.
         </p>
       ),
     },
@@ -2535,6 +2247,29 @@ export const termsContents = [
           Computer data storage is a technology consisting of computer
           components and recording media that are used to retain digital data.
           It is a core function and fundamental component of computers.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Information science",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Information_science`,
+    anchor: "Information_science",
+    text: {
+      p1: (
+        <p>
+          Information science (also known as information studies) is an academic
+          field which is primarily concerned with analysis, collection,
+          classification, manipulation, storage, retrieval, movement,
+          dissemination, and protection of information.[1] Practitioners within
+          and outside the field study the application and the usage of knowledge
+          in organizations in addition to the interaction between people,
+          organizations, and any existing information systems with the aim of
+          creating, replacing, improving, or understanding the information
+          systems.
         </p>
       ),
     },

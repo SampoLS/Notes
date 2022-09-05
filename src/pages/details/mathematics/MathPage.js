@@ -1,12 +1,12 @@
-import ShowPageContents from "../../../components/ShowPageContents";
-import { mathContents } from "./mathContents";
+import { Outlet } from "react-router-dom";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { contentsLength } from "./mathContents";
 
 const MathPage = () => {
   return (
     <>
-      {mathContents.map((item) => {
-        return <ShowPageContents key={item.id} {...item} />;
-      })}
+      <Outlet />
+      <Breadcrumbs path="math" length={contentsLength} />
     </>
   );
 };

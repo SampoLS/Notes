@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 const wikiUrl = "https://en.wikipedia.org/wiki";
 
 export const mathContents = [
@@ -402,4 +403,64 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Formalism (philosophy of mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Formalism_(philosophy_of_mathematics)`,
+    anchor: "Formalism_(philosophy_of_mathematics)",
+    text: {
+      p1: (
+        <p>
+          In the philosophy of mathematics, formalism is the view that holds
+          that statements of mathematics and logic can be considered to be
+          statements about the consequences of the manipulation of strings
+          (alphanumeric sequences of symbols, usually as equations) using
+          established manipulation rules. A central idea of formalism "is that
+          mathematics is not a body of propositions representing an abstract
+          sector of reality, but is much more akin to a game, bringing with it
+          no more commitment to an ontology of objects or properties than ludo
+          or chess." According to formalism, the truths expressed in logic and
+          mathematics are not about numbers, sets, or triangles or any other
+          coextensive subject matter — in fact, they aren't "about" anything at
+          all. Rather, mathematical statements are syntactic forms whose shapes
+          and locations have no meaning unless they are given an interpretation
+          (or semantics). In contrast to mathematical realism, logicism, or
+          intuitionism, formalism's contours are less defined due to broad
+          approaches that can be categorized as formalist.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Philosophy of mathematics",
+    islargertitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Philosophy_of_mathematics`,
+    anchor: "Philosophy_of_mathematics",
+    text: {
+      p1: (
+        <p>
+          The philosophy of mathematics is the branch of philosophy that studies
+          the assumptions, foundations, and implications of mathematics. It aims
+          to understand the nature and methods of mathematics, and find out the
+          place of mathematics in people's lives. The logical and structural
+          nature of mathematics itself makes this study both broad and unique
+          among its philosophical counterparts.
+        </p>
+      ),
+    },
+  },
 ];
+
+export const contentsLength = mathContents.length;
+
+let subpathContents = [];
+
+export const mathContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  mathContents
+);

@@ -22,6 +22,7 @@ import MathPage from "./pages/details/mathematics/MathPage";
 import PhysicsPage from "./pages/details/physics/PhysicsPage";
 import LogicPage from "./pages/details/logic/LogicPage";
 import LinguisticsPage from "./pages/details/linguistics/LinguisitcsPage";
+import PhilosophyPage from "./pages/details/philosophy/PhilosophyPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
@@ -42,6 +43,8 @@ import { webglContents } from "./pages/details/webgl/webglContents";
 import { physicsContents } from "./pages/details/physics/physicsContents";
 import { logicContents } from "./pages/details/logic/logicContents";
 import { linguisticsContents } from "./pages/details/linguistics/linguisticsContents";
+import { philosophyContents } from "./pages/details/philosophy/philosophyContents";
+import { mathContents } from "./pages/details/mathematics/mathContents";
 
 export default function App() {
   return (
@@ -117,7 +120,10 @@ export default function App() {
               element={<SplitPage content={webglContents} />}
             />
           </Route>
-          <Route path="math" element={<MathPage />} />
+          <Route path="math" element={<MathPage />}>
+            <Route index element={<IndexRoutePage content={mathContents} />} />
+            <Route path=":pId" element={<SplitPage content={mathContents} />} />
+          </Route>
           <Route path="physics" element={<PhysicsPage />}>
             <Route
               index
@@ -143,6 +149,16 @@ export default function App() {
             <Route
               path=":pId"
               element={<SplitPage content={linguisticsContents} />}
+            />
+          </Route>
+          <Route path="philosophy" element={<PhilosophyPage />}>
+            <Route
+              index
+              element={<IndexRoutePage content={philosophyContents} />}
+            />
+            <Route
+              path=":pId"
+              element={<SplitPage content={philosophyContents} />}
             />
           </Route>
           <Route path="other_terms" element={<OtherTermsPage />} />
