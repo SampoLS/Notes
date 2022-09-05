@@ -247,6 +247,31 @@ export const philosophyContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Upper ontology",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Upper_ontology`,
+    anchor: "Upper_ontology",
+    text: {
+      p1: (
+        <p>
+          In information science, an upper ontology (also known as a top-level
+          ontology, upper model, or foundation ontology) is an ontology (in the
+          sense used in information science) which consists of very general
+          terms (such as "object", "property", "relation") that are common
+          across all domains. An important function of an upper ontology is to
+          support broad semantic interoperability among a large number of
+          domain-specific ontologies by providing a common starting point for
+          the formulation of definitions. Terms in the domain ontology are
+          ranked under the terms in the upper ontology, e.g., the upper ontology
+          classes are superclasses or supersets of all the classes in the domain
+          ontologies.
+        </p>
+      ),
+    },
+  },
 ];
 export const contentsLength = philosophyContents.length;
 
