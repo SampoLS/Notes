@@ -3881,6 +3881,46 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Program optimization",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Program_optimization`,
+    anchor: "Program_optimization",
+    text: {
+      p1: (
+        <p>
+          In computer science, program optimization, code optimization, or
+          software optimization, is the process of modifying a software system
+          to make some aspect of it work more efficiently or use fewer
+          resources. In general, a computer program may be optimized so that it
+          executes more rapidly, or to make it capable of operating with less
+          memory storage or other resources, or draw less power.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Loop optimization",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Loop_optimization`,
+    anchor: "Loop_optimization",
+    text: {
+      p1: (
+        <p>
+          In compiler theory, loop optimization is the process of increasing
+          execution speed and reducing the overheads associated with loops. It
+          plays an important role in improving cache performance and making
+          effective use of parallel processing capabilities. Most execution time
+          of a scientific program is spent on loops; as such, many compiler
+          optimization techniques have been developed to make them faster.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
