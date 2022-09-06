@@ -2274,4 +2274,24 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Sequential logic",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Sequential_logic`,
+    anchor: "Sequential_logic",
+    text: {
+      p1: (
+        <p>
+          In automata theory, sequential logic is a type of logic circuit whose
+          output depends on the present value of its input signals and on the
+          sequence of past inputs, the input history. This is in contrast to
+          combinational logic, whose output is a function of only the present
+          input. That is, sequential logic has state (memory) while
+          combinational logic does not.
+        </p>
+      ),
+    },
+  },
 ];
