@@ -3921,6 +3921,31 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Abstract syntax",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Abstract_syntax`,
+    anchor: "Abstract_syntax",
+    text: {
+      p1: (
+        <p>
+          In computer science, the abstract syntax of data is its structure
+          described as a data type (possibly, but not necessarily, an abstract
+          data type), independent of any particular representation or encoding.
+          This is particularly used in the representation of text in computer
+          languages, which are generally stored in a tree structure as an
+          abstract syntax tree. Abstract syntax, which only consists of the
+          structure of data, is contrasted with concrete syntax, which also
+          includes information about the representation. For example, concrete
+          syntax includes features like parentheses (for grouping) or commas
+          (for lists) which are not included in the abstract syntax, as they are
+          implicit in the structure.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
