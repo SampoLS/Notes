@@ -2294,4 +2294,27 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Self",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Self`,
+    anchor: "Self",
+    text: {
+      p1: (
+        <p>
+          The self is an individual as the object of its own reflective
+          consciousness. Since the self is a reference by a subject to the same
+          subject, this reference is necessarily subjective. The sense of having
+          a self—or selfhood—should, however, not be confused with subjectivity
+          itself. Ostensibly, this sense is directed outward from the subject to
+          refer inward, back to its "self" (or itself). Examples of psychiatric
+          conditions where such "sameness" may become broken include
+          depersonalization, which sometimes occurs in schizophrenia: the self
+          appears different from the subject.
+        </p>
+      ),
+    },
+  },
 ];
