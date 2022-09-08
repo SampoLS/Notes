@@ -1497,7 +1497,7 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Execution",
+    title: "Execution (computing)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Execution_(computing)`,
