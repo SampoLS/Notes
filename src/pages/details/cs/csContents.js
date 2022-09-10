@@ -4011,6 +4011,26 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Dereference operator",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Dereference_operator`,
+    anchor: "Dereference_operator",
+    text: {
+      p1: (
+        <p>
+          In computer programming, the dereference operator or indirection
+          operator, sometimes denoted by "*" (i.e. an asterisk), is a unary
+          operator (i.e. one with a single operand) found in C-like languages
+          that include pointer variables. It operates on a pointer variable, and
+          returns an l-value equivalent to the value at the pointer address.
+          This is called "dereferencing" the pointer. For example, the C code
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
