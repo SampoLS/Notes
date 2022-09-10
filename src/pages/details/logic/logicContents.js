@@ -387,6 +387,70 @@ export const logicContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Extensional and intensional definitions",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Extensional_and_intensional_definitions`,
+    anchor: "Extensional_and_intensional_definitions",
+    text: {
+      p1: (
+        <p>
+          In logic, extensional and intensional definitions are two key ways in
+          which the objects, concepts, or referents a term refers to can be
+          defined. They give meaning or denotation to a term.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "First-order logic",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/First-order_logic`,
+    anchor: "First-order_logic",
+    text: {
+      p1: (
+        <p>
+          First-order logic—also known as predicate logic, quantificational
+          logic, and first-order predicate calculus—is a collection of formal
+          systems used in mathematics, philosophy, linguistics, and computer
+          science. First-order logic uses quantified variables over non-logical
+          objects, and allows the use of sentences that contain variables, so
+          that rather than propositions such as "Socrates is a man", one can
+          have expressions in the form "there exists x such that x is Socrates
+          and x is a man", where "there exists" is a quantifier, while x is a
+          variable. This distinguishes it from propositional logic, which does
+          not use quantifiers or relations; in this sense, propositional logic
+          is the foundation of first-order logic.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Propositional calculus",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Propositional_calculus`,
+    anchor: "Propositional_calculus",
+    text: {
+      p1: (
+        <p>
+          Propositional calculus is a branch of logic. It is also called
+          propositional logic, statement logic, sentential calculus, sentential
+          logic, or sometimes zeroth-order logic. It deals with propositions
+          (which can be true or false) and relations between propositions,
+          including the construction of arguments based on them. Compound
+          propositions are formed by connecting propositions by logical
+          connectives. Propositions that contain no logical connectives are
+          called atomic propositions.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = logicContents.length;

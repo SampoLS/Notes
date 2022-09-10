@@ -272,6 +272,170 @@ export const philosophyContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Object (philosophy)",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Object_(philosophy)`,
+    anchor: "Object_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          An object is a philosophical term often used in contrast to the term
+          subject. A subject is an observer and an object is a thing observed.
+          For modern philosophers like Descartes, consciousness is a state of
+          cognition that includes the subject—which can never be doubted as only
+          it can be the one who doubts—and some object(s) that may be considered
+          as not having real or full existence or value independent of the
+          subject who observes it. Metaphysical frameworks also differ in
+          whether they consider objects existing independently of their
+          properties and, if so, in what way.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Metaphysics",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Metaphysics`,
+    anchor: "Metaphysics",
+    text: {
+      p1: (
+        <p>
+          Metaphysics is the branch of philosophy that studies the fundamental
+          nature of reality, the first principles of being, identity and change,
+          space and time, causality, necessity, and possibility. It includes
+          questions about the nature of consciousness and the relationship
+          between mind and matter, between substance and attribute, and between
+          potentiality and actuality. The word "metaphysics" comes from two
+          Greek words that, together, literally mean "after or behind or among
+          [the study of] the natural". It has been suggested that the term might
+          have been coined by a first century CE editor who assembled various
+          small selections of Aristotle's works into the treatise we now know by
+          the name Metaphysics (μετὰ τὰ φυσικά, meta ta physika, lit. 'after the
+          Physics', another of Aristotle's works).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Ontology components",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Ontology_components`,
+    anchor: "Ontology_components",
+    text: {
+      p1: (
+        <p>
+          Contemporary ontologies share many structural similarities, regardless
+          of the ontology language in which they are expressed. Most ontologies
+          describe individuals (instances), classes (concepts), attributes, and
+          relations.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Becoming (philosophy)",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Becoming_(philosophy)`,
+    anchor: "Becoming_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          In philosophy, becoming is a concept referring to constant change
+          opposed to being. It is the focus of process philosophy as a whole, or
+          with the related study of process theology.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Being",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Being`,
+    anchor: "Being",
+    text: {
+      p1: (
+        <p>
+          In philosophy, being is the material or immaterial existence of a
+          thing. Being is a concept encompassing objective and subjective
+          features of existence. Ontology is the branch of philosophy that
+          studies being. The concept of being has been investigated by
+          philosophers such as Aristotle, Thomas Aquinas, and Martin Heidegger.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Objectivity (philosophy)",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Objectivity_(philosophy)`,
+    anchor: "Objectivity_(philosophy)",
+    text: {
+      p1: (
+        <p>
+          In philosophy, objectivity is the concept of truth independent from
+          individual subjectivity (bias caused by one's perception, emotions, or
+          imagination). A proposition is considered to have objective truth when
+          its truth conditions are met without bias caused by the mind of a
+          sentient being. Scientific objectivity refers to the ability to judge
+          without partiality or external influence. Objectivity in the moral
+          framework calls for moral codes to be assessed based on the well-being
+          of the people in the society that follow it. Moral objectivity also
+          calls for moral codes to be compared to one another through a set of
+          universal facts and not through subjectivity.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Subjectivity",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Subjectivity`,
+    anchor: "Subjectivity",
+    text: {
+      p1: (
+        <ol className="list">
+          <p>
+            Subjectivity in a philosophical context has to do with a lack of
+            objective reality.[citation needed] Subjectivity has been given
+            various and ambiguous definitions by differing sources as it is not
+            often the focal point of philosophical discourse. However, it is
+            related to ideas of consciousness, agency, personhood, philosophy of
+            mind, reality, and truth. Three common definitions include that
+            subjectivity is the quality or condition of:
+          </p>
+          <li>
+            Something being a subject, narrowly meaning an individual who
+            possesses conscious experiences, such as perspectives, feelings,
+            beliefs, and desires.
+          </li>
+          <li>
+            Something being a subject, broadly meaning an entity that has
+            agency, meaning that it acts upon or wields power over some other
+            entity (an object).
+          </li>
+          <li>
+            Some information, idea, situation, or physical thing considered true
+            only from the perspective of a subject or subjects.
+          </li>
+        </ol>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = philosophyContents.length;

@@ -2317,4 +2317,210 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Curiosity",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Curiosity`,
+    anchor: "Curiosity",
+    text: {
+      p1: (
+        <p>
+          Curiosity is a quality related to inquisitive thinking such as
+          exploration, investigation, and learning, evident by observation in
+          humans and other animals. Curiosity is heavily associated with all
+          aspects of human development, in which derives the process of learning
+          and desire to acquire knowledge and skill.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Mental model",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Mental_model`,
+    anchor: "Mental_model",
+    text: {
+      p1: (
+        <p>
+          A mental model is an explanation of someone's thought process about
+          how something works in the real world. It is a representation of the
+          surrounding world, the relationships between its various parts and a
+          person's intuitive perception about their own acts and their
+          consequences. Mental models can help shape behaviour and set an
+          approach to solving problems (similar to a personal algorithm) and
+          doing tasks. A mental model is a kind of internal symbol or
+          representation of external reality, hypothesized to play a major role
+          in cognition, reasoning and decision-making. Kenneth Craik suggested
+          in 1943 that the mind constructs "small-scale models" of reality that
+          it uses to anticipate events.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Behavior",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Behavior`,
+    anchor: "Behavior",
+    text: {
+      p1: (
+        <p>
+          Behavior (American English) or behaviour (British English) is the
+          range of actions and mannerisms made by individuals, organisms,
+          systems or artificial entities in some environment. These systems can
+          include other systems or organisms as well as the inanimate physical
+          environment. It is the computed response of the system or organism to
+          various stimuli or inputs, whether internal or external, conscious or
+          subconscious, overt or covert, and voluntary or involuntary.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Intention",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Intention`,
+    anchor: "Intention",
+    text: {
+      p1: (
+        <p>
+          Intentions are mental states in which the agent commits themselves to
+          a course of action. Having the plan to visit the zoo tomorrow is an
+          example of an intention. The action plan is the content of the
+          intention while the commitment is the attitude towards this content.
+          Other mental states can have action plans as their content, as when
+          one admires a plan, but differ from intentions since they do not
+          involve a practical commitment to realizing this plan. Successful
+          intentions bring about the intended course of action while
+          unsuccessful intentions fail to do so. Intentions, like many other
+          mental states, have intentionality: they represent possible states of
+          affairs.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Concept map",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Concept_map`,
+    anchor: "Concept_map",
+    text: {
+      p1: (
+        <p>
+          A concept map or conceptual diagram is a diagram that depicts
+          suggested relationships between concepts. Concept maps may be used by
+          instructional designers, engineers, technical writers, and others to
+          organize and structure knowledge.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Measurement",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Measurement`,
+    anchor: "Measurement",
+    text: {
+      p1: (
+        <p>
+          Measurement is the quantification of attributes of an object or event,
+          which can be used to compare with other objects or events. In other
+          words, measurement is a process of determining how large or small a
+          physical quantity is as compared to a basic reference quantity of the
+          same kind. The scope and application of measurement are dependent on
+          the context and discipline. In natural sciences and engineering,
+          measurements do not apply to nominal properties of objects or events,
+          which is consistent with the guidelines of the International
+          vocabulary of metrology published by the International Bureau of
+          Weights and Measures. However, in other fields such as statistics as
+          well as the social and behavioural sciences, measurements can have
+          multiple levels, which would include nominal, ordinal, interval and
+          ratio scales.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Class (knowledge representation)",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Class_(knowledge_representation)`,
+    anchor: "Class_(knowledge_representation)",
+    text: {
+      p1: (
+        <p>
+          In knowledge representation, a class is a collection of individuals or
+          objects. A class can be defined either by extension (specifying
+          members), or by intension (specifying conditions), using what is
+          called in some ontology languages like OWL. According to the
+          Type-token distinction, the ontology is divided into individuals, who
+          are real worlds objects, or events, and types, or classes, who are
+          sets of real world objects. Class expressions or definitions gives the
+          properties that the individuals must fulfill to be members of the
+          class. Individuals that fulfill the property are called Instances.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Concept learning",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Concept_learning`,
+    anchor: "Concept_learning",
+    text: {
+      p1: (
+        <p>
+          Concept learning, also known as category learning, concept attainment,
+          and concept formation, is defined by Bruner, Goodnow, & Austin (1967)
+          as "the search for and listing of attributes that can be used to
+          distinguish exemplars from non exemplars of various categories".[quote
+          citation needed] More simply put, concepts are the mental categories
+          that help us classify objects, events, or ideas, building on the
+          understanding that each object, event, or idea has a set of common
+          relevant features. Thus, concept learning is a strategy which requires
+          a learner to compare and contrast groups or categories that contain
+          concept-relevant features with groups or categories that do not
+          contain concept-relevant features.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Formal concept analysis",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Formal_concept_analysis`,
+    anchor: "Formal_concept_analysis",
+    text: {
+      p1: (
+        <p>
+          In information science, formal concept analysis (FCA) is a principled
+          way of deriving a concept hierarchy or formal ontology from a
+          collection of objects and their properties. Each concept in the
+          hierarchy represents the objects sharing some set of properties; and
+          each sub-concept in the hierarchy represents a subset of the objects
+          (as well as a superset of the properties) in the concepts above it.
+          The term was introduced by Rudolf Wille in 1981, and builds on the
+          mathematical theory of lattices and ordered sets that was developed by
+          Garrett Birkhoff and others in the 1930s.
+        </p>
+      ),
+    },
+  },
 ];
