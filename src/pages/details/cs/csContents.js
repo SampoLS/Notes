@@ -1081,23 +1081,6 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Value (computer science)",
-    isLargerTitle: false,
-    path: "/cs",
-    url: `${wikiUrl}/Value_(computer_science)`,
-    anchor: "Value_(computer_science)",
-    text: {
-      p1: (
-        <p>
-          In computer science, a value is the representation of some entity that
-          can be manipulated by a program. The members of a type are the values
-          of that type.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Syntax",
     isLargerTitle: false,
     path: "/cs",
