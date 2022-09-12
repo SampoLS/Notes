@@ -4014,6 +4014,46 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Character literal",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Character_literal`,
+    anchor: "Character_literal",
+    text: {
+      p1: (
+        <p>
+          A character literal is a type of literal in programming for the
+          representation of a single character's value within the source code of
+          a computer program.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "String (computer science)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}String_(computer_science)/`,
+    anchor: "String_(computer_science)",
+    text: {
+      p1: (
+        <p>
+          In computer programming, a string is traditionally a sequence of
+          characters, either as a literal constant or as some kind of variable.
+          The latter may allow its elements to be mutated and the length
+          changed, or it may be fixed (after creation). A string is generally
+          considered as a data type and is often implemented as an array data
+          structure of bytes (or words) that stores a sequence of elements,
+          typically characters, using some character encoding. String may also
+          denote more general arrays or other sequence (or list) data types and
+          structures.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

@@ -222,6 +222,28 @@ export const linguisticsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Grapheme",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Grapheme`,
+    anchor: "Grapheme",
+    text: {
+      p1: (
+        <p>
+          In linguistics, a grapheme is the smallest functional unit of a
+          writing system. The word grapheme, coined in analogy with phoneme, is
+          derived from Ancient Greek γράφω (gráphō) 'write' and the suffix -eme
+          by analogy with phoneme and other names of emic units. The study of
+          graphemes is called graphemics. The concept of graphemes is abstract
+          and similar to the notion in computing of a character. By comparison,
+          a specific shape that represents any particular grapheme in a given
+          typeface is called a glyph.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = linguisticsContents.length;
