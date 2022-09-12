@@ -4036,7 +4036,7 @@ export const csContents = [
     title: "String (computer science)",
     isLargerTitle: false,
     path: "/cs",
-    url: `${wikiUrl}String_(computer_science)/`,
+    url: `${wikiUrl}/String_(computer_science)`,
     anchor: "String_(computer_science)",
     text: {
       p1: (
