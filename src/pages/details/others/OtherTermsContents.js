@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 
 const wikiUrl = "https://en.wikipedia.org/wiki";
 
@@ -2523,4 +2524,54 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Formal language",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Formal_language`,
+    anchor: "Formal_language",
+    text: {
+      p1: (
+        <p>
+          In logic, mathematics, computer science, and linguistics, a formal
+          language consists of words whose letters are taken from an alphabet
+          and are well-formed according to a specific set of rules.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Symbol (formal)",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Symbol_(formal)`,
+    anchor: "Symbol_(formal)",
+    text: {
+      p1: (
+        <p>
+          A logical symbol is a fundamental concept in logic, tokens of which
+          may be marks or a configuration of marks which form a particular
+          pattern.[citation needed] Although the term "symbol" in common use
+          refers at some times to the idea being symbolized, and at other times
+          to the marks on a piece of paper or chalkboard which are being used to
+          express that idea; in the formal languages studied in mathematics and
+          logic, the term "symbol" refers to the idea, and the marks are
+          considered to be a token instance of the symbol.[dubious - discuss] In
+          logic, symbols build literal utility to illustrate ideas.
+        </p>
+      ),
+    },
+  },
 ];
+
+export const contentsLength = termsContents.length;
+
+let subpathContents = [];
+
+export const termsContentsAddedSubpath = addSubpath(
+  subpathContents,
+  contentsLength,
+  termsContents
+);

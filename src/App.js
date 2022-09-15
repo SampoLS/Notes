@@ -45,6 +45,7 @@ import { logicContents } from "./pages/details/logic/logicContents";
 import { linguisticsContents } from "./pages/details/linguistics/linguisticsContents";
 import { philosophyContents } from "./pages/details/philosophy/philosophyContents";
 import { mathContents } from "./pages/details/mathematics/mathContents";
+import { termsContents } from "./pages/details/others/OtherTermsContents";
 
 export default function App() {
   return (
@@ -161,7 +162,13 @@ export default function App() {
               element={<SplitPage content={philosophyContents} />}
             />
           </Route>
-          <Route path="other_terms" element={<OtherTermsPage />} />
+          <Route path="other_terms" element={<OtherTermsPage />}>
+            <Route index element={<IndexRoutePage content={termsContents} />} />
+            <Route
+              path=":pId"
+              element={<SplitPage content={termsContents} />}
+            />
+          </Route>
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />
         </Route>

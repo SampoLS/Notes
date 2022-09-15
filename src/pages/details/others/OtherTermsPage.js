@@ -1,12 +1,12 @@
-import ShowPageContents from "../../../components/ShowPageContents";
-import { termsContents } from "./OtherTermsContents";
+import { Outlet } from "react-router-dom";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { contentsLength } from "./OtherTermsContents";
 
 const OtherTermsPage = () => {
   return (
     <>
-      {termsContents.map((item) => {
-        return <ShowPageContents key={item.id} {...item} />;
-      })}
+      <Outlet />
+      <Breadcrumbs path="other_terms" length={contentsLength} />
     </>
   );
 };

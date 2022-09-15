@@ -4054,6 +4054,50 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Random-access memory",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Random-access_memory`,
+    anchor: "Random-access_memory",
+    text: {
+      p1: (
+        <p>
+          Random-access memory (RAM; /ræm/) is a form of computer memory that
+          can be read and changed in any order, typically used to store working
+          data and machine code. A random-access memory device allows data items
+          to be read or written in almost the same amount of time irrespective
+          of the physical location of data inside the memory, in contrast with
+          other direct-access data storage media (such as hard disks, CD-RWs,
+          DVD-RWs and the older magnetic tapes and drum memory), where the time
+          required to read and write data items varies significantly depending
+          on their physical locations on the recording medium, due to mechanical
+          limitations such as media rotation speeds and arm movement.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Programming language theory",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Programming_language_theory`,
+    anchor: "Programming_language_theory",
+    text: {
+      p1: (
+        <p>
+          Programming language theory (PLT) is a branch of computer science that
+          deals with the design, implementation, analysis, characterization, and
+          classification of formal languages known as programming languages.
+          Programming language theory is closely related to other fields
+          including mathematics, software engineering, and linguistics. There
+          are a number of academic conferences and journals in the area.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

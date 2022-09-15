@@ -473,6 +473,92 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Discrete mathematics",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Discrete_mathematics`,
+    anchor: "Discrete_mathematics",
+    text: {
+      p1: (
+        <p>
+          Discrete mathematics is the study of mathematical structures that can
+          be considered "discrete" (in a way analogous to discrete variables,
+          having a bijection with the set of natural numbers) rather than
+          "continuous" (analogously to continuous functions). Objects studied in
+          discrete mathematics include integers, graphs, and statements in
+          logic. By contrast, discrete mathematics excludes topics in
+          "continuous mathematics" such as real numbers, calculus or Euclidean
+          geometry. Discrete objects can often be enumerated by integers; more
+          formally, discrete mathematics has been characterized as the branch of
+          mathematics dealing with countable sets (finite sets or sets with the
+          same cardinality as the natural numbers). However, there is no exact
+          definition of the term "discrete mathematics".
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Mathematical structure",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Mathematical_structure`,
+    anchor: "Mathematical_structure",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a structure is a set endowed with some additional
+          features on the set (e.g. an operation, relation, metric, or
+          topology). Often, the additional features are attached or related to
+          the set, so as to provide it with some additional meaning or
+          significance.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Bijection",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Bijection`,
+    anchor: "Bijection",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a bijection, also known as a bijective function,
+          one-to-one correspondence, or invertible function, is a function
+          between the elements of two sets, where each element of one set is
+          paired with exactly one element of the other set, and each element of
+          the other set is paired with exactly one element of the first set.
+          There are no unpaired elements. In mathematical terms, a bijective
+          function f: X → Y is a one-to-one (injective) and onto (surjective)
+          mapping of a set X to a set Y. The term one-to-one correspondence must
+          not be confused with one-to-one function (an injective function; see
+          figures).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Function (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Function_(mathematics)`,
+    anchor: "Function_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a function from a set X to a set Y assigns to each
+          element of X exactly one element of Y. The set X is called the domain
+          of the function and the set Y is called the codomain of the function.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;
