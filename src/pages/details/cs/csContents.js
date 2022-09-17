@@ -4098,6 +4098,65 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Category:Programming principles",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Category:Programming_principles`,
+    anchor: "Category:Programming_principles",
+    text: {
+      p1: (
+        <p>
+          This category describes rules and aphorisms applicable to software
+          engineering. They range from the highly formal to those open to
+          interpretation, and from serious to humorous. Whether to apply any
+          given rule universally, in which situations to apply it, and what it
+          implies should be done are often active subjects of conversation and
+          debate.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Parse tree",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Parse_tree`,
+    anchor: "Parse_tree",
+    text: {
+      p1: (
+        <p>
+          A parse tree or parsing tree or derivation tree or concrete syntax
+          tree is an ordered, rooted tree that represents the syntactic
+          structure of a string according to some context-free grammar. The term
+          parse tree itself is used primarily in computational linguistics; in
+          theoretical syntax, the term syntax tree is more common.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Terminal and nonterminal symbols",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Terminal_and_nonterminal_symbols`,
+    anchor: "Terminal_and_nonterminal_symbols",
+    text: {
+      p1: (
+        <p>
+          In computer science, terminal and nonterminal symbols are the lexical
+          elements used in specifying the production rules constituting a formal
+          grammar. Terminal symbols are the elementary symbols of the language
+          defined by a formal grammar. Nonterminal symbols (or syntactic
+          variables) are replaced by groups of terminal symbols according to the
+          production rules.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

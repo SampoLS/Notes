@@ -559,6 +559,26 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Disjoint sets",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Disjoint_sets`,
+    anchor: "Disjoint_sets",
+    text: {
+      p1: (
+        <p>
+          In mathematics, two sets are said to be disjoint sets if they have no
+          element in common. Equivalently, two disjoint sets are sets whose
+          intersection is the empty set. For example, (1, 2, 3) and (4, 5, 6)
+          are disjoint sets, while (1, 2, 3) and (3, 4, 5) are not disjoint. A
+          collection of two or more sets is called disjoint if any two distinct
+          sets of the collection are disjoint.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;
