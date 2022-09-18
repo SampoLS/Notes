@@ -271,6 +271,70 @@ export const linguisticsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Part of speech",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Part_of_speech`,
+    anchor: "Part_of_speech",
+    text: {
+      p1: (
+        <p>
+          In grammar, a part of speech or part-of-speech (abbreviated as POS or
+          PoS, also known as word class or grammatical category) is a category
+          of words (or, more generally, of lexical items) that have similar
+          grammatical properties. Words that are assigned to the same part of
+          speech generally display similar syntactic behavior (they play similar
+          roles within the grammatical structure of sentences), sometimes
+          similar morphological behavior in that they undergo inflection for
+          similar properties and even similar semantic behavior.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Grammar",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Grammar`,
+    anchor: "Grammar",
+    text: {
+      p1: (
+        <p>
+          In linguistics, the grammar of a natural language is its set of
+          structural constraints on speakers' or writers' composition of
+          clauses, phrases, and words. The term can also refer to the study of
+          such constraints, a field that includes domains such as phonology,
+          morphology, and syntax, often complemented by phonetics, semantics,
+          and pragmatics. There are currently two different approaches to the
+          study of grammar: traditional grammar and theoretical grammar.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Syntax",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Syntax`,
+    anchor: "Syntax",
+    text: {
+      p1: (
+        <p>
+          In linguistics, syntax (/ˈsɪntæks/) is the study of how words and
+          morphemes combine to form larger units such as phrases and sentences.
+          Central concerns of syntax include word order, grammatical relations,
+          hierarchical sentence structure (constituency), agreement, the nature
+          of crosslinguistic variation, and the relationship between form and
+          meaning (semantics). There are numerous approaches to syntax that
+          differ in their central assumptions and goals.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = linguisticsContents.length;

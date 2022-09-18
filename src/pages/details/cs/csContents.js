@@ -1081,11 +1081,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Syntax",
+    title: "Syntax (programming languages)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Syntax_(programming_languages)`,
-    anchor: "Syntax",
+    anchor: "Syntax_(programming_languages)",
     text: {
       p1: (
         <p>
