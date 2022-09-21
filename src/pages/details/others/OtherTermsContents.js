@@ -2564,6 +2564,49 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Communication source",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Communication_source`,
+    anchor: "Communication_source",
+    text: {
+      p1: (
+        <p>
+          A source or sender is one of the basic concepts of communication and
+          information processing. Sources are objects which encode message data
+          and transmit the information, via a channel, to one or more observers
+          (or receivers).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Code",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Code`,
+    anchor: "Code",
+    text: {
+      p1: (
+        <p>
+          In communications and information processing, code is a system of
+          rules to convert information—such as a letter, word, sound, image, or
+          gesture—into another form, sometimes shortened or secret, for
+          communication through a communication channel or storage in a storage
+          medium. An early example is an invention of language, which enabled a
+          person, through speech, to communicate what they thought, saw, heard,
+          or felt to others. But speech limits the range of communication to the
+          distance a voice can carry and limits the audience to those present
+          when the speech is uttered. The invention of writing, which converted
+          spoken language into visual symbols, extended the range of
+          communication across space and time.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;

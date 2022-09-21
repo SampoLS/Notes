@@ -4157,6 +4157,24 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Base64",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Base64`,
+    anchor: "Base64",
+    text: {
+      p1: (
+        <p>
+          In computer programming, Base64 is a group of binary-to-text encoding
+          schemes that represent binary data (more specifically, a sequence of
+          8-bit bytes) in sequences of 24 bits that can be represented by four
+          6-bit Base64 digits.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
