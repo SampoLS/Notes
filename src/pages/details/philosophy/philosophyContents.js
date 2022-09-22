@@ -436,6 +436,27 @@ export const philosophyContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Mereology",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Mereology`,
+    anchor: "Mereology",
+    text: {
+      p1: (
+        <p>
+          In logic, philosophy and related fields, mereology (from Greek μέρος
+          'part' (root: μερε-, mere-, 'part') and the suffix -logy, 'study,
+          discussion, science') is the study of parts and the wholes they form.
+          Whereas set theory is founded on the membership relation between a set
+          and its elements, mereology emphasizes the meronomic relation between
+          entities, which—from a set-theoretic perspective—is closer to the
+          concept of inclusion between sets.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = philosophyContents.length;
