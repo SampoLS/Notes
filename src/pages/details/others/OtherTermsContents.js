@@ -2607,6 +2607,118 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "File format",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/File_format`,
+    anchor: "File_format",
+    text: {
+      p1: (
+        <p>
+          A file format is a standard way that information is encoded for
+          storage in a computer file. It specifies how bits are used to encode
+          information in a digital storage medium. File formats may be either
+          proprietary or free.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Electronic data interchange",
+    islargertitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Electronic_data_interchange`,
+    anchor: "Electronic_data_interchange",
+    text: {
+      p1: (
+        <p>
+          Electronic data interchange (EDI) is the concept of businesses
+          electronically communicating information that was traditionally
+          communicated on paper, such as purchase orders and invoices. Technical
+          standards for EDI exist to facilitate parties transacting such
+          instruments without having to make special arrangements.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Structured analysis",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Structured_analysis`,
+    anchor: "Structured_analysis",
+    text: {
+      p1: (
+        <p>
+          In software engineering, structured analysis (SA) and structured
+          design (SD) are methods for analyzing business requirements and
+          developing specifications for converting practices into computer
+          programs, hardware configurations, and related manual procedures.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Systems analysis",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Systems_analysis`,
+    anchor: "Systems_analysis",
+    text: {
+      p1: (
+        <p>
+          Systems analysis is "the process of studying a procedure or business
+          to identify its goal and purposes and create systems and procedures
+          that will efficiently achieve them". Another view sees system analysis
+          as a problem-solving technique that breaks down a system into its
+          component pieces, and how well those parts work and interact to
+          accomplish their purpose.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Concurrent computing",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Concurrent_computing`,
+    anchor: "Concurrent_computing",
+    text: {
+      p1: (
+        <p>
+          Concurrent computing is a form of computing in which several
+          computations are executed concurrently—during overlapping time
+          periods—instead of sequentially—with one completing before the next
+          starts.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Modular design",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Modular_design`,
+    anchor: "Modular_design",
+    text: {
+      p1: (
+        <p>
+          Modular design, or modularity in design, is a design principle that
+          subdivides a system into smaller parts called modules (such as modular
+          process skids), which can be independently created, modified,
+          replaced, or exchanged with other modules or between different
+          systems.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;

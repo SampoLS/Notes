@@ -2824,11 +2824,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Synchronization",
+    title: "Synchronization (computer science)",
     isLargerTitle: false,
     path: "/cs",
-    url: `${wikiUrl}/Synchronization`,
-    anchor: "Synchronization",
+    url: `${wikiUrl}/Synchronization_(computer_science)`,
+    anchor: "Synchronizatio_(computer_science)n",
     text: {
       p1: (
         <p>
@@ -4197,6 +4197,49 @@ export const csContents = [
           a program into translation units, i.e. into parts that a compiler can
           separately translate into object files, to be combined by a linker
           into an executable or a library.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Name–value pair",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Name–value_pair`,
+    anchor: "Name–value_pair",
+    text: {
+      p1: (
+        <p>
+          A name–value pair, also called an attribute–value pair, key–value
+          pair, or field–value pair, is a fundamental data representation in
+          computing systems and applications. Designers often desire an
+          open-ended data structure that allows for future extension without
+          modifying existing code or data. In such situations, all or part of
+          the data model may be expressed as a collection of 2-tuples in the
+          form &lt;attribute name, value&gt; with each element being an
+          attribute–value pair. Depending on the particular application and the
+          implementation chosen by programmers, attribute names may or may not
+          be unique.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Query string",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Query_string`,
+    anchor: "Query_string",
+    text: {
+      p1: (
+        <p>
+          A query string is a part of a uniform resource locator (URL) that
+          assigns values to specified parameters. A query string commonly
+          includes fields added to a base URL by a Web browser or other client
+          application, for example as part of an HTML, choosing the appearance
+          of a page, or jumping to positions in multimedia content.
         </p>
       ),
     },
