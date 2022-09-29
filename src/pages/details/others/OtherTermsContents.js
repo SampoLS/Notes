@@ -2719,6 +2719,42 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Data structure diagram",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Data_structure_diagram`,
+    anchor: "Data_structure_diagram",
+    text: {
+      p1: (
+        <p>
+          Data structure diagram (DSD) is a diagram of the conceptual data model
+          which documents the entities and their relationships, as well as the
+          constraints that connect to them.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Entity–relationship model",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Entity–relationship_model`,
+    anchor: "Entity–relationship_model",
+    text: {
+      p1: (
+        <p>
+          An entity–relationship model (or ER model) describes interrelated
+          things of interest in a specific domain of knowledge. A basic ER model
+          is composed of entity types (which classify the things of interest)
+          and specifies relationships that can exist between entities (instances
+          of those entity types).
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;
