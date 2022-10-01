@@ -4244,6 +4244,63 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Event-driven architecture",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Event-driven_architecture`,
+    anchor: "Event-driven_architecture",
+    text: {
+      p1: (
+        <p>
+          Event-driven architecture (EDA) is a software architecture paradigm
+          promoting the production, detection, consumption of, and reaction to
+          events.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Library (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Library_(computing)`,
+    anchor: "Library_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer science, a library is a collection of non-volatile
+          resources used by computer programs, often for software development.
+          These may include configuration data, documentation, help data,
+          message templates, pre-written code and subroutines, classes, values
+          or type specifications. In IBM's OS/360 and its successors they are
+          referred to as partitioned data sets.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Bus (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Bus_(computing)`,
+    anchor: "Bus_(computing)",
+    text: {
+      p1: (
+        <p>
+          In computer architecture, a bus (shortened form of the Latin omnibus,
+          and historically also called data highway or databus) is a
+          communication system that transfers data between components inside a
+          computer, or between computers. This expression covers all related
+          hardware components (wire, optical fiber, etc.) and software,
+          including communication protocols.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.

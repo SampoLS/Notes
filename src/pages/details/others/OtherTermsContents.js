@@ -2755,6 +2755,23 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Business object",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Business_object`,
+    anchor: "Business_object",
+    text: {
+      p1: (
+        <p>
+          A business object is an entity within a multitiered software
+          application that works in conjunction with the data access and
+          business logic layers to transport data.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;
