@@ -2757,17 +2757,22 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Business object",
+    title: "Phenomenon",
     isLargerTitle: false,
     path: "/other_terms",
-    url: `${wikiUrl}/Business_object`,
-    anchor: "Business_object",
+    url: `${wikiUrl}/Phenomenon`,
+    anchor: "Phenomenon",
     text: {
       p1: (
         <p>
-          A business object is an entity within a multitiered software
-          application that works in conjunction with the data access and
-          business logic layers to transport data.
+          A phenomenon is an observable event. The term came into its modern
+          philosophical usage through Immanuel Kant, who contrasted it with the
+          noumenon, which cannot be directly observed. Kant was heavily
+          influenced by Gottfried Wilhelm Leibniz in this part of his
+          philosophy, in which phenomenon and noumenon serve as interrelated
+          technical terms. Far predating this, the ancient Greek Pyrrhonist
+          philosopher Sextus Empiricus also used phenomenon and noumenon as
+          interrelated technical terms.
         </p>
       ),
     },

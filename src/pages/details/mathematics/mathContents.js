@@ -579,6 +579,30 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Measure (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Measure_(mathematics)`,
+    anchor: "Measure_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, the concept of a measure is a generalization and
+          formalization of geometrical measures (length, area, volume) and other
+          common notions, such as mass and probability of events. These
+          seemingly distinct concepts have many similarities and can often be
+          treated together in a single mathematical context. Measures are
+          foundational in probability theory, integration theory, and can be
+          generalized to assume negative values, as with electrical charge.
+          Far-reaching generalizations (such as spectral measures and
+          projection-valued measures) of measure are widely used in quantum
+          physics and physics in general.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;

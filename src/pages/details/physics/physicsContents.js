@@ -116,6 +116,62 @@ export const physicsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Observable",
+    isLargerTitle: false,
+    path: "/physics",
+    url: `${wikiUrl}/Observable`,
+    anchor: "Observable",
+    text: {
+      p1: (
+        <p>
+          In physics, an observable is a physical quantity that can be measured.
+          Examples include position and momentum. In systems governed by
+          classical mechanics, it is a real-valued "function" on the set of all
+          possible system states. In quantum physics, it is an operator, or
+          gauge, where the property of the quantum state can be determined by
+          some sequence of operations. For example, these operations might
+          involve submitting the system to various electromagnetic fields and
+          eventually reading a value.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Measure (physics)",
+    isLargerTitle: false,
+    path: "/physics",
+    url: `${wikiUrl}/Measure_(physics)`,
+    anchor: "Measure_(physics)",
+    text: {
+      p1: (
+        <p>
+          The measure in quantum physics is the integration measure used for
+          performing a path integral.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Action (physics)",
+    isLargerTitle: false,
+    path: "/physics",
+    url: `${wikiUrl}/Action_(physics)`,
+    anchor: "Action_(physics)",
+    text: {
+      p1: (
+        <p>
+          In physics, action is a numerical value describing how a physical
+          system has changed over time. Action is significant because the
+          equations of motion of the system can be derived through the principle
+          of stationary action.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = physicsContents.length;
