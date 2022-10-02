@@ -755,11 +755,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Process",
+    title: "Process (computing)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Process_(computing)`,
-    anchor: "Process",
+    anchor: "Process_(computing)",
     text: {
       p1: (
         <p>
