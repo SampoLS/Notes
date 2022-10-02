@@ -774,11 +774,11 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Instance",
+    title: "Instance (computer science)",
     isLargerTitle: false,
     path: "/cs",
     url: `${wikiUrl}/Instance_(computer_science)`,
-    anchor: "Instance",
+    anchor: "Instance_(computer_science)",
     text: {
       p1: (
         <p>
