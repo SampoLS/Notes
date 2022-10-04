@@ -2777,6 +2777,23 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Document-oriented database",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Document-oriented_database`,
+    anchor: "Document-oriented_database",
+    text: {
+      p1: (
+        <p>
+          A document-oriented database, or document store, is a computer program
+          and data storage system designed for storing, retrieving and managing
+          document-oriented information, also known as semi-structured data.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;
