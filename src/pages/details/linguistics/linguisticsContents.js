@@ -335,6 +335,71 @@ export const linguisticsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Noun",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Noun`,
+    anchor: "Noun",
+    text: {
+      p1: (
+        <p>
+          A noun (from Latin nōmen 'name') is a word that generally functions as
+          the name of a specific object or set of objects, such as living
+          creatures, places, actions, qualities, states of existence, or ideas.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Verb",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Verb`,
+    anchor: "Verb",
+    text: {
+      p1: (
+        <p>
+          A verb (from Latin verbum 'word') is a word (part of speech) that in
+          syntax generally conveys an action (bring, read, walk, run, learn), an
+          occurrence (happen, become), or a state of being (be, exist, stand).
+          In the usual description of English, the basic form, with or without
+          the particle to, is the infinitive. In many languages, verbs are
+          inflected (modified in form) to encode tense, aspect, mood, and voice.
+          A verb may also agree with the person, gender or number of some of its
+          arguments, such as its subject, or object. Verbs have tenses: present,
+          to indicate that an action is being carried out; past, to indicate
+          that an action has been done; future, to indicate that an action will
+          be done.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Grammatical conjugation",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Grammatical_conjugation`,
+    anchor: "Grammatical_conjugation",
+    text: {
+      p1: (
+        <p>
+          In linguistics, conjugation is the creation of derived forms of a verb
+          from its principal parts by inflection (alteration of form according
+          to rules of grammar). For instance, the verb break can be conjugated
+          to form the words break, breaks, broke, broken and breaking. While
+          English has a relatively simple conjugation, other languages such as
+          French and Arabic are more complex, with each verb having dozens of
+          conjugated forms. Some languages such as Georgian and Basque have
+          highly complex conjugation systems with hundreds of possible
+          conjugations for every verb.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = linguisticsContents.length;

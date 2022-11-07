@@ -2794,6 +2794,172 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Metadata",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Metadata`,
+    anchor: "Metadata",
+    text: {
+      p1: (
+        <p>
+          Metadata is "data that provides information about other data", but not
+          the content of the data, such as the text of a message or the image
+          itself. There are many distinct types of metadata, including:
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Web resource",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Web_resource`,
+    anchor: "Web_resource",
+    text: {
+      p1: (
+        <p>
+          A web resource is any identifiable resource (digital, physical, or
+          abstract) present on or connected to the World Wide Web. Resources are
+          identified using Uniform Resource Identifiers (URI). In the Semantic
+          Web, web resources and their semantic properties are described using
+          the Resource Description Framework (RDF).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Nomenclature",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Nomenclature`,
+    anchor: "Nomenclature",
+    text: {
+      p1: (
+        <p>
+          Nomenclature (UK: /nəˈmɛŋkləˌtʃər/, US: /ˈnoʊmənˌkleɪtʃər/) is a
+          system of names or terms, or the rules for forming these terms in a
+          particular field of arts or sciences. The principles of naming vary
+          from the relatively informal conventions of everyday speech to the
+          internationally agreed principles, rules and recommendations that
+          govern the formation and use of the specialist terms used in
+          scientific and any other disciplines.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Organizational theory",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Organizational_theory`,
+    anchor: "Organizational_theory",
+    text: {
+      p1: (
+        <p>
+          A theory involves concepts or constructs that are related in such a
+          way as to explain why certain phenomena occur. An organizational
+          theory involves a set of concepts/constructs that are related to each
+          other and explain how individuals behave in social units we call
+          organizations. Organizational theory also attempts to explain how
+          interrelated units of organization do or do not connect with each
+          other. Organizational theory also concerns understanding how groups of
+          individuals behave, which may differ from the behavior of an
+          individual. The behavior organizational theory often focuses on is
+          goal-directed. Organizational theory can cover intra-organizational as
+          well as inter-organizational fields of study.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Organizational structure",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Organizational_structure`,
+    anchor: "Organizational_structure",
+    text: {
+      p1: (
+        <p>
+          An organizational structure defines how activities such as task
+          allocation, coordination, and supervision are directed toward the
+          achievement of organizational aims.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Management science",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Management_science`,
+    anchor: "Management_science",
+    text: {
+      p1: (
+        <p>
+          Management science or Managerial Science (MS) is a wide and
+          interdisciplinary study of solving complex problems and making
+          strategic decisions as it pertains to institutions, corporations,
+          governments and other types of organizational entities. It is closely
+          related to management, economics, business, engineering, management
+          consulting, and other fields. It uses various scientific
+          research-based principles, strategies, and analytical methods
+          including mathematical modeling, statistics and numerical algorithms
+          and aims to improve an organization's ability to enact rational and
+          accurate management decisions by arriving at optimal or near optimal
+          solutions to complex decision problems.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Theory",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Theory`,
+    anchor: "Theory",
+    text: {
+      p1: (
+        <p>
+          A theory is a rational type of abstract thinking about a phenomenon,
+          or the results of such thinking. The process of contemplative and
+          rational thinking is often associated with such processes as
+          observational study or research. Theories may be scientific, belong to
+          a non-scientific discipline, or no discipline at all. Depending on the
+          context, a theory's assertions might, for example, include generalized
+          explanations of how nature works. The word has its roots in ancient
+          Greek, but in modern use it has taken on several related meanings.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Diagram",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Diagram`,
+    anchor: "Diagram",
+    text: {
+      p1: (
+        <p>
+          A diagram is a symbolic representation of information using
+          visualization techniques. Diagrams have been used since prehistoric
+          times on walls of caves, but became more prevalent during the
+          Enlightenment. Sometimes, the technique uses a three-dimensional
+          visualization which is then projected onto a two-dimensional surface.
+          The word graph is sometimes used as a synonym for diagram.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;

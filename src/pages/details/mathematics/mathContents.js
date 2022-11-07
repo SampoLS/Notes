@@ -603,6 +603,205 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Algebra",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Algebra`,
+    anchor: "Algebra",
+    text: {
+      p1: (
+        <p>
+          Algebra is one of the broad areas of mathematics. Roughly speaking,
+          algebra is the study of mathematical symbols and the rules for
+          manipulating these symbols in formulas; it is a unifying thread of
+          almost all of mathematics.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Glossary of mathematical symbols",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Glossary_of_mathematical_symbols`,
+    anchor: "Glossary_of_mathematical_symbols",
+    text: {
+      p1: (
+        <p>
+          A mathematical symbol is a figure or a combination of figures that is
+          used to represent a mathematical object, an action on mathematical
+          objects, a relation between mathematical objects, or for structuring
+          the other symbols that occur in a formula. As formulas are entirely
+          constituted with symbols of various types, many symbols are needed for
+          expressing all mathematics.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Mathematical object",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Mathematical_object`,
+    anchor: "Mathematical_object",
+    text: {
+      p1: (
+        <p>
+          A mathematical object is an abstract concept arising in mathematics.
+          In the usual language of mathematics, an object is anything that has
+          been (or could be) formally defined, and with which one may do
+          deductive reasoning and mathematical proofs. Typically, a mathematical
+          object can be a value that can be assigned to a variable, and
+          therefore can be involved in formulas. Commonly encountered
+          mathematical objects include numbers, sets, functions, expressions,
+          geometric objects, transformations of other mathematical objects, and
+          spaces. Mathematical objects can be very complex; for example,
+          theorems, proofs, and even theories are considered as mathematical
+          objects in proof theory.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Variable (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Variable_(mathematics)`,
+    anchor: "Variable_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a variable (from Latin variabilis, "changeable") is a
+          symbol and placeholder for any mathematical object. In particular, a
+          variable may represent a number, a vector, a matrix, a function, the
+          argument of a function, a set, or an element of a set.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Mathematical proof",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Mathematical_proof`,
+    anchor: "Mathematical_proof",
+    text: {
+      p1: (
+        <p>
+          A mathematical proof is an inferential argument for a mathematical
+          statement, showing that the stated assumptions logically guarantee the
+          conclusion. The argument may use other previously established
+          statements, such as theorems; but every proof can, in principle, be
+          constructed using only certain basic or original assumptions known as
+          axioms, along with the accepted rules of inference. Proofs are
+          examples of exhaustive deductive reasoning which establish logical
+          certainty, to be distinguished from empirical arguments or
+          non-exhaustive inductive reasoning which establish "reasonable
+          expectation". Presenting many cases in which the statement holds is
+          not enough for a proof, which must demonstrate that the statement is
+          true in all possible cases. A proposition that has not been proved but
+          is believed to be true is known as a conjecture, or a hypothesis if
+          frequently used as an assumption for further mathematical work.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Invariant (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Invariant_(mathematics)`,
+    anchor: "Invariant_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, an invariant is a property of a mathematical object
+          (or a class of mathematical objects) which remains unchanged after
+          operations or transformations of a certain type are applied to the
+          objects. The particular class of objects and type of transformations
+          are usually indicated by the context in which the term is used. For
+          example, the area of a triangle is an invariant with respect to
+          isometries of the Euclidean plane. The phrases "invariant under" and
+          "invariant to" a transformation are both used. More generally, an
+          invariant with respect to an equivalence relation is a property that
+          is constant on each equivalence class.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Judgment (mathematical logic)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Judgment_(mathematical_logic)`,
+    anchor: "Judgment_(mathematical_logic)",
+    text: {
+      p1: (
+        <p>
+          In mathematical logic, a judgment (or judgement) or assertion is a
+          statement or enunciation in a metalanguage. For example, typical
+          judgments in first-order logic would be that a string is a well-formed
+          formula, or that a proposition is true. Similarly, a judgment may
+          assert the occurrence of a free variable in an expression of the
+          object language, or the provability of a proposition. In general, a
+          judgment may be any inductively definable assertion in the metatheory.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Graph (discrete mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Graph_(discrete_mathematics)`,
+    anchor: "Graph_(discrete_mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, and more specifically in graph theory, a graph is a
+          structure amounting to a set of objects in which some pairs of the
+          objects are in some sense "related". The objects correspond to
+          mathematical abstractions called vertices (also called nodes or
+          points) and each of the related pairs of vertices is called an edge
+          (also called link or line). Typically, a graph is depicted in
+          diagrammatic form as a set of dots or circles for the vertices, joined
+          by lines or curves for the edges. Graphs are one of the objects of
+          study in discrete mathematics.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Graph theory",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Graph_theory`,
+    anchor: "Graph_theory",
+    text: {
+      p1: (
+        <p>
+          In mathematics, graph theory is the study of graphs, which are
+          mathematical structures used to model pairwise relations between
+          objects. A graph in this context is made up of vertices (also called
+          nodes or points) which are connected by edges (also called links or
+          lines). A distinction is made between undirected graphs, where edges
+          link two vertices symmetrically, and directed graphs, where edges link
+          two vertices asymmetrically. Graphs are one of the principal objects
+          of study in discrete mathematics.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;

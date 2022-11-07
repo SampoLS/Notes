@@ -457,6 +457,33 @@ export const philosophyContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Commensurability (philosophy of science)",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Commensurability_(philosophy_of_science)`,
+    anchor: "Commensurability_(philosophy_of_science)",
+    text: {
+      p1: (
+        <p>
+          Commensurability is a concept in the philosophy of science whereby
+          scientific theories are said to be "commensurable" if scientists can
+          discuss the theories using a shared nomenclature that allows direct
+          comparison of them to determine which one is more valid or useful. On
+          the other hand, theories are incommensurable if they are embedded in
+          starkly contrasting conceptual frameworks whose languages do not
+          overlap sufficiently to permit scientists to directly compare the
+          theories or to cite empirical evidence favoring one theory over the
+          other. Discussed by Ludwik Fleck in the 1930s, and popularized by
+          Thomas Kuhn in the 1960s, the problem of incommensurability results in
+          scientists talking past each other, as it were, while comparison of
+          theories is muddled by confusions about terms, contexts and
+          consequences.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = philosophyContents.length;
