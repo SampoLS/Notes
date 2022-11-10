@@ -802,6 +802,147 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Position (geometry)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Position_(geometry)`,
+    anchor: "Position_(geometry)",
+    text: {
+      p1: (
+        <p>
+          In geometry, a position or position vector, also known as location
+          vector or radius vector, is a Euclidean vector that represents the
+          position of a point P in space in relation to an arbitrary reference
+          origin O. Usually denoted x, r, or s, it corresponds to the straight
+          line segment from O to P. In other words, it is the displacement or
+          translation that maps the origin to P:
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Dimension",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Dimension`,
+    anchor: "Dimension",
+    text: {
+      p1: (
+        <p>
+          In physics and mathematics, the dimension of a mathematical space (or
+          object) is informally defined as the minimum number of coordinates
+          needed to specify any point within it. Thus, a line has a dimension of
+          one (1D) because only one coordinate is needed to specify a point on
+          it - for example, the point at 5 on a number line. A surface, such as
+          the boundary of a cylinder or sphere, has a dimension of two (2D)
+          because two coordinates are needed to specify a point on it - for
+          example, both a latitude and longitude are required to locate a point
+          on the surface of a sphere. A two-dimensional Euclidean space is a
+          two-dimensional space on the plane. The inside of a cube, a cylinder
+          or a sphere is three-dimensional (3D) because three coordinates are
+          needed to locate a point within these spaces.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Primitive notion",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Primitive_notion`,
+    anchor: "Primitive_notion",
+    text: {
+      p1: (
+        <p>
+          In mathematics, logic, philosophy, and formal systems, a primitive
+          notion is a concept that is not defined in terms of previously-defined
+          concepts. It is often motivated informally, usually by an appeal to
+          intuition and everyday experience. In an axiomatic theory, relations
+          between primitive notions are restricted by axioms. Some authors refer
+          to the latter as "defining" primitive notions by one or more axioms,
+          but this can be misleading. Formal theories cannot dispense with
+          primitive notions, under pain of infinite regress (per the regress
+          problem).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Point (geometry)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Point_(geometry)`,
+    anchor: "Point_(geometry)",
+    text: {
+      p1: (
+        <p>
+          In classical Euclidean geometry, a point is a primitive notion that
+          models an exact location in the space, and has no length, width, or
+          thickness. In modern mathematics, a point refers more generally to an
+          element of some set called a space.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Axiom",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Axiom`,
+    anchor: "Axiom",
+    text: {
+      p1: (
+        <p>
+          An axiom, postulate, or assumption is a statement that is taken to be
+          true, to serve as a premise or starting point for further reasoning
+          and arguments. The word comes from the Ancient Greek word ἀξίωμα
+          (axíōma), meaning 'that which is thought worthy or fit' or 'that which
+          commends itself as evident'.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Space (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Space_(mathematics)`,
+    anchor: "Space_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a space is a set (sometimes called a universe) with
+          some added structure.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Mathematical structure",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Mathematical_structure`,
+    anchor: "Mathematical_structure",
+    text: {
+      p1: (
+        <p>
+          In mathematics, a structure is a set endowed with some additional
+          features on the set (e.g. an operation, relation, metric, or
+          topology). Often, the additional features are attached or related to
+          the set, so as to provide it with some additional meaning or
+          significance.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;
