@@ -424,6 +424,68 @@ export const webglContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Computer graphics",
+    isLargerTitle: false,
+    path: "/webgl",
+    url: `${url}/Computer_graphics`,
+    anchor: "Computer_graphics",
+    text: {
+      p1: (
+        <p>
+          Computer graphics deals with generating images with the aid of
+          computers. Today, computer graphics is a core technology in digital
+          photography, film, video games, cell phone and computer displays, and
+          many specialized applications. A great deal of specialized hardware
+          and software has been developed, with the displays of most devices
+          being driven by computer graphics hardware. It is a vast and recently
+          developed area of computer science. The phrase was coined in 1960 by
+          computer graphics researchers Verne Hudson and William Fetter of
+          Boeing. It is often abbreviated as CG, or typically in the context of
+          film as computer generated imagery (CGI). The non-artistic aspects of
+          computer graphics are the subject of computer science research.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Shader",
+    isLargerTitle: false,
+    path: "/webgl",
+    url: `${url}/Shader`,
+    anchor: "Shader",
+    text: {
+      p1: (
+        <p>
+          In computer graphics, a shader is a computer program that calculates
+          the appropriate levels of light, darkness, and color during the
+          rendering of a 3D scene - a process known as shading. Shaders have
+          evolved to perform a variety of specialized functions in computer
+          graphics special effects and video post-processing, as well as
+          general-purpose computing on graphics processing units.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Vertex (computer graphics)",
+    isLargerTitle: false,
+    path: "/webgl",
+    url: `${url}/Vertex_(computer_graphics)`,
+    anchor: "Vertex_(computer_graphics)",
+    text: {
+      p1: (
+        <p>
+          A vertex (plural vertices) in computer graphics is a data structure
+          that describes certain attributes, like the position of a point in 2D
+          or 3D space, or multiple points on a surface.
+        </p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
@@ -437,5 +499,5 @@ let subpathContents = [];
 export const webglContentsAddedSubpath = addSubpath(
   subpathContents,
   contentsLength,
-  webglContents,
+  webglContents
 );
