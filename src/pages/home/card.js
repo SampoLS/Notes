@@ -130,6 +130,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "English",
+    path: "/english",
+    text: "English is a West Germanic language of the Indo-European language family, with its earliest forms spoken by the inhabitants of early medieval England.",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",

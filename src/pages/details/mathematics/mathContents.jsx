@@ -943,6 +943,89 @@ export const mathContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Euclidean vector",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Euclidean_vector`,
+    anchor: "Euclidean_vector",
+    text: {
+      p1: (
+        <p>
+          In mathematics, physics, and engineering, a Euclidean vector or simply
+          a vector (sometimes called a geometric vector or spatial vector) is a
+          geometric object that has magnitude (or length) and direction. Vectors
+          can be added to other vectors according to vector algebra.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Orientation (geometry)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Orientation_(geometry)`,
+    anchor: "Orientation_(geometry)",
+    text: {
+      p1: (
+        <p>
+          In geometry, the orientation, angular position, attitude, bearing, or
+          direction of an object such as a line, plane or rigid body is part of
+          the description of how it is placed in the space it occupies.[1] More
+          specifically, it refers to the imaginary rotation that is needed to
+          move the object from a reference placement to its current placement. A
+          rotation may not be enough to reach the current placement. It may be
+          necessary to add an imaginary translation, called the object's
+          location (or position, or linear position). The location and
+          orientation together fully describe how the object is placed in space.
+          The above-mentioned imaginary rotation and translation may be thought
+          to occur in any order, as the orientation of an object does not change
+          when it translates, and its location does not change when it rotates.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Magnitude (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Magnitude_(mathematics)`,
+    anchor: "Magnitude_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In mathematics, the magnitude or size of a mathematical object is a
+          property which determines whether the object is larger or smaller than
+          other objects of the same kind. More formally, an object's magnitude
+          is the displayed result of an ordering (or ranking)—of the class of
+          objects to which it belongs.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Order theory",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Order_theory`,
+    anchor: "Order_theory",
+    text: {
+      p1: (
+        <p>
+          Order theory is a branch of mathematics that investigates the
+          intuitive notion of order using binary relations. It provides a formal
+          framework for describing statements such as "this is less than that"
+          or "this precedes that". This article introduces the field and
+          provides basic definitions. A list of order-theoretic terms can be
+          found in the order theory glossary.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = mathContents.length;
