@@ -2960,6 +2960,84 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Random access",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Random_access`,
+    anchor: "Random_access",
+    text: {
+      p1: (
+        <p>
+          Random access (more precisely and more generally called direct access)
+          is the ability to access an arbitrary element of a sequence in equal
+          time or any datum from a population of addressable elements roughly as
+          easily and efficiently as any other, no matter how many elements may
+          be in the set. In computer science it is typically contrasted to
+          sequential access which requires data to be retrieved in the order it
+          was stored.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Sequential access",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Sequential_access`,
+    anchor: "Sequential_access",
+    text: {
+      p1: (
+        <p>
+          Sequential access is a term describing a group of elements (such as
+          data in a memory array or a disk file or on magnetic tape data
+          storage) being accessed in a predetermined, ordered sequence. It is
+          the opposite of random access, the ability to access an arbitrary
+          element of a sequence as easily and efficiently as any other at any
+          time.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Instruction cycle",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Instruction_cycle`,
+    anchor: "Instruction_cycle",
+    text: {
+      p1: (
+        <p>
+          The instruction cycle (also known as the fetch–decode–execute cycle,
+          or simply the fetch-execute cycle) is the cycle that the central
+          processing unit (CPU) follows from boot-up until the computer has shut
+          down in order to process instructions. It is composed of three main
+          stages: the fetch stage, the decode stage, and the execute stage.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Computer hardware",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Computer_hardware`,
+    anchor: "Computer_hardware",
+    text: {
+      p1: (
+        <p>
+          Computer hardware includes the physical parts of a computer, such as
+          the case, central processing unit (CPU), random access memory (RAM),
+          monitor, mouse, keyboard, computer data storage, graphics card, sound
+          card, speakers and motherboard.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;
