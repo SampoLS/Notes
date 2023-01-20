@@ -3038,6 +3038,87 @@ export const termsContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Cognitive load",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Cognitive_load`,
+    anchor: "Cognitive_load",
+    text: {
+      p1: (
+        <p>
+          In cognitive psychology, cognitive load refers to the amount of
+          working memory resources used. There are three types of cognitive
+          load: intrinsic cognitive load is the effort associated with a
+          specific topic; extraneous cognitive load refers to the way
+          information or tasks are presented to a learner; and germane cognitive
+          load refers to the work put into creating a permanent store of
+          knowledge (a schema).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Working memory",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Working_memory`,
+    anchor: "Working_memory",
+    text: {
+      p1: (
+        <p>
+          Working memory is a cognitive system with a limited capacity that can
+          hold information temporarily. It is important for reasoning and the
+          guidance of decision-making and behavior. Working memory is often used
+          synonymously with short-term memory, but some theorists consider the
+          two forms of memory distinct, assuming that working memory allows for
+          the manipulation of stored information, whereas short-term memory only
+          refers to the short-term storage of information. Working memory is a
+          theoretical concept central to cognitive psychology, neuropsychology,
+          and neuroscience.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Infinite regress",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Infinite_regress`,
+    anchor: "Infinite_regress",
+    text: {
+      p1: (
+        <p>
+          An infinite regress is an infinite series of entities governed by a
+          recursive principle that determines how each entity in the series
+          depends on or is produced by its predecessor.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Regress argument",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Regress_argument`,
+    anchor: "Regress_argument",
+    text: {
+      p1: (
+        <p>
+          In epistemology, the regress argument is the argument that any
+          proposition requires a justification. However, any justification
+          itself requires support. This means that any proposition whatsoever
+          can be endlessly (infinitely) questioned, resulting in infinite
+          regress. It is a problem in epistemology and in any general situation
+          where a statement has to be justified.
+        </p>
+      ),
+    },
+  },
 ];
 
 export const contentsLength = termsContents.length;

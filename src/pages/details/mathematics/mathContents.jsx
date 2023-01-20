@@ -32,6 +32,23 @@ export const mathContents = [
   },
   {
     id: uuidv4(),
+    title: "Portal:Mathematics",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Portal:Mathematics`,
+    anchor: "Portal:Mathematics",
+    text: {
+      p1: (
+        <p>
+          Mathematics is the study of representing and reasoning about abstract
+          objects (such as numbers, points, spaces, sets, structures, and
+          games).
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Element (mathematics)",
     isLargerTitle: false,
     path: "/math",
@@ -1022,6 +1039,23 @@ export const mathContents = [
           or "this precedes that". This article introduces the field and
           provides basic definitions. A list of order-theoretic terms can be
           found in the order theory glossary.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Control point (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Control_point_(mathematics)`,
+    anchor: "Control_point_(mathematics)",
+    text: {
+      p1: (
+        <p>
+          In computer-aided geometric design a control point is a member of a
+          set of points used to determine the shape of a spline curve or, more
+          generally, a surface or higher-dimensional object.
         </p>
       ),
     },
