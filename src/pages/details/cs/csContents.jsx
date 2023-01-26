@@ -4747,6 +4747,71 @@ export const csContents = [
       ),
     },
   },
+  {
+    id: uuidv4(),
+    title: "Object-oriented analysis and design",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Object-oriented_analysis_and_design`,
+    anchor: "Object-oriented_analysis_and_design",
+    text: {
+      p1: (
+        <p>Object-oriented analysis and design (OOAD) is a technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process to guide stakeholder communication and product quality.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Unified Process",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Unified_Process`,
+    anchor: "Unified_Process",
+    text: {
+      p1: (
+        <p>The Unified Software Development Process or Unified Process is an iterative and incremental software development process framework. The best-known and extensively documented refinement of the Unified Process is the Rational Unified Process (RUP). Other examples are OpenUP and Agile Unified Process.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Iterative and incremental development",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Iterative_and_incremental_development`,
+    anchor: "Iterative_and_incremental_development",
+    text: {
+      p1: (
+        <p>Iterative and incremental development is any combination of both iterative design or iterative method and incremental build model for development.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Software development process",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Software_development_process`,
+    anchor: "Software_development_process",
+    text: {
+      p1: (
+        <p>In software engineering, a software development process is a process of dividing software development work into smaller, parallel, or sequential steps or sub-processes to improve design and/or product management. It is also known as a software development life cycle (SDLC). The methodology may include the pre-definition of specific deliverables and artifacts that are created and completed by a project team to develop or maintain an application.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Object-oriented design",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Object-oriented_design`,
+    anchor: "Object-oriented_design",
+    text: {
+      p1: (
+        <p>Object-oriented design (OOD) is the process of planning a system of interacting objects for the purpose of solving a software problem. It is one approach to software design.</p>
+      ),
+    },
+  },
 ];
 
 // The contents length.
