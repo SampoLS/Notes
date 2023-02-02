@@ -943,25 +943,6 @@ export const mathContents = [
   },
   {
     id: uuidv4(),
-    title: "Mathematical structure",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Mathematical_structure`,
-    anchor: "Mathematical_structure",
-    text: {
-      p1: (
-        <p>
-          In mathematics, a structure is a set endowed with some additional
-          features on the set (e.g. an operation, relation, metric, or
-          topology). Often, the additional features are attached or related to
-          the set, so as to provide it with some additional meaning or
-          significance.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Euclidean vector",
     isLargerTitle: false,
     path: "/math",
