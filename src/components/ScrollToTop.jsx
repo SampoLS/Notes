@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import { memo } from "react/cjs/react.production.min";
+import { memo } from "react";
 import styled from "styled-components";
 
 const ScrollToTop = forwardRef((props, ref) => {

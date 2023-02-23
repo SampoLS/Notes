@@ -1,4 +1,4 @@
-import { memo } from "react/cjs/react.production.min";
+import { memo } from "react";
 import getSinglePageContents from "../utils/getSinglePageContents";
 
 const IndexRoutePage = ({ content }) => {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { memo } from "react/cjs/react.production.min";
+import { memo } from "react";
 
 // Showing single card contents
 const Card = ({ title, path, text }) => {

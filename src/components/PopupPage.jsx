@@ -1,4 +1,4 @@
-import { memo } from "react/cjs/react.production.min";
+import { memo } from "react";
 import { data } from "../data/data";
 
 // The popup page
