@@ -27,6 +27,19 @@ export const csContents = [
   },
   {
     id: uuidv4(),
+    title: "Library (computing)",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Library_(computing)`,
+    anchor: "Library_(computing)",
+    text: {
+      p1: (
+        <p>In computer science, a library is a collection of non-volatile resources used by computer programs, often for software development. These may include configuration data, documentation, help data, message templates, pre-written code and subroutines, classes, values or type specifications. In IBM's OS/360 and its successors they are referred to as partitioned data sets.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Single-responsibility principle",
     isLargerTitle: false,
     path: "/cs",

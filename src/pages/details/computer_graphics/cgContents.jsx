@@ -19,6 +19,19 @@ export const cgContents = [
   },
   {
     id: uuidv4(),
+    title: "Graphics pipeline",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Graphics_pipeline`,
+    anchor: "Graphics_pipeline",
+    text: {
+      p1: (
+        <p>In computer graphics, a computer graphics pipeline, rendering pipeline or simply graphics pipeline, is a conceptual model that describes what steps a graphics system needs to perform to render a 3D scene to a 2D screen. Once a 3D model has been created, for instance in a video game or any other 3D computer animation, the graphics pipeline is the process of turning that 3D model into what the computer displays. Because the steps required for this operation depend on the software and hardware used and the desired display characteristics, there is no universal graphics pipeline suitable for all cases. However, graphics application programming interfaces (APIs) such as Direct3D and OpenGL were created to unify similar steps and to control the graphics pipeline of a given hardware accelerator. These APIs abstract the underlying hardware and keep the programmer away from writing code to manipulate the graphics hardware accelerators (AMD/Intel/NVIDIA etc.).</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Graphics",
     isLargerTitle: false,
     path: "/cg",
