@@ -7,7 +7,7 @@ const CgPage = () => {
   return (
     <>
       <Outlet />
-      <Breadcrumbs path="cs" length={contentsLength} />
+      <Breadcrumbs path="cg" length={contentsLength} />
     </>
   );
 };
