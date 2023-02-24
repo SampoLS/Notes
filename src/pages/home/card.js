@@ -52,6 +52,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Computer graphics",
+    path: "/cg",
+    text: "Computer graphics deals with generating images and art with the aid of computers.",
+  },
+  {
+    id: uuidv4(),
     title: "Git",
     path: "/git",
     text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",

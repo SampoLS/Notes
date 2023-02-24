@@ -25,6 +25,7 @@ import LinguisticsPage from "./pages/details/linguistics/LinguisitcsPage";
 import PhilosophyPage from "./pages/details/philosophy/PhilosophyPage";
 import OtherTermsPage from "./pages/details/others/OtherTermsPage";
 import EnPage from "./pages/details/english/EnPage";
+import CgPage from "./pages/details/computer_graphics/CgPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
 
@@ -48,6 +49,7 @@ import { philosophyContents } from "./pages/details/philosophy/philosophyContent
 import { mathContents } from "./pages/details/mathematics/mathContents";
 import { termsContents } from "./pages/details/others/OtherTermsContents";
 import { enContents } from "./pages/details/english/enContents";
+import { cgContents } from "./pages/details/computer_graphics/cgContents";
 
 export default function App() {
   return (
@@ -174,6 +176,10 @@ export default function App() {
           <Route path="english" element={<EnPage />}>
             <Route index element={<IndexRoutePage content={enContents} />} />
             <Route path=":pId" element={<SplitPage content={enContents} />} />
+          </Route>
+          <Route path="cg" element={<CgPage />}>
+            <Route index element={<IndexRoutePage content={cgContents} />} />
+            <Route path=":pId" element={<SplitPage content={cgContents} />} />
           </Route>
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />
