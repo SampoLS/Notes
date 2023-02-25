@@ -19,6 +19,19 @@ export const cgContents = [
   },
   {
     id: uuidv4(),
+    title: "Polygon mesh",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Polygon_mesh`,
+    anchor: "Polygon_mesh",
+    text: {
+      p1: (
+        <p>In 3D computer graphics and solid modeling, a polygon mesh is a collection of vertices, edges and faces that defines the shape of a polyhedral object. The faces usually consist of triangles (triangle mesh), quadrilaterals (quads), or other simple convex polygons (n-gons), since this simplifies rendering, but may also be more generally composed of concave polygons, or even polygons with holes.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Graphics pipeline",
     isLargerTitle: false,
     path: "/cg",

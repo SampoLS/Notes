@@ -29,6 +29,19 @@ export const enContents = [
   },
   {
     id: uuidv4(),
+    title: "English prepositions",
+    isLargerTitle: false,
+    path: "/english",
+    url: `${wikiUrl}/English_prepositions`,
+    anchor: "English_prepositions",
+    text: {
+      p1: (
+        <p>English prepositions are words – such as of, in, on, at, from, etc. – that function as the head of a prepositional phrase, and most characteristically license a noun phrase object (e.g., in the water). Semantically, they most typically denote relations in space and time. Morphologically, they are usually simple and do not inflect. They form a closed lexical category.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "English grammar",
     isLargerTitle: false,
     path: "/english",
