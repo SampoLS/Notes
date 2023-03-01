@@ -49,6 +49,58 @@ export const mathContents = [
   },
   {
     id: uuidv4(),
+    title: "Ratio",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Ratio`,
+    anchor: "Ratio",
+    text: {
+      p1: (
+        <p>In mathematics, a ratio shows how many times one number contains another. For example, if there are eight oranges and six lemons in a bowl of fruit, then the ratio of oranges to lemons is eight to six (that is, 8:6, which is equivalent to the ratio 4:3). Similarly, the ratio of lemons to oranges is 6:8 (or 3:4) and the ratio of oranges to the total amount of fruit is 8:14 (or 4:7).</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Rate (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Rate_(mathematics)`,
+    anchor: "Rate_(mathematics)",
+    text: {
+      p1: (
+        <p>In mathematics, a rate is the ratio between two related quantities in different units. If the denominator of the ratio is expressed as a single unit of one of these quantities, and if it is assumed that this quantity can be changed systematically (i.e., is an independent variable), then the numerator of the ratio expresses the corresponding rate of change in the other (dependent) variable.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Real number",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Real_number`,
+    anchor: "Real_number",
+    text: {
+      p1: (
+        <p>In mathematics, a real number is a number that can be used to measure a continuous one-dimensional quantity such as a distance, duration or temperature. Here, continuous means that values can have arbitrarily small variations.[a] Every real number can be almost uniquely represented by an infinite decimal expansion.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Infinitesimal",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Infinitesimal`,
+    anchor: "Infinitesimal",
+    text: {
+      p1: (
+        <p>In mathematics, an infinitesimal number is a quantity that is closer to zero than any standard real number, but that is not zero. The word infinitesimal comes from a 17th-century Modern Latin coinage infinitesimus, which originally referred to the "infinity-th" item in a sequence.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Element (mathematics)",
     isLargerTitle: false,
     path: "/math",
