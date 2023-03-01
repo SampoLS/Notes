@@ -49,7 +49,7 @@ export const geometryContents = [
         url: `${wikiUrl}/Point_(geometry)`,
         anchor: "Point_(geometry)",
         text: {
-        p1: <p>In classical Euclidean geometry, a point is a primitive notion that models an exact location in the space, and has no length, width, or thickness. In modern mathematics, a point refers more generally to an element of some set called a space.</p>
+            p1: <p>In classical Euclidean geometry, a point is a primitive notion that models an exact location in the space, and has no length, width, or thickness. In modern mathematics, a point refers more generally to an element of some set called a space.</p>
         }
     },
     {
@@ -60,12 +60,12 @@ export const geometryContents = [
         url: `${wikiUrl}/Position_(geometry)`,
         anchor: "Position_(geometry)",
         text: {
-        p1: <p>In geometry, a position or position vector, also known as location
-            vector or radius vector, is a Euclidean vector that represents the
-            position of a point P in space in relation to an arbitrary reference
-            origin O. Usually denoted x, r, or s, it corresponds to the straight
-            line segment from O to P. In other words, it is the displacement or
-            translation that maps the origin to P:</p>
+            p1: <p>In geometry, a position or position vector, also known as location
+                vector or radius vector, is a Euclidean vector that represents the
+                position of a point P in space in relation to an arbitrary reference
+                origin O. Usually denoted x, r, or s, it corresponds to the straight
+                line segment from O to P. In other words, it is the displacement or
+                translation that maps the origin to P:</p>
     },
   },
 ]
