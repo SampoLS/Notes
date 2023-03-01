@@ -17,9 +17,89 @@ export const geometryContents = [
     },
     {
         id: uuidv4(),
+        title: "Line segment",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Line_segment`,
+        anchor: "Line_segment",
+        text: {
+          p1: (
+            <p>In geometry, a line segment is a part of a straight line that is bounded by two distinct end points, and contains every point on the line that is between its endpoints. The length of a line segment is given by the Euclidean distance between its endpoints. A closed line segment includes both endpoints, while an open line segment excludes both endpoints; a half-open line segment includes exactly one of the endpoints. In geometry, a line segment is often denoted using a line above the symbols for the two endpoints.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Polygon",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Polygon`,
+        anchor: "Polygon",
+        text: {
+          p1: (
+            <p>In geometry, a polygon (/ˈpɒlɪɡɒn/) is a plane figure that is described by a finite number of straight line segments connected to form a closed polygonal chain (or polygonal circuit). The bounded plane region, the bounding circuit, or the two together, may be called a polygon.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Edge (geometry)",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Edge_(geometry)`,
+        anchor: "Edge_(geometry)",
+        text: {
+          p1: (
+            <p>In geometry, an edge is a particular type of line segment joining two vertices in a polygon, polyhedron, or higher-dimensional polytope. In a polygon, an edge is a line segment on the boundary, and is often called a polygon side. In a polyhedron or more generally a polytope, an edge is a line segment where two faces (or polyhedron sides) meet. A segment joining two vertices while passing through the interior or exterior is not an edge but instead is called a diagonal.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Angle",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Angle`,
+        anchor: "Angle",
+        text: {
+          p1: (
+            <p>In Euclidean geometry, an angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle.[1] Angles formed by two rays lie in the plane that contains the rays. Angles are also formed by the intersection of two planes. These are called dihedral angles. Two intersecting curves may also define an angle, which is the angle of the rays lying tangent to the respective curves at their point of intersection.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Line (geometry)",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Line_(geometry)`,
+        anchor: "Line_(geometry)",
+        text: {
+          p1: (
+            <p>In geometry, a line is an infinitely long object with no width, depth, or curvature. Thus, lines are one-dimensional objects, though they may exist in two, three, or higher dimension spaces. The word line may also refer to a line segment in everyday life, which has two points to denote its ends.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Vertex (geometry)",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Vertex_(geometry)`,
+        anchor: "Vertex_(geometry)",
+        text: {
+          p1: (
+            <p>
+                In geometry, a vertex (in plural form: vertices or vertexes) is a point where two or more curves, lines, or edges meet. As a consequence of this definition, the point where two lines meet to form an angle and the corners of polygons and polyhedra are vertices.
+            </p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
         title: "Orientation (geometry)",
         isLargerTitle: false,
-        path: "/math",
+        path: "/geometry",
         url: `${wikiUrl}/Orientation_(geometry)`,
         anchor: "Orientation_(geometry)",
         text: {
@@ -45,7 +125,7 @@ export const geometryContents = [
         id: uuidv4(),
         title: "Point (geometry)",
         isLargerTitle: false,
-        path: "/math",
+        path: "/geometry",
         url: `${wikiUrl}/Point_(geometry)`,
         anchor: "Point_(geometry)",
         text: {
@@ -56,7 +136,7 @@ export const geometryContents = [
         id: uuidv4(),
         title: "Position (geometry)",
         isLargerTitle: false,
-        path: "/math",
+        path: "/geometry",
         url: `${wikiUrl}/Position_(geometry)`,
         anchor: "Position_(geometry)",
         text: {
