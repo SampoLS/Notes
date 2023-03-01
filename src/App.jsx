@@ -29,6 +29,9 @@ import CgPage from "./pages/details/computer_graphics/CgPage";
 import NotePage from "./pages/details/notes/NotePage";
 import NotFound from "./pages/details/not_found/NotFound";
 import GeometryPage from "./pages/details/geometry/GeometryPage";
+import CalculusPage from "./pages/details/calculus/CalculusPage";
+import AlgebraPage from "./pages/details/algebra/AlgebraPage";
+import MathAnalysisPage from "./pages/details/math_analysis/MathAnalysisPage";
 
 import IndexRoutePage from "./components/IndexRoutePage";
 import SplitPage from "./components/SplitPage";
@@ -52,6 +55,9 @@ import { termsContents } from "./pages/details/others/OtherTermsContents";
 import { enContents } from "./pages/details/english/enContents";
 import { cgContents } from "./pages/details/computer_graphics/cgContents";
 import { geometryContents } from "./pages/details/geometry/geometryContents";
+import { calculusContents } from "./pages/details/calculus/calculusContents";
+import { algebraContents } from "./pages/details/algebra/algebraContents";
+import { mathAnalysisContents } from "./pages/details/math_analysis/mathAnalysisContents";
 
 export default function App() {
   return (
@@ -186,6 +192,18 @@ export default function App() {
           <Route path="geometry" element={<GeometryPage />}>
             <Route index element={<IndexRoutePage content={geometryContents} />} />
             <Route path=":pId" element={<SplitPage content={geometryContents} />} />
+          </Route>
+          <Route path="calculus" element={<CalculusPage />}>
+            <Route index element={<IndexRoutePage content={calculusContents} />} />
+            <Route path=":pId" element={<SplitPage content={calculusContents} />} />
+          </Route>
+          <Route path="algebra" element={<AlgebraPage />}>
+            <Route index element={<IndexRoutePage content={algebraContents} />} />
+            <Route path=":pId" element={<SplitPage content={algebraContents} />} />
+          </Route>
+          <Route path="math_analysis" element={<MathAnalysisPage />}>
+            <Route index element={<IndexRoutePage content={mathAnalysisContents} />} />
+            <Route path=":pId" element={<SplitPage content={mathAnalysisContents} />} />
           </Route>
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

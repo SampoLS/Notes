@@ -22,6 +22,9 @@ import { philosophyContents } from "../pages/details/philosophy/philosophyConten
 import { enContents } from "../pages/details/english/enContents";
 import { cgContents } from "../pages/details/computer_graphics/cgContents";
 import { geometryContents } from "../pages/details/geometry/geometryContents";
+import { calculusContents } from "../pages/details/calculus/calculusContents";
+import { algebraContents } from "../pages/details/algebra/algebraContents";
+import { mathAnalysisContents } from "../pages/details/math_analysis/mathAnalysisContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -47,5 +50,8 @@ export const data = httpContents.concat(
   webTermsContents,
   enContents,
   cgContents,
-  geometryContents
+  geometryContents,
+  calculusContents,
+  algebraContents,
+  mathAnalysisContents,
 );

@@ -118,6 +118,24 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Calculus",
+    path: "/calculus",
+    text: "Calculus, originally called infinitesimal calculus or 'the calculus of infinitesimals', is the mathematical study of continuous change, in the same way that geometry is the study of shape, and algebra is the study of generalizations of arithmetic operations.",
+  },
+  {
+    id: uuidv4(),
+    title: "Algebra",
+    path: "/algebra",
+    text: "Algebra is the study of variables and the rules for manipulating these variables in formulas; it is a unifying thread of almost all of mathematics.",
+  },
+  {
+    id: uuidv4(),
+    title: "Mathematical analysis",
+    path: "/math_analysis",
+    text: "Analysis is the branch of mathematics dealing with continuous functions, limits, and related theories, such as differentiation, integration, measure, infinite sequences, series, and analytic functions.",
+  },
+  {
+    id: uuidv4(),
     title: "Physics",
     path: "/physics",
     text: "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",

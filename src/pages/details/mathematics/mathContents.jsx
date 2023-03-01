@@ -243,24 +243,6 @@ export const mathContents = [
   },
   {
     id: uuidv4(),
-    title: "Calculus",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Calculus`,
-    anchor: "Calculus",
-    text: {
-      p1: (
-        <p>
-          Calculus, originally called infinitesimal calculus or "the calculus of
-          infinitesimals", is the mathematical study of continuous change, in
-          the same way that geometry is the study of shape, and algebra is the
-          study of generalizations of arithmetic operations.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Mathematical notation",
     isLargerTitle: false,
     path: "/math",
@@ -616,24 +598,6 @@ export const mathContents = [
           Far-reaching generalizations (such as spectral measures and
           projection-valued measures) of measure are widely used in quantum
           physics and physics in general.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Algebra",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Algebra`,
-    anchor: "Algebra",
-    text: {
-      p1: (
-        <p>
-          Algebra is one of the broad areas of mathematics. Roughly speaking,
-          algebra is the study of mathematical symbols and the rules for
-          manipulating these symbols in formulas; it is a unifying thread of
-          almost all of mathematics.
         </p>
       ),
     },
