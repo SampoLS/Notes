@@ -21,6 +21,7 @@ import { linguisticsContents } from "../pages/details/linguistics/linguisticsCon
 import { philosophyContents } from "../pages/details/philosophy/philosophyContents";
 import { enContents } from "../pages/details/english/enContents";
 import { cgContents } from "../pages/details/computer_graphics/cgContents";
+import { geometryContents } from "../pages/details/geometry/geometryContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -45,5 +46,6 @@ export const data = httpContents.concat(
   philosophyContents,
   webTermsContents,
   enContents,
-  cgContents
+  cgContents,
+  geometryContents
 );

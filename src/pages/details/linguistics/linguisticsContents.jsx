@@ -12,7 +12,7 @@ export const linguisticsContents = [
     url: `${wikiUrl}/Linguistics`,
     anchor: "Linguistics",
     text: {
-      p1: <p></p>,
+      p1: <p>Linguistics is the scientific study of human language. It is called a scientific study because it entails a comprehensive, systematic, objective, and precise analysis of all aspects of language, particularly its nature and structure. Linguistics is concerned with the cognitive as well as the social aspects of language. It is considered an applied scientific field as well as an academic discipline within the humanities and social sciences; it has been classified as a social science, natural science, cognitive science, or part of the humanities.</p>,
     },
   },
   {

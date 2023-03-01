@@ -819,26 +819,7 @@ export const mathContents = [
       ),
     },
   },
-  {
-    id: uuidv4(),
-    title: "Position (geometry)",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Position_(geometry)`,
-    anchor: "Position_(geometry)",
-    text: {
-      p1: (
-        <p>
-          In geometry, a position or position vector, also known as location
-          vector or radius vector, is a Euclidean vector that represents the
-          position of a point P in space in relation to an arbitrary reference
-          origin O. Usually denoted x, r, or s, it corresponds to the straight
-          line segment from O to P. In other words, it is the displacement or
-          translation that maps the origin to P:
-        </p>
-      ),
-    },
-  },
+  
   {
     id: uuidv4(),
     title: "Dimension",
@@ -888,24 +869,7 @@ export const mathContents = [
       ),
     },
   },
-  {
-    id: uuidv4(),
-    title: "Point (geometry)",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Point_(geometry)`,
-    anchor: "Point_(geometry)",
-    text: {
-      p1: (
-        <p>
-          In classical Euclidean geometry, a point is a primitive notion that
-          models an exact location in the space, and has no length, width, or
-          thickness. In modern mathematics, a point refers more generally to an
-          element of some set called a space.
-        </p>
-      ),
-    },
-  },
+  
   {
     id: uuidv4(),
     title: "Axiom",
@@ -955,32 +919,6 @@ export const mathContents = [
           a vector (sometimes called a geometric vector or spatial vector) is a
           geometric object that has magnitude (or length) and direction. Vectors
           can be added to other vectors according to vector algebra.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Orientation (geometry)",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Orientation_(geometry)`,
-    anchor: "Orientation_(geometry)",
-    text: {
-      p1: (
-        <p>
-          In geometry, the orientation, angular position, attitude, bearing, or
-          direction of an object such as a line, plane or rigid body is part of
-          the description of how it is placed in the space it occupies.[1] More
-          specifically, it refers to the imaginary rotation that is needed to
-          move the object from a reference placement to its current placement. A
-          rotation may not be enough to reach the current placement. It may be
-          necessary to add an imaginary translation, called the object's
-          location (or position, or linear position). The location and
-          orientation together fully describe how the object is placed in space.
-          The above-mentioned imaginary rotation and translation may be thought
-          to occur in any order, as the orientation of an object does not change
-          when it translates, and its location does not change when it rotates.
         </p>
       ),
     },

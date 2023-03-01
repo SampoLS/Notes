@@ -112,6 +112,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Geometry",
+    path: "/geometry",
+    text: "Geometry is, with arithmetic, one of the oldest branches of mathematics. A mathematician who works in the field of geometry is called a geometer.",
+  },
+  {
+    id: uuidv4(),
     title: "Physics",
     path: "/physics",
     text: "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
