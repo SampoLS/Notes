@@ -52,6 +52,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "OOP",
+    path: "/oop",
+    text: "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code.",
+  },
+  {
+    id: uuidv4(),
     title: "Computer graphics",
     path: "/cg",
     text: "Computer graphics deals with generating images and art with the aid of computers.",

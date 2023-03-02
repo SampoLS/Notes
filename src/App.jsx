@@ -32,6 +32,7 @@ import GeometryPage from "./pages/details/geometry/GeometryPage";
 import CalculusPage from "./pages/details/calculus/CalculusPage";
 import AlgebraPage from "./pages/details/algebra/AlgebraPage";
 import MathAnalysisPage from "./pages/details/math_analysis/MathAnalysisPage";
+import OopPage from "./pages/details/oop/OopPage";
 
 import IndexRoutePage from "./components/IndexRoutePage";
 import SplitPage from "./components/SplitPage";
@@ -58,6 +59,7 @@ import { geometryContents } from "./pages/details/geometry/geometryContents";
 import { calculusContents } from "./pages/details/calculus/calculusContents";
 import { algebraContents } from "./pages/details/algebra/algebraContents";
 import { mathAnalysisContents } from "./pages/details/math_analysis/mathAnalysisContents";
+import { oopContents } from "./pages/details/oop/oopContents";
 
 export default function App() {
   return (
@@ -101,6 +103,10 @@ export default function App() {
           <Route path="cs" element={<CsPage />}>
             <Route index element={<IndexRoutePage content={csContents} />} />
             <Route path=":pId" element={<SplitPage content={csContents} />} />
+          </Route>
+          <Route path="oop" element={<OopPage />}>
+            <Route index element={<IndexRoutePage content={oopContents} />} />
+            <Route path=":pId" element={<SplitPage content={oopContents} />} />
           </Route>
           <Route path="git" element={<GitPage />} />
           <Route path="data_structure" element={<DsPage />} />
