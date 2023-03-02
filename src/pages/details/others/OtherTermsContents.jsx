@@ -22,6 +22,19 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
+    title: "Taxonomy",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Taxonomy`,
+    anchor: "Taxonomy",
+    text: {
+      p1: (
+        <p>Taxonomy is the practice and science of categorization or classification.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Hierarchy",
     isLargerTitle: false,
     path: "/other_terms",
