@@ -22,6 +22,19 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
+    title: "Essentialism",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Essentialism`,
+    anchor: "Essentialism",
+    text: {
+      p1: (
+        <p>Essentialism is the view that objects have a set of attributes that are necessary to their identity.[1] In early Western thought, Plato's idealism held that all things have such an "essence"—an "idea" or "form". In Categories, Aristotle similarly proposed that all objects have a substance that, as George Lakoff put it, "make the thing what it is, and without which it would be not that kind of thing".[2] The contrary view—non-essentialism—denies the need to posit such an "essence'".</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Taxonomy",
     isLargerTitle: false,
     path: "/other_terms",

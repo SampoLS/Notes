@@ -33,6 +33,7 @@ import CalculusPage from "./pages/details/calculus/CalculusPage";
 import AlgebraPage from "./pages/details/algebra/AlgebraPage";
 import MathAnalysisPage from "./pages/details/math_analysis/MathAnalysisPage";
 import OopPage from "./pages/details/oop/OopPage";
+import PsychologyPage from "./pages/details/psychology/PsychologyPage";
 
 import IndexRoutePage from "./components/IndexRoutePage";
 import SplitPage from "./components/SplitPage";
@@ -60,6 +61,7 @@ import { calculusContents } from "./pages/details/calculus/calculusContents";
 import { algebraContents } from "./pages/details/algebra/algebraContents";
 import { mathAnalysisContents } from "./pages/details/math_analysis/mathAnalysisContents";
 import { oopContents } from "./pages/details/oop/oopContents";
+import { psychologyContents } from "./pages/details/psychology/psychologyContents";
 
 export default function App() {
   return (
@@ -210,6 +212,10 @@ export default function App() {
           <Route path="math_analysis" element={<MathAnalysisPage />}>
             <Route index element={<IndexRoutePage content={mathAnalysisContents} />} />
             <Route path=":pId" element={<SplitPage content={mathAnalysisContents} />} />
+          </Route>
+          <Route path="psychology" element={<PsychologyPage />}>
+            <Route index element={<IndexRoutePage content={psychologyContents} />} />
+            <Route path=":pId" element={<SplitPage content={psychologyContents} />} />
           </Route>
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

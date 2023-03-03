@@ -29,6 +29,19 @@ export const philosophyContents = [
   },
   {
     id: uuidv4(),
+    title: "Identity (philosophy)",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Identity_(philosophy)`,
+    anchor: "Identity_(philosophy)",
+    text: {
+      p1: (
+        <p>In philosophy, identity (from Latin: identitas, "sameness") is the relation each thing bears only to itself. The notion of identity gives rise to many philosophical problems, including the identity of indiscernibles (if x and y share all their properties, are they one and the same thing?), and questions about change and personal identity over time (what has to be the case for a person x at one time and a person y at a later time to be one and the same person?). It is important to distinguish between qualitative identity and numerical identity. For example, consider two children with identical bicycles engaged in a race while their mother is watching. The two children have the same bicycle in one sense (qualitative identity) and the same mother in another sense (numerical identity).[3] This article is mainly concerned with numerical identity, which is the stricter notion.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Relations (philosophy)",
     isLargerTitle: false,
     path: "/philosophy",

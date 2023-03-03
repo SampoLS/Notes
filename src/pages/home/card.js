@@ -166,6 +166,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Psychology",
+    path: "/psychology",
+    text: "Psychology is the scientific study of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, including feelings and thoughts.",
+  },
+  {
+    id: uuidv4(),
     title: "English",
     path: "/english",
     text: "English is a West Germanic language of the Indo-European language family, with its earliest forms spoken by the inhabitants of early medieval England.",

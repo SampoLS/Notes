@@ -6,7 +6,7 @@ const MathAnalysisPage = () => {
   return (
     <>
       <Outlet />
-      <Breadcrumbs path="algebra" length={contentsLength} />
+      <Breadcrumbs path="math_analysis" length={contentsLength} />
     </>
   );
 };
