@@ -36,6 +36,74 @@ export const logicContents = [
   },
   {
     id: uuidv4(),
+    title: "Reality",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Reality`,
+    anchor: "Reality",
+    text: {
+      p1: (
+        <p>
+          Reality is the sum or aggregate of all that is real or existent within
+          a system, as opposed to that which is only imaginary. The term is also
+          used to refer to the ontological status of things, indicating their
+          existence.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Fact",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Fact`,
+    anchor: "Fact",
+    text: {
+      p1: (
+        <p>
+          A fact is something that is true. The usual test for a statement of
+          fact is verifiability, that is whether it can be demonstrated to
+          correspond to experience. Standard reference works are often used to
+          check facts. Scientific facts are verified by repeatable careful
+          observation or measurement by experiments or other means.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Truth",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Truth`,
+    anchor: "Truth",
+    text: {
+      p1: (
+        <p>
+          Truth is the property of being in accord with fact or reality. In
+          everyday language, truth is typically ascribed to things that aim to
+          represent reality or otherwise correspond to it, such as beliefs,
+          propositions, and declarative sentences.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Law of thought",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Law_of_thought`,
+    anchor: "Law_of_thought",
+    text: {
+      p1: (
+        <p>The laws of thought are fundamental axiomatic rules upon which rational discourse itself is often considered to be based. The formulation and clarification of such rules have a long tradition in the history of philosophy and logic. Generally they are taken as laws that guide and underlie everyone's thinking, thoughts, expressions, discussions, etc. However, such classical ideas are often questioned or rejected in more recent developments, such as intuitionistic logic, dialetheism and fuzzy logic.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Reason",
     isLargerTitle: false,
     path: "/logic",
