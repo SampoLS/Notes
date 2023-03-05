@@ -1554,27 +1554,6 @@ export const csContents = [
   },
   {
     id: uuidv4(),
-    title: "Business logic",
-    isLargerTitle: false,
-    path: "/cs",
-    url: `${wikiUrl}/Business_logic`,
-    anchor: "Business_logic",
-    text: {
-      p1: (
-        <p>
-          In computer software, business logic or domain logic is the part of
-          the program that encodes the real-world business rules that determine
-          how data can be created, stored, and changed. It is contrasted with
-          the remainder of the software that might be concerned with lower-level
-          details of managing a database or displaying the user interface,
-          system infrastructure, or generally connecting various parts of the
-          program.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Create, read, update and delete",
     isLargerTitle: false,
     path: "/cs",

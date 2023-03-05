@@ -178,6 +178,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Business",
+    path: "/business",
+    text: "Business is the practice of making one's living or making money by producing or buying and selling products (such as goods and services).[1][2][3][4] It is also 'any activity or enterprise entered into for profit.'",
+  },
+  {
+    id: uuidv4(),
     title: "Note",
     path: "/note",
     text: "This page is about the notes that I have been thought and practiced in the programming",

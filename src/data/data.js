@@ -27,6 +27,7 @@ import { algebraContents } from "../pages/details/algebra/algebraContents";
 import { mathAnalysisContents } from "../pages/details/math_analysis/mathAnalysisContents";
 import { oopContents } from "../pages/details/oop/oopContents";
 import { psychologyContents } from "../pages/details/psychology/psychologyContents";
+import { businessContents } from "../pages/details/business/businessContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -58,4 +59,5 @@ export const data = httpContents.concat(
   mathAnalysisContents,
   oopContents,
   psychologyContents,
+  businessContents,
 );
