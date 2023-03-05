@@ -53,6 +53,7 @@ export const businessContents = [
 export const contentsLength = businessContents.length;
 
 let subpathContents = [];
+
 export const businessContentsAddedSubpath = addSubpath(
     subpathContents,
     contentsLength,

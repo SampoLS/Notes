@@ -22,6 +22,19 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
+    title: "Workflow",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Workflow`,
+    anchor: "Workflow",
+    text: {
+      p1: (
+        <p>A workflow consists of an orchestrated and repeatable pattern of activity, enabled by the systematic organization of resources into processes that transform materials, provide services, or process information. It can be depicted as a sequence of operations, the work of a person or group, the work of an organization of staff, or one or more simple or complex mechanisms.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Essentialism",
     isLargerTitle: false,
     path: "/other_terms",
@@ -63,24 +76,6 @@ export const termsContents = [
           mathematics, computer science, organizational theory, systems theory,
           systematic biology, and the social sciences (especially political
           philosophy).
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Design pattern",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Design_pattern`,
-    anchor: "Design_pattern",
-    text: {
-      p1: (
-        <p>
-          A design pattern is the re-usable form of a solution to a design
-          problem. The idea was introduced by the architect Christopher
-          Alexander and has been adapted for various other disciplines, notably
-          software engineering.
         </p>
       ),
     },
@@ -159,27 +154,6 @@ export const termsContents = [
           single customer's sale at a restaurant is data - this becomes
           information when the business is able to identify the most popular or
           least popular dish.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Engineering",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Engineering`,
-    anchor: "Engineering",
-    text: {
-      p1: (
-        <p>
-          Engineering is the use of scientific principles to design and build
-          machines, structures, and other items, including bridges, tunnels,
-          roads, vehicles, and buildings. The discipline of engineering
-          encompasses a broad range of more specialized fields of engineering,
-          each with a more specific emphasis on particular areas of applied
-          mathematics, applied science, and types of application. See glossary
-          of engineering.
         </p>
       ),
     },
@@ -2007,31 +1981,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Process (engineering)",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Process_(engineering)`,
-    anchor: "Process_(engineering)",
-    text: {
-      p1: (
-        <p>
-          In engineering, a process is a series of interrelated tasks that,
-          together, transform inputs into a given output. These tasks may be
-          carried out by people, nature or machines using various resources; an
-          engineering process must be considered in the context of the agents
-          carrying out the tasks and the resource attributes involved. Systems
-          engineering normative documents and those related to Maturity Models
-          are typically based on processes, for example, systems engineering
-          processes of the EIA-632 and processes involved in the Capability
-          Maturity Model Integration (CMMI) institutionalization and improvement
-          approach. Constraints imposed on the tasks and resources required to
-          implement them are essential for executing the tasks mentioned.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Chronology",
     isLargerTitle: false,
     path: "/other_terms",
@@ -2611,24 +2560,6 @@ export const termsContents = [
           communicated on paper, such as purchase orders and invoices. Technical
           standards for EDI exist to facilitate parties transacting such
           instruments without having to make special arrangements.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Structured analysis",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Structured_analysis`,
-    anchor: "Structured_analysis",
-    text: {
-      p1: (
-        <p>
-          In software engineering, structured analysis (SA) and structured
-          design (SD) are methods for analyzing business requirements and
-          developing specifications for converting practices into computer
-          programs, hardware configurations, and related manual procedures.
         </p>
       ),
     },

@@ -28,6 +28,8 @@ import { mathAnalysisContents } from "../pages/details/math_analysis/mathAnalysi
 import { oopContents } from "../pages/details/oop/oopContents";
 import { psychologyContents } from "../pages/details/psychology/psychologyContents";
 import { businessContents } from "../pages/details/business/businessContents";
+import { softwareEnginContents } from "../pages/details/software_engineering/softwareEnginContents";
+import { engiNerContents } from "../pages/details/engineering/engiNerContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -60,4 +62,6 @@ export const data = httpContents.concat(
   oopContents,
   psychologyContents,
   businessContents,
+  softwareEnginContents,
+  engiNerContents,
 );

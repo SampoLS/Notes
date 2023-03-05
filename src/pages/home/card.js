@@ -52,6 +52,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Software engineering",
+    path: "/software_engineering",
+    text: "Software engineering is a systematic engineering approach to software development.",
+  },
+  {
+    id: uuidv4(),
     title: "OOP",
     path: "/oop",
     text: "Object-oriented programming (OOP) is a programming paradigm based on the concept of \"objects\", which can contain data and code.",
@@ -181,6 +187,12 @@ export const card = [
     title: "Business",
     path: "/business",
     text: "Business is the practice of making one's living or making money by producing or buying and selling products (such as goods and services).[1][2][3][4] It is also 'any activity or enterprise entered into for profit.'",
+  },
+  {
+    id: uuidv4(),
+    title: "Engineering",
+    path: "/engineering",
+    text: "Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings.",
   },
   {
     id: uuidv4(),

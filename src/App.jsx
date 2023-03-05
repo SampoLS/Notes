@@ -35,6 +35,8 @@ import MathAnalysisPage from "./pages/details/math_analysis/MathAnalysisPage";
 import OopPage from "./pages/details/oop/OopPage";
 import PsychologyPage from "./pages/details/psychology/PsychologyPage";
 import BusinessPage from "./pages/details/business/BusinessPage";
+import SoftwareEnginPage from "./pages/details/software_engineering/SoftwareEnginPage";
+import EngiNerPage from "./pages/details/engineering/EngiNerPage";
 
 import IndexRoutePage from "./components/IndexRoutePage";
 import SplitPage from "./components/SplitPage";
@@ -64,6 +66,8 @@ import { mathAnalysisContents } from "./pages/details/math_analysis/mathAnalysis
 import { oopContents } from "./pages/details/oop/oopContents";
 import { psychologyContents } from "./pages/details/psychology/psychologyContents";
 import { businessContents } from "./pages/details/business/businessContents";
+import { softwareEnginContents } from "./pages/details/software_engineering/softwareEnginContents";
+import { engiNerContents } from "./pages/details/engineering/engiNerContents";
 
 export default function App() {
   return (
@@ -222,6 +226,14 @@ export default function App() {
           <Route path="business" element={<BusinessPage />}>
             <Route index element={<IndexRoutePage content={businessContents} />} />
             <Route path=":pId" element={<SplitPage content={businessContents} />} />
+          </Route>
+          <Route path="software_engineering" element={<SoftwareEnginPage />}>
+            <Route index element={<IndexRoutePage content={softwareEnginContents} />} />
+            <Route path=":pId" element={<SplitPage content={softwareEnginContents} />} />
+          </Route>
+          <Route path="engineering" element={<EngiNerPage />}>
+            <Route index element={<IndexRoutePage content={engiNerContents} />} />
+            <Route path=":pId" element={<SplitPage content={engiNerContents} />} />
           </Route>
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />

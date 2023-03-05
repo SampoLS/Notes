@@ -12,7 +12,7 @@ export const algebraContents = [
         url: `${wikiUrl}/Algebra`,
         anchor: "Algebra",
         text: {
-          p1: <p>Algebra is the study of variables and the rules for manipulating these variables in formulas;[3] it is a unifying thread of almost all of mathematics.</p>
+          p1: <p>Algebra is the study of variables and the rules for manipulating these variables in formulas; it is a unifying thread of almost all of mathematics.</p>
         },
     },
 ]
