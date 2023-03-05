@@ -27,6 +27,30 @@ export const csContents = [
   },
   {
     id: uuidv4(),
+    title: "Business object",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Business_object`,
+    anchor: "Business_object",
+    text: {
+      p1: (
+        <p>A business object is an entity within a multi-tiered software application that works in conjunction with the data access and business logic layers to transport data.</p>
+      ),
+    },
+  },
+    {
+        id: uuidv4(),
+        title: "Business logic",
+        isLargerTitle: false,
+        path: "/cs",
+        url: `${wikiUrl}/Business_logic`,
+        anchor: "Business_logic",
+        text: {
+          p1: <p>In computer software, business logic or domain logic is the part of the program that encodes the real-world business rules that determine how data can be created, stored, and changed. It is contrasted with the remainder of the software that might be concerned with lower-level details of managing a database or displaying the user interface, system infrastructure, or generally connecting various parts of the program.</p>
+        },
+    },
+  {
+    id: uuidv4(),
     title: "Library (computing)",
     isLargerTitle: false,
     path: "/cs",
