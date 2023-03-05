@@ -986,44 +986,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Knowledge",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Knowledge`,
-    anchor: "Knowledge",
-    text: {
-      p1: (
-        <p>
-          Knowledge is a familiarity or awareness, of someone or something, such
-          as facts (descriptive knowledge), skills (procedural knowledge), or
-          objects (acquaintance knowledge), often contributing to understanding.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Understanding",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Understanding`,
-    anchor: "Understanding",
-    text: {
-      p1: (
-        <p>
-          Understanding is a psychological process related to an abstract or
-          physical object, such as a person, situation, or message whereby one
-          is able to use concepts to model that object. Understanding is a
-          relation between the knower and an object of understanding.
-          Understanding implies abilities and dispositions with respect to an
-          object of knowledge that are sufficient to support intelligent
-          behavior.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "I/O scheduling",
     isLargerTitle: false,
     path: "/other_terms",

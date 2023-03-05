@@ -112,12 +112,6 @@ export const card = [
   },
   {
     id: uuidv4(),
-    title: "Other Terms",
-    path: "/other_terms",
-    text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
-  },
-  {
-    id: uuidv4(),
     title: "Mathematics",
     path: "/math",
     text: "Mathematics is an area of knowledge that includes such topics as numbers (arithmetic and number theory), formulas and related structures (algebra), shapes and the spaces in which they are contained (geometry), and quantities and their changes (calculus and analysis).",
@@ -199,6 +193,12 @@ export const card = [
     title: "Engineering",
     path: "/engineering",
     text: "Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings.",
+  },
+  {
+    id: uuidv4(),
+    title: "Other Terms",
+    path: "/other_terms",
+    text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
   },
   {
     id: uuidv4(),
