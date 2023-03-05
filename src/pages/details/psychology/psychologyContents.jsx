@@ -42,6 +42,7 @@ export const psychologyContents = [
 export const contentsLength = psychologyContents.length;
 
 let subpathContents = [];
+
 export const psychologyContentsAddedSubpath = addSubpath(
     subpathContents,
     contentsLength,

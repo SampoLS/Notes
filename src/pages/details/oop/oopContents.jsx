@@ -207,8 +207,9 @@ export const oopContents = [
 export const contentsLength = oopContents.length;
 
 let subpathContents = [];
+
 export const calculusContentsAddedSubpath = addSubpath(
     subpathContents,
     contentsLength,
-   oopContents 
+    oopContents 
 );

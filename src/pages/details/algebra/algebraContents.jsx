@@ -20,6 +20,7 @@ export const algebraContents = [
 export const contentsLength = algebraContents.length;
 
 let subpathContents = [];
+
 export const algebraContentsAddedSubpath = addSubpath(
     subpathContents,
     contentsLength,
