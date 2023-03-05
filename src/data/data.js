@@ -30,6 +30,7 @@ import { psychologyContents } from "../pages/details/psychology/psychologyConten
 import { businessContents } from "../pages/details/business/businessContents";
 import { softwareEnginContents } from "../pages/details/software_engineering/softwareEnginContents";
 import { engiNerContents } from "../pages/details/engineering/engiNerContents";
+import { epistemologyContents } from "../pages/details/epistemology/epistemologyContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -64,4 +65,5 @@ export const data = httpContents.concat(
   businessContents,
   softwareEnginContents,
   engiNerContents,
+  epistemologyContents,
 );

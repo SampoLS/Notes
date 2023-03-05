@@ -172,6 +172,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Epistemology",
+    path: "/epistemology",
+    text: "Epistemology from Ancient Greek ἐπιστήμη (epistḗmē) 'knowledge', and -logy), or the theory of knowledge, is the branch of philosophy concerned with knowledge.",
+  },
+  {
+    id: uuidv4(),
     title: "Psychology",
     path: "/psychology",
     text: "Psychology is the scientific study of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, including feelings and thoughts.",
