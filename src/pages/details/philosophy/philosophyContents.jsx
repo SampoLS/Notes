@@ -42,47 +42,6 @@ export const philosophyContents = [
   },
   {
     id: uuidv4(),
-    title: "Relations (philosophy)",
-    isLargerTitle: false,
-    path: "/philosophy",
-    url: `${wikiUrl}/Relations_(philosophy)`,
-    anchor: "Relations_(philosophy)",
-    text: {
-      p1: (
-        <p>
-          Relations are ways in which things, the relata, stand to each other.
-          Relations are in many ways similar to properties in that both
-          characterize the things they apply to. Properties are sometimes
-          treated as a special case of relations involving only one relatum. In
-          philosophy (especially metaphysics), theories of relations are
-          typically introduced to account for repetitions of how several things
-          stand to each other.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Ontology",
-    isLargerTitle: false,
-    path: "/philosophy",
-    url: `${wikiUrl}/Ontology`,
-    anchor: "Ontology",
-    text: {
-      p1: (
-        <p>
-          Ontology is the branch of philosophy that studies concepts such as
-          existence, being, becoming, and reality. It includes the questions of
-          how entities are grouped into basic categories and which of these
-          entities exist on the most fundamental level. Ontology is sometimes
-          referred to as the science of being and belongs to the major branch of
-          philosophy known as metaphysics.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Distinction (philosophy)",
     isLargerTitle: false,
     path: "/philosophy",
