@@ -17,6 +17,19 @@ export const linguisticsContents = [
   },
   {
     id: uuidv4(),
+    title: "Conditional sentence",
+    isLargerTitle: false,
+    path: "/linguisitcs",
+    url: `${wikiUrl}/Conditional_sentence`,
+    anchor: "Conditional_sentence",
+    text: {
+      p1: (
+        <p>Conditional sentences are natural language sentences that express that one thing is contingent on something else, e.g. "If it rains, the picnic will be cancelled." They are so called because the impact of the main clause of the sentence is conditional on the dependent clause. A full conditional thus contains two clauses: a dependent clause called the antecedent (or protasis or if-clause), which expresses the condition, and a main clause called the consequent (or apodosis or then-clause) expressing the result.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Modality (linguistics)",
     isLargerTitle: false,
     path: "/linguisitcs",

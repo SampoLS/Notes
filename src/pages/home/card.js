@@ -172,6 +172,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Metaphysics",
+    path: "/metaphysics",
+    text: "Metaphysics is the branch of philosophy that studies the fundamental nature of reality; the first principles of being, identity and change, space and time, cause and effect, necessity and possibility.",
+  },
+  {
+    id: uuidv4(),
     title: "Psychology",
     path: "/psychology",
     text: "Psychology is the scientific study of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, including feelings and thoughts.",

@@ -38,6 +38,7 @@ import BusinessPage from "./pages/details/business/BusinessPage";
 import SoftwareEnginPage from "./pages/details/software_engineering/SoftwareEnginPage";
 import EngiNerPage from "./pages/details/engineering/EngiNerPage";
 import EpistemologyPage from "./pages/details/epistemology/EpistemologyPage";
+import MetaphysicsPage from "./pages/details/metaphysics/MetaphysicsPage";
 
 import IndexRoutePage from "./components/IndexRoutePage";
 import SplitPage from "./components/SplitPage";
@@ -70,6 +71,7 @@ import { businessContents } from "./pages/details/business/businessContents";
 import { softwareEnginContents } from "./pages/details/software_engineering/softwareEnginContents";
 import { engiNerContents } from "./pages/details/engineering/engiNerContents";
 import { epistemologyContents } from "./pages/details/epistemology/epistemologyContents";
+import { metaphysicsContents } from "./pages/details/metaphysics/metaphysicsContents";
 
 export default function App() {
   return (
@@ -240,6 +242,10 @@ export default function App() {
           <Route path="epistemology" element={<EpistemologyPage />}>
             <Route index element={<IndexRoutePage content={epistemologyContents} />} />
             <Route path=":pId" element={<SplitPage content={epistemologyContents} />} />
+          </Route>
+          <Route path="metaphysics" element={<MetaphysicsPage />}>
+            <Route index element={<IndexRoutePage content={metaphysicsContents} />} />
+            <Route path=":pId" element={<SplitPage content={metaphysicsContents} />} />
           </Route>
           <Route path="note" element={<NotePage />} />
           <Route path="*" element={<NotFound />} />
