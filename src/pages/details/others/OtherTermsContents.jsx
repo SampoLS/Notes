@@ -1319,25 +1319,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Abstract and concrete",
-    islargertitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Abstract_and_concrete`,
-    anchor: "Abstract_and_concrete",
-    text: {
-      p1: (
-        <p>
-          In metaphysics, the distinction between abstract and concrete refers
-          to a divide between two types of entities. Many philosophers hold that
-          this difference has fundamental metaphysical significance. Examples of
-          concrete objects include plants, human beings and planets while things
-          like numbers, sets and propositions are abstract objects.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Abstract structure",
     islargertitle: false,
     path: "/other_terms",

@@ -17,6 +17,61 @@ export const metaphysicsContents = [
     },
     {
         id: uuidv4(),
+        title: "Grounding (metaphysics)",
+        isLargerTitle: false,
+        path: "/metaphysics",
+        url: `${wikiUrl}/Grounding_(metaphysics)`,
+        anchor: "Grounding_(metaphysics)",
+        text: {
+          p1: <p>Grounding is a topic in metaphysics. Consider an ordinary physical object, such as a table, and the atoms it is made of. Without the atoms, the table would not exist. The table's existence depends on the existence of the atoms. This kind of dependence is called "grounding" to distinguish it from other kinds of dependence, such as the dependence of an effect on its cause. It is sometimes called metaphysical or ontological dependence.</p>
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Abstract and concrete",
+        isLargerTitle: false,
+        path: "/metaphysics",
+        url: `${wikiUrl}/Abstract_and_concrete`,
+        anchor: "Abstract_and_concrete",
+        text: {
+          p1: <p>In metaphysics, the distinction between abstract and concrete refers to a divide between two types of entities. Many philosophers hold that this difference has fundamental metaphysical significance. Examples of concrete objects include plants, human beings and planets while things like numbers, sets and propositions are abstract objects. There is no general consensus as to what the characteristic marks of concreteness and abstractness are. Popular suggestions include defining the distinction in terms of the difference between (1) existence inside or outside space-time, (2) having causes and effects or not, (3) having contingent or necessary existence, (4) being particular or universal and (5) belonging to either the physical or the mental realm or to neither. Despite this diversity of views, there is broad agreement concerning most objects as to whether they are abstract or concrete. So under most interpretations, all these views would agree that, for example, plants are concrete objects while numbers are abstract objects.</p>
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Problem of universals",
+        isLargerTitle: false,
+        path: "/metaphysics",
+        url: `${wikiUrl}/Problem_of_universals`,
+        anchor: "Problem_of_universals",
+        text: {
+          p1: <p>The problem of universals is an ancient question from metaphysics that has inspired a range of philosophical topics and disputes: Should the properties an object has in common with other objects, such as color and shape, be considered to exist beyond those objects? And if a property exists separately from objects, what is the nature of that existence?</p>
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Universal (metaphysics)",
+        isLargerTitle: false,
+        path: "/metaphysics",
+        url: `${wikiUrl}/Universal_(metaphysics)`,
+        anchor: "Universal_(metaphysics)",
+        text: {
+          p1: <p>In metaphysics, a universal is what particular things have in common, namely characteristics or qualities. In other words, universals are repeatable or recurrent entities that can be instantiated or exemplified by many particular things. For example, suppose there are two chairs in a room, each of which is green. These two chairs both share the quality of "chairness", as well as greenness or the quality of being green; in other words, they share a "universal". There are three major kinds of qualities or characteristics: types or kinds (e.g. mammal), properties (e.g. short, strong), and relations (e.g. father of, next to). These are all different types of universals.</p>
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Particular",
+        isLargerTitle: false,
+        path: "/metaphysics",
+        url: `${wikiUrl}/Particular`,
+        anchor: "Particular",
+        text: {
+          p1: <p>In metaphysics, particulars or individuals are usually contrasted with universals. Universals concern features that can be exemplified by various different particulars. Particulars are often seen as concrete, spatiotemporal entities as opposed to abstract entities, such as properties or numbers. There are, however, theories of abstract particulars or tropes. For example, Socrates is a particular (there's only one Socrates-the-teacher-of-Plato and one cannot make copies of him, e.g., by cloning him, without introducing new, distinct particulars). Redness, by contrast, is not a particular, because it is abstract and multiply instantiated (for example a bicycle, an apple, and a given woman's hair can all be red). In nominalist view everything is particular. Universals in each moment of time from point of view of an observer is the collection of particulars that participates it (even a void collection).</p>
+        },
+    },
+    {
+        id: uuidv4(),
         title: "State of affairs (philosophy)",
         isLargerTitle: false,
         path: "/metaphysics",
