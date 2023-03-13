@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import addSubpath from "../../../utils/addSubpath";
 
 const wikiUrl = "https://en.wikipedia.org/wiki";
 
@@ -250,3 +251,13 @@ export const enContents = [
     },
   },
 ];
+
+export const contentsLength = enContents.length;
+
+let subpathContents = [];
+
+export const enContentsAddedSubpath = addSubpath(
+    subpathContents,
+    contentsLength,
+    enContents 
+);

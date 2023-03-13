@@ -17,9 +17,35 @@ export const linguisticsContents = [
   },
   {
     id: uuidv4(),
+    title: "Morphology (linguistics)",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Morphology_(linguistics)`,
+    anchor: "Morphology_(linguistics)",
+    text: {
+      p1: (
+        <p>In linguistics, morphology (/mɔːrˈfɒlədʒi/) is the study of words, how they are formed, and their relationship to other words in the same language. It analyzes the structure of words and parts of words such as stems, root words, prefixes, and suffixes. Morphology also looks at parts of speech, intonation and stress, and the ways context can change a word's pronunciation and meaning. Morphology differs from morphological typology, which is the classification of languages based on their use of words, and lexicology, which is the study of words and how they make up a language's vocabulary.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Inflection",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Inflection`,
+    anchor: "Inflection",
+    text: {
+      p1: (
+        <p>In linguistic morphology, inflection (or inflexion) is a process of word formation in which a word is modified to express different grammatical categories such as tense, case, voice, aspect, person, number, gender, mood, animacy, and definiteness. The inflection of verbs is called conjugation, and one can refer to the inflection of nouns, adjectives, adverbs, pronouns, determiners, participles, prepositions and postpositions, numerals, articles, etc., as declension.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Conditional sentence",
     isLargerTitle: false,
-    path: "/linguisitcs",
+    path: "/linguistics",
     url: `${wikiUrl}/Conditional_sentence`,
     anchor: "Conditional_sentence",
     text: {
@@ -32,7 +58,7 @@ export const linguisticsContents = [
     id: uuidv4(),
     title: "Modality (linguistics)",
     isLargerTitle: false,
-    path: "/linguisitcs",
+    path: "/linguistics",
     url: `${wikiUrl}/Modality_(linguistics)`,
     anchor: "Modality_(linguistics)",
     text: {

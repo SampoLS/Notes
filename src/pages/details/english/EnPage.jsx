@@ -1,12 +1,14 @@
-import ShowPageContents from "../../../components/ShowPageContents";
-import { enContents } from "./enContents";
+import { Outlet } from "react-router-dom";
+import Breadcrumbs from "../../../components/Breadcrumbs";
+import { contentsLength } from "./enContents";
 
-export default function EnPage() {
+const EnPage = () => {
   return (
     <>
-      {enContents.map((item) => {
-        return <ShowPageContents key={item.id} {...item} />;
-      })}
+      <Outlet />
+      <Breadcrumbs path="english" length={contentsLength} />
     </>
   );
-}
+};
+
+export default EnPage;
