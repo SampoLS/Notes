@@ -17,6 +17,58 @@ export const geometryContents = [
     },
     {
         id: uuidv4(),
+        title: "Synthetic geometry",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Synthetic_geometry`,
+        anchor: "Synthetic_geometry",
+        text: {
+          p1: (
+            <p>Synthetic geometry (sometimes referred to as axiomatic geometry or even pure geometry) is geometry without the use of coordinates. It relies on the axiomatic method for proving all results from a few basic properties initially called postulate, and presently called axioms.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Curve",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Curve`,
+        anchor: "Curve",
+        text: {
+          p1: (
+            <p>In mathematics, a curve (also called a curved line in older texts) is an object similar to a line, but that does not have to be straight.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Distance",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Distance`,
+        anchor: "Distance",
+        text: {
+          p1: (
+            <p>Distance is a numerical or occasionally qualitative measurement of how far apart objects or points are. In physics or everyday usage, distance may refer to a physical length or an estimation based on other criteria (e.g. "two counties over"). Since spatial cognition is a rich source of conceptual metaphors in human thought, the term is also frequently used metaphorically to mean a measurement of the amount of difference between two similar objects (such as statistical distance between probability distributions or edit distance between strings of text) or a degree of separation (as exemplified by distance between people in a social network). Most such notions of distance, both physical and metaphorical, are formalized in mathematics using the notion of a metric space.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Curvature",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Curvature`,
+        anchor: "Curvature",
+        text: {
+          p1: (
+            <p>In mathematics, curvature is any of several strongly related concepts in geometry. Intuitively, the curvature is the amount by which a curve deviates from being a straight line, or a surface deviates from being a plane.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
         title: "Line segment",
         isLargerTitle: false,
         path: "/geometry",
@@ -63,7 +115,7 @@ export const geometryContents = [
         anchor: "Angle",
         text: {
           p1: (
-            <p>In Euclidean geometry, an angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle.[1] Angles formed by two rays lie in the plane that contains the rays. Angles are also formed by the intersection of two planes. These are called dihedral angles. Two intersecting curves may also define an angle, which is the angle of the rays lying tangent to the respective curves at their point of intersection.</p>
+            <p>In Euclidean geometry, an angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle. Angles formed by two rays lie in the plane that contains the rays. Angles are also formed by the intersection of two planes. These are called dihedral angles. Two intersecting curves may also define an angle, which is the angle of the rays lying tangent to the respective curves at their point of intersection.</p>
           ),
         },
     },

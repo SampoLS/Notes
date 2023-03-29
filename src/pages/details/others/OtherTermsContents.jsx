@@ -22,6 +22,32 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
+    title: "Scientific method",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Scientific_method`,
+    anchor: "Scientific_method",
+    text: {
+      p1: (
+        <p>The scientific method is an empirical method for acquiring knowledge that has characterized the development of science since at least the 17th century (with notable practitioners in previous centuries; see the article history of scientific method for additional detail.) It involves careful observation, applying rigorous skepticism about what is observed, given that cognitive assumptions can distort how one interprets the observation. It involves formulating hypotheses, via induction, based on such observations; the testability of hypotheses, experimental and the measurement-based statistical testing of deductions drawn from the hypotheses; and refinement (or elimination) of the hypotheses based on the experimental findings. These are principles of the scientific method, as distinguished from a definitive series of steps applicable to all scientific enterprises.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Surface",
+    isLargerTitle: false,
+    path: "/other_terms",
+    url: `${wikiUrl}/Surface`,
+    anchor: "Surface",
+    text: {
+      p1: (
+        <p>A surface, as the term is most generally used, is the outermost or uppermost layer of a physical object or space. It is the portion or region of the object that can first be perceived by an observer using the senses of sight and touch, and is the portion with which other materials first interact. The surface of an object is more than "a mere geometric solid", but is "filled with, spread over by, or suffused with perceivable qualities such as color and warmth".</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Workflow",
     isLargerTitle: false,
     path: "/other_terms",

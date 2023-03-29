@@ -33,7 +33,7 @@ export const mathContents = [
   {
     id: uuidv4(),
     title: "Portal:Mathematics",
-    isLargerTitle: false,
+    isLargerTitle: true,
     path: "/math",
     url: `${wikiUrl}/Portal:Mathematics`,
     anchor: "Portal:Mathematics",
@@ -44,6 +44,32 @@ export const mathContents = [
           objects (such as numbers, points, spaces, sets, structures, and
           games).
         </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Mathematical model",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Mathematical_model`,
+    anchor: "Mathematical_model",
+    text: {
+      p1: (
+        <p>A mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in applied mathematics and in the natural sciences (such as physics, biology, earth science, chemistry) and engineering disciplines (such as computer science, electrical engineering), as well as in non-physical systems such as the social sciences (such as economics, psychology, sociology, political science). It can also be taught as a subject in its own right.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Category (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Category_(mathematics)`,
+    anchor: "Category_(mathematics)",
+    text: {
+      p1: (
+        <p>In mathematics, a category (sometimes called an abstract category to distinguish it from a concrete category) is a collection of "objects" that are linked by "arrows". A category has two basic properties: the ability to compose the arrows associatively and the existence of an identity arrow for each object. A simple example is the category of sets, whose objects are sets and whose arrows are functions.</p>
       ),
     },
   },

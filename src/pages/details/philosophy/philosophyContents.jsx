@@ -29,6 +29,45 @@ export const philosophyContents = [
   },
   {
     id: uuidv4(),
+    title: "Logical atomism",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Logical_atomism`,
+    anchor: "Logical_atomism",
+    text: {
+      p1: (
+        <p>Logical atomism is a philosophical view that originated in the early 20th century with the development of analytic philosophy. It holds that the world consists of ultimate logical "facts" (or "atoms") that cannot be broken down any further, each of which can be understood independently of other facts.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Proposition",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Proposition`,
+    anchor: "Proposition",
+    text: {
+      p1: (
+        <p>A proposition is a central concept in philosophy of language and related fields, often characterized as the primary bearer of truth or falsity. Propositions are also often characterized as being the kind of thing that declarative sentences denote. For instance the sentence "The sky is blue" denotes the proposition that the sky is blue. However, crucially, propositions are not themselves linguistic expressions. For instance, the English sentence "Snow is white" denotes the same proposition as the German sentence "Schnee ist weiß" even though the two sentences are not the same. Similarly, propositions can also be characterized as the objects of belief and other propositional attitudes. For instance if one believes that the sky is blue, what one believes is the proposition that the sky is blue.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Analytic philosophy",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Analytic_philosophy`,
+    anchor: "Analytic_philosophy",
+    text: {
+      p1: (
+        <p>Analytic philosophy is a branch and tradition of philosophy using analysis, popular in the Western world and particularly the Anglosphere, which began around the turn of the 20th century in the contemporary era in the United Kingdom, United States, Canada, Australia, New Zealand, and Scandinavia, and continues today. Analytic philosophy is often contrasted with continental philosophy, coined as a catch-all term for other methods prominent in Europe.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "First principle",
     isLargerTitle: false,
     path: "/philosophy",
@@ -36,7 +75,7 @@ export const philosophyContents = [
     anchor: "First_principle",
     text: {
       p1: (
-        <p>In philosophy and science, a first principle is a basic proposition or assumption that cannot be deduced from any other proposition or assumption. First principles in philosophy are from first cause[1] attitudes and taught by Aristotelians, and nuanced versions of first principles are referred to as postulates by Kantians.</p>
+        <p>In philosophy and science, a first principle is a basic proposition or assumption that cannot be deduced from any other proposition or assumption. First principles in philosophy are from first cause attitudes and taught by Aristotelians, and nuanced versions of first principles are referred to as postulates by Kantians.</p>
       ),
     },
   },

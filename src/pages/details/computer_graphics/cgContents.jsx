@@ -19,6 +19,19 @@ export const cgContents = [
   },
   {
     id: uuidv4(),
+    title: "Texture mapping",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Texture_mapping`,
+    anchor: "Texture_mapping",
+    text: {
+      p1: (
+        <p>Texture mapping is a method for mapping a texture on a computer-generated graphic. Texture here can be high frequency detail, surface texture, or color.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Polygon mesh",
     isLargerTitle: false,
     path: "/cg",

@@ -36,6 +36,32 @@ export const logicContents = [
   },
   {
     id: uuidv4(),
+    title: "Axiomatic system",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Axiomatic_system`,
+    anchor: "Axiomatic_system",
+    text: {
+      p1: (
+        <p>In mathematics and logic, an axiomatic system is any set of axioms from which some or all axioms can be used in conjunction to logically derive theorems. A theory is a consistent, relatively-self-contained body of knowledge which usually contains an axiomatic system and all its derived theorems. An axiomatic system that is completely described is a special kind of formal system. A formal theory is an axiomatic system (usually formulated within model theory) that describes a set of sentences that is closed under logical implication. A formal proof is a complete rendition of a mathematical proof within a formal system.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Atomic sentence",
+    isLargerTitle: false,
+    path: "/logic",
+    url: `${wikiUrl}/Atomic_sentence`,
+    anchor: "Atomic_sentence",
+    text: {
+      p1: (
+        <p>In logic and analytic philosophy, an atomic sentence is a type of declarative sentence which is either true or false (may also be referred to as a proposition, statement or truthbearer) and which cannot be broken down into other simpler sentences. For example, "The dog ran" is an atomic sentence in natural language, whereas "The dog ran and the cat hid" is a molecular sentence in natural language.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Reality",
     isLargerTitle: false,
     path: "/logic",
