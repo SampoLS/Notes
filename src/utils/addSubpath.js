@@ -14,14 +14,8 @@ const addSubpath = (subpathContents, contentsLength, contents) => {
 
             subpathContents.push(
 
-                ...contents.slice(0, 15).map((item) => {
-
-                  return item;
-
-                }),
-                
+                ...contents.slice(0, 15).map((item) => item)
             );
-
         }
 
         if (i !== 0) {
@@ -32,16 +26,12 @@ const addSubpath = (subpathContents, contentsLength, contents) => {
                   item.path += "/p" + (i + 1);
 
                   return item;
-
                 }),
             );
-
         }
-
     }
 
     return subpathContents;
-
 };
 
 export default addSubpath;

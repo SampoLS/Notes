@@ -19,6 +19,71 @@ export const cgContents = [
   },
   {
     id: uuidv4(),
+    title: "Rendering (computer graphics)",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Rendering_(computer_graphics)`,
+    anchor: "Rendering_(computer_graphics)",
+    text: {
+      p1: (
+        <p>Rendering or image synthesis is the process of generating a photorealistic or non-photorealistic image from a 2D or 3D model by means of a computer program. The resulting image is referred to as the render. Multiple models can be defined in a scene file containing objects in a strictly defined language or data structure. The scene file contains geometry, viewpoint, texture, lighting, and shading information describing the virtual scene. The data contained in the scene file is then passed to a rendering program to be processed and output to a digital image or raster graphics image file. The term "rendering" is analogous to the concept of an artist's impression of a scene. The term "rendering" is also used to describe the process of calculating effects in a video editing program to produce the final video output.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Fragment (computer graphics)",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Fragment_(computer_graphics)`,
+    anchor: "Fragment_(computer_graphics)",
+    text: {
+      p1: (
+        <p>In computer graphics, a fragment is the data necessary to generate a single pixel's worth of a drawing primitive in the frame buffer.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Vertex (computer graphics)",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Vertex_(computer_graphics)`,
+    anchor: "Vertex_(computer_graphics)",
+    text: {
+      p1: (
+        <p>A vertex (plural vertices) in computer graphics is a data structure that describes certain attributes, like the position of a point in 2D or 3D space, or multiple points on a surface.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Shader",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/Shader`,
+    anchor: "Shader",
+    text: {
+      p1: (
+        <p>In computer graphics, a shader is a computer program that calculates the appropriate levels of light, darkness, and color during the rendering of a 3D scene—a process known as shading. Shaders have evolved to perform a variety of specialized functions in computer graphics special effects and video post-processing, as well as general-purpose computing on graphics processing units.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "UV mapping",
+    isLargerTitle: false,
+    path: "/cg",
+    url: `${wikiUrl}/UV_mapping`,
+    anchor: "UV_mapping",
+    text: {
+      p1: (
+        <p>UV mapping is the 3D modeling process of projecting a 3D model's surface to a 2D image for texture mapping. The letters "U" and "V" denote the axes of the 2D texture because "X", "Y", and "Z" are already used to denote the axes of the 3D object in model space, while "W" (in addition to XYZ) is used in calculating quaternion rotations, a common operation in computer graphics.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Texture mapping",
     isLargerTitle: false,
     path: "/cg",

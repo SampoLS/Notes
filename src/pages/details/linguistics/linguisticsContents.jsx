@@ -17,6 +17,51 @@ export const linguisticsContents = [
   },
   {
     id: uuidv4(),
+    title: "Definition",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Definition`,
+    anchor: "Definition",
+    text: {
+      p1: (
+        <p>A definition is a statement of the meaning of a term (a word, phrase, or other set of symbols). Definitions can be classified into two large categories: intensional definitions (which try to give the sense of a term), and extensional definitions (which try to list the objects that a term describes). Another important category of definitions is the class of ostensive definitions, which convey the meaning of a term by pointing out examples. A term may have many different senses and multiple meanings, and thus require multiple definitions.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Lexical semantics",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Lexical_semantics`,
+    anchor: "Lexical_semantics",
+    text: {
+      p1: (
+        <p>
+          Lexical semantics (also known as lexicosemantics), as a subfield of
+          linguistic semantics, is the study of word meanings. It includes the
+          study of how words structure their meaning, how they act in grammar
+          and compositionality, and the relationships between the distinct
+          senses and uses of a word.
+        </p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Parse tree",
+    isLargerTitle: false,
+    path: "/linguistics",
+    url: `${wikiUrl}/Parse_tree`,
+    anchor: "Parse_tree",
+    text: {
+      p1: (
+        <p>A parse tree or parsing tree or derivation tree or concrete syntax tree is an ordered, rooted tree that represents the syntactic structure of a string according to some context-free grammar. The term parse tree itself is used primarily in computational linguistics; in theoretical syntax, the term syntax tree is more common.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Comparative",
     isLargerTitle: false,
     path: "/linguistics",

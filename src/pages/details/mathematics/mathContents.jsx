@@ -49,6 +49,45 @@ export const mathContents = [
   },
   {
     id: uuidv4(),
+    title: "Matrix (mathematics)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Matrix_(mathematics)`,
+    anchor: "Matrix_(mathematics)",
+    text: {
+      p1: (
+        <p>In mathematics, a matrix (plural matrices) is a rectangular array or table of numbers, symbols, or expressions, arranged in rows and columns, which is used to represent a mathematical object or a property of such an object.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Dynamical system",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Dynamical_system`,
+    anchor: "Dynamical_system",
+    text: {
+      p1: (
+        <p>In mathematics, a dynamical system is a system in which a function describes the time dependence of a point in an ambient space, such as in a parametric curve. Examples include the mathematical models that describe the swinging of a clock pendulum, the flow of water in a pipe, the random motion of particles in the air, and the number of fish each springtime in a lake. The most general definition unifies several concepts in mathematics such as ordinary differential equations and ergodic theory by allowing different choices of the space and how time is measured. Time can be measured by integers, by real or complex numbers or can be a more general algebraic object, losing the memory of its physical origin, and the space may be a manifold or simply a set, without the need of a smooth space-time structure defined on it.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Vertex (graph theory)",
+    isLargerTitle: false,
+    path: "/math",
+    url: `${wikiUrl}/Vertex_(graph_theory)`,
+    anchor: "Vertex_(graph_theory)",
+    text: {
+      p1: (
+        <p>In discrete mathematics, and more specifically in graph theory, a vertex (plural vertices) or node is the fundamental unit of which graphs are formed: an undirected graph consists of a set of vertices and a set of edges (unordered pairs of vertices), while a directed graph consists of a set of vertices and a set of arcs (ordered pairs of vertices). In a diagram of a graph, a vertex is usually represented by a circle with a label, and an edge is represented by a line or arrow extending from one vertex to another.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Mathematical model",
     isLargerTitle: false,
     path: "/math",
@@ -209,29 +248,6 @@ export const mathContents = [
           position. The notion of a sequence can be generalized to an indexed
           family, defined as a function from an index set that may not be
           numbers to another set of elements.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Boolean algebra",
-    isLargerTitle: false,
-    path: "/math",
-    url: `${wikiUrl}/Boolean_algebra`,
-    anchor: "Boolean_algebra",
-    text: {
-      p1: (
-        <p>
-          In mathematics and mathematical logic, Boolean algebra is the branch
-          of algebra in which the values of the variables are the truth values
-          true and false, usually denoted 1 and 0, respectively. Instead of
-          elementary algebra, where the values of the variables are numbers and
-          the prime operations are addition and multiplication, the main
-          operations of Boolean algebra are the conjunction (and) denoted as ∧,
-          the disjunction (or) denoted as v, and the negation (not) denoted as
-          ¬. It is thus a formalism for describing logical operations, in the
-          same way that elementary algebra describes numerical operations.
         </p>
       ),
     },

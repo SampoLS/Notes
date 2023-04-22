@@ -202,6 +202,12 @@ export const card = [
   },
   {
     id: uuidv4(),
+    title: "Systems science",
+    path: "/systems_science",
+    text: "Systems science, also referred to as systems research, or, simply, systems, is an interdisciplinary field concerned with understanding systems—from simple to complex—in nature, society, cognition, engineering, technology and science itself. The field is diverse, spanning the formal, natural, social, and applied sciences.",
+  },
+  {
+    id: uuidv4(),
     title: "Other Terms",
     path: "/other_terms",
     text: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",

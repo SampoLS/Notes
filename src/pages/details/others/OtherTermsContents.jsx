@@ -686,24 +686,6 @@ export const termsContents = [
   },
   {
     id: uuidv4(),
-    title: "Complexity",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Complexity`,
-    anchor: "Complexity",
-    text: {
-      p1: (
-        <p>
-          Complexity characterises the behaviour of a system or model whose
-          components interact in multiple ways and follow local rules, leading
-          to nonlinearity, randomness, collective dynamics, hierarchy, and
-          emergence.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
     title: "Parsing",
     isLargerTitle: false,
     path: "/other_terms",
@@ -717,89 +699,6 @@ export const termsContents = [
           languages or data structures, conforming to the rules of a formal
           grammar. The term parsing comes from Latin pars (orationis), meaning
           part (of speech).
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Structure",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Structure`,
-    anchor: "Structure",
-    text: {
-      p1: (
-        <p>
-          A structure is an arrangement and organization of interrelated
-          elements in a material object or system, or the object or system so
-          organized. Material structures include man-made objects such as
-          buildings and machines and natural objects such as biological
-          organisms, minerals and chemicals. Abstract structures include data
-          structures in computer science and musical form. Types of structure
-          include a hierarchy (a cascade of one-to-many relationships), a
-          network featuring many-to-many links, or a lattice featuring
-          connections between components that are neighbors in space.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "System",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/System`,
-    anchor: "System",
-    text: {
-      p1: (
-        <p>
-          A system is a group of interacting or interrelated elements that act
-          according to a set of rules to form a unified whole. A system,
-          surrounded and influenced by its environment, is described by its
-          boundaries, structure and purpose and expressed in its functioning.
-          Systems are the subjects of study of systems theory and other systems
-          sciences.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Complex system",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Complex_system`,
-    anchor: "Complex_system",
-    text: {
-      p1: (
-        <p>
-          A complex system is a system composed of many components which may
-          interact with each other. Examples of complex systems are Earth's
-          global climate, organisms, the human brain, infrastructure such as
-          power grid, transportation or communication systems, complex software
-          and electronic systems, social and economic organizations (like
-          cities), an ecosystem, a living cell, and ultimately the entire
-          universe.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Lexical semantics",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Lexical_semantics`,
-    anchor: "Lexical_semantics",
-    text: {
-      p1: (
-        <p>
-          Lexical semantics (also known as lexicosemantics), as a subfield of
-          linguistic semantics, is the study of word meanings. It includes the
-          study of how words structure their meaning, how they act in grammar
-          and compositionality, and the relationships between the distinct
-          senses and uses of a word.
         </p>
       ),
     },
@@ -863,27 +762,6 @@ export const termsContents = [
           this apparently defines an infinite number of instances (function
           values), it is often done in such a way that no infinite loop or
           infinite chain of references ("crock recursion") can occur.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Systems theory",
-    isLargerTitle: false,
-    path: "/other_terms",
-    url: `${wikiUrl}/Systems_theory`,
-    anchor: "Systems_theory",
-    text: {
-      p1: (
-        <p>
-          Systems theory is the interdisciplinary study of systems, i.e.
-          cohesive groups of interrelated, interdependent components that can be
-          natural or human-made. Every system has causal boundaries, is
-          influenced by its context, defined by its structure, function and
-          role, and expressed through its relations with other systems. A system
-          is "more than the sum of its parts" by expressing synergy or emergent
-          behavior.
         </p>
       ),
     },

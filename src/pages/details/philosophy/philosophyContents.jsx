@@ -29,6 +29,32 @@ export const philosophyContents = [
   },
   {
     id: uuidv4(),
+    title: "Theory of Categories",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Theory_of_Categories`,
+    anchor: "Theory_of_Categories",
+    text: {
+      p1: (
+        <p>In ontology, the theory of categories concerns itself with the categories of being: the highest genera or kinds of entities according to Amie Thomasson. To investigate the categories of being, or simply categories, is to determine the most fundamental and the broadest classes of entities. A distinction between such categories, in making the categories or applying them, is called an ontological distinction. Various systems of categories have been proposed, they often include categories for substances, properties, relations, states of affairs or events. A representative question within the theory of categories might articulate itself, for example, in a query like, "Are universals prior to particulars?"</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Emergence",
+    isLargerTitle: false,
+    path: "/philosophy",
+    url: `${wikiUrl}/Emergence`,
+    anchor: "Emergence",
+    text: {
+      p1: (
+        <p>In philosophy, systems theory, science, and art, emergence occurs when an entity is observed to have properties its parts do not have on their own, properties or behaviors that emerge only when the parts interact in a wider whole.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Logical atomism",
     isLargerTitle: false,
     path: "/philosophy",

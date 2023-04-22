@@ -15,7 +15,6 @@ export const sortContentsByOrder = (contents) => {
         if (titleA > titleB) return 1;
 
         return 0;
-
     });
 
     // Get the index of the content of the large title .
@@ -29,7 +28,6 @@ export const sortContentsByOrder = (contents) => {
 
         // Add the content of large(h1) title to the first position.
         sortedContents.unshift(largeTitle);
-
     }
 
     // Get the index of the content of the Summary title.
@@ -43,10 +41,8 @@ export const sortContentsByOrder = (contents) => {
 
         // Add the content of Summary title to the last position.
         sortedContents.push(summaryTitle);
-
     }
 
     // Return the sorted contents.
     return sortedContents;
-
 };

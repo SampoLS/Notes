@@ -32,6 +32,7 @@ import { softwareEnginContents } from "../pages/details/software_engineering/sof
 import { engiNerContents } from "../pages/details/engineering/engiNerContents";
 import { epistemologyContents } from "../pages/details/epistemology/epistemologyContents";
 import { metaphysicsContents } from "../pages/details/metaphysics/metaphysicsContents";
+import { systemScienceContents } from "../pages/details/system_science/systemScienceContents";
 
 // Combine all the data together.
 export const data = httpContents.concat(
@@ -68,4 +69,5 @@ export const data = httpContents.concat(
   engiNerContents,
   epistemologyContents,
   metaphysicsContents,
+  systemScienceContents,
 );

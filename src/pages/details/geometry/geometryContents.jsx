@@ -17,6 +17,45 @@ export const geometryContents = [
     },
     {
         id: uuidv4(),
+        title: "Tangent",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Tangent`,
+        anchor: "Tangent",
+        text: {
+          p1: (
+            <p>In geometry, the tangent line (or simply tangent) to a plane curve at a given point is the straight line that "just touches" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve. More precisely, a straight line is said to be a tangent of a curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Perpendicular",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Perpendicular`,
+        anchor: "Perpendicular",
+        text: {
+          p1: (
+            <p>In elementary geometry, two geometric objects are perpendicular if their intersection forms right angles (angles that are 90 degrees or π/2 radians wide) at the point of intersection called a foot. The condition of perpendicularity may be represented graphically using the perpendicular symbol, ⟂. Perpendicular intersections can happen between two lines (or two line segments), between a line and a plane, and between two planes.</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
+        title: "Normal (geometry)",
+        isLargerTitle: false,
+        path: "/geometry",
+        url: `${wikiUrl}/Normal_(geometry)`,
+        anchor: "Normal_(geometry)",
+        text: {
+          p1: (
+            <p>In geometry, a normal is an object such as a line, ray, or vector that is perpendicular to a given object. For example, the normal line to a plane curve at a given point is the (infinite) line perpendicular to the tangent line to the curve at the point. A normal vector may have length one (a unit vector) or its length may represent the curvature of the object (a curvature vector); its algebraic sign may indicate sides (interior or exterior).</p>
+          ),
+        },
+    },
+    {
+        id: uuidv4(),
         title: "Synthetic geometry",
         isLargerTitle: false,
         path: "/geometry",

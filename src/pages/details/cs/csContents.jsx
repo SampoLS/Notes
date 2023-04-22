@@ -27,6 +27,58 @@ export const csContents = [
   },
   {
     id: uuidv4(),
+    title: "Address space",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Address_space`,
+    anchor: "Address_space",
+    text: {
+      p1: (
+        <p>In computing, an address space defines a range of discrete addresses, each of which may correspond to a network host, peripheral device, disk sector, a memory cell or other logical or physical entity.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Memory controller",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Memory_controller`,
+    anchor: "Memory_controller",
+    text: {
+      p1: (
+        <p>The memory controller is a digital circuit that manages the flow of data going to and from the computer's main memory. A memory controller can be a separate chip or integrated into another chip, such as being placed on the same die or as an integral part of a microprocessor; in the latter case, it is usually called an integrated memory controller (IMC). A memory controller is sometimes also called a memory chip controller (MCC) or a memory controller unit (MCU).</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Physical address",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Physical_address`,
+    anchor: "Physical_address",
+    text: {
+      p1: (
+        <p>In computing, a physical address (also real address, or binary address), is a memory address that is represented in the form of a binary number on the address bus circuitry in order to enable the data bus to access a particular storage cell of main memory, or a register of memory-mapped I/O device.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
+    title: "Data buffer",
+    isLargerTitle: false,
+    path: "/cs",
+    url: `${wikiUrl}/Data_buffer`,
+    anchor: "Data_buffer",
+    text: {
+      p1: (
+        <p>In computer science, a data buffer (or just buffer) is a region of a memory used to temporarily store data while it is being moved from one place to another. Typically, the data is stored in a buffer as it is retrieved from an input device (such as a microphone) or just before it is sent to an output device (such as speakers). However, a buffer may be used when moving data between processes within a computer. This is comparable to buffers in telecommunication. Buffers can be implemented in a fixed memory location in hardware—or by using a virtual data buffer in software, pointing at a location in the physical memory. In all cases, the data stored in a data buffer are stored on a physical storage medium. A majority of buffers are implemented in software, which typically use the faster RAM to store temporary data, due to the much faster access time compared with hard disk drives. Buffers are typically used when there is a difference between the rate at which data is received and the rate at which it can be processed, or in the case that these rates are variable, for example in a printer spooler or in online video streaming. In the distributed computing environment, data buffer is often implemented in the form of burst buffer that provides distributed buffering service.</p>
+      ),
+    },
+  },
+  {
+    id: uuidv4(),
     title: "Library (computing)",
     isLargerTitle: false,
     path: "/cs",
@@ -3621,25 +3673,6 @@ export const csContents = [
           given rule universally, in which situations to apply it, and what it
           implies should be done are often active subjects of conversation and
           debate.
-        </p>
-      ),
-    },
-  },
-  {
-    id: uuidv4(),
-    title: "Parse tree",
-    isLargerTitle: false,
-    path: "/cs",
-    url: `${wikiUrl}/Parse_tree`,
-    anchor: "Parse_tree",
-    text: {
-      p1: (
-        <p>
-          A parse tree or parsing tree or derivation tree or concrete syntax
-          tree is an ordered, rooted tree that represents the syntactic
-          structure of a string according to some context-free grammar. The term
-          parse tree itself is used primarily in computational linguistics; in
-          theoretical syntax, the term syntax tree is more common.
         </p>
       ),
     },
